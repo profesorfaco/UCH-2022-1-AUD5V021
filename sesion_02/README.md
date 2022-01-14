@@ -20,7 +20,7 @@ Y solo para evitar pensar en ellos como lenguajes, conviene mencionar tres *fram
 
 - - - - - - - - - - - - - - 
 
-#### Exploración
+#### Exploración práctica
 
 Para reconocer los tres primeros lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/index.html):
 
