@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 26 de mayo → sesion_10 → Trabajo final: Usuarios, objetivos y contextos de uso específicos
+### Jueves 26 de mayo → sesion_10 → Usuarios, objetivos y contextos de uso específicos
 
 
 - - - - - - - 
