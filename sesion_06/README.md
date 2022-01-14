@@ -134,13 +134,6 @@ Y la bibliteca p5.js ofrece la función https://p5js.org/es/reference/#/p5/loadJ
 
 Tomando algunos datos de tres personajes presentados en [SWAPI](https://swapi.dev/api/people/?format=json) vamos a escribir un JSON origintal. Revisaremos el resultado escrito con [JSONLint](https://jsonlint.com/). Publicaremos tal resultado con [MyJSON](https://myjson.dit.upm.es/) y luego vamos a hacer algunas pruebas con el [editor en línea de p5.js](https://editor.p5js.org/) y la función [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON).
 
-
-- - - - - - -
-
-#### Práctica
-
-https://profesorfaco.github.io/interaccion/sesion_06/
-
 - - - - - - - 
 
 
