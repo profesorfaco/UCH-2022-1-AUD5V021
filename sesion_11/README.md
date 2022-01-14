@@ -19,4 +19,4 @@ Para acerse de esta cultura conviene reconocer lo que se ha hecho antes en el mi
 
 - - - - - - - 
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_10) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_12)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_10) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_12)
