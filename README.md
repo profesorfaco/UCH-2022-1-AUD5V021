@@ -63,7 +63,7 @@ Cada estudiante en este Electivo debería contar con:
 
 La organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad para adaptar la experiencia de aprendizaje a la modalidad remota. Por esto se recomienda:
 
-- adelantar la lectura;
+- adelantar la lectura de la parte teórica;
  
 - participar activdamente de la exploración que se realiza en sesiones sincrónicas breves; y 
 
