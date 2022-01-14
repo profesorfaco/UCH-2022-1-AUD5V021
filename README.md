@@ -30,7 +30,7 @@ Cada estudiante en este Electivo debería contar con:
 
 - Jueves 24 de marzo → [sesion_02](https://github.com/profesorfaco/front-end/tree/main/sesion_02) → HTML5, CSS3 y p5.js
 
-- Jueves 31 de marzo → [sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03) → Evaluación Diagnóstica
+- **Jueves 31 de marzo → [sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03) → Evaluación Diagnóstica**
 
 - Jueves 7 de abril → [sesion_04](https://github.com/profesorfaco/front-end/tree/main/sesion_04) → Bootstrap v5
 
@@ -42,7 +42,7 @@ Cada estudiante en este Electivo debería contar con:
 
 - Jueves 5 de mayo → [sesion_08](https://github.com/profesorfaco/front-end/tree/main/sesion_08) → Bootstrap v5 y Charts.js
 
-- Jueves 12 de mayo → [sesion_09](https://github.com/profesorfaco/front-end/tree/main/sesion_09) → Evaluación Nº1
+- **Jueves 12 de mayo → [sesion_09](https://github.com/profesorfaco/front-end/tree/main/sesion_09) → Evaluación Nº1**
 
 - Jueves 19 de mayo → Semana de receso para todos los cursos de la carrera
 
@@ -56,7 +56,7 @@ Cada estudiante en este Electivo debería contar con:
 
 - Jueves 23 de junio → sesion_14 → Sin clases sincrónicas (trabajo autónomo)
 
-- Jueves 30 de junio → [sesion_15](https://github.com/profesorfaco/front-end/tree/main/sesion_15) → Evaluación Nº2  
+- **Jueves 30 de junio → [sesion_15](https://github.com/profesorfaco/front-end/tree/main/sesion_15) → Evaluación Nº2**  
 
 
 **Para cada sesión, la organización es: Lectura, exploración y práctica**. 
