@@ -12,15 +12,7 @@ En tal definición confluyen usuarios, objetivos y contextos en la necesidad de 
 
 - reducir al mínimo a la interfaz por diseñar, como pasa en el control remoto universal (que sólo sirve para más que encender/apagar, pasar canales y ajustar volúmen).
 
-La primera opción tiende al maximalismo:
-
-![escopeta maquilladora](https://c.tenor.com/lkZAQPCOnokAAAAC/makeup-maquillaje.gif)
-
-La segunda opción tiende al minimalismo:
-
-![marie condo](https://i.giphy.com/media/mBCTckh8N3YKfrNDqm/giphy.gif)
-
-Para poder especificar, para diseñar para individuos con capacidades y objetivos que son, a la vez, determinados y situados, conviene considerar: 
+Para poder especificar, así poder diseñar para individuos con capacidades y objetivos que son, a la vez, determinados y situados, conviene considerar: 
 
 - ¿Qué son las Proto Personas?: https://blog.ida.cl/experiencia-de-usuario/que-son-las-proto-personas/
 
