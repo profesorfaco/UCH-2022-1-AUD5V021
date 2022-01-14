@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-#### Lectura
+#### Teoría
 
 **Existen marcos de trabajo de código abierto que nos permitirán a avanzar más rápido desde relaciones predefinidas de HTML y CSS**. Por su popularidad, corresponde mencionar a:
 
