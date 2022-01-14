@@ -5,4 +5,4 @@
 
 - - - - - - - 
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_09) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_11)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_09) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_11)
