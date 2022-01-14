@@ -10,9 +10,8 @@
 
 - - - - - - - 
 
-#### Práctica
+#### Exploración práctica
 
-https://profesorfaco.github.io/interaccion/sesion_07/
 
 - - - - - - - 
 
