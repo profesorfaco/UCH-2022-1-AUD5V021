@@ -43,4 +43,4 @@ Al cuidar los [metadatos, cuidamos el posicionamiento en buscadores (SEO)](https
 
 - - - - - - - 
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_12) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_14)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_12) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_14)
