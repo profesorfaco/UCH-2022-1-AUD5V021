@@ -2,7 +2,9 @@
 
 ### Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Trabajo final: Evaluación de Rendimiento, Accesibilidad y SEO
 
-#### LECTURA
+- - - - - - -
+
+#### Teoría
 
 **I. Dos pruebas rápidas y extremas para revisar la accesibilidad en cualquier página web:**
 
