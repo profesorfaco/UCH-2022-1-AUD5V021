@@ -4,4 +4,4 @@
 
 - - - - - - - 
 
-###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_14)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_13)
