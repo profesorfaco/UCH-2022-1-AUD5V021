@@ -12,7 +12,9 @@ El músico que no escucha más que un estilo de música, termina haciendo lo mis
 
 El músico que tiene una amplia cultura musical puede reinventarse las veces que estime conveniente, ofreciendo, permanentemente, nuevos motivos para ser escuchado. 
 
-**En el diseño pasa lo mismo. Quienes diseñan desde una amplia cultura visual y medial pronto toman distancia de quienes no lo hacen**.
+**En el diseño pasa lo mismo**. 
+
+**Quienes diseñan desde una amplia cultura visual y medial pronto toman distancia de quienes no lo hacen**.
 
 Para acerse de esta cultura conviene reconocer lo que se ha hecho antes en el mismo ámbito con un mismo objetivo (antecendentes) y aquello que, viniendo de otro lugar con distinto objetivo, pueda resultar atractivo, práctico y razonable a usuarios específicos (referentes).
 
