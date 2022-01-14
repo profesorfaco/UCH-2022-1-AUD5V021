@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-## Electivo / Diseño en Visualidad y Medios / Universidad de Chile
+## Electivo de Diseño en Visualidad y Medios | Universidad de Chile
 
 Este es el repositorio de un Electivo para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/profesor/) que ofrece una introducción a HTML, CSS y CSS.
 
