@@ -10,4 +10,4 @@ Además de ofrecer un estilo de CSS, Bootstrap ofrece una biblioteca de JavaScri
 
 - - - - - - - 
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_04) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_06)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_04) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_06)
