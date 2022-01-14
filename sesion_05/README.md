@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-#### Lectura
+#### Teoría
 
 Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además de [p5.js](https://p5js.org/es/). 
 
