@@ -18,7 +18,7 @@ En la redacción del Manifiesto para el Software Ágil, del año 2001, participa
 
 Tales 4 preferencias resumen los [12 principios](https://agilemanifesto.org/iso/es/principles.html) que han dominado por dos décadas la industria dedicada al desarrollo de productos, servicios y sistemas digitales.
 
-Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Crisis_del_software), no es fácil encontrar organizaciones sostenibles que enfrenten el desafío del concebir, producir y lanzar un sitio o aplicación web tal como lo haría alguien entrenado en procesos de diseño con plazos fijos (*deadlines*) para investigar, analizar, idear e implementar, separados por la aprobación del ciente (no confundir con usuarios).
+Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Crisis_del_software), no es fácil encontrar organizaciones sostenibles que enfrenten el desafío del concebir, producir y lanzar un sitio o aplicación web tal como lo haría alguien entrenado en procesos de diseño con plazos fijos (*deadlines*) para investigar, analizar, idear e implementar, separados por la aprobación del cliente (no confundir con usuarios).
 
 - - - - - - - 
 
