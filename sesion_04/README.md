@@ -74,4 +74,4 @@ Entre los trucos del artículo se menciona https://purifycss.online/ en donde po
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_03) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_05)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_03) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_05)
