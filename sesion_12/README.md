@@ -24,7 +24,7 @@ Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Cri
 
 Es que equivocarse en el código fuente publicado no es como equivocarse en el miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir y aprender rápidamente. Basta un poco de código fuente para tener algo que sea pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales, según puedan alcanzar objetivos específicos y realistas en sus contextos habituales, aun cuando se encuentren a la distancia de otros husos horarios. 
 
-Por ejemplo: Imagine trabajar, desde Santiago, con colegas en Tokio. Imagine que allá se llegó a un acuerdo con el que se cierra un brain storming que tomó todo una jornada laboral, acuerdo que usted tiene que devolver implementado a la mañana siguiente: ¡Para hacerlo no tendrá que trasnochar!
+Por ejemplo: Imagine trabajar, desde Santiago, con colegas en Tokio. Imagine que allá se llegó a un acuerdo con el que se cierra un brain storming que tomó todo una jornada laboral, acuerdo que usted tiene que devolver implementado a la mañana siguiente… ¡Para hacerlo no tendrá que trasnochar!
 
 
 - - - - - - - 
