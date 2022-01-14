@@ -6,7 +6,7 @@
 
 #### Teoría
 
-Para lanzarnos a la piscina sin antes averiguar de su profundidad, aprovecharemos "el flotador" que nos ofrece [p5.js](https://p5js.org/es/):
+Para lanzarnos a la piscina sin haber averiguado su profundidad, aprovecharemos "el flotador" que nos ofrece [p5.js](https://p5js.org/es/):
 
 > ¡**p5.js** es una biblioteca de JavaScript para la programación creativa, que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona! **p5.js** es gratuito y de código abierto porque creemos que el software y las herramientas para aprenderlo deben ser accesibles para todos.
 
