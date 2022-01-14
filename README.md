@@ -94,4 +94,4 @@ La nota final del electivo se obtiene del promedio de las dos evaluaciones sumat
 -	Sitio Web: [JavaScript Para Gatos](https://jsparagatos.com/)
 -	Sitio Web: [Primeros pasos en la Web - Aprende sobre desarrollo web | MDN](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web)
 
-Conviene sumar a la bibliografía y los recursos aquellas indicaciones que se suman la sección de "teoría" de cada sesión.
+Conviene sumar a la bibliografía y los recursos aquellas indicaciones que se suman en la sección de "teoría" de cada sesión.
