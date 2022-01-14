@@ -49,11 +49,11 @@ Cada estudiante en este Electivo debería contar con:
 
 - Jueves 26 de mayo → [sesion_10](https://github.com/profesorfaco/front-end/tree/main/sesion_10) → Trabajo final: Usuarios, objetivos y contextos de uso específicos
 
-- Jueves 2 de junio → [sesion_11](https://github.com/profesorfaco/front-end/tree/main/sesion_11) → Trabajo final: Antecedentes para el benchmarking y referentes para el moodboard
+- Jueves 2 de junio → [sesion_11](https://github.com/profesorfaco/front-end/tree/main/sesion_11) → Antecedentes para el benchmarking y referentes para el moodboard
 
-- Jueves 9 de junio → [sesion_12](https://github.com/profesorfaco/front-end/tree/main/sesion_12) → Trabajo final: Software funcionando sobre documentación extensiva
+- Jueves 9 de junio → [sesion_12](https://github.com/profesorfaco/front-end/tree/main/sesion_12) → Software funcionando sobre documentación extensiva
 
-- Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Trabajo final: Evaluación de Rendimiento, Accesibilidad y SEO 
+- Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Evaluación de Rendimiento, Accesibilidad y SEO 
 
 - Jueves 23 de junio → sesion_14 → Sin clases sincrónicas (trabajo autónomo)
 
