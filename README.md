@@ -6,7 +6,7 @@ Este es el repositorio de un Electivo para la mención Visualidad y Medios, a ca
 
 En este electivo se ofrece una introducción a HTML, CSS y JavaScript (a veces abreviado JS, nunca Java).
 
-Con esta introducción, cada estudiante podría contar con las bases para el desempeño como “Front”, o bien, como coordinador de los aportes de UX, UI y Front en el desarrollo de sitios y aplicaciones web.
+Con esta introducción, cada estudiante podría contar con las bases para desempeñarse como “Front”, o avanzar a la coordinación de los aportes de UX, UI y Front en el desarrollo de sitios y aplicaciones web.
 
 - - - - - - - - -
 
