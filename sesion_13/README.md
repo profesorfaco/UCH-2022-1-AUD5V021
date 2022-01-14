@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Trabajo final: Evaluación de Rendimiento, Accesibilidad y SEO
+### Jueves 16 de junio → sesion_13 → Trabajo final: Evaluación de Rendimiento, Accesibilidad y SEO
 
 - - - - - - -
 
