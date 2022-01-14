@@ -12,8 +12,6 @@ Con esta introducción, cada estudiante podría contar con las bases para el des
 
 Cada estudiante en este Electivo debería contar con:
 
-- conexión estable a Internet
-
 - cuenta personal en [GitHub](https://github.com/join);
 
 - computador disponible en el horario de clases, donde pueda usar:
@@ -73,30 +71,23 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 
 - - - - - - - - - -
 
-### Referencias bibliográficas
+### Bibliografía básica
 
-[O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket References". En el desarrollo del Optativo, podrían consultar: 
+-	McCarthy, L., Reas, C., & Fry, B. (2018). Introducción a p5.js. Processing Foundation.
+-	Meyer, E. A. (2018). CSS pocket reference: Visual presentation for the web (5th ed.). O’Reilly Media.
+-	Robbins, J. N. (2013). HTML5 Pocket Reference (5th ed.). O’Reilly Media.
 
-- Meyer, E.A. (2018). *CSS Pocket Reference: Visual Presentation for the Web*
 
-- Robbins, J.N. (2013). *HTML5 Pocket Reference: Quick, Comprehensive, Indispensable*
+### Bibliografía complementaria
 
-[A Book Apart](https://abookapart.com/) también les puede ser útil. Su colección recomendada para el Optativo es "…for web designers":
+-	Duckett, J. (2014). Web Design with HTML, CSS, JavaScript and jQuery Set. John Wiley & Sons.
+-	Flanagan, D. (2020). JavaScript: The Definitive Guide (7th ed.). O’Reilly Media.
 
-- Marquis, M. (2016). *Javascript for web designers*
+### Recursos en línea
 
-- Cederholm, D. (2014) *CSS3 for web designers*
+-	Lista de reproducción de contenido en Youtube: [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+-	Lista de reproducción de contenido en Youtube: [Web Demystified](https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g)
+-	Sitio Web: [JavaScript Para Gatos](https://jsparagatos.com/)
+-	Sitio Web: [Primeros pasos en la Web - Aprende sobre desarrollo web | MDN](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web)
 
-- Keith, J. & Andrew, R. (2010). *HTML5 for web designers*
-
-### Referencias en línea
-
-- [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-
-- [JavaScript Para Gatos](https://jsparagatos.com/)
-
-- [Primeros pasos en la Web](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web)
-
-- [Web Demystified](https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g)
-
-Se agregarán más referencias en el `README.md` de cada clase.
+Conviene sumar a la bibliografía y los recursos aquellas indicaciones que se suman la sección de "teoría" de cada sesión.
