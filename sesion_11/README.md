@@ -2,6 +2,10 @@
 
 ### Jueves 2 de junio → sesion_11 → Trabajo final: Antecedentes para el benchmarking y referentes para el moodboard
 
+- - - - - -
+
+#### Teoría
+
 El músico que no escucha más que un grupo, termina ofreciendo nada más que *covers* y armando una banda tributo que ofrece un remedo, con precio y agenda mucho más accesible, del original.
 
 El músico que no escucha más que un tipo de música, termina haciendo lo mismo una y otra vez: Se ajusta al mismo estilo hasta que la gente se canse de bailarlo (para después vivir de los derechos anexos a sus derechos de autor).
