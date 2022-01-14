@@ -69,7 +69,7 @@ Cada estudiante en este Electivo debería contar con:
 
 #### Evaluaciones
 
-En el clase a clase se marcan 3 clases con evaluaciones. La primera es diagnóstica y las siguientes son sumativas. 
+En el clase a clase se marcan 3 evaluaciones. La primera es diagnóstica y las siguientes son sumativas. 
 
 La nota final del electivo se obtiene del promedio de las dos evaluaciones sumativas; aunque existe la posibilidad de reemplazo de una de ellas por la evaluación diagnóstica, a condición de obtener nota aprobatoria (superior a 4.0) en las tres instancias.
 
