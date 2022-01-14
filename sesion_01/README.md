@@ -99,4 +99,4 @@ Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para
 
 - - - - - - - 
 
-[SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_02)
+[SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_02)
