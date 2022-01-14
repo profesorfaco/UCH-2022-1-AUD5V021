@@ -6,128 +6,134 @@
 
 #### Teoría
 
-En esta sesión pasaremos a otra biblioteca de JavaScript. Partimos por [p5.js](https://p5js.org/es/), una biblioteca que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona. Ahora vamos a "un clásico": [jQuery](https://jquery.com/). 
+Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además de [p5.js](https://p5js.org/es/). 
 
-**[jQuery](https://jquery.com/) es una biblioteca que por muchos años ha simplificado la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el [DOM](https://desarrolloweb.com/articulos/que-es-el-dom.html) y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
+Antes de explorar otras, nos conviene tener completa claridad respecto de los tipos de datos que se usan en JavaScript "a secas", porque esa es la base sobre la que operan todas las bibliotecas.
 
-La versión estable más reciente de [jQuery es la 3.6.0](https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/); versión lanzada en marzo de 2021.
+Para comenzar a clarificar las cosas, partamos con el número 18261884. 
 
-Para entender la utilidad de [jQuery](https://jquery.com/), conviene partir con un ejemplo: En una página web podríamos tener varios elementos con una clase a la que denominamos `tal`. Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript hace algunos años habríamos escrito la siguiente instrucción:
+Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero es distinto de la siguiente manera: 
 
-```
-var elementos = Array.from(document.getElementsByClassName("tal"));
-elementos.forEach(function(elemento){
-  elemento.style.color="red";
-});
-```
+| País      |  Población       | Superficie     |
+|:----------|:-----------------|:---------------|
+| Chile     | 18261884         | 756102         |
 
-Con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp) se simplifica un poco:
+Entendiendo cómo funciona una tabla, contamos con una clara orientación para la utilización de tal número como información sobre algo concreto: La población en Chile. 
 
-```
-var elementos = document.querySelectorAll(".tal");
-elementos.forEach(elemento => elemento.style.color="red");
-```
+Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato numérico por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
 
-Pero usando [jQuery](https://jquery.com/), por años ha sido suficiente escribir:
+Los números 18261884 y 24,15267252 tienen una diferencia que corresponde apuntar:
 
-```
-$(".tal").css("color","red");
-```
+- **18261884** es un número entero, un `int` (del inglés *integer*).
 
-Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero ya en la segunda década, no conviene perder de vista al lenguaje original que ha evolucionado para ser más amigable en la medida que los desafíos de programación para la interacción se complejizan; por quedarnos "muy pegados" en [jQuery](https://jquery.com/), podríamos obligar a cada navegador a leer [90kb de código fuente](https://code.jquery.com/jquery-3.6.0.min.js) para interpretar una instrucción que ya se resuelve con menos de 1kb de puro JavaScript, o podríamos tener muchas dificultades dando el primer paso a una biblioteca de JavaScript para construir interfaces de usuario ([Vue.js](https://v3.vuejs.org/) o [React.js](https://es.reactjs.org/)).
+- **24,15267252** es un número de coma flotante, un `float` (del inglés *floating point number*; y no se olviden de esta diferencia, lo que para nosotros es coma, *for them* es punto, y el *coding* se hace en *english*).
 
-Hecha la advertencia, agreguemos un nivel más al ejemplo para poder entender el uso de la biblioteca: 
+A estos dos tipos de datos, podemos agregar: 
 
-```
-function enrojece() {
-  $(".tal").css("color","red");
-}
-$("#cambio").on("click", enrojece);
-```
+- **true** o **false** como las dos opciones posibles de un [tipo de dato lógico](https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico) (bool: *boolean*)
 
-Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo que se podría escribir en JavaScript actual y puro de la siguiente manera:
+- **"A"** como un carácter (char: *character*)
+
+Notemos que en el tipo de dato numérico y booleano no se usan comillas, pero en el caso del caracter sí. 
+
+Mencionamos `int`, `float`, `bool` y `char` porque son palabras que en lenguajes de programación más clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato**. 
+
+**En JavaScript podemos crear toda variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
+
+Usando únicamente `var`, en JavaScript podemos asignar como contenido de la variable todas las siguientes alternativas:
 
 ```
-function enrojece(){
-  var elementos = document.querySelectorAll(".tal");
-  elementos.forEach(elemento => elemento.style.color="red");  
-}
-document.querySelector("#cambio").addEventListener("click", enrojece);
+var a = 18261884;
+var b = 24.15267252;
+var c = true;
+var d = "Lisa the Vegetarian";
+var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
+var f = {
+    mom: "Luann Van Houten",
+    dad: "Kirk Van Houten",
+    child: "Milhouse Van Houten"
+};
+var g = {
+    mom: "Marge Simpson",
+    dad: "Homer Simpson",
+    children: ["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]
+};
+var h = [
+    {
+        mom: "Luann",
+        dad: "Kirk",
+        children: ["Milhouse"]
+    },
+    {
+        mom: "Marge",
+        dad: "Homer",
+        children: ["Bart", "Lisa", "Maggie"]
+    },
+    {
+        mom: "Manjula",
+        dad: "Apu",
+        children: ["Poonam", "Sashi", "Pria", "Uma", "Anoop", "Sandeep", "Nabendu", "Gheet"]
+    }
+];
+
 ```
 
-Con la última instrucción redactada, el cambio de color sobre todos los elementos de clase `tal` se aplica con el click en aquello que tenga identidad `cambio`. Y con este segundo ejemplo ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción, antecedida de un signo peso: `$(selector).action()`. 
+**Lo que cambia viene después del signo igual `=`, que en este caso está asignando contenido a cada variable.** 
 
-Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. 
+
+La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas (si fuesen números o booleanos no las usarían). 
+
+La variable `f`, que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de `nombre:valor`. 
+
+Las variables `g` y `h` son mezclas de las anteriores.
+
+Si necesitamos el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo directamente. Pero el caso es distinto si necesitamos un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
+
+Para comprender de mejor manera lo recién expuesto, sigamos aprovechando el [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/55-yg0wx0) y partir por la variable `e`: 
+
+Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]` el resultado sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
+
+Pasemos a la variable `f`: 
+
+Si necesitamos escribir la frase `Fue Kirk Van Houten quien intentó dibujar la dignidad`, tendríamos que escribir `'Fue ' + f.dad + ' quien intentó dibujar la dignidad'`.
+
+Vamos por la variable `g`: 
+
+Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
+
+Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemapetilon para explorar:
+
+- el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
+
+- el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach); y
+
+- el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
+
+Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/).
 
 - - - - - - -
 
 #### Exploración
 
-Con jQuery puedo ir a buscar datos a un JSON. 
+Volvamos a la variable `h`, que contiene un arreglo de objetos. Comparémosla con https://myjson.dit.upm.es/api/bins/1wo6
 
-A partir de los datos encontrados, puedo agregar párrafos al cuerpo del documento:
+Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
 
-```
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>jQuery y JSON</title>
-    </head>
-    <body>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $.getJSON("https://myjson.dit.upm.es/api/bins/1wo6", function (data) {
-                    console.log(data);
-                    var singularplural;
-                    data.forEach(function (d) {
-                        if (d.children.length > 1) {
-                            singularplural = "bendiciones";
-                        } else {
-                            singularplural = "bendición";
-                        }
-                        $("body").append("<p>" + d.mom + " y " + d.dad + " tienen " + d.children.length + " " + singularplural + ".</p>");
-                    });
-                });
-            });
-        </script>
-    </body>
-</html>
-```
+Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor. Por eso `mon`, `dad` y `children` en la variable `h` tiene algo distinto en el [JSON ya referido](http://myjson.dit.upm.es/api/bins/1wo6)
 
-Sin jQuery puedo hacer lo mismo: 
+En línea se pueden intercambiar datos sobre: 
 
-```
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>JavaScript y JSON (sin bibliotecas)</title>
-    </head>
-    <body>
-        <script>
-            fetch("https://myjson.dit.upm.es/api/bins/1wo6")
-                .then(response => response.json())
-                .then(data => {
-                    console.log(data);
-                    var singularplural;
-                    data.forEach(function (d) {
-                        if (d.children.length > 1) {
-                            singularplural = "bendiciones";
-                        } else {
-                            singularplural = "bendición";
-                        }
-                        document.body.innerHTML += "<p>" + d.mom + " y " + d.dad + " tienen " + d.children.length + " " + singularplural + ".</p>";
-                    });
-                })
-                .catch((error) => console.log("¡PLW!", error));
-        </script>
-    </body>
-</html>
-```
+- Personajes de StarWars: https://swapi.dev/api/people/?format=json
+- Tiempo atmosférico: https://openweathermap.org/current#current_JSON
+- Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+- Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
+- Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
 
-Sin usar jQuery, me quedé en las 25 líneas y le ahorré al navegador la lectura de [90kb de código fuente](https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js). Esto porque los navegadores actuales soportan la [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b) de [JavaScript](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), que vino a reemplazar [formas más complejas](https://stackoverflow.com/questions/1973140/parsing-json-from-xmlhttprequest-responsejson).
+Y la bibliteca p5.js ofrece la función https://p5js.org/es/reference/#/p5/loadJSON, que es lo vamos a explorar tan pronto podamos leer y escribir JSON:
 
-Ya podrían estar preguntándose: ¿Por qué seguir insistiendo con jQuery? La respuesta es sencilla: Porque los [efectos `Hide/Show` y `Fade`](https://htmlcheatsheet.com/jquery/) aún son útiles útiles, y si ya estoy obligando al navegador a leer 90kb para hacer sólo eso, bien viene aprovecharse de lo demás. Pero no perdamos de vista las maneras más "puristas" y actuales de manipular el DOM, para no quedarnos atrapados en el pasado.
+Tomando algunos datos de tres personajes presentados en [SWAPI](https://swapi.dev/api/people/?format=json) vamos a escribir un JSON origintal. Revisaremos el resultado escrito con [JSONLint](https://jsonlint.com/). Publicaremos tal resultado con [MyJSON](https://myjson.dit.upm.es/) y luego vamos a hacer algunas pruebas con el [editor en línea de p5.js](https://editor.p5js.org/) y la función [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON).
+
 
 - - - - - - -
 
