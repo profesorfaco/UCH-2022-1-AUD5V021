@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-#### Lectura
+#### Teoría
 
 En esta sesión pasaremos a otra biblioteca de JavaScript. Partimos por [p5.js](https://p5js.org/es/), una biblioteca que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona. Ahora vamos a "un clásico": [jQuery](https://jquery.com/). 
 
