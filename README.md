@@ -59,17 +59,19 @@ Cada estudiante en este Electivo debería contar con:
 - **Jueves 30 de junio → [sesion_15](https://github.com/profesorfaco/front-end/tree/main/sesion_15) → Evaluación Nº2**  
 
 
-**Para cada sesión, la organización es: Lectura, exploración y práctica**. 
+**Para cada sesión, la organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad, adaptándose a la diversidad de aprendizajes.** Esta organización es más efectiva cuando:
 
-La organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad para adaptar la experiencia de aprendizaje a la modalidad remota. Por esto se recomienda:
-
-- adelantar la lectura de la parte teórica;
+- cada estudiante adelanta la lectura de la parte teórica;
  
-- participar activdamente de la exploración que se realiza en sesiones sincrónicas breves; y 
+- y resuelve la exploración práctica en el horario de la clase, para publicar resultados con [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
-- resolver el desafío de la práctica en el horario de la clase o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) su resultado.
+- - - - - - - - - -
 
-**La nota final del electivo se obtiene del promedio entre evaluaciones 1 y 2. La evaluación diagnóstica podrían llegar a reemplazar nota 1 o 2 si es más baja**.
+#### Evaluaciones
+
+En el clase a clase se marcan 3 clases con evaluaciones. La primera es diagnóstica y las siguientes son sumativas. 
+
+La nota final del electivo se obtiene del promedio de las dos evaluaciones sumativas; aunque existe la posibilidad de reemplazo de una de ellas por la evaluación diagnóstica, a condición de obtener nota aprobatoria (superior a 4.0) en las tres instancias.
 
 - - - - - - - - - -
 
