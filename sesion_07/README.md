@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-#### Lectura
+#### Teoría
 
 **[Chart.js](https://www.chartjs.org/) es una biblioteca de JavaScript que nos permite implementar gráficos (dentro de un elemento [`<canvas>…</canvas>`](https://www.w3schools.com/html/html5_canvas.asp)) de manera sencilla**.
 
