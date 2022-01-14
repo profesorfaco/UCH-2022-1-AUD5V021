@@ -112,7 +112,7 @@ Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Mus
 
 - - - - - - -
 
-#### Exploración
+#### Exploración práctica
 
 Volvamos a la variable `h`, que contiene un arreglo de objetos. Comparémosla con https://myjson.dit.upm.es/api/bins/1wo6
 
