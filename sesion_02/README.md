@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-#### Lectura
+#### Teoría
 
 Ya pudimos reconocer la diferencia entre [lenguajes de descripción y lenguajes de programación](https://github.com/profesorfaco/front-end/tree/main/sesion_01#readme). Para comenzar a profundizar en Javascript, un lenguaje de programación, nos aprovecharemos de [p5.js](https://p5js.org/es/):
 
