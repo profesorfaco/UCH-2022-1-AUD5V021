@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-#### Lectura
+#### Teoría
 
 Escribir código fuente es describir y/o programar. Hay lenguajes de descripción y lenguajes de programación. En web, se utilizan los siguientes:
 
