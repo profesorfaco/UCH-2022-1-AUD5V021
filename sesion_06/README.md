@@ -134,4 +134,4 @@ Tomando algunos datos de tres personajes presentados en [SWAPI](https://swapi.de
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_05) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_07)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_05) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_07)
