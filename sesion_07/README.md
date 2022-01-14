@@ -18,7 +18,9 @@ Recordemos que p5.js nos permite manipular el DOM más allá del Canvas, mediant
 - [`selectAll()`](https://p5js.org/es/reference/#/p5/selectAll)
 - [etc.](https://p5js.org/es/reference/)
 
-También nos permite traer cargar [JSON](https://p5js.org/es/reference/#/p5/loadJSON), [XML](https://p5js.org/es/reference/#/p5/loadXML) y [CSS](https://p5js.org/es/reference/#/p5/loadTable). 
+También nos permite traer cargar [JSON](https://p5js.org/es/reference/#/p5/loadJSON), [XML](https://p5js.org/es/reference/#/p5/loadXML) y [CSS](https://p5js.org/es/reference/#/p5/loadTable).
+
+Podríamos crear elementos basándonos en los datos intercambiados en los formatos recién mencionados, y con ellos estructurar una página completa. 
 
 - - - - - - - 
 
