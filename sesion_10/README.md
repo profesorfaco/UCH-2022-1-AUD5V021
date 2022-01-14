@@ -8,7 +8,7 @@ Podemos partir con una definición estándar de usabilidad:
 
 En tal definición confluyen usuarios, objetivos y contextos en la necesidad de ser especificados. Y esta confluencia debería desplazar lejos la idea de "esto le tendría que servir a cualquiera". Es que tal idea implica a cualquiera en cualquier parte con cualquier objetivo: son tres niveles de displicencia donde el diseño tiene dos opciones: 
 
-- maquillar según el gusto del cliente que sabe nada de diseño (porque nadie que sepa un poco es displicente en tres niveles). 
+- maquillar según el gusto del cliente que sabe nada de diseño (porque nadie que sepa algo de diseño es displicente en tres niveles). 
 
 - reducir al mínimo a la interfaz por diseñar, como pasa en el control remoto universal (que sólo sirve para más que encender/apagar, pasar canales y ajustar volúmen).
 
@@ -20,7 +20,13 @@ La segunda opción tiende al minimalismo:
 
 ![marie condo](https://i.giphy.com/media/mBCTckh8N3YKfrNDqm/giphy.gif)
 
+Para poder especificar, para diseñar para individuos con capacidades y objetivos que son, a la vez, determinados y situados, conviene considerar: 
 
+- ¿Qué son las Proto Personas?: https://blog.ida.cl/experiencia-de-usuario/que-son-las-proto-personas/
+
+- Extremes and Mainstreams: https://www.designkit.org/methods/extremes-and-mainstreams
+
+- The Persona Spectrum en "Inclusive 101": https://www.microsoft.com/design/inclusive/
 
 - - - - - - - 
 
