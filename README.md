@@ -2,7 +2,7 @@
 
 ### Electivo de Diseño en Visualidad y Medios | Universidad de Chile
 
-Este es el repositorio de un Electivo para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/profesor/).
+Este es el repositorio de un Electivo para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/).
 
 En este electivo se ofrece una introducción a HTML, CSS y JavaScript (a veces abreviado JS, nunca Java).
 
