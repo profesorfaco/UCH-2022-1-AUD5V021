@@ -8,13 +8,6 @@
 
 Además de ofrecer un estilo de CSS, Bootstrap ofrece una biblioteca de JavaScript.
 
-
-- - - - - - -
-
-#### Práctica
-
-https://profesorfaco.github.io/interaccion/sesion_05/
-
 - - - - - - - 
 
 [← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_04) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_06)
