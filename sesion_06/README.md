@@ -6,11 +6,9 @@
 
 #### Teoría
 
-Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además de [p5.js](https://p5js.org/es/). 
+Esta clase abrirá un paréntesis, para revisar aspectos clave en el uso de JavaScript "a secas" y el trabajo con datos que podrían desplegarse en sitios y aplicaciones web.
 
-Antes de explorar otras, nos conviene tener completa claridad respecto de los tipos de datos que se usan en JavaScript "a secas", porque esa es la base sobre la que operan todas las bibliotecas.
-
-Para comenzar a clarificar las cosas, partamos con el número 18261884. 
+Para comenzar, partamos con el número 18261884. 
 
 Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero es distinto de la siguiente manera: 
 
