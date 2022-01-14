@@ -107,10 +107,4 @@ Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para
 
 - - - - - - - 
 
-#### Práctica
-
-https://profesorfaco.github.io/interaccion/sesion_02/
-
-- - - - - - - 
-
 [← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_01) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_03)
