@@ -2,6 +2,7 @@
 
 ### Jueves 9 de junio → sesion_12 → Trabajo final: Software funcionando sobre documentación extensiva
 
+- - - - - - -
 
 #### Teoría
 
