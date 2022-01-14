@@ -6,12 +6,19 @@ Podemos partir con una definición estándar de usabilidad:
 
 > Usabilidad es el grado en que un sistema, producto o servicio puede ser utilizado por usuarios específicos para alcanzar objetivos específicos con eficacia, eficiencia y satisfacción en un contexto de uso específico ([ISO 9241-11:2018](https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en))
 
-En tal definición confluyen usuarios, objetivos y contextos en la necesidad de ser especificados. Y esta confluencia debería desplazar lejos la idea de "esto le tendría que servir a cualquiera". Tal idea implica a cualquiera en cualquier parte con cualquier objetivo: son tres niveles de displicencia donde el diseño tiene dos opciones: 
+En tal definición confluyen usuarios, objetivos y contextos en la necesidad de ser especificados. Y esta confluencia debería desplazar lejos la idea de "esto le tendría que servir a cualquiera". Es que tal idea implica a cualquiera en cualquier parte con cualquier objetivo: son tres niveles de displicencia donde el diseño tiene dos opciones: 
 
-- maquillaje según el gusto del cliente que no sabe de diseño. 
+- maquillar según el gusto del cliente que sabe nada de diseño (porque nadie que sepa un poco es displicente en tres niveles). 
 
-- minimalismo tipo control remoto universal (una reducción razonada al mínimo necesario).
+- reducir al mínimo a la interfaz por diseñar, como pasa en el control remoto universal (que sólo sirve para más que encender/apagar, pasar canales y ajustar volúmen).
 
+La primera opción tiende al maximalismo:
+
+![escopeta maquilladora](https://c.tenor.com/lkZAQPCOnokAAAAC/makeup-maquillaje.gif)
+
+La segunda opción tiende al minimalismo:
+
+![marie condo](https://i.giphy.com/media/mBCTckh8N3YKfrNDqm/giphy.gif)
 
 
 
