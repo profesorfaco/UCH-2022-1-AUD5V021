@@ -26,7 +26,7 @@ Entre los tales niveles hay otra diferencia que conviene referir:
 
 > At the visceral level, people are pretty much the same all over the world. […] The behavioral and reflective levels, however, are very sensitive to experiences, training, and education. Cultural views have huge impact here: what one culture finds appealing, another may not. Indeed, teenage culture seems to dislike things solely because aldult culture likes them (p.33)
 
-A un nivel visceral, cualquiera puede reaccionar con arcadas frente a algo que huele o sabe mal, o dar un paso atrás si enfrenta una amenaza. Pero distinto es optar por un iPhone o un Huawei, y acostumbrarse a tener o no un botón de volver atrás.
+A un nivel visceral, cualquiera puede reaccionar con arcadas frente a algo que huele o sabe mal, o dar un paso atrás si enfrenta una amenaza. Pero muy distinto es optar por un iPhone o un Huawei, y acostumbrarse a la manipulación de cada aparato y sus respectivas aplicaciones.
 
 - - - - - - - 
 
