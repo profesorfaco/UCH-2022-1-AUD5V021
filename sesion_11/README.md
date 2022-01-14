@@ -18,13 +18,15 @@ El músico que tiene una amplia cultura musical puede reinventarse las veces que
 
 Para acerse de esta cultura conviene reconocer lo que se ha hecho antes en el mismo ámbito con un mismo objetivo (antecendentes) y aquello que, viniendo de otro lugar con distinto objetivo, pueda resultar atractivo, práctico y razonable a usuarios específicos (referentes).
 
-Al escribir atractivo, práctico y razonable, se alude, respectivamente, a los niveles de procesamiento visceral, conductual y reflexivo que presenta Norman en su libro Emotional Design (2004): 
+Al escribir atractivo, práctico y razonable, se alude, respectivamente, a los niveles de procesamiento visceral, conductual y reflexivo que presenta Donald A. Norman en su libro Emotional Design (2004): 
 
-> the automatic, prewired ayer, called the *visceral level*; the part that contains the brain processes that control everyday behavior, know as the *behavioral level*; and the comtemplative part of the brain, on the *reflective level* (p.21) 
+> the automatic, prewired layer, called the *visceral level*; the part that contains the brain processes that control everyday behavior, know as the *behavioral level*; and the comtemplative part of the brain, on the *reflective level* (p.21) 
 
 Entre los tales niveles hay otra diferencia que conviene referir: 
 
-> At the visceral level, people are pretty mucht the same all over the world. […] The behavioral and reflective levels, however, are very sensitive to experiences, training, and education. Cultural views have huge impact here: what one culture finds appealing, another may not. Indeed, teenage culture seems to dislike things solely because aldult culture likes them (p.33)
+> At the visceral level, people are pretty much the same all over the world. […] The behavioral and reflective levels, however, are very sensitive to experiences, training, and education. Cultural views have huge impact here: what one culture finds appealing, another may not. Indeed, teenage culture seems to dislike things solely because aldult culture likes them (p.33)
+
+A un nivel visceral, cualquiera puede reaccionar con arcadas frente a algo que huele o sabe mal, o dar un paso atrás si enfrenta una amenaza. Pero distinto es optar por un iPhone o un Huawei, y acostumbrarse a tener o no un botón de volver atrás.
 
 - - - - - - - 
 
