@@ -32,6 +32,12 @@ También está la opción de ir por ambos de una vez, con la opción *Bundle*:
 
 Habiendo una tercera opción, donde se van a buscar por módulos precisos, que supera un poco el alcance de una introducción.
 
+- - - - - - - - - -
+
+#### Exploración práctica
+
+Pendiente
+
 - - - - - - - 
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_04) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_06)
