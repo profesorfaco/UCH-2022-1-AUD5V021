@@ -8,4 +8,4 @@ Pendiente
 
 - - - - - - - 
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_08) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_10)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_08) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_10)
