@@ -1,9 +1,9 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### - Jueves 9 de junio → sesion_12 → Trabajo final: Software funcionando sobre documentación extensiva
+### Jueves 9 de junio → sesion_12 → Trabajo final: Software funcionando sobre documentación extensiva
 
 
-#### LECTURA
+#### Teoría
 
 En la redacción del Manifiesto para el Software Ágil, del año 2001, participaron representantes de Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, Pragmatic Programming y otros simpatizantes de estas maneras de trabajar donde se había aprendido a valorar:
 
