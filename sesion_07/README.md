@@ -26,7 +26,7 @@ También nos permite cargar [XML](https://p5js.org/es/reference/#/p5/loadXML), [
 - Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 - Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
 
-Con JSON y p5.js, podríamos crear elementos basándonos en los datos intercambiados, y con ellos estructurar una página completa. 
+Con JSON y p5.js, podríamos crear elementos basándonos en los datos intercambiados, y con ellos estructurar una página completa con un aspecto basado en lo que ofrece Bootstrap.
 
 - - - - - - - 
 
