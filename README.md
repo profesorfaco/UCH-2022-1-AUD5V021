@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-## Electivo de Diseño en Visualidad y Medios | Universidad de Chile
+### Electivo de Diseño en Visualidad y Medios | Universidad de Chile
 
 Este es el repositorio de un Electivo para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/profesor/).
 
@@ -10,7 +10,7 @@ Con esta introducción, cada estudiante podría contar con las bases para el des
 
 - - - - - - - - -
 
-### Materiales de trabajo
+#### Materiales de trabajo
 
 Cada estudiante en este Electivo debería contar con:
 
@@ -24,7 +24,7 @@ Cada estudiante en este Electivo debería contar con:
 
 - - - - - - - 
 
-### Serán 12 sesiones:
+#### Clase a clase
 
 - Jueves 17 de marzo → [sesion_01](https://github.com/profesorfaco/front-end/tree/main/sesion_01) → HTML5 y p5.js
 
@@ -73,19 +73,19 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 
 - - - - - - - - - -
 
-### Bibliografía básica
+##### Bibliografía básica
 
 -	McCarthy, L., Reas, C., & Fry, B. (2018). Introducción a p5.js. Processing Foundation.
 -	Meyer, E. A. (2018). CSS pocket reference: Visual presentation for the web (5th ed.). O’Reilly Media.
 -	Robbins, J. N. (2013). HTML5 Pocket Reference (5th ed.). O’Reilly Media.
 
 
-### Bibliografía complementaria
+##### Bibliografía complementaria
 
 -	Duckett, J. (2014). Web Design with HTML, CSS, JavaScript and jQuery Set. John Wiley & Sons.
 -	Flanagan, D. (2020). JavaScript: The Definitive Guide (7th ed.). O’Reilly Media.
 
-### Recursos en línea
+##### Recursos en línea
 
 -	Lista de reproducción de contenido en Youtube: [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 -	Lista de reproducción de contenido en Youtube: [Web Demystified](https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g)
