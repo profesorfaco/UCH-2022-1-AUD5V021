@@ -60,7 +60,7 @@ Los tamaños de cada pantalla los pueden consultar en los [Breakpoints de Bootst
 
 - - - - - - 
 
-### Exploración
+#### Exploración práctica
 
 En el sitio web oficial de Bootstrap encontrarán [documentación detallada](https://getbootstrap.com/docs/5.1/getting-started/introduction/) sobre cada clase, utilidad y componente que ofrece este marco de trabajo de código abierto. Además, pueden encontrar [ejemplos](https://getbootstrap.com/docs/5.1/examples/) donde conviene explorar: 
 
