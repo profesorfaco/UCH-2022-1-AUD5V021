@@ -6,61 +6,104 @@
 
 #### Teoría
 
-Escribir código fuente es describir y/o programar. Hay lenguajes de descripción y lenguajes de programación. En web, se utilizan los siguientes:
+Para comenzar a profundizar en Javascript, un lenguaje de programación, nos aprovecharemos de [p5.js](https://p5js.org/es/):
 
-- **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página). HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Puedes complementar esta brevísima introducción a HTML con una revisión de https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
+> ¡**p5.js** es una biblioteca de JavaScript para la programación creativa, que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona! **p5.js** es gratuito y de código abierto porque creemos que el software y las herramientas para aprenderlo deben ser accesibles para todos.
 
-- **CSS (Cascading Style Sheets)**. Lenguaje estándar que describe la presentación de las páginas web (cómo se muestra lo que contiene la página). CSS3 es la versión más reciente de este lenguaje. Su unidad más básica es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene un bloque de declaraciones. En tal bloque, cada declaración se separa de otra mediante punto y coma `;`. Una declaración se compone del par `propiedad: valor`. Con todo lo dicho, una regla se escribirá, generalmente, de la siguiente manera: `selector{ propiedad: valor; }` → Puedes complementar esta brevísima introducción a CSS con una revisión de https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics (no es necesario realizar el ejercicio que allí se propone).
+Esta biblioteca fue creada por [Lauren McCarthy](http://lauren-mccarthy.com/) y es desarrollada por una comunidad de colaboradores, con apoyo de [Processing Foundation](https://processingfoundation.org/). Entre los colaboradores hay 2 chilenos, que se han encargado de la traducción de referencias, tutoriales y [un libro](https://processingfoundation.press/product/introduccion-a-p5-js/) al castellano; ellos son: [Guillermo Montecinos](https://twitter.com/guillermolooped) y [Aarón Montoya-Moraga](https://twitter.com/montoyamoraga).
 
-- **JS (JavaScript)**. Lenguaje de programación que controla el comportamiento de las páginas web (qué hace la página). Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada en el navegador. Su estructura puede variar dependiendo de la lógica de cada instrucción, la [versión](https://www.w3schools.com/js/js_versions.asp) en uso, la biblioteca (*library*) de JavaScript en la que nos apoyemos, o el *framework* de programación en el que se basa el trabajo; podemos imaginar que una biblioteca como una selección de ingredientes listos para poder preparar determinado tipo de comida, mientras que el *framework* te permite preparar un banquete si es que ya tienes suficiente experiencia en la cocina → Puedes complementar esta breve introducción a JS con una revisión de https://jsparagatos.com/
+[p5.js](https://p5js.org/es/) es una reinterpretación de [Processing](https://processing.org/) para la web. 
 
-[Python](https://www.python.org/), [PHP](https://www.php.net/) y [Ruby](https://www.ruby-lang.org/es/) son otros lenguajes de programación populares para el diseño de interacción en web. 
+En Processing, que se basa en Java, cada *sketch* debe tener dos partes:
 
-Y solo para evitar pensar en ellos como lenguajes, conviene mencionar tres *framework* populares para el desarrollo Web: [Angular](https://angular.io/), [React](https://es.reactjs.org/) y [Vue.js](https://v3.vuejs.org/). El primero ofrecía, originalmente, una vía de acceso cómoda a la programación de aplicaciones web para quienes ya programaban software en [Java](https://es.wikipedia.org/wiki/Plataforma_Java), los otros dos están basado en JavaScript (JS).
+- `void setup()`; y 
+- `void draw()`. 
+ 
+Hay un `setup` que se ejecuta una única vez, en la partida. Y hay un `draw` que por defecto se ejecuta una y otra vez. 
 
-- - - - - - - - - - - - - - 
+Ahora, cambiemos el `void` de [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)) por el `function` de [JavaScript](https://es.wikipedia.org/wiki/JavaScript), y tenemos:
+
+- `function setup()`; y 
+- `function draw()`. 
+
+Cuando ingresamos al [editor web de p5.js](https://editor.p5js.org/) podemos encontrar la misma estructura, que incluye la creación de un [elemento `canvas`](https://developer.mozilla.org/es/docs/Web/HTML/Element/canvas) con ancho y alto determanidos (creación que se ejecuta una única vez), y la definición de un color de fondo que se dibuja (o pinta) una y otra vez:
+
+```
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+}
+```
+
+El tamaño del [`createCanvas`](https://p5js.org/es/reference/#/p5/createCanvas) se indica en pixeles (son 400 x 400 pixeles en el caso recién presentado). El color del [`background`](https://p5js.org/es/reference/#/p5/background) utiliza, por defecto, el modelo RGB; cuando se indica solo un número, se asume que se está definiendo algo entre negro (0,0,0) y blanco (255,255,255), porque es un mismo número repitiéndose tres veces.
+
+En el mismo [editor web de p5.js](https://editor.p5js.org/) podemos hacer cambios para asegurarnos de comprender las diferencias. Podríamos crear un canvas más ancho que alto, donde la velocidad del re-dibujar no sea de 30 cuadros por segundo sino 2. Y podríamos pintar cada vez el fondo de un color distinto, dejando los valores de rojo, verde y azul al azar entre 0 y 255:
+
+```
+function setup() {
+  createCanvas(400, 100);
+  frameRate(2);
+}
+
+function draw() {
+  background(random(0,255),random(0,255),random(0,255));
+}
+```
+
+Ya utilizamos `createCanvas()`, `frameRate()`, `background()`, `random()`. Tal como Processing, [p5.js](https://p5js.org/es/) ofrece
+
+> un conjunto completo de funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
+
+Para enteder cómo es que puede tomar toda la página del navegador, conviene agregar una nota sobre el [Modelo de Objeto de Documento (DOM)](https://developer.mozilla.org/es/docs/Glossary/DOM): **A través del DOM, los programas escritos en JavaScript pueden acceder y modificar la interpretación del contenido, estructura y estilo de la página web**. Para no entrar en tecnisismos, quedemonos con que JavaScript no cambia lo escrito, lo que modifica es la comprensión de lectura del navegador. 
+
+Con el DOM podemos manipular una página así como cuando manipulamos una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto *photoshopénadolo*, en ningún caso modificas la escena capturada, pero todos podrán ver una imagen con 4 elementos. 
+
+Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo *photoshopeado*, y esto último coincide con la comprensión de lectura del navegador, que tenemos a la vista.
+
+- - - - - - - - - - - - -
 
 #### Exploración
 
-Para reconocer los tres primeros lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/index.html):
+Es muy necesario saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en Chrome o Firefox.
 
-Allí podemos ver la estructura típica de toda página HTML: 
+También es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre `ejemplo.html`:
 
 ```
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-    <head>…</head>
-    <body>…</body>
+    <head>
+        <title>Esto es un ejemplo</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script>
+            function setup() {
+                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1);
+            }
+            function draw() {
+                background(0);
+            }
+            function windowResized() { 
+                resizeCanvas(windowWidth - 40, windowHeight - 40);
+            } 
+        </script>
+    </head>
+    <body></body>
 </html>
 ```
 
-Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/style.css):
+Podemos abrir este `ejemplo.html` en Chrome o Firefox. En la ventana del navegador podemos ver una página web con un recuadro negro. Si vamos a inspeccionar los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente hay un `<body></body>` vacío. Esta diferencia se debe al DOM.
 
-```
-<link href="style.css" rel="stylesheet" />
-```
+Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para el que conviene:
 
-En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<script></script>`), podemos ver una variable de JavaScript; esta variable se llama `palabras` y contiene un arreglo (*array*) con 8 cadenas de caracteres entre comillas. 
+- revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 
-```
-var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
-```
+- revisar el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date);
 
-Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
+- revisar la [propiedad `Element.classList`](https://developer.mozilla.org/es/docs/Web/API/Element/classList); y
 
-Esta variable es utilizada para realizar una tarea simplificada con [p5.js](https://p5js.org/es/get-started/), una bibliteca de JS. Para comprender tal simplificación, conviene hacer un paréntesis para:
-
-- aprovechar [el **p5.js** Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n); y
-
-- revisar [la página de referencias de **p5.js**](https://p5js.org/es/reference/).
-
-Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/index.html) para resolver el ejercicio de la clase de hoy.
-
-- - - - - - - 
-
-#### Práctica
-
-https://profesorfaco.github.io/interaccion/sesion_01/
+- tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
 
 - - - - - - - 
 
