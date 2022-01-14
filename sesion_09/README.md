@@ -4,7 +4,7 @@
 
 - - - - - - - 
 
-Pendiente
+Pauta de evaluación pendiente hasta el 12 de mayo.
 
 - - - - - - - 
 
