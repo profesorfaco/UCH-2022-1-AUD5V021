@@ -123,4 +123,4 @@ Aquello que pueden tener a mano se aplica en lo que sigue:
 
 - - - - - - - - - - - - -
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_09)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_07) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_09)
