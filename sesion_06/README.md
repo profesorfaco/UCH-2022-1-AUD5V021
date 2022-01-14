@@ -128,10 +128,6 @@ En línea se pueden intercambiar datos sobre:
 - Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 - Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
 
-Y la bibliteca p5.js ofrece la función https://p5js.org/es/reference/#/p5/loadJSON, que es lo vamos a explorar tan pronto podamos leer y escribir JSON:
-
-Tomando algunos datos de tres personajes presentados en [SWAPI](https://swapi.dev/api/people/?format=json) vamos a escribir un JSON origintal. Revisaremos el resultado escrito con [JSONLint](https://jsonlint.com/). Publicaremos tal resultado con [MyJSON](https://myjson.dit.upm.es/) y luego vamos a hacer algunas pruebas con el [editor en línea de p5.js](https://editor.p5js.org/) y la función [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON).
-
 - - - - - - - 
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_05) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_07)
