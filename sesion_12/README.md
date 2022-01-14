@@ -16,4 +16,4 @@ Tales 4 preferencias justifican los [12 principios](https://agilemanifesto.org/i
 
 - - - - - - - 
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_11) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/front-end/tree/main/sesion_13)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_11) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_13)
