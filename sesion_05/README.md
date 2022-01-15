@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 14 de abril → sesion_05 → Bootstrap v5 y JavaScript 
+### Jueves 14 de abril → sesion_05 → Bootstrap v5.1 y JavaScript 
 
 - - - - - - - - 
 
