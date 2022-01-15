@@ -15,7 +15,7 @@ Además de ofrecer un estilo de CSS compilado (basado en [Sass](https://sass-lan
 - [Modal](https://getbootstrap.com/docs/5.1/components/modal/)
 - [Offcanvas](https://getbootstrap.com/docs/5.1/components/offcanvas/)
 - [Popovers](https://getbootstrap.com/docs/5.1/components/popovers/)
-- [Toltips](https://getbootstrap.com/docs/5.1/components/tooltips/)
+- [Tooltips](https://getbootstrap.com/docs/5.1/components/tooltips/)
 
 Si se opta por ir por los scripts de Bootstrap.js y Popper.js separados, Popper debe venir primero (si usted está usando tooltips o popovers), y luego vendría el de Boostrap:
 
