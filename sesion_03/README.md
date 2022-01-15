@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-Pendiente
+Adelanto: Utilizaremos editor de código fuente y algunos [Ejemplos 3D](https://p5js.org/es/examples/)
 
 - - - - - - - 
 
