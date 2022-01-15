@@ -122,14 +122,6 @@ Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una 
 
 Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor.
 
-En línea se pueden intercambiar datos sobre: 
-
-- Personajes de StarWars: https://swapi.dev/api/people/?format=json
-- Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
-- Tiempo atmosférico: https://openweathermap.org/current#current_JSON
-- Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
-- Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
-
 - - - - - - - 
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_05) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_07)
