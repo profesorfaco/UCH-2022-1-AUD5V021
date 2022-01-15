@@ -28,11 +28,11 @@ Basta un poco de código fuente para tener algo que se pueda medir en su eficaci
 
 Imagine que parte su día en Santiago: Usted comienza con la redacción de un código fuente, y justo antes de las 6PM le envía un correo a su amigo programador en Melbourne, pidiéndole que revise lo que avanzó y publicó en GitHub. Al iniciar una nueva jornada santiaguina podría retomar el código, ya revisado, para hacer los ajustes que sean necesario para una prueba que conducirá una amiga UX Senior en Tokio. Imagine lo rápido que sería darle una vuelta a este ciclo, sin trasnochar:
 
-![LeanStartup_Process](https://user-images.githubusercontent.com/7999767/149627992-5ead8248-e848-4236-9239-58d55a1d75a6.png)
+![loop](https://user-images.githubusercontent.com/7999767/149630010-3e54315e-99f9-46f3-8717-34270a3014ba.png)
 
 Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarrollo Ágil de Software y se basa en la entrega continua de "productos mínimos viables", esto son mínimos que mantienen andando el negocio:
 
-![1_1442J-c2dCoE9i4v2e9vBw](https://user-images.githubusercontent.com/7999767/149629173-005d2aae-24e0-49bd-ab2c-2ee2b28a3d4f.png)
+![innovation](https://user-images.githubusercontent.com/7999767/149630023-6f156cff-5ffd-4a89-afe8-452cb4dd2ffa.png)
 
 ¡Esto no quiere decir que todas las metodologías de diseño deban "agilizarse", o que tengamos que abandonar los prototipos para hacer sólo "productos mínimos viables"! Aún seguimos encargándonos de muchos trabajos de diseño que, para materializarse, requieren de agendar uso de maquinaria con asesoría experta, además de la compra de insumos materiales. 
 
