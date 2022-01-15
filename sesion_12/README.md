@@ -30,13 +30,13 @@ Imagine que parte su día en Santiago: Usted comienza con la redacción de un c�
 
 ![loop](https://user-images.githubusercontent.com/7999767/149630010-3e54315e-99f9-46f3-8717-34270a3014ba.png)
 
-Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarrollo Ágil de Software y se basa en la entrega continua de "productos mínimos viables", esto son mínimos que mantienen andando el negocio:
+Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarrollo Ágil de Software y se basa en la entrega continua de valor mediante "productos mínimos viables", esto son **mínimos que mantienen andando al negocio**, que no es la única dimensión de la innovación:
 
 ![innovation](https://user-images.githubusercontent.com/7999767/149630023-6f156cff-5ffd-4a89-afe8-452cb4dd2ffa.png)
 
-¡Esto no quiere decir que todas las metodologías de diseño deban "agilizarse", o que tengamos que abandonar los prototipos para hacer sólo "productos mínimos viables"! Aún seguimos encargándonos de muchos trabajos de diseño que, para materializarse, requieren de agendar uso de maquinaria con asesoría experta, además de la compra de insumos materiales. 
+¡No agilicemos todo a lo startup! No abandonemos los prototipos que validan lo deseable para hacer sólo "productos mínimos viables". Aún seguimos encargándonos de muchos trabajos de diseño que, para materializarse, requieren de agendar uso de maquinaria con asesoría experta, además de la compra de insumos materiales, y en todos estos trabajos el error-en-la-prueba resulta carísimo.
 
-Pero cuando se quiere producir un sitio o aplicación web, conviene aprovechar la posibilidad de codificar cada idea tan pronto se tenga claridad respecto de lo sería deseable, factible y viable.
+Pero cuando se quiere producir un sitio o aplicación web, conviene aprovechar la posibilidad de codificar cada idea tan pronto se tenga claridad respecto de lo sería deseable, factible y viable en función de lo específico: usuarios, objetivos y contextos.
 
 - - - - - - - 
 
