@@ -6,11 +6,11 @@
 
 #### Teoría
 
-El músico que no escucha más que un grupo, termina ofreciendo nada más que *covers* y armando una banda tributo que ofrece un remedo del original, con un precio y una agenda muchísimo más accesible.
+El músico que no escucha más que un grupo, termina ofreciendo nada más que *covers* y armando una banda tributo que ofrece un remedo del original, con agenda y precios muchísimo más accesibles.
 
 El músico que no escucha más que un estilo de música, termina haciendo lo mismo una y otra vez: Se ajusta a las posibilidades del único estilo conocido hasta que la gente se canse de escucharlo.
 
-El músico que tiene una amplia cultura musical puede reinventarse las veces que estime conveniente, ofreciendo, permanentemente, nuevos motivos para ser escuchado. 
+**El músico que tiene una amplia cultura musical puede reinventarse las veces que estime conveniente, ofreciendo, permanentemente, nuevos motivos para ser escuchado.** 
 
 **En el diseño pasa lo mismo**. 
 
