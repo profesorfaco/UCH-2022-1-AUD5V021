@@ -18,7 +18,7 @@ Recordemos que p5.js nos permite manipular el DOM más allá del Canvas, mediant
 - [`selectAll()`](https://p5js.org/es/reference/#/p5/selectAll)
 - [etc.](https://p5js.org/es/reference/)
 
-También nos permite cargar [XML](https://p5js.org/es/reference/#/p5/loadXML), [CSV](https://p5js.org/es/reference/#/p5/loadTable) y [JSON](https://p5js.org/es/reference/#/p5/loadJSON), con los que se intercambian datos tales como:
+También nos permite [pre-cargar](https://p5js.org/reference/#/p5/preload) [XML](https://p5js.org/es/reference/#/p5/loadXML), [CSV](https://p5js.org/es/reference/#/p5/loadTable) y [JSON](https://p5js.org/es/reference/#/p5/loadJSON), con los que se intercambian datos tales como:
 
 - Personajes de StarWars: https://swapi.dev/api/people/?format=json
 - Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
