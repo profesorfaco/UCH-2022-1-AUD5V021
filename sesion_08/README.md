@@ -60,22 +60,44 @@ Aquello que pueden tener a mano se aplica en lo que sigue:
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"
+            integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
         <title>Esto es un ejemplo</title>
     </head>
     <body>
-        <canvas id="misBarritas"></canvas>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto my-5">
+
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    
+                    <p>Consectetur adipiscing elit. Nunc consequat felis at orci scelerisque, at blandit ex tempor. Vivamus sodales commodo quam vel commodo. Sed placerat dictum mauris in ultrices. Fusce feugiat risus ac nibh pretium dignissim. Praesent vel nulla pellentesque, congue velit a, pulvinar quam. Phasellus consectetur nibh id lectus aliquam, at tincidunt turpis pellentesque. Nulla a urna vitae enim consequat pellentesque.</p>
+                    
+                    <canvas id="misBarritas" class="my-4"></canvas>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat felis at orci scelerisque, at blandit ex tempor. Vivamus sodales commodo quam vel commodo. Sed placerat dictum mauris in ultrices. Fusce feugiat risus ac nibh pretium dignissim. Praesent vel nulla pellentesque, congue velit a, pulvinar quam. Phasellus consectetur nibh id lectus aliquam, at tincidunt turpis pellentesque. Nulla a urna vitae enim consequat pellentesque.</p>
+                
+                </div>
+            </div>
+        </div>
         <script>
             var poblacion = [
                 { region: "Arica y Parinacota", hombres: 112581, mujeres: 113487 },
                 { region: "Tarapacá", hombres: 167793, mujeres: 113487 },
                 { region: "Antofagasta", hombres: 315014, mujeres: 292520 },
-                { region: "Atacama", hombres: 144420, mujeres: 141748 }
+                { region: "Atacama", hombres: 144420, mujeres: 141748 },
             ];
 
-            var lasRegiones = [], losHombres = [], lasMujeres = [];
+            var lasRegiones = [],
+                losHombres = [],
+                lasMujeres = [];
 
-            poblacion.forEach(d => {
+            poblacion.forEach((d) => {
                 lasRegiones.push(d.region);
                 losHombres.push(d.hombres);
                 lasMujeres.push(d.mujeres);
