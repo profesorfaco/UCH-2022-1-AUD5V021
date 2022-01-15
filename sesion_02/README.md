@@ -22,9 +22,9 @@ Y solo para evitar pensar en ellos como lenguajes, conviene mencionar tres *fram
 
 #### Exploración práctica
 
-Para reconocer los tres primeros lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/index.html):
+Para reconocer los tres primeros lenguajes mencionados más arriba, podemos comenzar creando un documento nuevo en un editor de código fuente, el que guardaremos con el nombre `index.html`, y así tal cual está escrito, sin mayúscula, tildes, acentos ni espacio.
 
-Allí podemos ver la estructura típica de toda página HTML: 
+Allí peguemos la estructura típica de toda página HTML: 
 
 ```
 <!DOCTYPE html>
@@ -33,28 +33,6 @@ Allí podemos ver la estructura típica de toda página HTML:
     <body>…</body>
 </html>
 ```
-
-Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/style.css):
-
-```
-<link href="style.css" rel="stylesheet" />
-```
-
-En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<script></script>`), podemos ver una variable de JavaScript; esta variable se llama `palabras` y contiene un arreglo (*array*) con 8 cadenas de caracteres entre comillas. 
-
-```
-var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
-```
-
-Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
-
-Esta variable es utilizada para realizar una tarea simplificada con [p5.js](https://p5js.org/es/get-started/), una bibliteca de JS. Para comprender tal simplificación, conviene hacer un paréntesis para:
-
-- aprovechar [el **p5.js** Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n); y
-
-- revisar [la página de referencias de **p5.js**](https://p5js.org/es/reference/).
-
-Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/index.html) para resolver el ejercicio de la clase de hoy.
 
 - - - - - - - 
 
