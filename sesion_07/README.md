@@ -18,11 +18,11 @@ Recordemos que p5.js nos permite manipular el DOM más allá del Canvas, mediant
 - [`selectAll()`](https://p5js.org/es/reference/#/p5/selectAll)
 - [etc.](https://p5js.org/es/reference/)
 
-También nos permite cargar [XML](https://p5js.org/es/reference/#/p5/loadXML), [CSV](https://p5js.org/es/reference/#/p5/loadTable) y [JSON](https://p5js.org/es/reference/#/p5/loadJSON), datos tales como:
+También nos permite cargar [XML](https://p5js.org/es/reference/#/p5/loadXML), [CSV](https://p5js.org/es/reference/#/p5/loadTable) y [JSON](https://p5js.org/es/reference/#/p5/loadJSON), con los que se intercambian datos tales como:
 
 - Personajes de StarWars: https://swapi.dev/api/people/?format=json
-- Tiempo atmosférico: https://openweathermap.org/current#current_JSON
 - Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+- Tiempo atmosférico: https://openweathermap.org/current#current_JSON
 - Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 - Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
 
