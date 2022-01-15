@@ -6,7 +6,7 @@
 
 #### Teoría
 
-**Existen marcos de trabajo de código abierto que nos permitirán a avanzar más rápido desde relaciones predefinidas de HTML y CSS**. Por su popularidad, corresponde mencionar a:
+**Existen marcos de trabajo de código abierto que nos permitirán avanzar más rápido desde relaciones predefinidas de HTML y CSS**. Por su popularidad, corresponde mencionar a:
 
 - [Bootstrap](https://getbootstrap.com/): *The world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.*
 
