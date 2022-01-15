@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 17 de marzo → sesion_01 → HTML5 y p5.js
+### Jueves 17 de marzo → sesion_01 → p5.js
 
 - - - - - - - - 
 
