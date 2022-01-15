@@ -32,6 +32,16 @@ Con JSON y p5.js, podríamos crear elementos basándonos en los datos intercambi
 
 #### Exploración práctica
 
+Corresponde tener a mano:
+
+- una descripción del [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
+
+- una descripción del [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push); 
+
+- una descripción del [método `toLocaleString()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString); y
+
+- las [referencias de p5.js](https://p5js.org/es/reference/).
+
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`: 
 
 ```
