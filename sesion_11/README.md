@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 2 de junio → sesion_11 → Trabajo final: Antecedentes para el benchmarking y referentes para el moodboard
+### Jueves 2 de junio → sesion_11 → Antecedentes para el benchmarking y referentes para el moodboard
 
 - - - - - -
 
