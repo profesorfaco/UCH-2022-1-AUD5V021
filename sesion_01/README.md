@@ -69,33 +69,7 @@ Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de
 
 Es muy necesario saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en Chrome o Firefox.
 
-También es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre `index.html`:
-
-```
-<!doctype html>
-<html lang="es">
-    <head>
-        <title>Esto es un ejemplo</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
-        <script>
-            function setup() {
-                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1);
-            }
-            function draw() {
-                background(0);
-            }
-            function windowResized() { 
-                resizeCanvas(windowWidth - 40, windowHeight - 40);
-            } 
-        </script>
-    </head>
-    <body></body>
-</html>
-```
-
-Podemos abrir este `index.html` en Chrome o Firefox. En la ventana del navegador podemos ver una página web con un recuadro negro. Si vamos a inspeccionar los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente hay un `<body></body>` vacío. Esta diferencia se debe al DOM.
-
-Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para el que conviene tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
+También es necesario contar con un editor de código fuente; porque vamos a descargar lo que trabajamos en el [editor web de p5.js](https://editor.p5js.org/) para poder diferenciar los archivos de extensión `HTML`, `CSS` y `JS`. 
 
 - - - - - - - 
 
