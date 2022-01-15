@@ -26,7 +26,7 @@ Para poder especificar, así poder diseñar para individuos con capacidades y ob
 
 - - - - - - - 
 
-# Exploración práctica
+#### Exploración práctica
 
 En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de aplicación web. El primer paso será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos.
 
