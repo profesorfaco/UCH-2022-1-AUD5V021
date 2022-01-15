@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 90%;
+  line-height: 1;
+}
+canvas {
+  display: block;
+}
+
+div{
+  padding:10px 25px 0 25px;
+}
+
+div:nth-of-type(1){
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div:nth-of-type(2){
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #595959;
+}
+
+a:hover{
+  text-decoration: undeline;
+  color: #333333;
+}
+
+strong{
+  color: #424242;
+}
