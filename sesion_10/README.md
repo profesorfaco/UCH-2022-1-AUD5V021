@@ -30,7 +30,9 @@ Para poder especificar, así poder diseñar para individuos con capacidades y ob
 
 En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de aplicación web. 
 
-El primer paso será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos: Una página con 3 proto-personas.
+El primer paso será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos: 
+
+Una página con 3 proto-personas.
 
 - - - - - - - 
 
