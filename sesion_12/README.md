@@ -24,7 +24,7 @@ Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Cri
 
 Es que equivocarse en el código fuente publicado no es como equivocarse en el miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir, aprender y corregir rápidamente. 
 
-Basta un poco de código fuente para tener algo que se pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales en sus contextos habituales, con sus correspondientes objetivos, aun cuando se encuentren a la distancia de otros husos horarios: 
+**Y basta un poco de código fuente para tener algo que se pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales en sus contextos habituales, con sus correspondientes objetivos, aun cuando se encuentren a la distancia de otros husos horarios:** 
 
 Imagine que parte su día en Santiago, a las 9AM: Usted comienza con la redacción de un código fuente. A las 6PM usted le envía un correo a su amigo programador en Melbourne, pidiéndole que revise lo que avanzó y publicó en GitHub. Al iniciar una segunda jornada santiaguina podrá retomar el código (ya revisado), porque necesita agregar algunos contenidos para una prueba que conducirá una amiga diseñadora UX en Tokio. Y en su tercera jornada usted podría partir con una revisión de los datos que llegan de Tokio, para aprender que conviene hacer algunos ajustes en su idea inicial. Con esto, acaba de darle una vuelta a un ciclo, sin trasnoches:
 
