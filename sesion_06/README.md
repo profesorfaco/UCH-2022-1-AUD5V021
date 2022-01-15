@@ -120,13 +120,13 @@ En segundo lugar, vamos a explorar la posibilidad de cargar los datos que pueden
 
 Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
 
-Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor. Por eso `mon`, `dad` y `children` en la variable `h` tiene algo distinto en el [JSON ya referido](http://myjson.dit.upm.es/api/bins/1wo6)
+Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor.
 
 En línea se pueden intercambiar datos sobre: 
 
 - Personajes de StarWars: https://swapi.dev/api/people/?format=json
-- Tiempo atmosférico: https://openweathermap.org/current#current_JSON
 - Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+- Tiempo atmosférico: https://openweathermap.org/current#current_JSON
 - Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 - Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
 
