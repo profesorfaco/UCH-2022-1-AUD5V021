@@ -6,7 +6,7 @@
 
 #### Teoría
 
-**I. Dos pruebas rápidas y extremas para revisar la accesibilidad en cualquier página web:**
+**Dos pruebas rápidas y extremas para revisar la accesibilidad en cualquier página web:**
 
 1. Si se está visitando la página con Chrome, se puede buscar en el menú la opción Editar > Voz > Empezar a hablar.
 
@@ -20,11 +20,11 @@ Lo destacado en el párrafo anterior es una definición de usabilidad:
 
 Accesibilidad implica acceso al uso. Usabilidad implica eficacia, eficiencia y satisfacción en el uso.
 
-**II. Si se cuenta con más tiempo, podemos complementar las pruebas rápidas y extremas recién mencionadas. Podríamos usar [WAVE: Web Accessibility Evaluation Tool](https://wave.webaim.org/)**.
+**Si se cuenta con más tiempo, podemos complementar las pruebas rápidas y extremas recién mencionadas. Podríamos usar [WAVE: Web Accessibility Evaluation Tool](https://wave.webaim.org/)**.
 
 Un problema común en la evaluación es la falta de contraste figura/fondo. Este se puede resolver revisando y ajustando los código de colores figura/fondo en https://webaim.org/resources/contrastchecker/
 
-**III. Para hacer una auditoría desde la perspectiva de la máquina**, que considere rendimiento, accesibilidad, buenas práctica de programación, SEO (Search Engine Optimization; posicionamiento en buscadores) y PWA (Progressive Web App), **podemos usar [LightHouse](https://developers.google.com/web/tools/lighthouse?hl=es)**.
+**Para hacer una auditoría desde la perspectiva de la máquina**, que considere rendimiento, accesibilidad, buenas práctica de programación, SEO (Search Engine Optimization; posicionamiento en buscadores) y PWA (Progressive Web App), **podemos usar [LightHouse](https://developers.google.com/web/tools/lighthouse?hl=es)**.
 
 Lighthouse genera reportes en dos versiones: [resumida](https://github.com/profesorfaco/infografia/tree/main/clase-5/reportes) o extendida, en distintos formatos (hasta en [JSON](https://www.json.org/json-es.html)).
 
