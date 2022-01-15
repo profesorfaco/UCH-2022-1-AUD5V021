@@ -4,7 +4,7 @@
 
 - - - - - - - -
 
-Pauta de evaluación pendiente hasta el 16 de junio.
+Pauta de evaluación estará pendiente hasta la clase del jueves 16 de junio.
 
 - - - - - - - 
 
