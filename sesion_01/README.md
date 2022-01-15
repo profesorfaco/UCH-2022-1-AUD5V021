@@ -59,17 +59,23 @@ Ya utilizamos `createCanvas()`, `frameRate()`, `background()`, `random()`. Tal c
 
 Para enteder cómo es que puede tomar toda la página del navegador, conviene agregar una nota sobre el [Modelo de Objeto de Documento (DOM)](https://developer.mozilla.org/es/docs/Glossary/DOM): **A través del DOM, los programas escritos en JavaScript pueden acceder y modificar la interpretación del contenido, estructura y estilo de la página web**. Para no entrar en tecnisismos, quedemonos con que JavaScript no cambia lo escrito, lo que modifica es la comprensión de lectura del navegador. 
 
-Con el DOM podemos manipular una página así como cuando manipulamos una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto *photoshopénadolo*, en ningún caso modificas la escena capturada, pero todos podrán ver una imagen con 4 elementos. 
+Con el DOM podemos manipular una página así como cuando manipulamos una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto "photoshopénadolo", en ningún caso modificas la escena capturada, pero todos podrán ver una imagen con 4 elementos. 
 
-Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo *photoshopeado*, y esto último coincide con la comprensión de lectura del navegador, que tenemos a la vista.
+Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo "photoshopeado", y esto último coincide con la comprensión de lectura del navegador, que tenemos a la vista.
+
+Ahora volvamos al *Preview* del [editor web de p5.js](https://editor.p5js.org/): Lo que allí tenemos es lo "photoshopeado".
+
+En este mismo editor podrán notar que a la izquierda, justo debajo de *play* se encuentran con este símbolo: `>`. Al presionarlo, se muestra una ventana con tres archivos: `index.html`, `sketch.js` y `style.css`. Estos son los necesarios para poder hacer cualquier sitio o aplicación web que atienda a [los estándares web](https://www.w3.org/standards/webdesign/). El `index.html` describe la captura original a mostrar, el `style.css` describe cómo mostrar, y en el `sketch.js` se programa el "photoshopeo" (eso que se muestre, bajo ciertas condiciones, que puede ser distinto de lo que se describe originalmente en el ìndex.html`).
 
 - - - - - - - - - - - - -
 
 #### Exploración práctica
 
-Es muy necesario saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en Chrome o Firefox.
+Continuaremos la exploración del *conjunto completo de funcionalidades para dibujar* en el [editor web de p5.js](https://editor.p5js.org/). 
 
-También es necesario contar con un editor de código fuente; porque vamos a descargar lo que trabajamos en el [editor web de p5.js](https://editor.p5js.org/) para poder diferenciar los archivos de extensión `HTML`, `CSS` y `JS`. 
+Luego pasaremos a editor de código fuente; porque vamos a copiar y pegar los tres archivos que genera el [editor web de p5.js](https://editor.p5js.org/), para trabajarlo de manera local.
+
+Además del editor de código fuente, es muy necesario disponer de un navegador Firefox o Chrome; y saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en el que dispongan.
 
 - - - - - - - 
 
