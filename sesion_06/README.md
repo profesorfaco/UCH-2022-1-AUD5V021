@@ -116,7 +116,7 @@ Con ellos podemos explorar, primero:
 
 Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/).
 
-En segundo lugar, vamos a explorar la posibilidad de cargar los datos que pueden ser compartidos en línea, así como https://myjson.dit.upm.es/api/bins/1wo6
+En segundo lugar, vamos a explorar la posibilidad de cargar los datos que pueden ser compartidos en línea, así como les comparto https://myjson.dit.upm.es/api/bins/1wo6
 
 Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
 
