@@ -74,9 +74,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                 console.log(chileno);
                 var donde = select(".row");
                 chileno.forEach((c) => {
-                    createElement("div", c.properties.mag + "M<sub>W</sub> @ " + c.properties.place)
-                        .addClass("col-4 my-2 shadow-sm")
-                        .parent(donde);
+                    createElement("div", c.properties.mag + "M<sub>W</sub> @ " + c.properties.place).addClass("col-4 my-2 shadow-sm").parent(donde);
                 });
             }
         </script>
