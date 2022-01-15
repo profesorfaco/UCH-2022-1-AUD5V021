@@ -22,7 +22,7 @@ Y solo para evitar pensar en ellos como lenguajes, conviene mencionar tres *fram
 
 #### Exploración práctica
 
-Para reconocer los tres primeros lenguajes mencionados más arriba, podemos comenzar creando un documento nuevo en un editor de código fuente, el que guardaremos con el nombre `index.html`, y así tal cual está escrito, sin mayúscula, tildes, acentos ni espacio.
+Para reconocer los tres lenguajes mencionados más arriba, podemos comenzar creando un documento nuevo en un editor de código fuente, el que guardaremos con el nombre `index.html`, y así tal cual está escrito, sin mayúscula, tildes, acentos ni espacio.
 
 Allí peguemos la estructura típica de toda página HTML: 
 
@@ -33,6 +33,26 @@ Allí peguemos la estructura típica de toda página HTML:
     <body>…</body>
 </html>
 ```
+
+Dentro de `<head>…</head>`, agreguemos CSS
+
+```
+<style>
+	body{background:black}
+</style>
+```
+
+Dentro de `<body>…</body>` vinculemos a la biblioteca de JavaScript que estamos usando:
+
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```
+
+Dentro de `<body>…</body>`, una línea bajo lo que acabamos de vincular, podremos crear nuestro script entre etiquetas `<script>…</script>`, aprovechando:
+
+> un conjunto completo de funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
+
+Funcionalidades que podemos consultar en https://p5js.org/es/reference/
 
 - - - - - - - 
 
