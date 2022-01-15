@@ -53,8 +53,8 @@ En esta clase continuaremos con el desarrollo de su sitio web o prototipo avanza
 El segundo paso será publicar, en una misma página web: 
 
 - proto-personas (reciclando lo de la clase recién pasada);
-- moodboard; y
-- benchmarking.
+- *moodboard*; y
+- *benchmarking*.
 
 - - - - - - - 
 
