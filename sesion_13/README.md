@@ -44,7 +44,9 @@ Al cuidar los [metadatos, cuidamos el posicionamiento en buscadores (SEO)](https
 
 #### Exploración práctica
 
-Ponga a prueba lo avanzado con las técnicas recién compartidas.
+En esta clase continuaremos con el desarrollo de su sitio web o prototipo avanzado de aplicación web.
+
+El cuarto paso consiste en poner a prueba lo avanzado, con las técnicas recién compartidas.
 
 - - - - - - - 
 
