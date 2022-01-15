@@ -32,7 +32,7 @@ Con JSON y p5.js, podríamos crear elementos basándonos en los datos intercambi
 
 #### Exploración práctica
 
-Para esta exploración partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`: 
+Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`: 
 
 ```
 <!DOCTYPE html>
