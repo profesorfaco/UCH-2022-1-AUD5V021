@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 9 de junio → sesion_12 → Trabajo final: Software funcionando sobre documentación extensiva
+### Jueves 9 de junio → sesion_12 → Software funcionando sobre documentación extensiva
 
 - - - - - - -
 
