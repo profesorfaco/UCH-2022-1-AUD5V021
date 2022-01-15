@@ -62,15 +62,17 @@ Los tamaños de cada pantalla los pueden consultar en los [Breakpoints de Bootst
 
 #### Exploración práctica
 
-En el sitio web oficial de Bootstrap encontrarán [documentación detallada](https://getbootstrap.com/docs/5.1/getting-started/introduction/) sobre cada clase, utilidad y componente que ofrece este marco de trabajo de código abierto. Además, pueden encontrar [ejemplos](https://getbootstrap.com/docs/5.1/examples/) donde conviene explorar: 
+En el sitio web oficial de Bootstrap encontrarán [documentación detallada](https://getbootstrap.com/docs/5.1/getting-started/introduction/) sobre cada clase, utilidad y componente que ofrece este marco de trabajo de código abierto. Allí también encontrarán [ejemplos](https://getbootstrap.com/docs/5.1/examples/). 
 
-- Grid → https://getbootstrap.com/docs/5.1/examples/grid/
+Ahora nos aprovecharemos el ejemplo Grid: https://getbootstrap.com/docs/5.1/examples/grid/
 
-Metámonos al código fuente de tal ejemplo, para compiarlo completo y luego pegarlo en un documento creado en un editor de código fuente. Documento que tenemos que guardar como `index.html`. Podría no funcionar a la primera, porque tenemos que arreglar algunos vínculos, pero lo resolveremos paso a paso. 
+Metámonos al código fuente de tal ejemplo, para compiarlo completo y luego pegarlo en un documento creado en un editor de código fuente. Documento que tenemos que guardar como `index.html`. ¡Pero ojo! No funcionará de inmediato, porque tenemos que arreglar algunos vínculos. 
 
-Una vez tengamos la página funcionando, viendose idéntica al ejemplo en línea, podríamos hacer algo respecto del código que no estamos usando: **Boostrap nos sfrece un estilo CSS muy grande, de 11.222 líneas**, que el navegador revisa antes de mostrar la página. Pero rara vez usaremos más de 1.222 líneas entre las ofrecidas (le pedimos al navegador leer 10.000 líneas de más en cada carga de página creada con Boostrap). Por ello, si queremos limitar la lectura a lo estrictamente necesario, y con ello mejorar el rendimiento de lo preparado con Bootstrap, conviene aplicar algunos trucos: https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/ 
+Una vez tengamos la página funcionando, viendose idéntica al ejemplo en línea, podríamos hacer algo respecto del código que no estamos usando: 
 
-Entre los trucos del artículo se menciona https://purifycss.online/ en donde podemos poner a prueba el archivo preparado para la práctica, para ver cuánto CSS del que se vincula está siendo realmente utilizado.
+**Boostrap nos ofrece un estilo CSS muy grande, de 11.222 líneas**, que el navegador revisa antes de mostrar la página. Pero rara vez usamos tanto (le pedimos al navegador leer más de 10.000 líneas en cada carga de página creada con Boostrap, cuando usamos apenas una centena). Si queremos limitar la lectura a lo estrictamente necesario, y con ello mejorar el rendimiento de lo preparado con Bootstrap, conviene aplicar algunos trucos: https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/ 
+
+Entre los trucos del artículo recién referido, se menciona https://purifycss.online/ en donde podemos poner a prueba el archivo preparado para la práctica, para ver cuánto CSS del que se vincula está siendo realmente utilizado.
 
 - - - - - - - 
 
