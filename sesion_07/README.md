@@ -32,6 +32,48 @@ Con JSON y p5.js, podríamos crear elementos basándonos en los datos intercambi
 
 #### Exploración práctica
 
+Para esta exploración partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`: 
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>¿Tembló?</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row"></div>
+        </div>
+
+        <script>
+            var data;
+            var chileno = [];
+            function preload() {
+                data = loadJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson");
+            }
+            function setup() {
+                noCanvas;
+                data.features.forEach((t) => {
+                    if (t.properties.place.includes("Chile")) {
+                        chileno.push(t);
+                    }
+                });
+                console.log(chileno);
+                var donde = select(".row");
+                chileno.forEach((c) => {
+                    createElement("div", c.properties.mag + "M<sub>W</sub> @ " + c.properties.place)
+                        .addClass("col-4 my-2 shadow-sm")
+                        .parent(donde);
+                });
+            }
+        </script>
+    </body>
+</html>
+```
 
 - - - - - - - 
 
