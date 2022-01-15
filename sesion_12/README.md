@@ -6,7 +6,7 @@
 
 #### Teoría
 
-En la redacción del Manifiesto para el Software Ágil, del año 2001, participaron representantes de Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, Pragmatic Programming y otros simpatizantes de maneras de trabajar donde se había aprendido a valorar:
+En la redacción del Manifiesto por el Desarrollo Ágil de Software, del año 2001, participaron representantes de Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, Pragmatic Programming y otros simpatizantes de maneras de trabajar donde se había aprendido a valorar:
 
 - **Individuos e interacciones** sobre procesos y herramientas
 
@@ -20,11 +20,28 @@ Tales 4 preferencias resumen los [12 principios](https://agilemanifesto.org/iso/
 
 Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Crisis_del_software), no es fácil encontrar organizaciones sostenibles que enfrenten el desafío del concebir, producir y lanzar un sitio o aplicación web tal como lo haría alguien entrenado en procesos de diseño con plazos fijos (*deadlines*) para investigar, analizar, idear e implementar, separados por la aprobación del cliente (no confundir con usuarios).
 
-**Si podemos construir una proto persona, armar un moodboard y un benchmark: ¡Ya tenemos material para comenzar a escribir código fuente!** 
+**Si podemos proponer tres proto-personas, un moodboard y un benchmark: ¡Ya tenemos material para comenzar a escribir código fuente!** 
 
-Es que equivocarse en el código fuente publicado no es como equivocarse en el miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir y aprender rápidamente. Basta un poco de código fuente para tener algo que sea pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales, según puedan alcanzar objetivos específicos y realistas en sus contextos habituales, aun cuando se encuentren a la distancia de otros husos horarios. 
+Es que equivocarse en el código fuente publicado no es como equivocarse en el miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir y aprender rápidamente. 
 
-Por ejemplo: Imagine trabajar, desde Santiago, con colegas en Tokio. Imagine que allá se llegó a un acuerdo con el que se cierra un brain storming que tomó todo una jornada laboral, acuerdo que usted tiene que devolver implementado a la mañana siguiente… ¡Para hacerlo no tendrá que trasnochar!
+Basta un poco de código fuente para tener algo que se pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales en sus contextos habituales, con sus correspondientes objetivos, aun cuando se encuentren a la distancia de otros husos horarios: 
+
+Parte su día en Santiago: Usted comienza con la redacción de un código fuente, y justo antes de las 6PM le envía un correo a su amigo programador en Melbourne, pidiéndole que revise lo que ya tiene en GitHub. Al iniciar una nueva jornada santiaguina podría retomar el código, ya revisado, para continuar con los ajustes que sean necesario para una prueba que conducirá una amiga UX Senior en Tokio. Imagine lo rápido que sería darle una vuelta a este ciclo, sin trasnochar:
+
+![LeanStartup_Process](https://user-images.githubusercontent.com/7999767/149627992-5ead8248-e848-4236-9239-58d55a1d75a6.png)
+
+Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarrollo Ágil de Software.
+
+Esto no quiere decir que todas metodologías de diseño deban "agilizarse", porque seguimos trabajando para situaciones que requieren de agendar uso de maquinaria con asesoría experta, además de la compra de insumos materiales. Pero cuando se quiere producir un sitio o aplicación web, conviene aprovechar la posibilidad de codificar cada idea tan pronto sea posible.
+
+
+- - - - - - - 
+
+#### Exploración práctica
+
+En esta clase continuaremos con el desarrollo de su sitio web o prototipo avanzado de aplicación web. 
+
+El tercer paso será desarrollar y publicar un primer prototipo operativo, que puede aprovecharse de [Placeholders de Bootstrap](https://getbootstrap.com/docs/5.1/components/placeholders/) e imágenes de [Loren Picsum](https://picsum.photos/).
 
 
 - - - - - - - 
