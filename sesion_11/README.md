@@ -30,4 +30,16 @@ A un nivel visceral, cualquiera puede reaccionar con arcadas frente a algo que h
 
 - - - - - - - 
 
+#### Exploración práctica
+
+En esta clase continuaremos con el desarrollo de su sitio web o prototipo avanzado de aplicación web. 
+
+El segundo paso será desarrollar y publicar, en una misma página web: 
+
+- proto-personas (reciclando lo de la clase recién pasada);
+- moodboard; y
+- benchmarking.
+
+- - - - - - - 
+
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_10) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_12)
