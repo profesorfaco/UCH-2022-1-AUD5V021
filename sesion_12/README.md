@@ -41,7 +41,7 @@ Esto no quiere decir que todas metodologías de diseño deban "agilizarse", porq
 
 En esta clase continuaremos con el desarrollo de su sitio web o prototipo avanzado de aplicación web. 
 
-El tercer paso será desarrollar y publicar un primer prototipo operativo, que puede aprovecharse de [Placeholders de Bootstrap](https://getbootstrap.com/docs/5.1/components/placeholders/) e imágenes de [Loren Picsum](https://picsum.photos/).
+El tercer paso será desarrollar y publicar un primer prototipo operativo, que puede aprovecharse de los [Examples](https://getbootstrap.com/docs/5.1/examples/) y [Placeholders](https://getbootstrap.com/docs/5.1/components/placeholders/) de Boostrap, además de las imágenes de [Loren Picsum](https://picsum.photos/).
 
 
 - - - - - - - 
