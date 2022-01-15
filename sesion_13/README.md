@@ -40,6 +40,11 @@ También es probable que el reporte de LightHouse dé indicaciones respecto del 
 
 Al cuidar los [metadatos, cuidamos el posicionamiento en buscadores (SEO)](https://developers.google.com/search/docs/advanced/crawling/special-tags?hl=es)
 
+- - - - - - -
+
+#### Exploración práctica
+
+Ponga a prueba lo avanzado con las técnicas recién compartidas.
 
 - - - - - - - 
 
