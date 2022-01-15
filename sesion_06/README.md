@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 21 de abril → sesion_06 →  Bootstrap v5 y Datos en JavaScript
+### Jueves 21 de abril → sesion_06 →  Bootstrap v5 y datos en JavaScript
 
 - - - - - - - - 
 
