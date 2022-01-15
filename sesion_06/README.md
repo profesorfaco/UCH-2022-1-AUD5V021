@@ -6,7 +6,7 @@
 
 #### Teoría
 
-Esta clase abrirá un paréntesis, para revisar aspectos clave en el uso de JavaScript "a secas" y el trabajo con datos que podrían desplegarse en sitios y aplicaciones web.
+Esta clase abrirá un paréntesis, para revisar un aspecto pendiente en JavaScript, que será clave tener claro en la siguiente clase.
 
 Para comenzar, partamos con el número 18261884. 
 
