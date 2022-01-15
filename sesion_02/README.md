@@ -34,7 +34,7 @@ Allí peguemos la estructura típica de toda página HTML:
 </html>
 ```
 
-Dentro de `<head>…</head>`, agreguemos CSS
+Dentro de `<head>…</head>`, agreguemos algo de CSS
 
 ```
 <style>
@@ -42,17 +42,31 @@ Dentro de `<head>…</head>`, agreguemos CSS
 </style>
 ```
 
-Dentro de `<body>…</body>` vinculemos a la biblioteca de JavaScript que estamos usando:
+Seguido del CSS, y aún dentro del `<head>…</head>`, vinculemos a la biblioteca de JavaScript que estamos usando:
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
-Dentro de `<body>…</body>`, una línea bajo lo que acabamos de vincular, podremos crear nuestro script entre etiquetas `<script>…</script>`, aprovechando:
+Ahora dentro de `<body>…</body>` podremos crear nuestro script entre etiquetas `<script>…</script>`, aprovechando:
 
 > un conjunto completo de funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
 Funcionalidades que podemos consultar en https://p5js.org/es/reference/
+
+Partamos poniendo dentro de `<script>…</script>` el siguiente código: 
+
+```
+function setup() {
+	createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1);
+}
+function draw() {
+	background(100);
+}
+function windowResized() { 
+	resizeCanvas(windowWidth - 40, windowHeight - 40);
+} 
+```
 
 - - - - - - - 
 
