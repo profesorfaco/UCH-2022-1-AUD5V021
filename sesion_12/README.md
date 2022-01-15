@@ -32,7 +32,7 @@ Parte su día en Santiago: Usted comienza con la redacción de un código fuente
 
 Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarrollo Ágil de Software y se basa en los "productos mínimos viables", esto son mínimos que mantienen andando el negocio:
 
-![1_1442J-c2dCoE9i4v2e9vBw](https://user-images.githubusercontent.com/7999767/149629173-005d2aae-24e0-49bd-ab2c-2ee2b28a3d4f.png)
+![1_1442J-c2dCoE9i4v2e9vBw =250x](https://user-images.githubusercontent.com/7999767/149629173-005d2aae-24e0-49bd-ab2c-2ee2b28a3d4f.png)
 
 ¡Esto no quiere decir que todas las metodologías de diseño deban "agilizarse", o que tengamos que abandonar los prototipos para hacer sólo "productos mínimos viables"! Aún seguimos encargándonos de muchos trabajos de diseño que, para materializarse, requieren de agendar uso de maquinaria con asesoría experta, además de la compra de insumos materiales. 
 
