@@ -2,6 +2,10 @@
 
 ### Jueves 26 de mayo → sesion_10 → Usuarios, objetivos y contextos de uso específicos
 
+- - - - - -
+
+#### Teoría
+
 Podemos partir con una definición estándar de usabilidad: 
 
 > Usabilidad es el grado en que un sistema, producto o servicio puede ser utilizado por usuarios específicos para alcanzar objetivos específicos con eficacia, eficiencia y satisfacción en un contexto de uso específico ([ISO 9241-11:2018](https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en))
@@ -21,5 +25,12 @@ Para poder especificar, así poder diseñar para individuos con capacidades y ob
 - The Persona Spectrum en "Inclusive 101": https://www.microsoft.com/design/inclusive/
 
 - - - - - - - 
+
+# Exploración práctica
+
+En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de aplicación web. El primer paso será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos.
+
+- - - - - - - 
+
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_09) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_11)
