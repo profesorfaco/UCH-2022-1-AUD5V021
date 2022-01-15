@@ -16,7 +16,7 @@
 
 Nos quedaremos con el primero de los mencionados, en su versión más reciente, la 5.1. 
 
-[Bootstrap](https://getbootstrap.com/) nos permite implementar tanto prototipos rápidos como productos acabados, esto mediante el uso de Elementos de HTML5 relacionados con [reglas de CSS3 predefinidas](https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.css), además de Javascript simplificado por una biblioteca (que debe complementarse con [jQuery](https://jquery.com/) en versiones de Bootstrap anteriores a la 5).
+[Bootstrap](https://getbootstrap.com/) nos permite implementar tanto prototipos rápidos como productos acabados, esto mediante el uso de Elementos de HTML5 relacionados con [reglas de CSS predefinidas](https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.css).
 
 Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template), con un documento HTML que debe verse así: 
 
@@ -31,12 +31,11 @@ Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a part
   </head>
   <body>
     <h1>¡Usemos Bootstrap!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
 </html>
 ```
 
-En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar las clases con las que Bootstrap define el *layout*, siguiendo un principio general de: Tomar de 1 a 12 columnas (`class="col"`) en cada fila (`class="row"`) que esté dentro de un contenedor (`class="container"`). Así, por ejemplo, podemos reemplazar el `<h1>¡Usemos Bootstrap!</h1>` en el código de arriba por lo siguiente:
+En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar las clases con las que Bootstrap define el *layout*, siguiendo un principio general de: Tomar de 1 a 12 columnas (`class="col"`) dentro de cada fila (`class="row"`) que, a su vez, está dentro de un contenedor (`class="container"`). Así, por ejemplo, podemos reemplazar el `<h1>¡Usemos Bootstrap!</h1>` en el código de arriba por lo siguiente:
 
 ```
 <div class="container">
@@ -47,7 +46,7 @@ En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar
 </div>
 ```
 
-A todo evento, tendríamos el `¡Usemos Boostrap!` junto al `Bueno, ya`. Esto es así porque tomamos 6 de 12 columnas (`class="col-6"`) en cada caso. Esto es tomar la mitad de espacio disponible en tal fila (`class="row"`) dentro del contenedor (`class="container"`).
+A todo evento, tendríamos el `¡Usemos Boostrap!` junto al `Bueno, ya`. Esto es así porque tomamos 6 de 12 columnas (`class="col-6"`). Esto es tomar la mitad de espacio disponible en tal fila (`class="row"`) dentro del contenedor (`class="container"`).
 
 Pero podemos indicar excepciones que respondan al tamaño de pantalla en que se despliegue la página, sea esta pantalla muy pequeña, pequeña (`-sm-`), mediana (`-md-`), grande (`-lg-`), extra grande (`-xl-`) o extra-extra grande (`-xxl-`). Por ejemplo, así puedo tomar 6 y 6 columnas desde la pantalla mediana:
 
@@ -66,7 +65,7 @@ En el sitio web oficial de Bootstrap encontrarán [documentación detallada](htt
 
 Ahora nos aprovecharemos el ejemplo Grid: https://getbootstrap.com/docs/5.1/examples/grid/
 
-Metámonos al código fuente de tal ejemplo, para compiarlo completo y luego pegarlo en un documento creado en un editor de código fuente. Documento que tenemos que guardar como `index.html`. ¡Pero ojo! No funcionará de inmediato, porque tenemos que arreglar algunos vínculos. 
+Metámonos al código fuente de tal ejemplo, para compiarlo completo y luego pegarlo en un documento creado en un editor de código fuente. Documento que tenemos que guardar como `index.html` ¡Pero ojo! No funcionará de inmediato, porque tenemos que arreglar algunos vínculos. 
 
 Una vez tengamos la página funcionando, viendose idéntica al ejemplo en línea, podríamos hacer algo respecto del código que no estamos usando: 
 
