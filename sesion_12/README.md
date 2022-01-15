@@ -18,15 +18,15 @@ En la redacción del Manifiesto por el Desarrollo Ágil de Software, del año 20
 
 Tales 4 preferencias resumen los [12 principios](https://agilemanifesto.org/iso/es/principles.html) que han dominado por dos décadas la industria dedicada al desarrollo de productos, servicios y sistemas digitales.
 
-Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Crisis_del_software), no es fácil encontrar organizaciones sostenibles que enfrenten el desafío del concebir, producir y lanzar un sitio o aplicación web tal como lo haría alguien entrenado en procesos de diseño con plazos fijos (*deadlines*) para investigar, analizar, idear e implementar, separados por la aprobación del cliente (no confundir con usuarios).
+Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Crisis_del_software), es difícil encontrar organizaciones sostenibles que enfrenten el desafío del concebir, producir y lanzar un sitio o aplicación web tal como lo haría alguien entrenado en procesos de diseño con plazos fijos (*deadlines*) para investigar, analizar, idear e implementar, separados por la aprobación del cliente (no confundir con usuarios).
 
-**Si podemos proponer tres proto-personas, un moodboard y un benchmark: ¡Ya tenemos material para comenzar a escribir código fuente!** 
+**Si ya pudimos proponer tres proto-personas, un moodboard y un benchmark: ¡Tenemos material para hacer funcionar un sitio o aplicación web!** 
 
-Es que equivocarse en el código fuente publicado no es como equivocarse en el miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir y aprender rápidamente. 
+Es que equivocarse en el código fuente publicado no es como equivocarse en el miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir, aprender y corregir rápidamente. 
 
 Basta un poco de código fuente para tener algo que se pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales en sus contextos habituales, con sus correspondientes objetivos, aun cuando se encuentren a la distancia de otros husos horarios: 
 
-Parte su día en Santiago: Usted comienza con la redacción de un código fuente, y justo antes de las 6PM le envía un correo a su amigo programador en Melbourne, pidiéndole que revise lo que ya tiene en GitHub. Al iniciar una nueva jornada santiaguina podría retomar el código, ya revisado, para continuar con los ajustes que sean necesario para una prueba que conducirá una amiga UX Senior en Tokio. Imagine lo rápido que sería darle una vuelta a este ciclo, sin trasnochar:
+Imagine que parte su día en Santiago: Usted comienza con la redacción de un código fuente, y justo antes de las 6PM le envía un correo a su amigo programador en Melbourne, pidiéndole que revise lo que avanzó y publicó en GitHub. Al iniciar una nueva jornada santiaguina podría retomar el código, ya revisado, para hacer los ajustes que sean necesario para una prueba que conducirá una amiga UX Senior en Tokio. Imagine lo rápido que sería darle una vuelta a este ciclo, sin trasnochar:
 
 ![LeanStartup_Process](https://user-images.githubusercontent.com/7999767/149627992-5ead8248-e848-4236-9239-58d55a1d75a6.png)
 
