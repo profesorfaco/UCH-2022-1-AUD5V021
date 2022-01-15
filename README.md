@@ -2,9 +2,9 @@
 
 ### Electivo de Diseño en Visualidad y Medios | Universidad de Chile
 
-Este es el repositorio de un Electivo para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/).
+Este es el repositorio de un curso electivo a cargo del profesor [FACO](https://faco.cl/).
 
-En este electivo se ofrece una introducción a HTML, CSS y JavaScript (a veces abreviado JS, nunca Java).
+Aquí se ofrece material para una introducción a HTML, CSS y JavaScript (a veces abreviado JS, nunca Java).
 
 Con esta introducción, cada estudiante podría contar con las bases para desempeñarse como “Front”, o para avanzar a la coordinación de los aportes de UX, UI y Front en el desarrollo de sitios y aplicaciones web.
 
@@ -12,11 +12,11 @@ Con esta introducción, cada estudiante podría contar con las bases para desemp
 
 #### Materiales de trabajo
 
-Cada estudiante en este Electivo debería contar con:
+Cada estudiante en debería contar con:
 
 - cuenta personal en [GitHub](https://github.com/join);
 
-- computador disponible en el horario de clases, donde pueda usar:
+- computador en el horario de clases, donde pueda usar:
 
   - Editor de código fuente: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
 
@@ -32,21 +32,21 @@ Cada estudiante en este Electivo debería contar con:
 
 - **Jueves 31 de marzo → [sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03) → Evaluación Diagnóstica**
 
-- Jueves 7 de abril → [sesion_04](https://github.com/profesorfaco/front-end/tree/main/sesion_04) → Bootstrap v5
+- Jueves 7 de abril → [sesion_04](https://github.com/profesorfaco/front-end/tree/main/sesion_04) → Bootstrap v5.1
 
-- Jueves 14 de abril → [sesion_05](https://github.com/profesorfaco/front-end/tree/main/sesion_05) → Bootstrap v5 y JavaScript 
+- Jueves 14 de abril → [sesion_05](https://github.com/profesorfaco/front-end/tree/main/sesion_05) → Bootstrap v5.1 y JavaScript 
 
-- Jueves 21 de abril → [sesion_06](https://github.com/profesorfaco/front-end/tree/main/sesion_06) →  Bootstrap v5 y Datos en JavaScript
+- Jueves 21 de abril → [sesion_06](https://github.com/profesorfaco/front-end/tree/main/sesion_06) →  Bootstrap v5.1 y datos en JavaScript
 
-- Jueves 28 de abril → [sesion_07](https://github.com/profesorfaco/front-end/tree/main/sesion_07) → Bootstrap v5 y p5.js
+- Jueves 28 de abril → [sesion_07](https://github.com/profesorfaco/front-end/tree/main/sesion_07) → Bootstrap v5.1 y p5.js
 
-- Jueves 5 de mayo → [sesion_08](https://github.com/profesorfaco/front-end/tree/main/sesion_08) → Bootstrap v5 y Charts.js
+- Jueves 5 de mayo → [sesion_08](https://github.com/profesorfaco/front-end/tree/main/sesion_08) → Bootstrap v5.1 y Charts.js
 
 - **Jueves 12 de mayo → [sesion_09](https://github.com/profesorfaco/front-end/tree/main/sesion_09) → Evaluación Nº1**
 
 - Jueves 19 de mayo → Semana de receso para todos los cursos de la carrera
 
-- Jueves 26 de mayo → [sesion_10](https://github.com/profesorfaco/front-end/tree/main/sesion_10) → Trabajo final: Usuarios, objetivos y contextos de uso específicos
+- Jueves 26 de mayo → [sesion_10](https://github.com/profesorfaco/front-end/tree/main/sesion_10) → Usuarios, objetivos y contextos de uso específicos
 
 - Jueves 2 de junio → [sesion_11](https://github.com/profesorfaco/front-end/tree/main/sesion_11) → Antecedentes para el benchmarking y referentes para el moodboard
 
@@ -59,11 +59,11 @@ Cada estudiante en este Electivo debería contar con:
 - **Jueves 30 de junio → [sesion_15](https://github.com/profesorfaco/front-end/tree/main/sesion_15) → Evaluación Nº2**  
 
 
-**Para cada sesión, la organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad, adaptándose a la diversidad de aprendizajes.** Esta organización es más efectiva cuando:
+**Para cada sesión, la organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad, adaptándose a la diversidad de aprendizajes.** Esta organización es más efectiva cuando cada estudiante:
 
-- cada estudiante adelanta la lectura de la parte teórica;
+- adelanta la lectura de la parte teórica; y
  
-- y resuelve la exploración práctica en el horario de la clase, para publicar resultados con [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+- resuelve la exploración práctica en el horario de la clase, publicando resultados con [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
 - - - - - - - - - -
 
@@ -80,7 +80,6 @@ La nota final del electivo se obtiene del promedio de las dos evaluaciones sumat
 -	McCarthy, L., Reas, C., & Fry, B. (2018). Introducción a p5.js. Processing Foundation.
 -	Meyer, E. A. (2018). CSS pocket reference: Visual presentation for the web (5th ed.). O’Reilly Media.
 -	Robbins, J. N. (2013). HTML5 Pocket Reference (5th ed.). O’Reilly Media.
-
 
 ##### Bibliografía complementaria
 
