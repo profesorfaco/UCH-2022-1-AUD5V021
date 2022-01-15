@@ -122,7 +122,7 @@ Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una 
 
 Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor.
 
-Ahora bien, podríamos encontrarnos un problema al precargar https://myjson.dit.upm.es/api/bins/1wo6 en la función que ofrece p5.js: *[loadJSON always returns Object, never an Array](https://github.com/processing/p5.js/issues/2154)*. Como se indica en el foro vinculado, se podría resolver de esta manera: https://editor.p5js.org/profesorfaco/sketches/611nBVIY2
+Ahora bien, podríamos encontrarnos un problema al precargar https://myjson.dit.upm.es/api/bins/1wo6 en la función que ofrece p5.js: *[loadJSON always returns Object, never an Array](https://github.com/processing/p5.js/issues/2154)*. Como se indica en el foro vinculado, el problema se podría resolver de esta manera: https://editor.p5js.org/profesorfaco/sketches/611nBVIY2
 
 - - - - - - - 
 
