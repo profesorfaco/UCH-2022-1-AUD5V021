@@ -4,7 +4,11 @@
 
 - - - - - - - 
 
-Pauta de evaluación pendiente hasta el 12 de mayo.
+Pauta de evaluación pendiente hasta el 12 de mayo. Mientras tanto, podrían revisar algunas cosas en:
+
+- https://graphics.reuters.com/
+- https://www.scmp.com/infographic/
+- http://infografias.elmercurio.com/
 
 - - - - - - - 
 
