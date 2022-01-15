@@ -17,7 +17,7 @@ Además de ofrecer un estilo de CSS compilado (basado en [Sass](https://sass-lan
 - [Popovers](https://getbootstrap.com/docs/5.1/components/popovers/)
 - [Tooltips](https://getbootstrap.com/docs/5.1/components/tooltips/)
 
-Si se opta por ir por los scripts de Bootstrap.js y Popper.js separados, Popper debe venir primero (si usted está usando tooltips o popovers), y luego vendría el de Boostrap:
+Si se opta por ir por los scripts de Bootstrap.js y Popper.js separados, Popper debe venir primero:
 
 ```
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@ También está la opción de ir por ambos de una vez, con la opción *Bundle*:
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 ```
 
-Corresponde mencionar que hay una tercera opción, donde se van a buscar por módulos precisos. Pero ello supera el alcance de una introducción.
+Corresponde mencionar que hay una tercera opción, donde se van a buscar sólo determinados módulos, pero ello supera el alcance de una introducción.
 
 - - - - - - - - - -
 
