@@ -12,9 +12,9 @@ Con [Chart.js](https://www.chartjs.org/) podemos implementar gráficos de [líne
 
 > *simple yet flexible JavaScript charting for designers & developers*. 
  
-Hay muchas alternativas de *JavaScript charting*. Por nombrar algunas: [Apache ECharts](https://echarts.apache.org/en/index.html), [d3.js](https://d3js.org/) (que [tuvo su cuarto de hora](https://medium.com/@PepsRyuu/why-i-no-longer-use-d3-js-b8288f306c9a)), [dygraph](https://dygraphs.com/). 
+Conviene mencionar que hay muchas alternativas de *JavaScript charting*. Por nombrar algunas: [Apache ECharts](https://echarts.apache.org/en/index.html), [d3.js](https://d3js.org/) (que [tuvo su cuarto de hora](https://medium.com/@PepsRyuu/why-i-no-longer-use-d3-js-b8288f306c9a)), [dygraph](https://dygraphs.com/). 
 
-Usaremos [Chart.js](https://www.chartjs.org/) porque permite resolver gráficos simples ([línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), etc.) con una estructura clara:
+Pero usaremos [Chart.js](https://www.chartjs.org/) porque permite resolver gráficos simples ([línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), etc.) con una estructura clara:
 
 ```
 var contexto = document.getElementById('nombre').getContext('2d');
