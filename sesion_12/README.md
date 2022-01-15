@@ -26,7 +26,7 @@ Es que equivocarse en el código fuente publicado no es como equivocarse en el m
 
 Basta un poco de código fuente para tener algo que se pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales en sus contextos habituales, con sus correspondientes objetivos, aun cuando se encuentren a la distancia de otros husos horarios: 
 
-Imagine que parte su día en Santiago, a las 9AM: Usted comienza con la redacción de un código fuente. A las 6PM usted le envía un correo a su amigo programador en Melbourne, pidiéndole que revise lo que avanzó y publicó en GitHub. Al iniciar una nueva jornada santiaguina, podría retomar el código (ya revisado) para agregar algunos para ajustarse a una prueba que conducirá una amiga diseñadora UX en Tokio. Imagine lo rápido que sería darle una vuelta a este ciclo:
+Imagine que parte su día en Santiago, a las 9AM: Usted comienza con la redacción de un código fuente. A las 6PM usted le envía un correo a su amigo programador en Melbourne, pidiéndole que revise lo que avanzó y publicó en GitHub. Al iniciar una nueva jornada santiaguina podrá retomar el código (ya revisado), agregando algunos ajustes para una prueba que conducirá una amiga diseñadora UX en Tokio. Imagine lo rápido que sería darle una vuelta a este ciclo:
 
 ![loop](https://user-images.githubusercontent.com/7999767/149630010-3e54315e-99f9-46f3-8717-34270a3014ba.png)
 
