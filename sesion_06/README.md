@@ -100,7 +100,13 @@ Vamos por la variable `g`:
 
 Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
 
-Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemapetilon para explorar:
+- - - - - - -
+
+#### Exploración práctica
+
+Llegando a la variable `h`, convendría abrir la exploración práctica, aprovechando a los octillizos Nahasapeemapetilon. 
+
+Con ellos podemos explorar, primero: 
 
 - el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
@@ -110,11 +116,7 @@ Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemape
 
 Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/).
 
-- - - - - - -
-
-#### Exploración práctica
-
-Volvamos a la variable `h`, que contiene un arreglo de objetos. Comparémosla con https://myjson.dit.upm.es/api/bins/1wo6
+En segundo lugar, vamos a explorar la posibilidad de cargar los datos que pueden ser compartidos en línea, así como https://myjson.dit.upm.es/api/bins/1wo6
 
 Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
 
