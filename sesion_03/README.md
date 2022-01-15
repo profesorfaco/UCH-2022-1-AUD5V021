@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-Adelanto: Utilizaremos editor de código fuente y algunos [Ejemplos 3D](https://p5js.org/es/examples/)
+Adelanto: Utilizaremos editor de código fuente, algunos [Ejemplos 3D](https://p5js.org/es/examples/) y [estos archivos](https://profesorfaco.github.io/front-end/sesion_03).
 
 - - - - - - - 
 
