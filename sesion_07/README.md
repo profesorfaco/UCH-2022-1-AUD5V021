@@ -6,9 +6,9 @@
 
 #### Teoría
 
-Volvamos con p5.js, la
+Volvamos con p5.js, la biblioteca de JavaScript
 
-> biblioteca de JavaScript para la programación creativa, que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona! p5.js es gratuito y de código abierto porque creemos que el software y las herramientas para aprenderlo deben ser accesibles para todos.
+> para la programación creativa, que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona! p5.js es gratuito y de código abierto porque creemos que el software y las herramientas para aprenderlo deben ser accesibles para todos.
 
 Recordemos que p5.js nos permite manipular el DOM más allá del Canvas, mediante:
 
