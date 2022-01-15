@@ -36,7 +36,14 @@ Habiendo una tercera opción, donde se van a buscar por módulos precisos, que s
 
 #### Exploración práctica
 
-Pendiente
+Nuevamente aprovecharemos un ejemplo del sitio web oficial de Bootstrap: https://getbootstrap.com/docs/5.1/examples/album/
+
+Corresponde repetir la operación de copiar el código fuente completo, para pegarlo en un documento recién creado en un editor de código fuente, para luego guardarlo como `index.html` y hacer los ajustes necesario para que se vea tal como está ofrecido en línea. 
+
+Sobre tal base, haremos algunos cambios que nos permitirán tener un carousel en la parte superior, desplegar un modal cuando se presione el botón de `view`. 
+
+Donde haya que sumar imágenes, aprovecharemos el servicios de https://picsum.photos/
+
 
 - - - - - - - 
 
