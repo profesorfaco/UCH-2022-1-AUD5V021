@@ -22,7 +22,7 @@ Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Cri
 
 **Si ya pudimos proponer tres proto-personas, un moodboard y un benchmark: ¡Tenemos material para hacer funcionar un sitio o aplicación web!** 
 
-Es que equivocarse en el código fuente publicado no es como equivocarse en el miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir, aprender y corregir rápidamente. 
+Es que equivocarse en el código fuente publicado no es como equivocarse en miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir, aprender y corregir rápidamente. 
 
 **Y basta un poco de código fuente para tener algo que se pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales en sus contextos habituales, con sus correspondientes objetivos, aun cuando se encuentren a la distancia de otros husos horarios:** 
 
