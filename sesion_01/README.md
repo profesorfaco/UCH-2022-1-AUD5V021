@@ -67,7 +67,7 @@ Ahora volvamos al *Preview* del [editor web de p5.js](https://editor.p5js.org/):
 
 En este mismo editor podrán notar que a la izquierda, justo debajo de *play* se encuentran con este símbolo: `>`. Al presionarlo, se muestra una ventana con tres archivos: `index.html`, `sketch.js` y `style.css`. Estos son los necesarios para poder hacer cualquier sitio o aplicación web que atienda a [los estándares web](https://www.w3.org/standards/webdesign/). El `index.html` describe la captura original a mostrar, el `style.css` describe cómo mostrar, y en el `sketch.js` se programa el "photoshopeo" (eso que se muestre, bajo ciertas condiciones, que puede ser distinto de lo que se describe originalmente en el ìndex.html`).
 
-No corresponde pensar en tales `.html`, `.css` y `.js` como extensiones de archivos que deben abrirse en programas determinados, así como el `.psd` se abre y edita con Photoshop y el `.ai` con Illustrator. HTML, CSS y JS son lenguajes que se pueden escribir en cualquier editor de código fuente, incluso con un block de notas: guardamos lo escrito como `.txt`, luego cambiamos la extensión por la que corresponda y listo.
+No corresponde pensar en tales `.html`, `.css` y `.js` como extensiones de archivos que deben abrirse en programas determinados, así como el `.psd` se abre y edita con Photoshop y el `.ai` con Illustrator. HTML, CSS y JS son lenguajes que se pueden escribir en cualquier editor de código fuente, incluso con un block de notas: guardamos lo escrito como `.txt`, luego cambiamos la extensión por la que corresponda, y listo.
 
 - - - - - - - - - - - - -
 
