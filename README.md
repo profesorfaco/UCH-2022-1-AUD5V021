@@ -52,7 +52,7 @@ Cada estudiante en debería contar con:
 
 - Jueves 9 de junio → [sesion_12](https://github.com/profesorfaco/front-end/tree/main/sesion_12) → Software funcionando sobre documentación extensiva
 
-- Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Evaluación de Rendimiento, Accesibilidad y SEO 
+- Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Evaluación de accesibilidad, rendimiento y SEO 
 
 - Jueves 23 de junio → sesion_14 → Sin clases sincrónicas (trabajo autónomo)
 
