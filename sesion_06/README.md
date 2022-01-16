@@ -106,7 +106,7 @@ Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que
 
 Llegando a la variable `h`, conviene abrir la exploración práctica. 
 
-Primero copiemos esta variable en el editor de p5.js y enfoquémonos en los octillizos Nahasapeemapetilon para explorar:
+Primero copiemos y peguemos esta variable en el [editor web de p5.js](https://editor.p5js.org/), y enfoquémonos en los octillizos Nahasapeemapetilon para explorar:
 
 - el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
