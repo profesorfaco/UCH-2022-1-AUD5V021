@@ -77,7 +77,7 @@ Continuaremos la exploración del *conjunto completo de funcionalidades para dib
 
 Después pasaremos al editor de código fuente, copiando y pegando los tres archivos que genera el [editor web de p5.js](https://editor.p5js.org/), para trabajarlo de manera local.
 
-Además del editor de código fuente, es muy necesario disponer de un navegador Firefox o Chrome; y saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en el que dispongan.
+Además del editor de código fuente, es muy necesario disponer de un navegador Firefox o Chrome, y saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en el que dispongan.
 
 - - - - - - - 
 
