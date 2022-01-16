@@ -6,6 +6,8 @@
 
 Pauta de evaluación estará pendiente hasta la clase del jueves 16 de junio.
 
+Adelanto: La evaluación será afectada por los resultados publicados en cuenta GitHub de cada estudiante para las sesiones [10](https://github.com/profesorfaco/front-end/tree/main/sesion_10), [11](https://github.com/profesorfaco/front-end/tree/main/sesion_11), [12](https://github.com/profesorfaco/front-end/tree/main/sesion_12) y [13](https://github.com/profesorfaco/front-end/tree/main/sesion_13).
+
 - - - - - - - 
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_13)
