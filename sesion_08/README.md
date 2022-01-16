@@ -141,6 +141,8 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
+Los datos utilizados en el gráfico son lo que estaban disponibles a comienzo de 2022 en https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv Convendría actualizarlos.
+
 - - - - - - - - - - - - -
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_07) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_09)
