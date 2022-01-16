@@ -53,7 +53,7 @@ function draw() {
 }
 ```
 
-Ya utilizamos `createCanvas()`, `frameRate()`, `background()`, `random()`. Tal como Processing, [p5.js](https://p5js.org/es/) ofrece
+Ya utilizamos `createCanvas()`, `frameRate()`, `background()`, `random()`, que son parte de
 
 > un conjunto completo de funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
