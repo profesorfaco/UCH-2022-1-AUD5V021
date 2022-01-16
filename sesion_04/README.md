@@ -18,7 +18,7 @@ Nos quedaremos con el primero de los mencionados, en su versión más reciente, 
 
 [Bootstrap](https://getbootstrap.com/) nos permite implementar tanto prototipos rápidos como productos acabados, esto mediante el uso de elementos HTML relacionados con [reglas de CSS predefinidas](https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.css).
 
-Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template), con un `index.html` que debe verse así: 
+Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template), que correponde copiar y pegar lo siguiente en un documento recién creado en un editor de código fuente, que guardaremos con el nombre de `index.html`: 
 
 ```
 <!doctype html>
