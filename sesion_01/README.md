@@ -26,7 +26,7 @@ Ahora, cambiemos el `void` de Java por el `function` de [JavaScript](https://es.
 - `function setup()`; y 
 - `function draw()`. 
 
-Cuando ingresamos al [editor web de p5.js](https://editor.p5js.org/) podemos encontrar la misma estructura, que incluye la creación de un [elemento `canvas`](https://developer.mozilla.org/es/docs/Web/HTML/Element/canvas) con ancho y alto determanidos (creación que se ejecuta una única vez), y la definición de un color de fondo que se dibuja (o pinta) una y otra vez:
+Cuando ingresamos al [editor web de p5.js](https://editor.p5js.org/) podemos encontrar la misma estructura, que incluye la creación del [elemento HTML `canvas`](https://developer.mozilla.org/es/docs/Web/HTML/Element/canvas) con ancho y alto determanidos (creación que se ejecuta una única vez), y una definición para el color de fondo del mismo, que se dibuja (o pinta) una y otra vez:
 
 ```
 function setup() {
@@ -38,9 +38,9 @@ function draw() {
 }
 ```
 
-El tamaño del [`createCanvas`](https://p5js.org/es/reference/#/p5/createCanvas) se indica en pixeles (son 400 x 400 pixeles en el caso recién presentado). El color del [`background`](https://p5js.org/es/reference/#/p5/background) utiliza, por defecto, el modelo RGB; cuando se indica solo un número, se asume que se está definiendo algo entre negro (0,0,0) y blanco (255,255,255), porque es un mismo número repitiéndose tres veces.
+El tamaño del [`createCanvas`](https://p5js.org/es/reference/#/p5/createCanvas) se indica en pixeles (son 400 x 400 pixeles en el caso recién presentado). El color del [`background`](https://p5js.org/es/reference/#/p5/background) utiliza, por defecto, el modelo RGB; cuando se indica solo un número, se asume que se está definiendo algo entre negro (0,0,0) y blanco (255,255,255), porque sería un mismo número repitiéndose tres veces.
 
-En el mismo [editor web de p5.js](https://editor.p5js.org/) podemos hacer cambios para asegurarnos de comprender las diferencias. Podríamos crear un canvas más ancho que alto, donde la velocidad del re-dibujar no sea de 30 cuadros por segundo sino 2. Y podríamos pintar cada vez el fondo de un color distinto, dejando los valores de rojo, verde y azul al azar entre 0 y 255:
+En el mismo [editor web de p5.js](https://editor.p5js.org/) podemos hacer cambios para asegurarnos de comprender las diferencias entre el `setup` y el `draw`. Podríamos crear un canvas más ancho que alto, donde la velocidad del re-dibujar no sea de 30 cuadros por segundo sino 2. Y podríamos pintar cada vez el fondo de un color distinto, dejando los valores de rojo, verde y azul al azar entre 0 y 255:
 
 ```
 function setup() {
@@ -53,19 +53,19 @@ function draw() {
 }
 ```
 
-Ya utilizamos `createCanvas()`, `frameRate()`, `background()`, `random()`, que son parte de
+Utilizamos `createCanvas()`, `frameRate()`, `background()`, `random()`, que son parte de
 
 > un conjunto completo de funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
 Para enteder cómo es que esta biblioteca de JavaScript nos permite dibujar en el canvas o tomar toda la página del navegador, conviene agregar una nota sobre el [Modelo de Objeto de Documento (DOM)](https://developer.mozilla.org/es/docs/Glossary/DOM): **A través del DOM, los programas escritos en JavaScript pueden acceder y modificar la interpretación del contenido, estructura y estilo de la página web**. 
 
-Para no entrar en tecnisismos, quedemonos con que JavaScript no cambia lo escrito, lo que modifica es la comprensión de lectura del navegador. Como el resultado está a la vista, quizá convenga esta analogía para establecer la diferencia entre código fuente y DOM: Si capturaste una imagen con 3 elementos y agregas un cuarto "photoshopénadolo", en ningún caso modificas la escena capturada, pero todos podrán ver una imagen con 4 elementos. 
+Para no entrar en tecnisismos, quedemonos con que JavaScript no modifica lo escrito, lo que modifica es la comprensión de lectura del navegador. Como el resultado está a la vista, quizá convenga la siguiente analogía para establecer la diferencia entre código fuente y DOM: Si capturaste una imagen con 3 elementos y agregas un cuarto "photoshopénadolo", en ningún caso modificas la escena capturada, pero todos podrán ver una imagen con 4 elementos. 
 
 Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo "photoshopeado", y esto último coincide con la comprensión de lectura del navegador.
 
-**Ahora volvamos al *Preview* del [editor web de p5.js](https://editor.p5js.org/): Lo que allí tenemos es lo "photoshopeado"**.
+**Ahora volvamos al *Preview* del [editor web de p5.js](https://editor.p5js.org/): Lo que allí vemos al presionar *play* es lo "photoshopeado"**.
 
-En este mismo editor podrán notar que a la izquierda, justo debajo de *play*, encuentran con este símbolo: `>`. Al presionarlo, se muestra una caja con tres archivos: `index.html`, `sketch.js` y `style.css`. Estos son los necesarios para poder hacer cualquier sitio o aplicación que atienda a [los estándares web](https://www.w3.org/standards/webdesign/). El `index.html` describe la captura original a mostrar, el `style.css` describe cómo mostrarla, y en el `sketch.js` se programa el "photoshopeo" (eso que se muestre, bajo ciertas condiciones, que puede ser distinto de lo que se describe originalmente en el ìndex.html`).
+En este mismo editor podrán notar que a la izquierda, justo debajo de *play*, encuentran con este símbolo: `>`. Al presionarlo, se muestra una caja con tres archivos: `index.html`, `sketch.js` y `style.css`. Estos son los necesarios para hacer cualquier sitio o aplicación que atienda a [los estándares web](https://www.w3.org/standards/webdesign/). El `index.html` describe la captura original a mostrar, el `style.css` describe cómo mostrarla, y en el `sketch.js` se programa el "photoshopeo" (eso que se muestre, bajo ciertas condiciones, que puede ser distinto de lo que se describe originalmente en el ìndex.html`).
 
 No corresponde pensar en tales `.html`, `.css` y `.js` como extensiones de archivos que deben abrirse en programas determinados, así como el `.psd` se abre y edita con Photoshop y el `.ai` con Illustrator. HTML, CSS y JavaScript son lenguajes que se pueden escribir en cualquier editor de código fuente, incluso con un block de notas: ¡Guardamos lo escrito como `.txt`, luego cambiamos la extensión por la que corresponda y listo!
 
