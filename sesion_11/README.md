@@ -6,7 +6,7 @@
 
 #### Teoría
 
-El músico que no escucha más que a su banda favorita, termina ofreciendo sólo *covers* y armando una banda tributo… con agenda y precios muchísimo más accesibles.
+El músico que no escucha más que a su banda favorita, termina ofreciendo sólo *covers* y armando una banda tributo… con agenda y precios muchísimo más accesibles que el original.
 
 El músico que no escucha más que un estilo de música, termina haciendo lo mismo una y otra vez: Se ajusta a las posibilidades del único estilo conocido hasta que la gente se canse de escucharlo.
 
