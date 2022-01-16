@@ -14,7 +14,7 @@
 
 Lo que se dicte o se vea sin estilo, aun **podría ser utilizado por usuarios específicos para alcanzar objetivos específicos con un mínimo de eficacia, eficiencia y satisfacción, en un contexto de uso específico**.
 
-Accesibilidad implica acceso al uso. Usabilidad implica eficacia, eficiencia y satisfacción en el uso.
+Para recordar: Accesibilidad implica acceso al uso. Usabilidad implica eficacia, eficiencia y satisfacción en el uso.
 
 **Si se cuenta con más tiempo, conviene complementar las pruebas rápidas y extremas recién mencionadas con [WAVE: Web Accessibility Evaluation Tool](https://wave.webaim.org/)**.
 
