@@ -25,7 +25,7 @@ También nos permite [pre-cargar](https://p5js.org/reference/#/p5/preload) datos
 - Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 - Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
 
-**Con JSON y p5.js, podríamos crear elementos ([`createElement()`](https://p5js.org/es/reference/#/p5/createElement)) basándonos en los datos en un JSON precargado, y con ellos estructurar una página completa con un aspecto basado en lo que ofrece Bootstrap**.
+**Con JSON y p5.js, podríamos crear elementos ([`createElement()`](https://p5js.org/es/reference/#/p5/createElement)) basándonos en los datos en un JSON precargado, y presentarlos al modo que nos permita el CSS compilado de Bootstrap**.
 
 - - - - - - - 
 
