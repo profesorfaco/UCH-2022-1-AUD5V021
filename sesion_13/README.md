@@ -16,9 +16,7 @@ Lo que se dicte o se vea sin estilo, aun **podría ser utilizado por usuarios es
 
 Accesibilidad implica acceso al uso. Usabilidad implica eficacia, eficiencia y satisfacción en el uso.
 
-**Si se cuenta con más tiempo, conviene complementar las pruebas rápidas y extremas recién mencionadas.** 
-
-**Podríamos usar [WAVE: Web Accessibility Evaluation Tool](https://wave.webaim.org/)**.
+**Si se cuenta con más tiempo, conviene complementar las pruebas rápidas y extremas recién mencionadas con [WAVE: Web Accessibility Evaluation Tool](https://wave.webaim.org/)**.
 
 Un problema común en la evaluación es la falta de contraste figura/fondo. Este se puede resolver revisando y ajustando los código de colores figura/fondo en https://webaim.org/resources/contrastchecker/
 
