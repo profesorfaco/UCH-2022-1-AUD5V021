@@ -124,6 +124,8 @@ Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/
 
 Ahora bien, podríamos encontrarnos un problema al precargar https://myjson.dit.upm.es/api/bins/1wo6 con la función que ofrece p5.js: *[loadJSON always returns Object, never an Array](https://github.com/processing/p5.js/issues/2154)*. Como se indica en el foro vinculado, el problema se podría resolver de esta manera: https://editor.p5js.org/profesorfaco/sketches/611nBVIY2
 
+Una vez hayamos resuelto el problema, podríamos volver a nuestro editor de código fuente local, para aprovechar algo de https://visualpharm.com/free-icons/set/simpsons y https://lottiefiles.com/svg-to-lottie
+
 - - - - - - - 
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_05) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_07)
