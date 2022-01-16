@@ -14,7 +14,11 @@ Con esta introducción, cada estudiante podría contar con las bases para desemp
 
 Cada estudiante en debería contar con:
 
-- cuenta personal en [GitHub](https://github.com/join);
+- cuenta personal en [GitHub](https://github.com/join), para:
+
+  - [crear un repositorio](https://docs.github.com/es/get-started/quickstart/create-a-repo) por cada clase
+
+  - activar [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) en cada repositorio creado
 
 - computador en el horario de clases, donde pueda usar:
 
