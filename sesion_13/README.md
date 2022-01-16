@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 16 de junio → sesion_13 → Evaluación de Rendimiento, Accesibilidad y SEO
+### Jueves 16 de junio → sesion_13 → Evaluación de accesibilidad, rendimiento y SEO
 
 - - - - - - -
 
