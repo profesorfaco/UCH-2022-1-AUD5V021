@@ -31,7 +31,7 @@ Lighthouse genera reportes en dos versiones: [resumida](https://github.com/profe
 2. **algunas imágenes podrían pesar menos** – por las capacidades de almacenaje y transferencia actuales, podemos malacostumbrarnos a omitir el equilibrio entre peso y resolución… *¡Déjala así no más, total existe [WeTransfer](https://wetransfer.com/)!* Pero nadie esperará la aparición de una imagen en un sitio o aplicación web tal como se espera la descarga de lo compartido vía WeTransfer; para reencontrar el equilibrio, conviene: 
    
     - optimizar imágenes en [Photoshop](https://helpx.adobe.com/es/photoshop-elements/using/optimizing-images.html);
-    - ajustarlas un poco más con https://tinypng.com/; e 
+    - ajustarlas un poco más con [TinyPNG – Compress WebP, PNG and JPEG images intelligently](https://tinypng.com/); e 
     - investigar sobre [WebP](https://developers.google.com/speed/webp)
 
 3. **se podría mejorar el posicionamiento en buscadores** (SEO; Search Engine Optimization) – las máquinas necesitan datos o, mejor dicho, metadatos. Con ellos pueden catalogar cada página web. Para [cuidar los metadatos](https://developers.google.com/search/docs/advanced/crawling/special-tags?hl=es), es recomendable:
