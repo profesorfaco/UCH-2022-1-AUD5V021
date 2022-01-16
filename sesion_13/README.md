@@ -14,31 +14,32 @@
 
 Lo que se dicte o se vea sin estilo, aun **podría ser utilizado por usuarios específicos para alcanzar objetivos específicos con un mínimo de eficacia, eficiencia y satisfacción, en un contexto de uso específico**.
 
-Lo destacado en el párrafo anterior es una definición de usabilidad: 
-
-> Usabilidad es el grado en que un sistema, producto o servicio puede ser utilizado por usuarios específicos para alcanzar objetivos específicos con eficacia, eficiencia y satisfacción en un contexto de uso específico ([ISO 9241-11:2018](https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en))
-
 Accesibilidad implica acceso al uso. Usabilidad implica eficacia, eficiencia y satisfacción en el uso.
 
-**Si se cuenta con más tiempo, podemos complementar las pruebas rápidas y extremas recién mencionadas. Podríamos usar [WAVE: Web Accessibility Evaluation Tool](https://wave.webaim.org/)**.
+**Si se cuenta con más tiempo, conviene complementar las pruebas rápidas y extremas recién mencionadas.** 
+
+**Podríamos usar [WAVE: Web Accessibility Evaluation Tool](https://wave.webaim.org/)**.
 
 Un problema común en la evaluación es la falta de contraste figura/fondo. Este se puede resolver revisando y ajustando los código de colores figura/fondo en https://webaim.org/resources/contrastchecker/
 
-**Para hacer una auditoría desde la perspectiva de la máquina**, que considere rendimiento, accesibilidad, buenas práctica de programación, SEO (Search Engine Optimization; posicionamiento en buscadores) y PWA (Progressive Web App), **podemos usar [LightHouse](https://developers.google.com/web/tools/lighthouse?hl=es)**.
+**Para hacer una auditoría que considere rendimiento, accesibilidad, buenas práctica de programación, SEO (Search Engine Optimization; posicionamiento en buscadores) y PWA (Progressive Web App), podemos usar [LightHouse](https://developers.google.com/web/tools/lighthouse?hl=es)**.
 
 Lighthouse genera reportes en dos versiones: [resumida](https://github.com/profesorfaco/infografia/tree/main/clase-5/reportes) o extendida, en distintos formatos (hasta en [JSON](https://www.json.org/json-es.html)).
 
-Es probable que el reporte de LightHouse dé indicaciones respecto del CCS, porque estamos aprovechando unas pocas líneas entre las muchísimas que ofrece Bootstrap. Consideren que Bootstrap ofrece [un estilo CSS muy grande](https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.css), de 11.266 líneas, que el navegador revisa completo antes de mostrar la página; y siempre conviene limitar las lecturas del navegador a lo estrictamente necesario. 
+**Es probable que el reporte de LightHouse nos recuerde que**:
 
-Para reducir el CSS a lo que realmente es aplicado, puede aprovecharse https://purifycss.online/ o algún otro truco explicado en https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/
+1. **estamos usando un CSS muy grande** – el [CSS compilado de Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.css)ofrece mucho y podríamos estar usando muy poco. Como fue mencionado la [sesión 4](https://github.com/profesorfaco/front-end/tree/main/sesion_04), esto puede arreglarse con https://purifycss.online/
 
-También es probable que el reporte de LightHouse dé indicaciones respecto del SEO, porque las máquinas necesitan datos o, mejor dicho, metadatos. Con ellos pueden catalogar cada página web. Para cuidar los metadatos, es recomendable:
+2. **algunas imágenes podrían pesar menos** – por las capacidades de almacenaje y transferencia actuales, podemos malacostumbrarnos a omitir el equilibrio entre peso y resolución… *¡Déjala así no más, total existe [WeTransfer](https://wetransfer.com/)!* Pero nadie esperará la aparición de una imagen en un sitio o aplicación web tal como se espera la descarga de lo compartido vía WeTransfer; para reencontrar el equilibrio, conviene: 
+   
+    - optimizar imágenes para web y dispositivos con Photoshop;
+    - ajustarlas un poco más con https://tinypng.com/; e 
+    - investigar sobre [WebP](https://developers.google.com/speed/webp)
 
-1. Hacer una revisión con https://www.heymeta.com/
+3. **se puede mejorar el posicionamiento en buscadores** (SEO; Search Engine Optimization) – las máquinas necesitan datos o, mejor dicho, metadatos. Con ellos pueden catalogar cada página web. Para [cuidar los metadatos](https://developers.google.com/search/docs/advanced/crawling/special-tags?hl=es), es recomendable:
 
-2. Hacer una edición con https://megatags.co/ 
-
-Al cuidar los [metadatos, cuidamos el posicionamiento en buscadores (SEO)](https://developers.google.com/search/docs/advanced/crawling/special-tags?hl=es)
+    - hacer una revisión con https://www.heymeta.com/
+    - hacer una edición con https://megatags.co/
 
 - - - - - - -
 
