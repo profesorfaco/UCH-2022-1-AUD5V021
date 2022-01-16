@@ -30,7 +30,7 @@ Imagine que parte su día en Santiago, a las 9AM: Usted comienza con la redacci�
 
 ![loop](https://user-images.githubusercontent.com/7999767/149630010-3e54315e-99f9-46f3-8717-34270a3014ba.png)
 
-Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarrollo Ágil de Software y se basa en la entrega continua de valor mediante "productos mínimos viables", esto son **mínimos que mantienen andando al negocio**… lo que no es la única dimensión de la innovación:
+Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarrollo Ágil de Software y se basa en la entrega continua de valor mediante "productos mínimos viables", esto son **mínimos que mantienen andando al negocio**… Pero la viabilidad no es la única dimensión de la innovación:
 
 ![innovation](https://user-images.githubusercontent.com/7999767/149630023-6f156cff-5ffd-4a89-afe8-452cb4dd2ffa.png)
 
