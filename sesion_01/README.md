@@ -12,7 +12,7 @@ Para lanzarnos a la piscina sin haber averiguado su profundidad, aprovecharemos 
 
 Esta biblioteca fue creada por [Lauren McCarthy](http://lauren-mccarthy.com/) y es desarrollada por una comunidad de colaboradores, con apoyo de [Processing Foundation](https://processingfoundation.org/). Entre los colaboradores hay 2 chilenos, que se han encargado de la traducción de referencias, tutoriales y [un libro](https://processingfoundation.press/product/introduccion-a-p5-js/) al castellano; ellos son: [Guillermo Montecinos](https://twitter.com/guillermolooped) y [Aarón Montoya-Moraga](https://twitter.com/montoyamoraga).
 
-[p5.js](https://p5js.org/es/) fue creado como una reinterpretación de [Processing](https://processing.org/) para la web. 
+[p5.js](https://p5js.org/es/) fue creada como una reinterpretación de [Processing](https://processing.org/) para la web. 
 
 En Processing, que se basa en [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)), cada *sketch* debe tener dos partes:
 
