@@ -42,13 +42,13 @@ Dentro de `<head>…</head>`, agreguemos algo de CSS
 </style>
 ```
 
-Seguido del CSS, y aún dentro del `<head>…</head>`, vinculemos a la biblioteca de JavaScript que estamos usando:
+Después del CSS recién agregado, y aún dentro del `<head>…</head>`, vinculemos a la biblioteca de JavaScript que estamos usando:
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
-Ahora dentro de `<body>…</body>` podremos crear nuestro script entre etiquetas `<script>…</script>`, conteniendo lo siguiente:
+Ahora tenemos lo necesario para copiar dentro de `<body>…</body>`, y entre etiquetas `<script>…</script>`, lo que sigue:
 
 ```
 function setup() {
@@ -62,7 +62,7 @@ function windowResized() {
 } 
 ```
 
-Lo que sigue es aprovechar un conjunto de funcionalidades con los que
+Con esto podemos volver al conjunto de funcionalidades de [p5.js](https://p5js.org/es/), con las que
 
 > no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
