@@ -34,7 +34,7 @@ Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarr
 
 ![innovation](https://user-images.githubusercontent.com/7999767/149630023-6f156cff-5ffd-4a89-afe8-452cb4dd2ffa.png)
 
-¡No agilicemos todo a lo *StartUp*! No abandonemos los prototipos que validan lo deseable y desafían lo factible por hacer sólo "productos mínimos viables". Aún seguimos encargándonos de muchos trabajos de diseño que, para materializarse, deben arrendar el uso de maquinaria con asesoría experta, además de comprar insumos materiales… y en tales casos el error-en-la-prueba resulta carísimo.
+¡No agilicemos todo a lo *StartUp*! No abandonemos los prototipos que validan lo deseable y desafían lo factible por hacer sólo "productos mínimos viables". Aún seguimos encargándonos de muchos trabajos de diseño que, para materializarse, deben arrendar el uso de maquinaria con asesoría experta, además de comprar insumos materiales… y en tales casos no es posible aplicar un *loop* que supone el error barato.
 
 Pero cuando se quiere producir un sitio o aplicación web, conviene aprovechar la posibilidad de codificar cada idea tan pronto se tenga claridad respecto de lo sería deseable, factible y viable en función de lo específico: usuarios, objetivos y contextos.
 
