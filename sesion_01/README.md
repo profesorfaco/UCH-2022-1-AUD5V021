@@ -63,7 +63,7 @@ Para no entrar en tecnisismos, quedemonos con que JavaScript no cambia lo escrit
 
 Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo "photoshopeado", y esto último coincide con la comprensión de lectura del navegador.
 
-Ahora volvamos al *Preview* del [editor web de p5.js](https://editor.p5js.org/): Lo que allí tenemos es lo "photoshopeado".
+**Ahora volvamos al *Preview* del [editor web de p5.js](https://editor.p5js.org/): Lo que allí tenemos es lo "photoshopeado"**.
 
 En este mismo editor podrán notar que a la izquierda, justo debajo de *play* se encuentran con este símbolo: `>`. Al presionarlo, se muestra una ventana con tres archivos: `index.html`, `sketch.js` y `style.css`. Estos son los necesarios para poder hacer cualquier sitio o aplicación web que atienda a [los estándares web](https://www.w3.org/standards/webdesign/). El `index.html` describe la captura original a mostrar, el `style.css` describe cómo mostrar, y en el `sketch.js` se programa el "photoshopeo" (eso que se muestre, bajo ciertas condiciones, que puede ser distinto de lo que se describe originalmente en el ìndex.html`).
 
