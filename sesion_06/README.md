@@ -104,9 +104,9 @@ Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que
 
 #### Exploración práctica
 
-Llegando a la variable `h`, convendría abrir la exploración práctica, aprovechando a los octillizos Nahasapeemapetilon. 
+Llegando a la variable `h`, conviene abrir la exploración práctica. 
 
-Con ellos podemos explorar, primero: 
+Primero copiemos esta variable en el editor de p5.js y enfoquémonos en los octillizos Nahasapeemapetilon para explorar:
 
 - el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
@@ -114,15 +114,15 @@ Con ellos podemos explorar, primero:
 
 - el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
 
-Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/).
+Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/); es que los tres métodos son "nativos" de JavaScript, no son funciones exclusivas de p5.js (por lo que se pueden usar en esta o cualquier otra bibliiteca).
 
-En segundo lugar, vamos a explorar la posibilidad de cargar los datos que pueden ser compartidos en línea, así como les comparto https://myjson.dit.upm.es/api/bins/1wo6
+Lo segundo será explocar la posibilidad de cargar los datos que pueden ser compartidos en línea, así como se comparte https://myjson.dit.upm.es/api/bins/1wo6
 
-Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
+Para hacer "más legible" lo compartido, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
 
 Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor.
 
-Ahora bien, podríamos encontrarnos un problema al precargar https://myjson.dit.upm.es/api/bins/1wo6 en la función que ofrece p5.js: *[loadJSON always returns Object, never an Array](https://github.com/processing/p5.js/issues/2154)*. Como se indica en el foro vinculado, el problema se podría resolver de esta manera: https://editor.p5js.org/profesorfaco/sketches/611nBVIY2
+Ahora bien, podríamos encontrarnos un problema al precargar https://myjson.dit.upm.es/api/bins/1wo6 con la función que ofrece p5.js: *[loadJSON always returns Object, never an Array](https://github.com/processing/p5.js/issues/2154)*. Como se indica en el foro vinculado, el problema se podría resolver de esta manera: https://editor.p5js.org/profesorfaco/sketches/611nBVIY2
 
 - - - - - - - 
 
