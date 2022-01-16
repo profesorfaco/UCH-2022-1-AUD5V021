@@ -22,7 +22,7 @@ Y solo para evitar pensar en ellos como lenguajes, conviene mencionar tres *fram
 
 #### Exploración práctica
 
-Para reconocer los tres lenguajes mencionados más arriba, podemos comenzar creando un documento nuevo en un editor de código fuente, el que guardaremos con el nombre `index.html`, y así tal cual está escrito, sin mayúscula, tildes, acentos ni espacio.
+Para reconocer los tres lenguajes mencionados más arriba, podemos comenzar creando un documento nuevo en un editor de código fuente, el que guardaremos con el nombre `index.html`, y así tal cual está escrito, sin mayúscula, tilde, acento ni espacio.
 
 Allí peguemos la estructura típica de toda página HTML: 
 
