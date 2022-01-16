@@ -19,7 +19,7 @@ En Processing, que se basa en [Java](https://es.wikipedia.org/wiki/Java_(lenguaj
 - `void setup()`; y 
 - `void draw()`. 
  
-Hay un `setup` que se ejecuta una única vez, en la partida. Y hay un `draw` que por defecto se ejecuta una y otra vez. 
+Hay un `setup` que se ejecuta una única vez, en la partida. Y hay un `draw` que, por defecto, se ejecuta una y otra vez. 
 
 Ahora, cambiemos el `void` de Java por el `function` de [JavaScript](https://es.wikipedia.org/wiki/JavaScript), y tenemos:
 
