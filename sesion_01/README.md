@@ -14,14 +14,14 @@ Esta biblioteca fue creada por [Lauren McCarthy](http://lauren-mccarthy.com/) y 
 
 [p5.js](https://p5js.org/es/) es una reinterpretación de [Processing](https://processing.org/) para la web. 
 
-En Processing, que se basa en Java, cada *sketch* debe tener dos partes:
+En Processing, que se basa en [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)), cada *sketch* debe tener dos partes:
 
 - `void setup()`; y 
 - `void draw()`. 
  
 Hay un `setup` que se ejecuta una única vez, en la partida. Y hay un `draw` que por defecto se ejecuta una y otra vez. 
 
-Ahora, cambiemos el `void` de [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)) por el `function` de [JavaScript](https://es.wikipedia.org/wiki/JavaScript), y tenemos:
+Ahora, cambiemos el `void` de Java por el `function` de [JavaScript](https://es.wikipedia.org/wiki/JavaScript), y tenemos:
 
 - `function setup()`; y 
 - `function draw()`. 
