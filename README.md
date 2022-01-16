@@ -12,7 +12,7 @@ Con esta introducción, cada estudiante podría contar con las bases para desemp
 
 #### Materiales de trabajo
 
-Cada estudiante en debería contar con:
+Cada estudiante necesita:
 
 - cuenta personal en [GitHub](https://github.com/join), para:
 
@@ -20,7 +20,7 @@ Cada estudiante en debería contar con:
 
   - activar [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) en cada repositorio creado
 
-- computador durante el horario de clases, donde disponga de:
+- computador durante el horario de clases, con:
 
   - editor de código fuente: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/)
 
