@@ -6,7 +6,7 @@
 
 #### Teoría
 
-El músico que no escucha más que un grupo, termina ofreciendo nada más que *covers* y armando una banda tributo que ofrece un remedo del original, con agenda y precios muchísimo más accesibles.
+El músico que no escucha más que a su banda favorita, termina ofreciendo sólo *covers* y armando una banda tributo… con agenda y precios muchísimo más accesibles.
 
 El músico que no escucha más que un estilo de música, termina haciendo lo mismo una y otra vez: Se ajusta a las posibilidades del único estilo conocido hasta que la gente se canse de escucharlo.
 
@@ -14,7 +14,7 @@ El músico que no escucha más que un estilo de música, termina haciendo lo mis
 
 **En el diseño pasa lo mismo**. 
 
-**Quienes diseñan desde una amplia cultura visual y medial, pronto toman distancia de quienes no lo hacen**.
+**Quienes diseñan desde una amplia cultura visual y medial, pronto sacan ventaja de quienes no lo hacen**.
 
 **Para hacerse de esta cultura conviene reconocer lo que se ha hecho antes en el mismo ámbito con un mismo objetivo (antecendentes) y aquello que, viniendo de otro lugar con distinto objetivo, pueda resultar atractivo, práctico y razonable a usuarios específicos (referentes).**
 
