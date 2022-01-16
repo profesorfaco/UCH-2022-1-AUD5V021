@@ -49,7 +49,6 @@ Corresponde tener a mano:
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`: 
 
 ```
-
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -116,7 +115,6 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
         </script>
     </body>
 </html>
-
 ```
 
 Los datos utilizados en el gráfico de barras estaban disponibles a comienzo de 2022 en https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv ¡Convendría actualizarlos!
