@@ -51,11 +51,27 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <title>¿Tembló?</title>
+        <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
     </head>
     <body>
         <div class="container">
-            <div class="row"></div>
+            <div class="row">
+                <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto my-5">
+                    <h1 class="text-center fs-3 mb-4">Lorem ipsum dolor sit amet</h1>
+
+                    <p>Consectetur adipiscing elit. Nunc consequat felis at orci scelerisque, at blandit ex tempor. Vivamus sodales commodo quam vel commodo. Sed placerat dictum mauris in ultrices. Fusce feugiat risus ac nibh pretium dignissim. Praesent vel nulla pellentesque, congue velit a, pulvinar quam. Phasellus consectetur nibh id lectus aliquam, at tincidunt turpis pellentesque. Nulla a urna vitae enim consequat pellentesque.</p>
+
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Magnitud</th>
+                                <th scope="col">Lugar</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
         </div>
         <script>
             var data;
@@ -71,9 +87,9 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                     }
                 });
                 console.log(chileno);
-                var donde = select(".row");
+                var donde = select("tbody");
                 chileno.forEach((c) => {
-                    createElement("div", c.properties.mag + "M<sub>W</sub> @ " + c.properties.place).addClass("col-4 my-2 shadow-sm").parent(donde);
+                    createElement("tr", "<td>" + c.properties.mag + " M<sub>W</sub></td><td>" + c.properties.place + "</td>").parent(donde);
                 });
             }
         </script>
