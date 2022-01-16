@@ -20,7 +20,6 @@ Recordemos que p5.js nos permite manipular el DOM más allá del Canvas, mediant
 
 También nos permite [pre-cargar](https://p5js.org/reference/#/p5/preload) datos que se intercambian en formatos ligeros tales como [XML](https://p5js.org/es/reference/#/p5/loadXML), [CSV](https://p5js.org/es/reference/#/p5/loadTable) y [JSON](https://p5js.org/es/reference/#/p5/loadJSON). Entre los que comparten datos en JSON, tenemos:
 
-- Personajes de StarWars: https://swapi.dev/api/people/?format=json
 - Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - Tiempo atmosférico: https://openweathermap.org/current#current_JSON
 - Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
