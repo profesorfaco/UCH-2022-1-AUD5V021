@@ -50,7 +50,7 @@ Para reforzar la diferencia entre antecedentes y referentes, podemos compilarlos
 
 En esta clase continuaremos con el desarrollo de su sitio web o prototipo avanzado de aplicación web. 
 
-El segundo paso será publicar, en una misma página web: 
+El segundo paso será publicar, en una misma página web de diseño adaptativo (*responsive*): 
 
 - proto-personas (reciclando lo de la clase recién pasada);
 - *moodboard*; y
