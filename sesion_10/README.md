@@ -32,7 +32,7 @@ En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de
 
 El primer paso será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos: 
 
-- Una página con 3 proto-personas.
+- Una página web con 3 proto-personas.
 
 - - - - - - - 
 
