@@ -26,11 +26,11 @@ Es que equivocarse en el código fuente publicado no es como equivocarse en mile
 
 **Y basta un poco de código fuente para tener algo que se pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales en sus contextos habituales, con sus correspondientes objetivos, aun cuando se encuentren a la distancia de otros husos horarios:** 
 
-Imagine que parte su día en Santiago, a las 9AM: Usted comienza con la redacción de un código fuente. A las 6PM usted le envía un correo a su amigo programador en Melbourne, pidiéndole que revise lo que avanzó y publicó en GitHub. Al iniciar una segunda jornada santiaguina podrá retomar el código (ya revisado), porque necesita agregar algunos contenidos para una prueba que conducirá una amiga diseñadora UX en Tokio. Y en su tercera jornada usted podría partir con una revisión de los datos que llegan de Tokio, para aprender que conviene hacer algunos ajustes en su idea inicial. Con esto, acaba de darle una vuelta a un ciclo, sin trasnochar:
+Imagine que parte su día en Santiago, a las 9AM: Usted comienza con la redacción de un código fuente. A las 6PM usted le envía un correo a su amigo [*UX Engineer*](https://xd.adobe.com/ideas/career-tips/what-is-ux-engineer/) en Melbourne, pidiéndole que revise lo que avanzó y publicó en GitHub. Al iniciar una segunda jornada santiaguina podrá retomar el código (ya revisado), porque necesita agregar algunos contenidos para una prueba que conducirá una amiga diseñadora UX en Tokio. Y en su tercera jornada usted podría partir con una revisión de los datos que llegan de Tokio, para aprender que conviene hacer algunos ajustes en su idea inicial. Con esto, acaba de darle una vuelta a un ciclo, sin trasnochar:
 
 ![loop](https://user-images.githubusercontent.com/7999767/149630010-3e54315e-99f9-46f3-8717-34270a3014ba.png)
 
-Tal es un ciclo de "Lean Startup", ciclo que está bajo el "paraguas" del Desarrollo Ágil de Software y se basa en la entrega continua de valor mediante "productos mínimos viables", esto son **mínimos que mantienen andando al negocio**… Pero la viabilidad no es la única dimensión de la innovación:
+Tal es un ciclo de "Lean Startup", ciclo que se pone bajo el "paraguas" del Desarrollo Ágil de Software y se basa en la entrega continua de valor mediante "productos mínimos viables", esto son [mínimos que mantienen andando al negocio](https://www.nngroup.com/videos/mvp-antithesis-good-ux/)… Pero la viabilidad no es la única dimensión de la innovación:
 
 ![innovation](https://user-images.githubusercontent.com/7999767/149630023-6f156cff-5ffd-4a89-afe8-452cb4dd2ffa.png)
 
