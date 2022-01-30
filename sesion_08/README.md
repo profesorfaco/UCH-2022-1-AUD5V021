@@ -117,7 +117,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Los datos utilizados en el gráfico de barras estaban disponibles a comienzo de 2022 en https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv ¡Convendría actualizarlos!
+Los datos utilizados en el gráfico de barras estaban disponibles a fines de enero de 2022 en https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv ¡Convendría actualizarlos!
 
 - - - - - - - - - - - - -
 
