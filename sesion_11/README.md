@@ -18,7 +18,7 @@ El músico que no escucha más que un estilo de música, termina haciendo lo mis
 
 **Para hacerse de esta cultura conviene reconocer lo que se ha hecho antes en el mismo ámbito con un mismo objetivo (antecendentes) y aquello que, viniendo de otro lugar con distinto objetivo, pueda resultar atractivo, práctico y razonable a usuarios específicos (referentes).**
 
-Al escribir atractivo, práctico y razonable, se alude, respectivamente, a los niveles de procesamiento visceral, conductual y contemplativo que presenta Donald A. Norman en su libro Emotional Design (2004): 
+Escribí "atractivo, práctico y razonable", para aludir, respectivamente, a los niveles de procesamiento visceral, conductual y contemplativo que presenta Donald A. Norman en su libro Emotional Design (2004): 
 
 > the automatic, prewired layer, called the *visceral level*; the part that contains the brain processes that control everyday behavior, know as the *behavioral level*; and the comtemplative part of the brain, on the *reflective level* (p.21) 
 
