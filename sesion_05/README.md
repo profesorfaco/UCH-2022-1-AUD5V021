@@ -40,7 +40,7 @@ Nuevamente aprovecharemos un ejemplo del sitio web oficial de Bootstrap: https:/
 
 Corresponde repetir la operación de copiar el código fuente completo, para pegarlo en un documento recién creado en un editor de código fuente, para luego guardarlo como `index.html` y hacer los ajustes necesario para que se vea tal como está ofrecido en línea. 
 
-Sobre tal base, haremos algunos cambios que nos permitirán tener un carousel en la parte superior, desplegar un modal cuando se presione el botón de `view`. 
+Sobre tal base, haremos algunos cambios que nos permitirán tener un [*carousel*](https://getbootstrap.com/docs/5.1/components/carousel/) en la parte superior, desplegar un [*modal*](https://getbootstrap.com/docs/5.1/components/modal/) cuando se presione el botón *view* en cada [*card*](https://getbootstrap.com/docs/5.1/components/card/). 
 
 Donde haya que sumar imágenes, aprovecharemos el servicios de https://picsum.photos/
 
