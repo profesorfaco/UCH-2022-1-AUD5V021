@@ -6,7 +6,7 @@ Este es el repositorio de un curso electivo a cargo del profesor [FACO](https://
 
 Aquí se ofrece material para una introducción a HTML, CSS y JavaScript (a veces abreviado JS, nunca Java).
 
-Con esta introducción, cada estudiante podría contar con las bases para desempeñarse como “Front”, o para avanzar a [la coordinación de los aportes de UX, UI y Front](https://xd.adobe.com/ideas/career-tips/what-is-ux-engineer/) en el desarrollo colaborativo de sitios y aplicaciones web.
+Con esta introducción, cada estudiante podría contar con las bases para desempeñar labores de “Front” o para avanzar a [la coordinación de los aportes de UX, UI y Front](https://xd.adobe.com/ideas/career-tips/what-is-ux-engineer/) en el desarrollo colaborativo de sitios y aplicaciones web.
 
 - - - - - - - - -
 
