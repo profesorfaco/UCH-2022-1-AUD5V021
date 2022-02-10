@@ -63,7 +63,7 @@ Cada estudiante necesita:
 - **Jueves 30 de junio → [sesion_15](https://github.com/profesorfaco/front-end/tree/main/sesion_15) → Evaluación Nº2**  
 
 
-**Para cada sesión, la organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad, adaptándose a las diversidades de aprendizajes.** Esta organización es más efectiva cuando cada estudiante:
+**Para cada sesión, la organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad, adaptándose a la diversidad de aprendizajes.** Esta organización es más efectiva cuando cada estudiante:
 
 - adelanta la lectura de la parte teórica; y
  
