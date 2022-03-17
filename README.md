@@ -87,7 +87,7 @@ La nota final del electivo se obtiene del promedio de las dos evaluaciones sumat
 
 ##### Bibliografía complementaria
 
--	Duckett, J. (2014). Web Design with HTML, CSS, JavaScript and jQuery Set. John Wiley & Sons.
+-	Duckett, J. (2014). HTML & CSS. Design and build websites. John Wiley & Sons.
 -	Flanagan, D. (2020). JavaScript: The Definitive Guide (7th ed.). O’Reilly Media.
 
 ##### Recursos en línea
