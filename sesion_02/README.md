@@ -38,6 +38,7 @@ Dentro de `<head>…</head>`, agreguemos algo de CSS
 
 ```
 <style>
+	*{margin:0; padding:0;}
 	body{background:black}
 </style>
 ```
