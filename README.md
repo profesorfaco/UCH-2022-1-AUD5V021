@@ -90,8 +90,6 @@ La nota final del electivo se obtiene del promedio de las dos evaluaciones sumat
 -	Duckett, J. (2014). HTML & CSS. Design and build websites. John Wiley & Sons.
 -	Flanagan, D. (2020). JavaScript: The Definitive Guide (7th ed.). O’Reilly Media.
 
-https://docs.google.com/spreadsheets/d/1pH92zfbJOCqqIiiEGh3SUnlhWmVFWJH-s62bvn0KiHU/edit?usp=sharing
-
 ##### Recursos en línea
 
 -	Lista de reproducción de contenido en Youtube: [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
