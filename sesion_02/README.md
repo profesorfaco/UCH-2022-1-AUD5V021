@@ -34,22 +34,25 @@ Allí peguemos la estructura típica de toda página HTML:
 </html>
 ```
 
-Dentro de `<head>…</head>`, agreguemos algo de CSS
+Dentro de `<head>…</head>`, agreguemos un par de metadatos, algo de CSS y un título para la etiqueta de la pestaña del navegador que muestre nuestra página.
 
 ```
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 	*{margin:0; padding:0;}
 	body{background:black}
 </style>
+<title>Hola mundo!</title>
 ```
 
-Después del CSS recién agregado, y aún dentro del `<head>…</head>`, vinculemos a la biblioteca de JavaScript que estamos usando:
+Después del título para la pestaña, y aún dentro del `<head>…</head>`, vinculemos a la biblioteca de JavaScript que estamos usando:
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
-Ahora tenemos lo necesario para copiar dentro de `<body>…</body>`, y entre etiquetas `<script>…</script>`, lo que sigue:
+Ahora tenemos lo necesario para copiar algo dentro de `<body>…</body>`, entre etiquetas `<script>…</script>`:
 
 ```
 function setup() {
