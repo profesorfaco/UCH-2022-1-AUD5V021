@@ -40,8 +40,8 @@ Dentro de `<head>…</head>`, agreguemos un par de metadatos, algo de CSS y un t
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-	*{margin:0; padding:0;}
-	body{background:black}
+*{margin:0; padding:0;}
+body{background:black}
 </style>
 <title>Hola mundo!</title>
 ```
@@ -71,6 +71,8 @@ Con esto podemos volver al conjunto de funcionalidades de [p5.js](https://p5js.o
 > no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
 Conjunto de funcionalidades que podemos consultar en https://p5js.org/es/reference/
+
+Recuerden que podrían ordenar el documento creado si copian, pegan y reemplazan lo ordenado por https://webformatter.com/html
 
 - - - - - - - 
 
