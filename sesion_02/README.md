@@ -40,8 +40,11 @@ Dentro de `<head>…</head>`, agreguemos un par de metadatos, algo de CSS y un t
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-*{margin:0; padding:0;}
-body{background:black}
+* { margin: 0; padding: 0; }
+body { background: black; }
+div { padding: 2rem; }
+p { padding: 1rem 0; }
+@media (min-width: 800px) { p { max-width: 60%; } }
 </style>
 <title>Hola mundo!</title>
 ```
