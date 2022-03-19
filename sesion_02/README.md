@@ -70,7 +70,7 @@ function windowResized() {
 } 
 ```
 
-Lo último que agregaremos dentro de `<body>…</body>`, pero justo antes del `<script>…</script>`
+Lo último que agregaremos dentro de `<body>…</body>`, pero justo antes del `<script>…</script>` será lo siguiente:
 
 ```
 <div>
@@ -83,11 +83,11 @@ Si el código en el `index.html` queda un poco desordenado, podemos ordenarlo co
 
 Después de ordenar el código y guardar el `index.html`, podemos abrirlo en un navegador web y ver el resultado.
 
-Con esta base podemos volver a las [referencias](https://p5js.org/es/reference/) del conjunto de funcionalidades de [p5.js](https://p5js.org/es/), con las que
+Con esta base podemos volver a consultar las [referencias](https://p5js.org/es/reference/) del conjunto de funcionalidades de [p5.js](https://p5js.org/es/), con las que
 
 > no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
-Pero en consulta a tales referencias no encontraremos `document.getElementById("nombre").textContent += "Perico de los palotes";`
+Pero en una consulta a tales referencias no encontraremos `document.getElementById("nombre").textContent += "Perico de los palotes";`
 
 Eso sí lo podríamos encontrar por acá: 
 
