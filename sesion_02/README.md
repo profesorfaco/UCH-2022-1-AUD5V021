@@ -66,6 +66,8 @@ function windowResized() {
 } 
 ```
 
+Si el `index.html` les quedó un poco desordenado, recuerden que pueden aprovechar https://webformatter.com/html
+
 Con esto podemos volver al conjunto de funcionalidades de [p5.js](https://p5js.org/es/), con las que
 
 > no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
