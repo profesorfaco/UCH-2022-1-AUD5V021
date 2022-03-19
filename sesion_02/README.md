@@ -83,20 +83,18 @@ Si el `index.html` queda un poco desordenado, podemos ordenarlo con https://webf
 
 Después de ordenar el código y guardar el `index.html`, pueden abrirlo en un navegador web y ver el resultado.
 
-Con esta base podemos volver al conjunto de funcionalidades de [p5.js](https://p5js.org/es/), con las que
+Con esta base podemos volver a las [referencias](https://p5js.org/es/reference/) del conjunto de funcionalidades de [p5.js](https://p5js.org/es/), con las que
 
 > no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
-Conjunto de funcionalidades que podemos consultar en https://p5js.org/es/reference/
-
-Pero en la consulta a tales referencias no encontraremos `document.getElementById("nombre").textContent += "Perico de los palotes";`
+Pero en consulta a tales referencias no encontraremos `document.getElementById("nombre").textContent += "Perico de los palotes";`
 
 Eso sí lo podríamos encontrar por acá: 
 
 - https://developer.mozilla.org/es/docs/Web/API/Document/getElementById
 - https://developer.mozilla.org/es/docs/Web/API/Node/textContent
 
-De a poco iremos asomándonos fuera de la biblioteca, para aprender de JavaScript "a secas".
+De a poco iremos asomándonos fuera de esta biblioteca de JavaScript, para aprender algo de JavaScript "a secas".
 
 - - - - - - - 
 
