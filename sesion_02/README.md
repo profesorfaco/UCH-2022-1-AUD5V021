@@ -87,7 +87,7 @@ Con esta base podemos volver a consultar las [referencias](https://p5js.org/es/r
 
 > no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
-Pero en una consulta a tales referencias no encontraremos `document.getElementById("nombre").textContent += "Perico de los palotes";`
+Pero en una consulta a tales referencias no encontraremos algo como `document.getElementById("nombre").textContent += "…"`
 
 Eso sí lo podríamos encontrar por acá: 
 
