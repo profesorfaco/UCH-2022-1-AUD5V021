@@ -89,8 +89,6 @@ Con esta base podemos volver al conjunto de funcionalidades de [p5.js](https://p
 
 Conjunto de funcionalidades que podemos consultar en https://p5js.org/es/reference/
 
-Recuerden que podrían ordenar el documento creado si copian, pegan y reemplazan lo ordenado por https://webformatter.com/html
-
 - - - - - - - 
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_01) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_03)
