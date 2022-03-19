@@ -89,6 +89,15 @@ Con esta base podemos volver al conjunto de funcionalidades de [p5.js](https://p
 
 Conjunto de funcionalidades que podemos consultar en https://p5js.org/es/reference/
 
+Pero en la consulta a tales referencias no encontraremos `document.getElementById("nombre").textContent += "Perico de los palotes";`
+
+Eso sí lo podríamos encontrar por acá: 
+
+- https://developer.mozilla.org/es/docs/Web/API/Document/getElementById
+- https://developer.mozilla.org/es/docs/Web/API/Node/textContent
+
+De a poco iremos asomándonos fuera de la biblioteca, para aprender de JavaScript "a secas".
+
 - - - - - - - 
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_01) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_03)
