@@ -59,7 +59,8 @@ Ahora tenemos lo necesario para copiar algo dentro de `<body>…</body>`, entre 
 
 ```
 function setup() {
-   createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1);
+   createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style("z-index", -1);
+   createElement("u", "Perico de los palotes").parent("nombre");
 }
 function draw() {
    background(100);
@@ -69,7 +70,16 @@ function windowResized() {
 } 
 ```
 
-Si el `index.html` les quedó un poco desordenado, recuerden que pueden aprovechar https://webformatter.com/html
+Lo último que agregaremos dentro de `<body>…</body>`, pero justo antes del `<script>…</script>`
+
+```
+<div>
+<h1>Hola. Me llamo <span id="nombre"></span></h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ligula, sollicitudin vitae dolor non, ornare accumsan ante. Morbi at dapibus eros. Duis consectetur egestas ipsum ac luctus.</p>
+</div>
+```
+
+Si el `index.html` queda un poco desordenado, podemos ordenarlo con https://webformatter.com/html
 
 Después de ordenar el código y guardar el `index.html`, pueden abrirlo en un navegador web y ver el resultado.
 
