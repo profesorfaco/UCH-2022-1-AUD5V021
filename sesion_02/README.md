@@ -81,7 +81,7 @@ Lo último que agregaremos dentro de `<body>…</body>`, pero justo antes del `<
 
 Si el código en el `index.html` queda un poco desordenado, podemos ordenarlo con ayuda de https://webformatter.com/html
 
-Después de ordenar el código y guardar el `index.html`, pueden abrirlo en un navegador web y ver el resultado.
+Después de ordenar el código y guardar el `index.html`, podemos abrirlo en un navegador web y ver el resultado.
 
 Con esta base podemos volver a las [referencias](https://p5js.org/es/reference/) del conjunto de funcionalidades de [p5.js](https://p5js.org/es/), con las que
 
