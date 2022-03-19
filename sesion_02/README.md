@@ -79,7 +79,7 @@ Lo último que agregaremos dentro de `<body>…</body>`, pero justo antes del `<
 </div>
 ```
 
-Si el `index.html` queda un poco desordenado, podemos ordenarlo con https://webformatter.com/html
+Si el código en el `index.html` queda un poco desordenado, podemos ordenarlo con ayuda de https://webformatter.com/html
 
 Después de ordenar el código y guardar el `index.html`, pueden abrirlo en un navegador web y ver el resultado.
 
