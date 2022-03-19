@@ -60,7 +60,7 @@ Ahora tenemos lo necesario para copiar algo dentro de `<body>…</body>`, entre 
 ```
 function setup() {
    createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style("z-index", -1);
-   createElement("u", "Perico de los palotes").parent("nombre");
+   document.getElementById("nombre").textContent += "Perico de los palotes";
 }
 function draw() {
    background(100);
