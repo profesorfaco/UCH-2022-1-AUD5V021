@@ -88,9 +88,7 @@ Las variables `g` y `h` son mezclas de las anteriores.
 
 Si necesitamos el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo directamente. Pero el caso es distinto si necesitamos un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
-Para comprender de mejor manera lo recién expuesto, sigamos aprovechando el [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/55-yg0wx0) y partir por la variable `e`: 
-
-Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]` el resultado sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
+Vamos con la variable `e`. Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]` el resultado sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
 
 Pasemos a la variable `f`: 
 
@@ -100,17 +98,13 @@ Vamos por la variable `g`:
 
 Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
 
-Llegando a la variable `h`, conviene abrir la exploración práctica. 
+Llegando a la variable `h`, conviene aprovechar algo preparado https://editor.p5js.org/profesorfaco/sketches/8-3OZsD8O
 
-Primero copiemos y peguemos esta variable en el [editor web de p5.js](https://editor.p5js.org/), y enfoquémonos en los octillizos Nahasapeemapetilon para explorar:
+Allí nos enfocaremos en los octillizos Nahasapeemapetilon y aprovecharemos dos métodos:
 
 - el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
 - el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach); y
-
-- el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
-
-Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/); es que los tres métodos son "nativos" de JavaScript, no son funciones exclusivas de p5.js (por lo que se pueden usar en esta o cualquier otra bibliiteca).
 
 - - - - - - -
 
