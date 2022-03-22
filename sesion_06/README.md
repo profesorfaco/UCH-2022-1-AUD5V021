@@ -115,9 +115,9 @@ Dos ejemplos de JSON:
 - https://hp-api.herokuapp.com/api/characters/staff
 - https://digimon-api.vercel.app/api/digimon
 
-¿Qué ofrece cada ejemplo? La respuesta la pueden leyendo cada JSON.
+¿Qué ofrece cada ejemplo? La respuesta la pueden encontrar leyendo cada JSON.
 
-Y si nos quedamos con el segundo ejemplo, podemos armar una página web que se aproveche de sus datos y también de Bootstrap:
+Con el segundo ejemplo, podemos armar una página web que se aproveche de sus datos (con imágenes) y también de Bootstrap:
 
 ```
 <!DOCTYPE html>
