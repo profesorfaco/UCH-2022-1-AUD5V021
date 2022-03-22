@@ -108,7 +108,7 @@ En lo que siga conviene contar con una extensión que permita ver JSON de manera
 
 ¿Qué es [JSON](https://www.json.org/json-es.html)? 
 
->> JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
+> JSON (**J**ava**S**cript **O**bject **N**otation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
 
 Dos ejemplos de JSON:
 
