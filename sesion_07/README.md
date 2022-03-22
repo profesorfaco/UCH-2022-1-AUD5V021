@@ -50,7 +50,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
     </head>
     <body>
@@ -88,8 +88,8 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                 });
                 console.log(chileno);
                 var donde = select("tbody");
-                chileno.forEach((c) => {
-                    createElement("tr", "<td>" + c.properties.mag + " M<sub>W</sub></td><td>" + c.properties.place + "</td>").parent(donde);
+                chileno.forEach((cl) => {
+                    createElement("tr", "<td>" + cl.properties.mag + " M<sub>W</sub></td><td>" + cl.properties.place + "</td>").parent(donde);
                 });
             }
         </script>
