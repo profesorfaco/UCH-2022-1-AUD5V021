@@ -41,7 +41,7 @@ Dentro de `<head>…</head>`, agreguemos un par de metadatos, algo de CSS y un t
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * { margin: 0; padding: 0; }
-body { background: black; }
+body { background: black; color: white; }
 div { padding: 2rem; }
 p { padding: 1rem 0; }
 @media (min-width: 800px) { p { max-width: 60%; } }
@@ -55,7 +55,7 @@ Después del título para la pestaña, y aún dentro del `<head>…</head>`, vin
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
-Ahora tenemos lo necesario para copiar algo dentro de `<body>…</body>`, entre etiquetas `<script>…</script>`:
+Ahora tenemos lo necesario para copiar algo dentro de `<body>…</body>`, y copiarlo entre etiquetas `<script>…</script>`:
 
 ```
 function setup() {
@@ -70,7 +70,7 @@ function windowResized() {
 } 
 ```
 
-Lo último que agregaremos dentro de `<body>…</body>`, pero justo antes del `<script>…</script>` será lo siguiente:
+Lo último que agregaremos dentro de `<body>…</body>`, pero justo antes del `<script>…</script>`, será lo siguiente:
 
 ```
 <div>
