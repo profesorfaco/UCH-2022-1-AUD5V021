@@ -18,14 +18,23 @@ Recordemos que p5.js nos permite manipular el DOM más allá del Canvas, mediant
 - [`selectAll()`](https://p5js.org/es/reference/#/p5/selectAll)
 - [etc.](https://p5js.org/es/reference/)
 
-También nos permite [pre-cargar](https://p5js.org/reference/#/p5/preload) datos que se intercambian en formatos ligeros tales como [XML](https://p5js.org/es/reference/#/p5/loadXML), [CSV](https://p5js.org/es/reference/#/p5/loadTable) y [JSON](https://p5js.org/es/reference/#/p5/loadJSON). Entre los que comparten datos en JSON, tenemos:
+También nos permite [pre-cargar](https://p5js.org/reference/#/p5/preload) datos que se intercambian en formatos ligeros tales como [XML](https://p5js.org/es/reference/#/p5/loadXML), [CSV](https://p5js.org/es/reference/#/p5/loadTable) y [JSON](https://p5js.org/es/reference/#/p5/loadJSON). 
+
+Entre los que comparten datos en JSON, tenemos:
 
 - Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - Tiempo atmosférico: https://openweathermap.org/current#current_JSON
 - Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 - Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
 
-**Con JSON y p5.js, podríamos crear elementos ([`createElement()`](https://p5js.org/es/reference/#/p5/createElement)) basándonos en los datos en un JSON precargado, y presentarlos al modo que nos permita el CSS compilado de Bootstrap**.
+**Como vimos la sesión recién pasada, con JSON y p5.js, podríamos crear elementos ([`createElement()`](https://p5js.org/es/reference/#/p5/createElement)) basándonos en los datos en un JSON precargado, y presentarlos al modo que nos permita el CSS compilado de Bootstrap**.
+
+Ahora bien, no conviene pensar que siempre necesitaremos de p5.js para ir por algún dato. También podemos tomar un JSON con el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación original, por lo que podemos usarla sin vincular una biblioteca.
+
+Lo recién dicho implica un desvío de lo que estamos viendo, por lo que conviene revisarlo aparte e ideal sería hacerlo con un par de videos publicados por Daniel Shiffman:
+
+- https://youtu.be/tc8DU14qX6I
+- https://youtu.be/uxf0--uiX0I
 
 - - - - - - - 
 
