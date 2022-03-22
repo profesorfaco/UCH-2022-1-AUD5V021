@@ -16,7 +16,7 @@ En esta sesión vamos a echarle un vistazo al fondo de la pisciona a la que ya n
 
 [Python](https://www.python.org/), [PHP](https://www.php.net/) y [Ruby](https://www.ruby-lang.org/es/) son otros lenguajes de programación de uso popular en Web.
 
-Y solo para evitar pensar en ellos como lenguajes, conviene mencionar tres *framework* populares para el desarrollo Web: [Angular](https://angular.io/), [React](https://es.reactjs.org/) y [Vue.js](https://v3.vuejs.org/). El primero ofrecía, originalmente, una vía de acceso cómoda a la programación de aplicaciones web para quienes ya programaban software en [Java](https://es.wikipedia.org/wiki/Plataforma_Java), los otros dos están basado en JavaScript (JS). El tercero, [Vue.js](https://v3.vuejs.org/), es el más respetuoso de los estándares web y el más adaptable a los diversos niveles de complejidad que puede tener un proyecto.
+Y solo para evitar pensar en ellos como lenguajes, conviene mencionar tres *framework* populares para el desarrollo Web: [Angular](https://angular.io/), [React](https://es.reactjs.org/) y [Vue.js](https://v3.vuejs.org/). El primero ofrecía, originalmente, una vía de acceso cómoda a la programación de aplicaciones web para quienes ya programaban software en [Java](https://es.wikipedia.org/wiki/Plataforma_Java), los otros dos están basado en JavaScript (JS). El tercero, [Vue.js](https://v3.vuejs.org/), es el más respetuoso de los estándares web y el más adaptable (progresivamente) a los diversos niveles de complejidad que puede tener un proyecto.
 
 - - - - - - - - - - - - - - 
 
