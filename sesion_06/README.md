@@ -100,10 +100,6 @@ Vamos por la variable `g`:
 
 Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
 
-- - - - - - -
-
-#### Exploración práctica
-
 Llegando a la variable `h`, conviene abrir la exploración práctica. 
 
 Primero copiemos y peguemos esta variable en el [editor web de p5.js](https://editor.p5js.org/), y enfoquémonos en los octillizos Nahasapeemapetilon para explorar:
@@ -115,6 +111,10 @@ Primero copiemos y peguemos esta variable en el [editor web de p5.js](https://ed
 - el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
 
 Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/); es que los tres métodos son "nativos" de JavaScript, no son funciones exclusivas de p5.js (por lo que se pueden usar en esta o cualquier otra bibliiteca).
+
+- - - - - - -
+
+#### Exploración práctica
 
 Lo segundo será explocar la posibilidad de cargar los datos que pueden ser compartidos en línea, así como se comparte https://myjson.dit.upm.es/api/bins/1wo6
 
