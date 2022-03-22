@@ -98,27 +98,24 @@ Vamos por la variable `g`:
 
 Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
 
-Llegando a la variable `h`, conviene aprovechar algo preparado https://editor.p5js.org/profesorfaco/sketches/8-3OZsD8O
-
-Allí nos enfocaremos en los octillizos Nahasapeemapetilon y aprovecharemos dos métodos:
-
-- el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
-
-- el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach); y
+Llegando a la variable `h`, conviene aprovechar algo preparado en el Editor de p5.js: https://editor.p5js.org/profesorfaco/sketches/8-3OZsD8O
 
 - - - - - - -
 
 #### Exploración práctica
 
-Lo segundo será explocar la posibilidad de cargar los datos que pueden ser compartidos en línea, así como se comparte https://myjson.dit.upm.es/api/bins/1wo6
+En lo que siga conviene contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
-Para hacer "más legible" lo compartido, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
+¿Qué es [JSON](https://www.json.org/json-es.html)? 
 
-Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor.
+>> JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
 
-Ahora bien, podríamos encontrarnos un problema al precargar https://myjson.dit.upm.es/api/bins/1wo6 con la función que ofrece p5.js: *[loadJSON always returns Object, never an Array](https://github.com/processing/p5.js/issues/2154)*. Como se indica en el foro vinculado, el problema se podría resolver de esta manera: https://editor.p5js.org/profesorfaco/sketches/611nBVIY2
+Dos ejemplos de JSON:
 
-Una vez hayamos resuelto el problema, podríamos volver a nuestro editor de código fuente local, para aprovechar algo de https://visualpharm.com/free-icons/set/simpsons y https://lottiefiles.com/svg-to-lottie
+- https://hp-api.herokuapp.com/api/characters/staff
+- https://digimon-api.vercel.app/api/digimon
+
+¿Qué ofrece cada ejemplo? Es sencillo leerlo (si se tiene instalada una de las extensiones señaladas más arriba.
 
 - - - - - - - 
 
