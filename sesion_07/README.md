@@ -36,7 +36,7 @@ Lo recién dicho implica un desvío de lo que estamos viendo, por lo que convien
 - https://youtu.be/tc8DU14qX6I
 - https://youtu.be/uxf0--uiX0I
 
-Seguiremos trabajando en esta clase con p5.js, pero no tendrán que depender por siempre de esta biblioteca para poder tomar los datos que sean intercambiados mediante JSON u otro formato ligero de intercambio.
+Seguiremos trabajando en esta sesión con p5.js, pero no tendrán que depender por siempre de esta biblioteca para poder tomar los datos que sean intercambiados mediante JSON u otro formato ligero de intercambio.
 
 - - - - - - - 
 
