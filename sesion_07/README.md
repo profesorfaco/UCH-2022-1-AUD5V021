@@ -61,22 +61,36 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"
+            integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
         <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
     </head>
-    <body>
+    <body class="bg-light bg-gradient">
+        <div class="sticky-top text-end p-3">
+            <select class="form-select form-select-sm ms-auto shadow-sm" onchange="location = this.value;" style="width: 160px;">
+                <option value="index.html" selected>Chile</option>
+                <option value="pais-x.html">País X</option>
+                <option value="pais-y.html">País Y</option>
+                <option value="pais-z.html">País Z</option>
+            </select>
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto my-5">
-                    <h1 class="text-center fs-3 mb-4">Lorem ipsum dolor sit amet</h1>
+                <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto mt-5">
+                    <h1 class="text-center fs-3 mb-5">Lorem ipsum dolor sit amet</h1>
 
-                    <p>Consectetur adipiscing elit. Nunc consequat felis at orci scelerisque, at blandit ex tempor. Vivamus sodales commodo quam vel commodo. Sed placerat dictum mauris in ultrices. Fusce feugiat risus ac nibh pretium dignissim. Praesent vel nulla pellentesque, congue velit a, pulvinar quam. Phasellus consectetur nibh id lectus aliquam, at tincidunt turpis pellentesque. Nulla a urna vitae enim consequat pellentesque.</p>
+                    <p>Consectetur adipiscing elit. Nunc consequat felis at orci scelerisque, at blandit ex tempor. Vivamus sodales commodo quam vel commodo. Sed placerat dictum mauris in ultrices. Fusce feugiat risus ac nibh pretium dignissim.</p>
 
-                    <table class="table table-sm table-striped table-hover">
+                    <table class="table table-sm table-striped table-hover mt-5">
                         <thead>
                             <tr>
                                 <th scope="col">Magnitud</th>
                                 <th scope="col">Lugar</th>
+                                <th scope="col">Detalles</th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -86,7 +100,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
         </div>
         <script>
             var data;
-            var chileno = [];
+            var pais = [];
             function preload() {
                 data = loadJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson");
             }
@@ -94,13 +108,13 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                 noCanvas;
                 data.features.forEach((t) => {
                     if (t.properties.place.includes("Chile")) {
-                        chileno.push(t);
+                        pais.push(t);
                     }
                 });
-                console.log(chileno);
+                console.log(pais);
                 var donde = select("tbody");
-                chileno.forEach((cl) => {
-                    createElement("tr", "<td>" + cl.properties.mag + " M<sub>W</sub></td><td>" + cl.properties.place + "</td>").parent(donde);
+                pais.forEach((p) => {
+                    createElement("tr", "<td>" + p.properties.mag + " M<sub>W</sub></td><td>" + p.properties.place + "</td>" + "<td><a href='" + p.properties.url + "' target='_blank'>vínculo</a></td>").parent(donde);
                 });
             }
         </script>
