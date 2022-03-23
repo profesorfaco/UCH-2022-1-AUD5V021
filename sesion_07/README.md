@@ -13,7 +13,6 @@ Recordemos que [p5.js](https://p5js.org/es/) es una biblioteca de JavaScript
 Recordemos que p5.js nos permite manipular el DOM más allá del Canvas, mediante:
 
 - [`createElement()`](https://p5js.org/es/reference/#/p5/createElement)
-- [`removeElements()`](https://p5js.org/es/reference/#/p5/removeElements)
 - [`select()`](https://p5js.org/es/reference/#/p5/select)
 - [`selectAll()`](https://p5js.org/es/reference/#/p5/selectAll)
 - [etc.](https://p5js.org/es/reference/)
