@@ -6,7 +6,11 @@
 
 #### Teoría
 
-En esta sesión vamos a echarle un vistazo al fondo de la piscina a la que ya nos lanzamos. Lo primero que aparece a la vista es que el código fuente implica describir y/o programar. Hay lenguajes de descripción y lenguajes de programación. En web, se utilizan los siguientes:
+En esta sesión vamos a echarle un vistazo al fondo de la piscina a la que ya nos lanzamos. 
+
+Lo primero que aparece a la vista es que el código fuente implica describir y/o programar. Hay lenguajes de descripción y lenguajes de programación. 
+
+En web, se utilizan los siguientes:
 
 - **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página). HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Puedes complementar esta brevísima introducción a HTML con una revisión de https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
 
