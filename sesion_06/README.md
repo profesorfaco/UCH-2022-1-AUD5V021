@@ -129,7 +129,7 @@ Corresponde tener a mano:
 
 - la propiedad [innerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
 
-Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como index.html:
+Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`:
 
 ```
 <!DOCTYPE html>
@@ -169,6 +169,8 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
     </body>
 </html>
 ```
+
+Partiendo en este código avanzaremos en el uso de Bootstrap, agregando más contenido.
 
 - - - - - - - 
 
