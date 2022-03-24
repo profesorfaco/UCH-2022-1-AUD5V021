@@ -6,10 +6,6 @@
 
 La pauta de evaluación se presentará al inicio de la sesión. 
 
-**Adelanto**: Se recomienda revisar algunas infografías digitales en:
-
-- https://graphics.reuters.com/
-- https://www.scmp.com/infographic/
 
 - - - - - - - 
 
