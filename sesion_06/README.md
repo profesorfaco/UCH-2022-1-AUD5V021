@@ -102,7 +102,7 @@ Dos ejemplos de JSON:
 - https://hp-api.herokuapp.com/api/characters/staff
 - https://digimon-api.vercel.app/api/digimon
 
-¿Qué ofrece cada ejemplo? La respuesta la pueden encontrar leyendo cada JSON. Para hacerlo conviene contar con una extensión que permita visualizar JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
+¿Qué ofrece cada ejemplo? Eso lo pueden responder después de leer cada JSON. Para hacerlo conviene contar con una extensión que permita visualizar JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
 Y para obtener los datos de un JSON en línea, también podemos contar con la ayuda de p5.js, como se puede revisar en los siguientes ejemplos del editor:
 
