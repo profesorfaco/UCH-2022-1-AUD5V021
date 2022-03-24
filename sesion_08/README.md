@@ -4,6 +4,9 @@
 
 - - - - - - - - 
 
+#### Exploración práctica recordando la Teoría
+
+
 Revisaremos algunos trabajos de infografía digital para inspirarnos:
 
 - https://graphics.reuters.com/
