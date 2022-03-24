@@ -21,7 +21,7 @@ Luego cada estudiante debe bocetear una página web, aprovechando partes de lo p
 
 El bocetaje se puede hacer en Photoshop, con pantallazos – https://www.site-shot.com/
 
-No es necesario que el boceto sea muy elaborado (detallado, fino, con texte definitivo), basta que sea claro.
+No es necesario que el boceto sea muy elaborado (detallado, fino, con texto definitivo), basta que sea claro y realizable con lo que ya ha aprendido.
 
 - - - - - - - - 
 
