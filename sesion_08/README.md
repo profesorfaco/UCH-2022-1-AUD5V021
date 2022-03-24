@@ -8,8 +8,6 @@ Revisaremos algunos trabajos de infografía digital para poder estructurar una p
 
 - https://graphics.reuters.com/
 - https://www.scmp.com/infographic/
-- http://infografias.elmercurio.com/
-
 
 
 - - - - - - - - - - - - -
