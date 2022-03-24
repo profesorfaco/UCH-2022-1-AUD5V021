@@ -4,9 +4,17 @@
 
 - - - - - - - - 
 
-La pauta de evaluación se presentará al comienzo de esta sesión.
+**La pauta de evaluación se incluirá aquí al comienzo de esta sesión**.
 
-**Adelanto**: Utilizaremos editor de código fuente, algunos [ejemplos de p5.js](https://p5js.org/es/examples/) y [los archivos](https://profesorfaco.github.io/front-end/sesion_03/) en esta carpeta.
+El plazo para realizar la evaluación comienza a las 15.00 hrs. y termina a las 18.15 hrs. Este es el mismo horario de la clase: A las 18.15 hrs. debe tener en línea el resultado de editar [los archivos](https://profesorfaco.github.io/front-end/sesion_03/) en esta carpeta:
+
+- `index.html` con una presentación de lo que se encontrará en las otras páginas (como lo hecho en la sesión recién pasada).
+- `page-1.html`, `page-2.html` y `page-3.html`, cada cual con [una adaptación de un ejemplo distinto de p5.js](https://p5js.org/es/examples/) 
+
+Como fue indicado, apelando al "esta reunión pudo haber sido un mail": Pueden realizar el trabajo donde más les acomode. No es necesario estar en la B-13 ni en la FAU. Igualmente me encontrarán en la sala, donde podrán usar los computadores disponibles. pero yo no respoderé dudas…… porque es evaluación diagnóstica (como una prueba).
+
+La asistencia no importa. Lo que importa es cumplir con el plazo. Toda entrega debe estar en su repositorio de GitHub y operativa en GitHub Pages antes de las 18.16 hrs. del jueves 31 de marzo, 2022.
+
 
 - - - - - - - 
 
