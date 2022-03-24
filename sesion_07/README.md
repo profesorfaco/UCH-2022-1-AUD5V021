@@ -108,12 +108,12 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Usamos `fetch()` para obtener los datos más recientes de https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv. En caso no hayas visto los videos de Daniel Shiffman recomendados en la clase anterior, estos fueron:
+Usamos `fetch()` para obtener los datos más recientes en [TotalesNacionales.csv](https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv). En caso no hayas revisado los videos de Daniel Shiffman recomendados en la clase anterior, estos fueron:
 
 - https://youtu.be/tc8DU14qX6I
 - https://youtu.be/uxf0--uiX0I
 
-A tales videos podrían sumar el que muestra como ir por un CSV (Comma Separated Values) publicado por la NASA:
+A tales videos podrían sumar el que enseña como ir por un CSV (**C**omma **S**eparated **V**alues) publicado por la NASA:
 
 - https://youtu.be/RfMkdvN-23o
 
