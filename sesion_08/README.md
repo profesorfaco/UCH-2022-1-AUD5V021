@@ -1,12 +1,10 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 5 de mayo → sesion_08 → Bootstrap v5.1 y Charts.js
+### Jueves 5 de mayo → sesion_08 → Pre-evaluación Nº1
 
 - - - - - - - - 
 
-La pauta de evaluación se presentará al inicio de la sesión. 
-
-**Adelanto**: Se recomienda revisar algunas infografías digitales en:
+Revisaremos algunos trabajos de infografía digital para poder estructurar una página web con Boostraps, donde sea necesario tomar datos reales para presentar un asunto particular.
 
 - https://graphics.reuters.com/
 - https://www.scmp.com/infographic/
