@@ -14,7 +14,7 @@ En el ejemplo hay textos que se redactan para la web: https://www.nngroup.com/ar
 
 Pero los textos no son suficientes, por lo que la presentación del tema debe complementarse con el uso de un par de métodos de visualización de datos o de información: https://www.visual-literacy.org/periodic_table/periodic_table.html
 
-Podrías bocetear una página web para la presentación de tu tema tomando partes de lo publicado en:
+Luego cada estudiante debe bocetear una página web, aprovechando partes de lo publicado en:
 
 - https://graphics.reuters.com/
 - https://www.scmp.com/infographic/
