@@ -58,11 +58,6 @@ var g = {
 };
 var h = [
     {
-        mom: "Luann",
-        dad: "Kirk",
-        children: ["Milhouse"]
-    },
-    {
         mom: "Marge",
         dad: "Homer",
         children: ["Bart", "Lisa", "Maggie"]
@@ -90,34 +85,43 @@ Si necesitamos el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo 
 
 Vamos con la variable `e`. Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]` el resultado sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
 
-Pasemos a la variable `f`: 
+Pasemos a la variable `f`. Si necesitamos escribir la frase `Fue Kirk Van Houten quien intentó dibujar la dignidad`, tendríamos que escribir `'Fue ' + f.dad + ' quien intentó dibujar la dignidad'`.
 
-Si necesitamos escribir la frase `Fue Kirk Van Houten quien intentó dibujar la dignidad`, tendríamos que escribir `'Fue ' + f.dad + ' quien intentó dibujar la dignidad'`.
-
-Vamos por la variable `g`: 
-
-Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
+Vamos por la variable `g`. Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
 
 Llegando a la variable `h`, conviene aprovechar algo preparado en el Editor de p5.js: https://editor.p5js.org/profesorfaco/sketches/8-3OZsD8O
 
-- - - - - - -
+Para cerrar: Las variables `f` y `g` contienen un objeto. Las variables `h` es un arreglo con tres objetos. Luego, las variables `f`, `g` y `h`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation ([JSON](https://www.json.org/json-es.html)).
 
-#### Exploración práctica
+En lo recién dicho aparecen las iniciales con las que se denomina a un formato ligero de intercambio de datos: 
 
-En lo que siga conviene contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
-
-¿Qué es [JSON](https://www.json.org/json-es.html)? 
-
-> JSON (**J**ava**S**cript **O**bject **N**otation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
+> JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
 
 Dos ejemplos de JSON:
 
 - https://hp-api.herokuapp.com/api/characters/staff
 - https://digimon-api.vercel.app/api/digimon
 
-¿Qué ofrece cada ejemplo? La respuesta la pueden encontrar leyendo cada JSON.
+¿Qué ofrece cada ejemplo? La respuesta la pueden encontrar leyendo cada JSON. Para hacerlo conviene contar con una extensión que permita visualizar JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
-Con el segundo ejemplo, podemos armar una página web que se aproveche de sus datos (con imágenes) y también de Bootstrap:
+Y para obtener los datos de un JSON en línea, también podemos contar con la ayuda de p5.js, como se puede revisar en los siguientes ejemplos del editor:
+
+- https://editor.p5js.org/profesorfaco/sketches/7FrCDZKc1
+- https://editor.p5js.org/profesorfaco/sketches/dbC5hqQya
+
+La consulta de los datos contenidos en un JSON dependerá de su estructura, así como dependía la consulta por los nombres de los personajes en las variables `f`, `g` y `h`.
+
+No conviene quedarnos con la idea de que siempre necesitaremos de p5.js para iobtener los datos de un JSON en línea. También podemos tomar un JSON con el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación original, por lo que podemos usarla sin vincular una biblioteca.
+
+Para comprender el uso de fetch conviene revisar un par de videos publicados por Daniel Shiffman:
+
+- https://youtu.be/tc8DU14qX6I
+- https://youtu.be/uxf0--uiX0I
+
+
+- - - - - - - - - - -
+
+#### Exploración práctica
 
 ```
 <!DOCTYPE html>
@@ -142,20 +146,17 @@ Con el segundo ejemplo, podemos armar una página web que se aproveche de sus da
                 <div class="col"><p class="text-muted py-2 text-center small">Bootstrap v5.1 y datos en JavaScript</p></div>
             </div>
         </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-            var data;
-            function preload() {
-                data = loadJSON("https://digimon-api.vercel.app/api/digimon");
-            }
-            function setup() {
-                noCanvas;
-                Object.values(data).forEach((d) => {
+            async function visualizacion() {
+                const consulta = await fetch("https://digimon-api.vercel.app/api/digimon");
+                const data = await consulta.json();
+                data.forEach((d) => {
                     if (d.level == "In Training") {
-                    createElement("div", '<div class="card shadow-sm"><img class="card-img-top" src="' + d.img + '"><div class="card-body"><p class="card-text">' + d.name + "</p></div></div>").addClass("col").parent("#aqui");
+                        document.getElementById("aqui").innerHTML += '<div><div class="card shadow-sm"><img class="card-img-top" src="' + d.img + '"><div class="card-body"><p class="card-text">' + d.name + "</p></div></div>";
                     }
                 });
             }
+            visualizacion();
         </script>
     </body>
 </html>

@@ -6,50 +6,45 @@
 
 #### Teoría
 
-Recordemos que [p5.js](https://p5js.org/es/) es una biblioteca de JavaScript
+**[Chart.js](https://www.chartjs.org/) es una biblioteca de JavaScript que nos permite implementar gráficos (dentro de un elemento [`<canvas>…</canvas>`](https://www.w3schools.com/html/html5_canvas.asp)) de manera sencilla**.
 
-> para la programación creativa, que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona! p5.js es gratuito y de código abierto porque creemos que el software y las herramientas para aprenderlo deben ser accesibles para todos.
+Con [Chart.js](https://www.chartjs.org/) podemos implementar gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en esta biblioteca de JavaScript, que se ofrece como *simple yet flexible JavaScript charting for designers & developers*. 
+ 
+Conviene mencionar otras alternativas de *JavaScript charting*. Por nombrar algunas: [Apache ECharts](https://echarts.apache.org/en/index.html), [d3.js](https://d3js.org/) (que [tuvo su cuarto de hora](https://medium.com/@PepsRyuu/why-i-no-longer-use-d3-js-b8288f306c9a)), [dygraph](https://dygraphs.com/). 
 
-Recordemos que p5.js nos permite manipular el DOM más allá del Canvas, mediante:
+Pero usaremos [Chart.js](https://www.chartjs.org/) porque en el contexto intructorio basta con resolver gráficos simples aprovechando una estructura clara:
 
-- [`createElement()`](https://p5js.org/es/reference/#/p5/createElement)
-- [`select()`](https://p5js.org/es/reference/#/p5/select)
-- [`selectAll()`](https://p5js.org/es/reference/#/p5/selectAll)
-- [etc.](https://p5js.org/es/reference/)
+```
+var contexto = document.getElementById('nombre').getContext('2d');
+var configuracion = {type: '…', data: {…}, options: {…}}
+var chart = new Chart(contexto, configuracion);
+```
 
-También nos permite [pre-cargar](https://p5js.org/reference/#/p5/preload) datos que se intercambian en formatos ligeros tales como [XML](https://p5js.org/es/reference/#/p5/loadXML), [CSV](https://p5js.org/es/reference/#/p5/loadTable) y [JSON](https://p5js.org/es/reference/#/p5/loadJSON). 
+La estructura también puede escribirse así:
 
-Entre los que comparten datos en JSON, tenemos:
+```
+new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
+```
 
-- Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
-- Tiempo atmosférico: https://openweathermap.org/current#current_JSON
-- Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
-- Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
+Esto es lo mismo que decir:
 
-**Como vimos la sesión recién pasada, con JSON y p5.js, podríamos crear elementos ([`createElement()`](https://p5js.org/es/reference/#/p5/createElement)) basándonos en los datos en un JSON precargado, y presentarlos al modo que nos permita el CSS compilado de Bootstrap**.
+- Vamos a crear un `new Chart(…, {…});`
 
-No conviene quedarnos con la idea de que siempre necesitaremos de p5.js para ir por algún dato. También podemos tomar un JSON con el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación original, por lo que podemos usarla sin vincular una biblioteca.
+- Tal será su contexto `(document.getElementById('nombre').getContext('2d')`
 
-Lo recién dicho implica un desvío de lo que estamos viendo, por lo que conviene revisarlo aparte e ideal sería hacerlo con un par de videos publicados por Daniel Shiffman:
+- Y tal será su configuración: `{type: '…', data: {…}, options: {…}}`
 
-- https://youtu.be/tc8DU14qX6I
-- https://youtu.be/uxf0--uiX0I
+En la configuración se decide el tipo de gráfico y los datos para el gráfico, además de opciones de presentación.
 
-Seguiremos trabajando en esta sesión con p5.js, pero no tendrán que depender por siempre de esta biblioteca para poder tomar los datos de un JSON u otro formato ligero de intercambio.
-
-- - - - - - - 
+- - - - - - - - - - - - - - - 
 
 #### Exploración práctica
 
 Corresponde tener a mano:
 
-- una descripción del [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
+- una descripción del [método `toLocaleString()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString); y
 
-- una descripción del [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
-
-- una descripción del [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push); y
-
-- las [referencias de p5.js](https://p5js.org/es/reference/).
+- la [documentación de Charts.js](https://www.chartjs.org/docs/latest/).
 
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`: 
 
@@ -60,66 +55,67 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"
-            integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
     </head>
-    <body class="bg-light bg-gradient">
-        <div class="sticky-top text-end p-3">
-            <select class="form-select form-select-sm ms-auto shadow-sm" onchange="location = this.value;" style="width: 160px;">
-                <option value="index.html" selected>Chile</option>
-                <option value="pais-x.html">País X</option>
-                <option value="pais-y.html">País Y</option>
-                <option value="pais-z.html">País Z</option>
-            </select>
-        </div>
+    <body>
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto mt-5">
-                    <h1 class="text-center fs-3 mb-5">Lorem ipsum dolor sit amet</h1>
-
-                    <p>Consectetur adipiscing elit. Nunc consequat felis at orci scelerisque, at blandit ex tempor. Vivamus sodales commodo quam vel commodo. Sed placerat dictum mauris in ultrices. Fusce feugiat risus ac nibh pretium dignissim.</p>
-
-                    <table class="table table-sm table-striped table-hover mt-5">
-                        <thead>
-                            <tr>
-                                <th scope="col">Magnitud</th>
-                                <th scope="col">Lugar</th>
-                                <th scope="col">Detalles</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
+                    <h1 class="text-center fs-3 mb-4">Pandemia</h1>
+                </div>
+                <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto my-1">
+                    <canvas id="misBarritas" class="my-4"></canvas>
+                </div>
+                <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto mb-3">
+                    <p>Estos son datos oficiales, <a href="https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto5" target="_blank">obtenidos del repositorio de GitHub de Datos-COVID19</a> del Ministerio de Ciencia, Tecnología, Conocimiento, e Innovación del Gobierno de Chile.</p>
                 </div>
             </div>
         </div>
         <script>
-            var data;
-            var pais = [];
-            function preload() {
-                data = loadJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson");
-            }
-            function setup() {
-                noCanvas;
-                data.features.forEach((t) => {
-                    if (t.properties.place.includes("Chile")) {
-                        pais.push(t);
+            async function visualizacion() {
+                const consulta = await fetch("https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv");
+                const data = await consulta.text();
+                const filas = data.split("\n");
+                const fechas = filas[0].split(",").slice(1);
+                const activos = filas[5].split(",").slice(1);
+                new Chart(document.getElementById("misBarritas").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: fechas,
+                        datasets: [{ data: activos,  backgroundColor: "#d00" }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                ticks: {
+                                    callback: function (numero) {
+                                        return numero.toLocaleString("es-CL");
+                                    }
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: { display: false },
+                            title: { display: true, text: "CASOS ACTIVOS DE COVID-19 EN CHILE" },
+                        }
                     }
-                });
-                console.log(pais);
-                var donde = select("tbody");
-                pais.forEach((p) => {
-                    createElement("tr", "<td>" + p.properties.mag + " M<sub>W</sub></td><td>" + p.properties.place + "</td>" + "<td><a href='" + p.properties.url + "' target='_blank'>vínculo</a></td>").parent(donde);
-                });
+                })
             }
+            visualizacion();
         </script>
     </body>
 </html>
 ```
+
+Usamos `fetch()` para obtener los datos más recientes de https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv. En caso no hayas visto los videos de Daniel Shiffman recomendados en la clase anterior, estos fueron:
+
+- https://youtu.be/tc8DU14qX6I
+- https://youtu.be/uxf0--uiX0I
+
+A tales videos podrían sumar el que muestra como ir por un CSV (Comma Separated Values) publicado por la NASA:
+
+- https://youtu.be/RfMkdvN-23o
 
 - - - - - - - 
 
