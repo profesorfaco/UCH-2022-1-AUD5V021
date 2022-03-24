@@ -32,7 +32,7 @@ Cada estudiante necesita:
 
 - Jueves 17 de marzo → [sesion_01](https://github.com/profesorfaco/front-end/tree/main/sesion_01) → p5.js ✓
 
-- Jueves 24 de marzo → [sesion_02](https://github.com/profesorfaco/front-end/tree/main/sesion_02) → HTML5, CSS3 y p5.js
+- Jueves 24 de marzo → [sesion_02](https://github.com/profesorfaco/front-end/tree/main/sesion_02) → HTML5, CSS3 y p5.js ✓
 
 - **Jueves 31 de marzo → [sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03) → Evaluación Diagnóstica**
 
