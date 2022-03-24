@@ -27,7 +27,7 @@ No es necesario que el boceto sea muy elaborado (detallado, fino, con texto defi
 
 #### Exploración práctica
 
-El boceto que debe presentar al inicio de la clase tiene que servirle para armar una página que presente un asunto concreto con datos reales. 
+Partiendo del boceto, debe armar una página que presente un asunto concreto con datos reales. 
 
 La página debe armarse con [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/) y en ella deben desplegarse [visualizaciones de datos o información](https://www.visual-literacy.org/periodic_table/periodic_table.html) que se resuelvan con el uso de las bibliotecas [p5.js](https://p5js.org/es/) o [Charts.js](https://www.chartjs.org/) y un [*fetch*](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch) de datos intercambiados con [JSON](https://www.json.org/json-es.html) o [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
 
