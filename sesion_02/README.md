@@ -100,6 +100,10 @@ Eso sí lo podríamos encontrar por acá:
 
 De a poco iremos asomándonos fuera de esta biblioteca de JavaScript, para aprender algo de JavaScript "a secas".
 
+**Esto es nuevo:**
+
+- Busque un color Pantone en https://codebeautify.org/pantone-to-rgb-converter
+
 - - - - - - - 
 
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_01) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_03)
