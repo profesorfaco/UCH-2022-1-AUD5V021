@@ -23,6 +23,8 @@ El bocetaje se puede hacer en Photoshop, con pantallazos – https://www.site-sh
 
 No es necesario que el boceto sea muy elaborado (detallado, fino, con texte definitivo), basta que sea claro.
 
+- - - - - - - - 
+
 #### Exploración práctica
 
 El boceto tiene que servirnos para armar una página que presente un asunto concreto con datos reales. 
