@@ -123,6 +123,14 @@ Para comprender el uso de fetch conviene revisar un par de videos publicados por
 
 #### Exploración práctica
 
+Corresponde tener a mano:
+
+- una descripción del método [forEach()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach); y
+
+- la propiedad [innerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
+
+Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como index.html:
+
 ```
 <!DOCTYPE html>
 <html lang="es">
