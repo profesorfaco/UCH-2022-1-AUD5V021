@@ -10,7 +10,6 @@ La pauta de evaluación se presentará al inicio de la sesión.
 
 - https://graphics.reuters.com/
 - https://www.scmp.com/infographic/
-- http://infografias.elmercurio.com/
 
 - - - - - - - 
 
