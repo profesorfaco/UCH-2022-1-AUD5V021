@@ -103,6 +103,7 @@ De a poco iremos asomándonos fuera de esta biblioteca de JavaScript, para apren
 **Esto es nuevo:**
 
 - Busque un color Pantone en https://codebeautify.org/pantone-to-rgb-converter
+- Sume un emoji: https://unicode-table.com/en/emoji/
 
 - - - - - - - 
 
