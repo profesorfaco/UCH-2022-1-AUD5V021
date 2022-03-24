@@ -8,7 +8,7 @@
 
 Más que teoría, esto es una tarea: 
 
-Cada estudiante debe buscar algún tema de interés que pueda presentarse en algo como https://profesorfaco.github.io/front-end/sesion_08/
+Cada estudiante debe buscar algún tema de interés para presentarlo con algo como https://profesorfaco.github.io/front-end/sesion_08/
 
 En el ejemplo hay textos que se redactan para la web: https://www.nngroup.com/articles/be-succinct-writing-for-the-web/
 
