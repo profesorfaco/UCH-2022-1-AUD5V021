@@ -1,6 +1,6 @@
 # Introducción al Desarrollo Front End con HTML, CSS y JavaScript
 
-### Jueves 28 de abril → sesion_07 → Bootstrap v5.1 y p5.js
+### Jueves 28 de abril → sesion_07 → Bootstrap v5.1 y Charts.js
 
 - - - - - - - - 
 
