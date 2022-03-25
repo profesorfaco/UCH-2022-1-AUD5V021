@@ -4,9 +4,7 @@
 
 - - - - - - - - 
 
-**La pauta de evaluación se incluirá aquí al comienzo de esta sesión**.
-
-El plazo para completar la evaluación diagnósticao comienza a las 15.00 hrs. y termina a las 18.15 hrs. Este es el mismo horario de la clase. 
+**La pauta de evaluación se incluirá aquí al comienzo de esta sesión**, porque el plazo para completar la evaluación diagnóstica comienza a las 15.00 hrs. y termina a las 18.15 hrs. Este es el mismo horario de la clase. 
 
 La evaluación consiste en editar [los archivos](https://profesorfaco.github.io/front-end/sesion_03/) en esta carpeta ([sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03)) dentro del repositorio del electivo ([front-end](https://github.com/profesorfaco/front-end)):
 
