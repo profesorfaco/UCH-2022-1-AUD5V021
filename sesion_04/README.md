@@ -38,7 +38,7 @@ En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar
 ```
 <div class="container">
   <div class="row">
-    <div class="col-6"><p>¡Usemos Bootstrap!</p></div>
+    <div class="col-6"><p>¿Usemos Bootstrap?</p></div>
     <div class="col-6"><p>Bueno, ya.</p></div>
   </div>
 </div>
@@ -46,10 +46,10 @@ En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar
 
 A toda condición de pantalla, tendríamos el `¡Usemos Boostrap!` junto al `Bueno, ya`. Esto es así porque tomamos 6 de 12 columnas (`class="col-6"`). Esto es tomar la mitad de espacio disponible en tal fila (`class="row"`) dentro del contenedor (`class="container"`).
 
-Pero podemos indicar excepciones que respondan al tamaño de pantalla en que se despliegue la página, sea esta pantalla muy pequeña, pequeña (`-sm-`), mediana (`-md-`), grande (`-lg-`), extra grande (`-xl-`) o extra-extra grande (`-xxl-`). Por ejemplo, así puedo tomar 6 y 6 columnas desde la pantalla mediana:
+Pero podemos indicar excepciones que respondan al tamaño de pantalla en que se despliegue la página, sea esta pantalla muy pequeña, pequeña (`-sm-`), mediana (`-md-`), grande (`-lg-`), extra grande (`-xl-`) o extra-extra grande (`-xxl-`). Por ejemplo, podemos modificar dos clases para tomar 6 y 6 columnas desde la pantalla mediana:
 
 ```
-<div class="col-md-6"><p>¡Usemos Bootstrap!</p></div>
+<div class="col-md-6"><p>¿Usemos Bootstrap?</p></div>
 <div class="col-md-6"><p>Bueno, ya.</p></div> 
 ```
 
