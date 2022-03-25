@@ -16,7 +16,7 @@ Cada estudiante necesita:
 
 - cuenta personal en [GitHub](https://github.com/join), para:
 
-  - [crear un repositorio](https://docs.github.com/es/get-started/quickstart/create-a-repo) por cada clase
+  - [crear un repositorio](https://docs.github.com/es/get-started/quickstart/create-a-repo) por cada sesión
 
   - activar [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) en cada repositorio creado
 
