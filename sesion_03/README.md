@@ -8,7 +8,7 @@
 
 El plazo para completar la evaluación diagnósticao comienza a las 15.00 hrs. y termina a las 18.15 hrs. Este es el mismo horario de la clase. 
 
-La evaluación consiste en editar [los archivos](https://profesorfaco.github.io/front-end/sesion_03/) en esta carpeta (sesion_03) dentro del repositorio del electivo (front-end):
+La evaluación consiste en editar [los archivos](https://profesorfaco.github.io/front-end/sesion_03/) en esta carpeta ([sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03)) dentro del repositorio del electivo (front-end):
 
 - `index.html` con una presentación de lo que se encontrará en las otras páginas (como lo hecho en la sesión recién pasada).
 - `page-1.html`, `page-2.html` y `page-3.html`, cada cual con [una adaptación de un ejemplo distinto de p5.js](https://p5js.org/es/examples/) 
