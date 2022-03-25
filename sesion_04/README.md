@@ -69,7 +69,8 @@ Una vez tengamos la página funcionando, viendose idéntica al ejemplo en línea
 
 **Boostrap nos ofrece un estilo CSS muy grande, de 11.222 líneas**. Todas esas líneas son leídas por el navegador antes de mostrar la página. Pero rara vez usamos tanto (le pedimos al navegador leer más de 10.000 líneas en cada carga de página creada con Boostrap, cuando usamos apenas unas decenas de ellas). Si queremos limitar la lectura a lo estrictamente necesario, y con ello mejorar el rendimiento de lo preparado con Bootstrap, conviene aplicar algunos trucos: https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/ 
 
-Entre los trucos del artículo recién referido, se menciona https://purifycss.online/ - Cuando tengamos nuestro trabajo en línea, con GitHub Pages, lo revisaremos con tal "purificador", y cambiaremos el CSS para dejar únicamente lo que estamos aprovechando.
+Entre los trucos del artículo recién referido, se menciona https://purifycss.online/ - Cuando tengamos nuestro trabajo en línea, con GitHub Pages, contaremos con una Website URL para darle un "Clean up CSS". Luego haremos unos cambios en los documentos en el repositorio, para aprovechar el "download combined, purified & minified CSS".
+
 
 - - - - - - - 
 
