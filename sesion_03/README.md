@@ -43,4 +43,34 @@ Buena suerte.
 
 - - - - - - - 
 
+|	Nº	|	Nombre completo	|	Cuenta en GitHub	|	GitHub Page de Entrega	|
+|	:------:	|	:-----------------------------------	|	:-----------------------------------------	|	:-----------------------------------------------	|
+|	1	|	Joselyn Benites	|	https://github.com/JM-Benites	|	Pendiente	|
+|	2	|	Fernanda Berrios	|	https://github.com/fernanda-berriosz	|	Pendiente	|
+|	3	|	Javiera Carrasco	|	https://github.com/javicarrascoo	|	Pendiente	|
+|	4	|	Alejandro Chávez	|	https://github.com/auroraborealec	|	Pendiente	|
+|	5	|	Sheridan Erices	|	https://github.com/SheridanErices	|	Pendiente	|
+|	6	|	Erik Fernández	|	https://github.com/0Eriksu	|	Pendiente	|
+|	7	|	Nicolás Galaz	|	https://github.com/nizzbrzy 	|	Pendiente	|
+|	8	|	Camila González	|	https://github.com/fant4sma	|	Pendiente	|
+|	9	|	Margarita González	|	https://github.com/mayimagenta	|	Pendiente	|
+|	10	|	Daniela Huilipán	|	https://github.com/Daniela-Huilipan	|	Pendiente	|
+|	11	|	Carla Jana	|	https://github.com/bifurcaria	|	Pendiente	|
+|	12	|	Constanza Jara	|	https://github.com/ConstanzaJara	|	https://constanzajara.github.io/Evalucion-Diagnostica-1/	|
+|	13	|	Nicolás Lagos	|	https://github.com/Niquito2010	|	Pendiente	|
+|	14	|	Bastián Lobos	|	https://github.com/bastiloestacogido	|	Pendiente	|
+|	15	|	Susana Méndez	|	Pendiente	|	Pendiente	|
+|	16	|	Javiera Mercado	|	https://github.com/br444ndy	|	Pendiente	|
+|	17	|	Catalina Pacheco	|	https://github.com/catalina1699	|	https://catalina1699.github.io/clase-31-marzo	|
+|	18	|	Joaquín Pérez	|	https://github.com/jota-pe-ge	|	https://jota-pe-ge.github.io/Evaluacion-diagnostica-Front-End/	|
+|	19	|	Camila Sáez	|	https://github.com/camilasaezso	|	https://camilasaezso.github.io/evaluacion-31-03/	|
+|	20	|	Fabiola Sánchez	|	https://github.com/fab9904	|	Pendiente	|
+|	21	|	Tamara Sánchez	|	https://github.com/sunkissedJM	|	Pendiente	|
+|	22	|	Javiera Silva	|	https://github.com/MillarayNanculeo	|	Pendiente	|
+|	23	|	Danet Triviño	|	https://github.com/DanetTrivino	|	Pendiente	|
+|	24	|	Antonia Valdebenito	|	https://github.com/b444mbi	|	https://b444mbi.github.io/evaluacion_diagnostica_01/	|
+|	25	|	Tomás Zúñiga	|	https://github.com/Tomasazm	|	Pendiente	|
+
+- - - - - - -
+
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_02) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_04)
