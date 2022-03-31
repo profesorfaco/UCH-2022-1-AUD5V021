@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-**La pauta de evaluación será incluida más abajo**, la incluiré a las 15.00 hrs.
+**Este README.md será editado a las 15.00 hrs. del jueves 31 de marzo**, en esa edición se incluirá la pauta de evaluación.
 
 Para la evaluación corresponde editar [los archivos](https://profesorfaco.github.io/front-end/sesion_03/) en esta carpeta ([sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03)) contenida en el repositorio del electivo ([front-end](https://github.com/profesorfaco/front-end)):
 
@@ -24,7 +24,7 @@ No se aceptarán entregas después del plazo recién indicado.
 
 Aunque estén dentro del plazo, tampoco se aceptarán entregas como archivos adjuntos al mail, ni se revisarán los pantallazos como evidencia de que "algo raro pasa porque en mi computador se ve bien". La entrega debe estar en línea, con [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-A propósito de evidencia: Recuerde que todo cambio en GitHub queda registrado. Si hace cambios en su trabajo después del plazo: Habrá registro de ello.
+A propósito de evidencia: Recuerde que todo cambio en GitHub queda registrado. Si Ud. hace cambios en su trabajo después del plazo: Habrá registro de ello.
 
 Buena suerte.
 
