@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-**Este README.md será editado a las 15.00 hrs. del jueves 31 de marzo**, en esa edición se incluirá la pauta de evaluación.
+**Este README.md YA FUE editado a las 15.00 hrs. del jueves 31 de marzo**, en esa edición se INCLUYÓ la pauta de evaluación.
 
 Para la evaluación corresponde editar [los archivos](https://profesorfaco.github.io/front-end/sesion_03/) en esta carpeta ([sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03)) contenida en el repositorio del electivo ([front-end](https://github.com/profesorfaco/front-end)):
 
