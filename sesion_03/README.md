@@ -41,6 +41,9 @@ Buena suerte.
 
 - - - - - - - 
 
+#### Resultados
+
+
 |	Nº	|	Nombre completo	|	GitHub Page de Entrega	|	NOTA	|
 |	:-----:	|	:------------------------|:-----------------------|:---------:|
 |	1	|	Joselyn Benites	|	https://jm-benites.github.io/clase-3/	|	6,0	|
