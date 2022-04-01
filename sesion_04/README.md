@@ -55,7 +55,7 @@ Pero podemos indicar excepciones que respondan al tamaño de ventana de navegado
 
 Para vetanas más angostas que la mediana se asumirá que se quieren tomar 12 columnas (todo el ancho disponible). Por eso quedará la pregunta arriba y la respuesta abajo cuando el ancho de la ventana del navegador sea chica o muy chica. 
 
-Los tamaños en pixeles de cada pantalla los pueden revisar en los [Breakpoints de Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/#available-breakpoints)
+Los tamaños en pixeles de cada pantalla los pueden revisar en los [*Breakpoints* de Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/#available-breakpoints).
 
 - - - - - - 
 
