@@ -14,14 +14,14 @@ En el ejemplo hay textos que se redactan para la web: https://www.nngroup.com/ar
 
 Pero los textos no son suficientes, por lo que la presentación del tema debe complementarse con el uso de un par de métodos de visualización de datos o de información: https://www.visual-literacy.org/periodic_table/periodic_table.html
 
-Luego cada estudiante debe bocetear una página web, aprovechando partes de lo publicado en:
+Considerando lo recién dicho, cada estudiante debe bocetear una página web como las de:
 
 - https://graphics.reuters.com/
 - https://www.scmp.com/infographic/
 
-El bocetaje se puede hacer en Photoshop, con pantallazos – https://www.site-shot.com/
+El bocetaje se puede hacer en Photoshop, mezclando partes de pantallazos – https://www.site-shot.com/
 
-No es necesario que el boceto sea muy elaborado (detallado, fino, con texto definitivo), basta que sea claro y realizable con lo que ya ha aprendido.
+No es necesario que el boceto sea muy elaborado (detallado, fino, con texto definitivo), basta que sea claro y realizable con lo que ya se haya enseñado-aprendido.
 
 - - - - - - - - 
 
