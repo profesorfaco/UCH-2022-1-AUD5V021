@@ -4,8 +4,6 @@
 
 - - - - - - - - 
 
-**Este README.md YA FUE editado a las 15.00 hrs. del jueves 31 de marzo**, en esa edición se INCLUYÓ la pauta de evaluación.
-
 Para la evaluación corresponde editar [los archivos](https://profesorfaco.github.io/front-end/sesion_03/) en esta carpeta ([sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03)) contenida en el repositorio del electivo ([front-end](https://github.com/profesorfaco/front-end)):
 
 - [`index.html`](https://github.com/profesorfaco/front-end/blob/main/sesion_03/index.html) con un texto que presente lo que se encontrará en las páginas interiores. Algo muy parecido a lo hecho en la sesión recién pasada, donde escribieron las razones para tomar y seguir en el electivo; ahora son las razones para adaptar determinados ejemplos de p5.js
