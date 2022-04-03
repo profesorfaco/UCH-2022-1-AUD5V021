@@ -46,7 +46,7 @@ En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar
 
 Si guardan y ven el resultado en un navegador web, podrán notar que en toda condición de pantalla tenemos el párrafo de `¿Usemos Boostrap?` junto al párrafo donde se lee `Bueno, ya`. Esto es así porque tomamos 6 de 12 columnas (`class="col-6"`). Esto es tomar la mitad de espacio disponible a lo ancho, en tal fila (`class="row"`) dentro del contenedor (`class="container"`).
 
-Pero podemos indicar excepciones que respondan al tamaño de ventana de navegador en que se despliegue la página, sea esta muy pequeña, pequeña (`-sm-`), mediana (`-md-`), grande (`-lg-`), extra grande (`-xl-`) o extra-extra grande (`-xxl-`). Por ejemplo, podemos modificar dos clases para tomar 6 y 6 columnas desde la ventana mediana:
+Pero podemos indicar excepciones que respondan al tamaño de ventana de navegador en que se despliegue la página, sea esta muy pequeña, pequeña (`-sm-`), mediana (`-md-`), grande (`-lg-`), extra grande (`-xl-`) o extra-extra grande (`-xxl-`). Por ejemplo, podemos modificar las dos clases para tomar 6 y 6 columnas desde la ventana mediana:
 
 ```
 <div class="col-md-6"><p>¿Usemos Bootstrap?</p></div>
