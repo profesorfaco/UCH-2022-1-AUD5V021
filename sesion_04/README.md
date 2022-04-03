@@ -18,7 +18,7 @@ Nos quedaremos con el primero de los mencionados, en su versión más reciente, 
 
 [Bootstrap](https://getbootstrap.com/) nos permite implementar tanto prototipos rápidos como productos acabados, esto mediante el uso de elementos HTML relacionados con [reglas de CSS predefinidas](https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.css).
 
-Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template), que copiaremos y pegaremos en un documento nuevo creado en un editor de código fuente, documento que guardaremos con el nombre `index.html`: 
+Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template), que copiaremos y pegaremos en un documento nuevo creado en un editor de código fuente, documento que guardaremos con el nombre `ejemplo.html`: 
 
 ```
 <!doctype html>
@@ -33,7 +33,7 @@ Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a part
 </html>
 ```
 
-En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar las clases con las que Bootstrap define el *layout*, siguiendo un principio general de tomar entre 1 y 12 columnas (`class="col"`) dentro de cada fila (`class="row"`) que, a su vez, está dentro de un contenedor (`class="container"`). En el `index.html` creado, reemplacen los puntos suspensivos (`…`) por lo siguiente:
+En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar las clases con las que Bootstrap define el *layout*, siguiendo un principio general de tomar entre 1 y 12 columnas (`class="col"`) dentro de cada fila (`class="row"`) que, a su vez, está dentro de un contenedor (`class="container"`). En el `ejemplo.html` creado, reemplacen los puntos suspensivos (`…`) por lo siguiente:
 
 ```
 <div class="container">
@@ -44,7 +44,7 @@ En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar
 </div>
 ```
 
-Si guardan y ven el resultado en un navegador web, podrán notar que en toda condición de pantalla tenemos el párrafo de `¿Usemos Boostrap?` junto al párrafo donde se lee `Bueno, ya`. Esto es así porque tomamos 6 de 12 columnas (`class="col-6"`). Esto es tomar la mitad de espacio disponible en tal fila (`class="row"`) dentro del contenedor (`class="container"`).
+Si guardan y ven el resultado en un navegador web, podrán notar que en toda condición de pantalla tenemos el párrafo de `¿Usemos Boostrap?` junto al párrafo donde se lee `Bueno, ya`. Esto es así porque tomamos 6 de 12 columnas (`class="col-6"`). Esto es tomar la mitad de espacio disponible a lo ancho, en tal fila (`class="row"`) dentro del contenedor (`class="container"`).
 
 Pero podemos indicar excepciones que respondan al tamaño de ventana de navegador en que se despliegue la página, sea esta muy pequeña, pequeña (`-sm-`), mediana (`-md-`), grande (`-lg-`), extra grande (`-xl-`) o extra-extra grande (`-xxl-`). Por ejemplo, podemos modificar dos clases para tomar 6 y 6 columnas desde la ventana mediana:
 
