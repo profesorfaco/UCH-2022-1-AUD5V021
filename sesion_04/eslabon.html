@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>¡Usemos Bootstrap!</title>
+    </head>
+    <body>
+        <div class="container-fluid min-vh-100">
+            <header class="row">
+                <div class="col-10 col-lg-11"><p class="mt-2 mb-1">Portada</p></div>
+                <div class="col-2 col-lg-1 text-end">
+                    <p class="mt-2 mb-1 d-flex justify-content-between"><a href="#">1</a> <a href="#">2</a> <a href="#">3</a></p>
+                </div>
+            </header>
+            <main class="row g-0" style="height: 85vh;">
+                <div class="col" id="aqui"></div>
+            </main>
+            <footer class="row">
+                <div class="col"><p class="mt-3 mb-auto text-center text-muted small">Este es un párrafo centrado, con letra muteada y chica.</p></div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var x, y;
+            var espacio = document.querySelector("main");
+            function setup() {
+                x = espacio.offsetWidth;
+                y = espacio.offsetHeight;
+                createCanvas(x, y).parent("aqui");
+                frameRate(3);
+            }
+            function draw() {
+                colorMode(HSB, 360, 100, 100);
+                background(random(0, 360), 100, 75);
+                fill(255);
+                textAlign(CENTER, CENTER);
+                text("muy random", width / 2, height / 2);
+            }
+            function windowResized() {
+                x = espacio.offsetWidth;
+                y = espacio.offsetHeight;
+                resizeCanvas(x, y);
+            }
+        </script>
+    </body>
+</html>
