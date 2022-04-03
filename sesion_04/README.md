@@ -57,6 +57,8 @@ Para vetanas más angostas que la mediana se asumirá que se quieren tomar 12 co
 
 Los tamaños en pixeles de cada pantalla los pueden revisar en los [*Breakpoints* de Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/#available-breakpoints).
 
+**Pueden asomarse al código fuente del [eslabón que les dejo en esta carpeta](https://profesorfaco.github.io/front-end/sesion_04/eslabon.html) para relacionar lo tratado en las tres primeras sesiones y [Bootstrap](https://getbootstrap.com/).**
+
 - - - - - - 
 
 #### Exploración práctica
