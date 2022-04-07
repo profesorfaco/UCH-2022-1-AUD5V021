@@ -170,7 +170,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Partiendo en este código avanzaremos en el uso de Bootstrap, agregando más contenido.
+Partiendo en este código avanzaremos en el uso de Bootstrap, agregando más contenido. Una vez comprendida el funcionamiento agregaremos una segunda página HTML cambiando datos de Digimon por datos de aves chilenas: https://aves.ninjas.cl/api/birds
 
 - - - - - - - 
 
