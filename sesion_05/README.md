@@ -32,6 +32,87 @@ También está la opción de ir por ambos de una vez, con la opción *Bundle*:
 
 Corresponde mencionar que hay una tercera opción, donde se van a buscar sólo determinados módulos, pero ello supera el alcance de una introducción.
 
+Si nos quedamos con la segunda opción mencionada, nuestra adaptación de la [Starter template](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template) tendría que verse como sigue:
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>¡Usemos Bootstrap!</title>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
+```
+
+Además del `.CSS` de Bootstrap, que está vinculado en la cabeza del documento, ahora necesitamos el `.JS` de Bootstrap que, en este caso, está en el cuerpo.
+
+Luego, en el espacio entre las etiquetas de apertura de `<body>` y `<scrip>` podemos comenzar a probar distintos componentes. Uno de ellos puede ser el carrusel:
+
+```
+<div class="container">
+    <div id="probandoCarrusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/600/300?random=1" class="d-block w-100" alt="…" />
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/600/300?random=2" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/600/300?random=3" class="d-block w-100" alt="..." />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#probandoCarrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#probandoCarrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+```
+
+Entre el cierre de la división de identidad `probandoCarrusel` y el cierre de la división de clase `container` podemos incluir algo más:
+
+```
+<div class="row">
+    <div class="col-md-4 mx-auto text-center">
+        <button type="button" class="btn btn-sm btn-primary my-3" data-bs-toggle="modal" data-bs-target="#probandoModal">
+            Más información
+        </button>
+    </div>
+</div>
+<div class="modal fade" id="probandoModal" tabindex="-1" aria-labelledby="probandoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="probandoModalLabel">Más información</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam vitae odio a ullamcorper. Vestibulum justo lorem, gravida et tempor in, vulputate id libero. Etiam feugiat pulvinar aliquam. Pellentesque imperdiet
+                    cursus lacus, sit amet lacinia metus posuere at. Maecenas pretium libero leo, non fermentum ipsum mattis ac. Vivamus vel arcu et ligula interdum ultrices. Curabitur ut placerat tellus, quis euismod quam. Quisque tempor,
+                    diam id bibendum fringilla, urna sapien imperdiet nulla, at ultrices sapien leo nec metus. Aliquam id arcu tortor.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+Recuerden que al copiar, pegar estas distintas partes podría desordenarse un poco su código fuente. Para volver a ordenarlo pueden usar https://webformatter.com/html 
+
 - - - - - - - - - -
 
 #### Exploración práctica
