@@ -63,7 +63,7 @@ Los tamaños en pixeles de cada pantalla los pueden revisar en los [*Breakpoints
 
 #### Exploración práctica
 
-En el sitio web oficial de Bootstrap encontrarán [documentación detallada](https://getbootstrap.com/docs/5.1/getting-started/introduction/) sobre cada clase, utilidad y componente que ofrece este marco de trabajo de código abierto. Allí también encontrarán [ejemplos](https://getbootstrap.com/docs/5.1/examples/). 
+En el sitio web oficial de Bootstrap encontrarán [documentación detallada](https://getbootstrap.com/docs/5.1/getting-started/introduction/) sobre cada clase, utilidad y componente que ofrece. Allí también encontrarán [ejemplos](https://getbootstrap.com/docs/5.1/examples/). 
 
 En la exploración práctica de esta sesión nos aprovecharemos de *Grid*: https://getbootstrap.com/docs/5.1/examples/grid/
 
