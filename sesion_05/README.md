@@ -6,7 +6,7 @@
 
 #### Teoría
 
-Además de ofrecer un estilo de CSS compilado (basado en [Sass](https://sass-lang.com/)), Bootstrap tiene una biblioteca de JavaScript que permite el funcionamiento de varios de sus componentes, que requieren también [Popper](https://popper.js.org/):
+Además de ofrecer un estilo de CSS compilado (basado en [Sass](https://sass-lang.com/)), Bootstrap tiene una biblioteca de JavaScript que permite el funcionamiento de varios de sus componentes. Funcionamiento que requieren también de [Popper](https://popper.js.org/):
 
 - [Accordion](https://getbootstrap.com/docs/5.1/components/accordion/)
 - [Carousel](https://getbootstrap.com/docs/5.1/components/carousel/)
@@ -17,7 +17,7 @@ Además de ofrecer un estilo de CSS compilado (basado en [Sass](https://sass-lan
 - [Popovers](https://getbootstrap.com/docs/5.1/components/popovers/)
 - [Tooltips](https://getbootstrap.com/docs/5.1/components/tooltips/)
 
-Si se opta por ir por los scripts de Bootstrap.js y Popper.js separados, Popper debe venir primero:
+Si se opta por ir por los scripts de Bootstrap.js y Popper.js separados, Popper debe estar primero:
 
 ```
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -49,9 +49,9 @@ Si nos quedamos con la segunda opción mencionada, nuestra adaptación de la [St
 </html>
 ```
 
-Además del `.CSS` de Bootstrap, que está vinculado en la cabeza del documento, ahora necesitamos el `.JS` de Bootstrap que, en este caso, está en el cuerpo.
+Además del `.CSS` de Bootstrap que está vinculado en la cabeza del documento, ahora necesitamos el `.JS` de Bootstrap que, en este caso, está en el cuerpo.
 
-Luego, en el espacio entre las etiquetas de apertura de `<body>` y `<scrip>` podemos comenzar a probar distintos componentes. Uno de ellos puede ser el carrusel:
+Luego, justo en el espacio entre las etiquetas de apertura de `<body>` y `<scrip>` podemos comenzar a probar distintos componentes. Uno de ellos puede ser el carrusel:
 
 ```
 <div class="container">
@@ -111,7 +111,7 @@ Entre el cierre de la división de identidad `probandoCarrusel` y el cierre de l
 </div>
 ```
 
-Recuerden que al copiar, pegar estas distintas partes podría desordenarse un poco su código fuente. Para volver a ordenarlo pueden usar https://webformatter.com/html 
+Recuerden que al copiar y pegar estas distintas partes se podría desordenar un poco su código fuente. Para volver a ordenarlo pueden usar https://webformatter.com/html 
 
 - - - - - - - - - -
 
