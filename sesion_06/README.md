@@ -111,7 +111,7 @@ Y para obtener los datos de un JSON en línea, también podemos contar con la ay
 
 La consulta de los datos contenidos en un JSON dependerá de su estructura, así como dependía la consulta por los nombres de los personajes en las variables `f`, `g` y `h`.
 
-No conviene quedarnos con la idea de que siempre necesitaremos de p5.js para obtener los datos de un JSON en línea. También podemos tomar un JSON con el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación original, por lo que podemos usarla sin vincular una biblioteca.
+Pero no conviene quedarnos con la idea de que siempre necesitaremos de p5.js para obtener los datos de un JSON en línea. También podemos tomar un JSON con el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación, por lo que podemos usarla sin vincular una biblioteca.
 
 Para comprender el uso de fetch conviene revisar un par de videos publicados por Daniel Shiffman:
 
