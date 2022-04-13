@@ -36,7 +36,7 @@ Cada estudiante necesita:
 
 - **Jueves 31 de marzo → [sesion_03](https://github.com/profesorfaco/front-end/tree/main/sesion_03) → Evaluación Diagnóstica ✓**
 
-- Jueves 7 de abril → [sesion_04](https://github.com/profesorfaco/front-end/tree/main/sesion_04) → Bootstrap v5.1
+- Jueves 7 de abril → [sesion_04](https://github.com/profesorfaco/front-end/tree/main/sesion_04) → Bootstrap v5.1 ✓
 
 - Jueves 14 de abril → [sesion_05](https://github.com/profesorfaco/front-end/tree/main/sesion_05) → Bootstrap v5.1 y JavaScript 
 
