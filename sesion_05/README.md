@@ -131,7 +131,7 @@ Donde haya que sumar imágenes, aprovecharemos el servicios de https://picsum.ph
 2. Revisar los vínculos rotos, borrar metadatos innecesarios y eliminar 3 tarjetas (originalmente son 9, usaremos 6). Conviene ordenar lo editado con https://webformatter.com/html
 3. Incluir un Carousel, reemplazando la sección con el título "Album example". Se puede incluir el código compartido más arriba, en la sección de Teoría (pero edite el tamaño de las imágenes random, para que no se pixelen; y use el formato WebP, para que no pesen tanto)
 4. Eliminar el par de botones en cada tarjeta (View|Edit) para dejar sólo uno (View o Edit)
-5. Cambiar el botón que dejamos por "más información" con el que probamos el modal (más arriba, en sección de Teoría). Incluya también la parte del modal casi al cierre del `<body>…</body>`.
+5. Cambiar el botón que dejamos por "más información" con el que probamos el modal (más arriba, en sección de Teoría). Casi al cierre del `<body>…</body>`, incluya también la parte del modal.
 6. "Poner más diseño": Decidamos un sentido para la página y anunciémoslo en la sección de la navegación, cambiando el ícono en SVG y la palabra Album; integremos p5.js como fondo, con un emoji que siga al mouse; cambiemos todas las imágenes y textos por una selección personal.
 7. Subir a una nuevo repositorio de GitHub y activar GitHub Pages.
 
