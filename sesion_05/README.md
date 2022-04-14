@@ -134,7 +134,7 @@ Donde haya que sumar imágenes, aprovecharemos el servicios de https://picsum.ph
 5. Cambiar el botón que dejamos por "más información" con el que probamos el modal (más arriba, en sección de Teoría). Casi al cierre del `<body>…</body>`, incluya también la parte del modal.
 6. "Poner más diseño": Decidamos un sentido para la página y anunciémoslo en la sección de la navegación, cambiando el ícono en SVG y la palabra Album; integremos p5.js como fondo, con un emoji que siga al mouse; cambiemos todas las imágenes y textos por una selección personal (cuide su legibilidad con ajustes de cuerpo, peso y/o [efectos de sombreado](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)).
 7. Subir a una nuevo repositorio de GitHub y activar GitHub Pages.
-
+8. Usar el servicio de https://purifycss.online/ - Como el trabajo ya está en GitHub Pages, contamos con una *Website URL* para darle un "Clean up CSS". Luego corresponde reemplazar el CSS por el que se obtiene del "download combined, purified & minified CSS".
 
 - - - - - - - 
 
