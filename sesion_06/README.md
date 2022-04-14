@@ -97,13 +97,13 @@ En lo recién dicho aparecen las iniciales con las que se denomina a un formato 
 
 > JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
 
-Dos ejemplos de JSON:
+Tres ejemplos de JSON:
 
 - https://hp-api.herokuapp.com/api/characters/staff
 - https://digimon-api.vercel.app/api/digimon
 - https://aves.ninjas.cl/api/birds
 
-¿Qué ofrece cada ejemplo? Eso lo pueden responder después de leer cada JSON. Para hacerlo conviene contar con una extensión que permita visualizar JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
+¿Qué ofrece cada ejemplo? Eso lo pueden responder después de leer cada JSON. Para leerlos conviene contar con una extensión que permita visualizar JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
 Y para obtener los datos de un JSON en línea, también podemos contar con la ayuda de p5.js, como se puede revisar en los siguientes ejemplos del editor:
 
