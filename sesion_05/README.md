@@ -111,7 +111,7 @@ Entre el cierre de la división de identidad `probandoCarrusel` y el cierre de l
 </div>
 ```
 
-Recuerden que al copiar y pegar estas distintas partes se podría desordenar un poco su código fuente. Para volver a ordenarlo pueden usar https://webformatter.com/html 
+Al copiar y pegar estas distintas partes se podría desordenar un poco su código fuente. Para volver a ordenarlo, pueden usar https://webformatter.com/html 
 
 - - - - - - - - - -
 
