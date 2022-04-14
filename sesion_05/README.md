@@ -121,9 +121,19 @@ Nuevamente aprovecharemos un ejemplo del sitio web oficial de Bootstrap: https:/
 
 Corresponde repetir la operación de copiar el código fuente completo, para pegarlo en un documento recién creado en un editor de código fuente, para luego guardarlo como `index.html` y hacer los ajustes necesario para que se vea tal como está ofrecido en línea. 
 
-Sobre tal base, haremos algunos cambios que nos permitirán tener un [*carousel*](https://getbootstrap.com/docs/5.1/components/carousel/) en la parte superior, desplegar un [*modal*](https://getbootstrap.com/docs/5.1/components/modal/) cuando se presione el botón *view* en cada [*card*](https://getbootstrap.com/docs/5.1/components/card/). 
+Sobre tal base, haremos algunos cambios que nos permitirán tener un [*carousel*](https://getbootstrap.com/docs/5.1/components/carousel/) en la parte superior, desplegar un [*modal*](https://getbootstrap.com/docs/5.1/components/modal/) cuando se presione un botón en cada [*card*](https://getbootstrap.com/docs/5.1/components/card/). 
 
 Donde haya que sumar imágenes, aprovecharemos el servicios de https://picsum.photos/
+
+**Paso a paso, el proceso sería así**:
+
+1. Copiar el código fuente de https://getbootstrap.com/docs/5.1/examples/album/ y pegarlo en un documento nuevo, el que debe guardarse como `index.html`
+2. Revisar los vínculos rotos, borrar metadatos innecesarios y eliminar 3 tarjetas (originalmente son 9, usaremos 6). Conviene ordenar lo editado con https://webformatter.com/html
+3. Incluir un Carousel, reemplazando la sección con el título "Album example". Se puede incluir el código compartido más arriba, en la sección de Teoría (pero edite el tamaño de las imágenes random, para que no se pixelen; y use el formato WebP, para que no pesen tanto)
+4. Eliminar el par de botones en cada tarjeta (View|Edit) para dejar sólo uno (View o Edit)
+5. Cambiar el botón que dejamos por "más información" con el que probamos el modal (más arriba, en sección de Teoría). Incluya también la parte del modal casi al cierre del `<body>…</body>ˆ.
+6. "Poner más diseño": Decidamos un sentido para la página y anunciémoslo en la sección de la navegación, cambiando el ícono en SVG y la palabra Album; integremos p5.js como fondo, con un emoji que siga al mouse; cambiemos todas las imágenes y textos por una selección personal.
+7. Subir a una nuevo repositorio de GitHub y activar GitHub Pages.
 
 
 - - - - - - - 
