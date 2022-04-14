@@ -101,6 +101,7 @@ Dos ejemplos de JSON:
 
 - https://hp-api.herokuapp.com/api/characters/staff
 - https://digimon-api.vercel.app/api/digimon
+- https://aves.ninjas.cl/api/birds
 
 ¿Qué ofrece cada ejemplo? Eso lo pueden responder después de leer cada JSON. Para hacerlo conviene contar con una extensión que permita visualizar JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
@@ -155,7 +156,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
             </div>
         </footer>
         <script>
-            async function visualizacion() {
+            async function tarjetas() {
                 const consulta = await fetch("https://digimon-api.vercel.app/api/digimon");
                 const data = await consulta.json();
                 data.forEach((d) => {
@@ -164,7 +165,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                     }
                 });
             }
-            visualizacion();
+            tarjetas().catch((error) => console.error(error));
         </script>
     </body>
 </html>
