@@ -36,6 +36,50 @@ Esto es lo mismo que decir:
 
 En la configuración se decide el tipo de gráfico y los datos para el gráfico, además de opciones de presentación.
 
+Revisemos lo dicho con un código que pueden copiar y pegar en un documento HTML:
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Vamos a buscar el CSS de Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <!-- Vamos a buscar la biblioteca Chart.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto my-1">
+                    <canvas id="misBarritas" class="my-4"></canvas>
+                    <p class="text-center small">Los datos que se visualizan fueron obtenidos de la <a href="http://www.censo2017.cl/descargas/home/sintesis-de-resultados-censo2017.pdf" target="_blank">Síntesis de resultados CENSO 2017</a>.</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            function visualizacion() {
+                const regiones = ["Arica y Parinacota", "Tarapacá", "Antofagasta", "Atacama", "Coquimbo", "Valparaíso", "Metropolitana", "O'Higgins", "Maule", "Ñuble", "Biobío", "La Araucanía", "Los Ríos", "Los Lagos", "Aysén", "Magallanes",];
+                const habitantes = [226068, 330558, 607534, 286168, 757586, 1815902, 7112808, 914555, 1044950, 480609, 1556805, 957224, 384837, 828708, 103158, 166533];
+                new Chart(document.getElementById("misBarritas").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: regiones,
+                        datasets: [{ data: habitantes, label: "Población total", backgroundColor: "#aaa" }],
+                    },
+                    options: {
+                        indexAxis: "y",
+                    },
+                });
+            }
+            visualizacion();
+        </script>
+    </body>
+</html>
+```
+
 - - - - - - - - - - - - - - - 
 
 #### Exploración práctica
