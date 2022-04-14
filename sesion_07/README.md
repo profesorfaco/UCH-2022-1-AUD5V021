@@ -102,7 +102,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                     }
                 })
             }
-            visualizacion();
+            visualizacion().catch((error) => console.error(error));
         </script>
     </body>
 </html>
