@@ -80,6 +80,15 @@ Revisemos lo dicho con un código que pueden copiar y pegar en un documento HTML
 </html>
 ```
 
+En este caso NO estamos usando p5.js para obtener los datos de un JSON en línea. Acá estamos usando un [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación, por lo que podemos usarla sin vincular una biblioteca.
+
+Para comprender el uso de fetch conviene revisar un par de videos publicados por Daniel Shiffman:
+
+- https://youtu.be/tc8DU14qX6I
+- https://youtu.be/RfMkdvN-23o
+- https://youtu.be/uxf0--uiX0I
+
+
 - - - - - - - - - - - - - - - 
 
 #### Exploración práctica
@@ -152,14 +161,8 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Usamos `fetch()` para obtener los datos más recientes en [TotalesNacionales.csv](https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv). En caso no hayas revisado los videos de Daniel Shiffman recomendados en la clase anterior, estos fueron:
+Usamos `fetch()` para obtener los datos más recientes en [TotalesNacionales.csv](https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv).
 
-- https://youtu.be/tc8DU14qX6I
-- https://youtu.be/uxf0--uiX0I
-
-A tales videos podrían sumar el que enseña como ir por un CSV (**C**omma **S**eparated **V**alues) publicado por la NASA:
-
-- https://youtu.be/RfMkdvN-23o
 
 - - - - - - - 
 
