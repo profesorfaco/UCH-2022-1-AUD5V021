@@ -114,6 +114,8 @@ i.forEach((datos) =>{
 });
 ```
 
+Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Eventualmente, si agregar un elemento al arreglo, sumarás 10… y así podrías seguir sumando.
+
 Para cerrar: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation ([JSON](https://www.json.org/json-es.html)).
 
 En lo recién dicho aparecen las iniciales con las que se denomina a un formato ligero de intercambio de datos: 
@@ -138,13 +140,7 @@ Y para obtener los datos de un JSON en línea, también podemos contar con la ay
 
 #### Exploración práctica
 
-Corresponde tener a mano resferencias para el uso de
-
-- [forEach()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-
-- [`if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else)
-
-- [incudes()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
+Corresponde tener a mano resferencias para el uso de [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [`if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else), [`incudes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
 
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`:
 
