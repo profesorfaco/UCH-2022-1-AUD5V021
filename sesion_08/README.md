@@ -29,7 +29,7 @@ No es necesario que el boceto sea muy elaborado (detallado, fino, con texto defi
 
 Partiendo del boceto, debe armar una página que presente un asunto concreto con datos reales. 
 
-La página debe armarse con [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/) y en ella deben desplegarse [visualizaciones de datos o información](https://www.visual-literacy.org/periodic_table/periodic_table.html) que se resuelvan con el uso de las bibliotecas [p5.js](https://p5js.org/es/) o [Charts.js](https://www.chartjs.org/) y un [*fetch*](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch) de datos intercambiados con [JSON](https://www.json.org/json-es.html) o [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
+La página debe armarse con [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/) y en ella deben desplegarse una [visualización de datos](https://www.visual-literacy.org/periodic_table/periodic_table.html) resuelta con [Charts.js](https://www.chartjs.org/).
 
 En esta carpeta del repositorio del curso pueden ver un `index.html` además de una carpeta `/img` que contiene una única imagen. Esto es un ejemplo que se inspira en [un trabajo publicado por Reuters Graphics](https://graphics.reuters.com/TONGA-VOLCANO/LIGHTNING/zgpomjdbypd/) y que reutiliza algo de JavaScript escrito en clases pasadas: 
 
