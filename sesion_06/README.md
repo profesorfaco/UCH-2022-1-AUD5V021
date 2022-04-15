@@ -140,7 +140,7 @@ Y para obtener los datos de un JSON en línea, también podemos contar con la ay
 
 #### Exploración práctica
 
-Corresponde tener a mano resferencias para el uso de [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [`if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else), [`incudes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
+Corresponde tener a mano resferencias para el uso de [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [`if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else), [`includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
 
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`:
 
