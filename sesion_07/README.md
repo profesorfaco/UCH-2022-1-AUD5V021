@@ -328,8 +328,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Usamos `fetch()` para obtener los datos más recientes en [TotalesNacionales.csv](https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv).
-
+Usamos `fetch()` para tomar datos de los Digimon. Con tales datos rellenamos el cuerpo de cada [Accordion](https://getbootstrap.com/docs/5.1/components/accordion/). Con la misma estructura corresponde obtener números de las distintas evoluciones (ej: cuántos hay en cada una), y con tales números armaremos un gráfico.
 
 - - - - - - - 
 
