@@ -188,12 +188,6 @@ Para comprender el uso de fetch conviene revisar un par de videos publicados por
 
 #### Exploración práctica
 
-Corresponde tener a mano:
-
-- una descripción del [método `toLocaleString()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString); y
-
-- la [documentación de Charts.js](https://www.chartjs.org/docs/latest/).
-
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`: 
 
 ```
