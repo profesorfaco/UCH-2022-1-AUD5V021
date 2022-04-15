@@ -36,7 +36,7 @@ Esto es lo mismo que decir:
 
 En la configuración se decide el tipo de gráfico y los datos para el gráfico, además de opciones de presentación.
 
-Revisemos lo dicho con un código que pueden copiar y pegar en un documento HTML de nombre `ejemplo-1`:
+Revisemos lo dicho con un código que pueden copiar y pegar en un documento HTML de nombre `ejemplo-1.html`:
 
 ```
 <!DOCTYPE html>
@@ -80,7 +80,7 @@ Revisemos lo dicho con un código que pueden copiar y pegar en un documento HTML
 </html>
 ```
 
-Así como tenemos los datos bien ordenados en dos arreglos, para "llegar y visualizar", también podríamos trabajar con los datos antes de visualizarlos. Así se hace en el siguiente código que conviene copiar y pegar en `ejemplo-2.html`:
+Así como tenemos los datos bien ordenados en dos arreglos, para "llegar y visualizar", también podríamos trabajar un poco con los datos antes de ordenarlos para visualizar. Así se hace en el siguiente código que conviene copiar y pegar en `ejemplo-2.html`:
 
 ```
 <!DOCTYPE html>
@@ -91,12 +91,7 @@ Así como tenemos los datos bien ordenados en dos arreglos, para "llegar y visua
         <!-- Vamos a buscar el CSS de Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         <!-- Vamos a buscar la biblioteca Chart.js-->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
-            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
     </head>
     <body>
@@ -287,13 +282,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
         <!-- Biblioteca de Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- Biblioteca Chart.js -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
-            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             async function todo() {
                 const consulta = await fetch("https://digimon-api.vercel.app/api/digimon");
@@ -322,7 +311,9 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Usamos `fetch()` para tomar datos de los Digimon. Con tales datos rellenamos el cuerpo de cada [Accordion](https://getbootstrap.com/docs/5.1/components/accordion/). Con la misma estructura corresponde obtener números de las distintas evoluciones (ej: cuántos hay en cada una), y con tales números armaremos un gráfico.
+Usamos `fetch()` para tomar datos sobre los Digimon desde un JSON. Con tales datos rellenamos cada cuerpo en el [Accordion](https://getbootstrap.com/docs/5.1/components/accordion/). 
+
+Con la misma estructura de condiciones, se podrían obtener números de las distintas evoluciones (ej: cuántos hay en cada una). Y con tales números podemos armar un gráfico.
 
 - - - - - - - 
 
