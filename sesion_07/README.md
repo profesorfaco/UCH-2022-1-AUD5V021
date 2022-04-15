@@ -268,7 +268,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                         <div class="accordion-body row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="LesArmor"></div>
                     </div>
                 </div>
-                <!--Armor-->
+                <!--Mega-->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Mega</button>
