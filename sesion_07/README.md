@@ -36,7 +36,7 @@ Esto es lo mismo que decir:
 
 En la configuración se decide el tipo de gráfico y los datos para el gráfico, además de opciones de presentación.
 
-Revisemos lo dicho con un código que pueden copiar y pegar en un documento HTML:
+Revisemos lo dicho con un código que pueden copiar y pegar en un documento HTML de nombre `ejemplo-1`:
 
 ```
 <!DOCTYPE html>
@@ -80,7 +80,14 @@ Revisemos lo dicho con un código que pueden copiar y pegar en un documento HTML
 </html>
 ```
 
-En este caso NO estamos usando p5.js para obtener los datos de un JSON en línea. Acá estamos usando un [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación, por lo que podemos usarla sin vincular una biblioteca.
+Así como tenemos los datos bien ordenados para llegar y visualizar. También podríamos trabajar con los datos antes de visualizarlos, como en el siguiente código que conviene copiar y pegar en `ejemplo-2.html`:
+
+```
+pendiente
+```
+
+
+En este caso NO estamos yendo a busacar un JSON en línea. Pero si lo hiciéramos, no convendría hacerlo con p5.js. Mejor sería usar un [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación, por lo que podemos usarla sin vincular una biblioteca.
 
 Para comprender el uso de fetch conviene revisar un par de videos publicados por Daniel Shiffman:
 
