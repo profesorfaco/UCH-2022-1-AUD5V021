@@ -91,22 +91,21 @@ Vamos por la variable `g`. Si necesitamos escribir la frase `El chupete de Maggi
 
 Llegando a la variable `h`, conviene aprovechar algo preparado en el Editor de p5.js: https://editor.p5js.org/profesorfaco/sketches/8-3OZsD8O
 
-¿Cómo pueden ayudarte las variables como la `f`, `g` y `h`?
+¿Qué utilidad tienen variables como la `f`, `g` y `h`?
 
-Te pueden ayudar, por ejemplo, con la construcción de una página como la de sesión anterior, donde podrías agregar una variable de `i` con información para construir cada tarjeta:
+Ellas pueden ser, por ejemplo, la base de la construcción de una página como la hecha [la sesión recién pasada](https://github.com/profesorfaco/front-end/sesion_06).
 
 ```
 var i = [
-{ id: 334, texto: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." },
-{ id: 39, texto: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." },
-{ id: 529, texto: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." },
-{ id: 532, texto: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." },
+{ id: 4, texto: "Este texto irá debajo de la imagen que en picsum tiene id 4." },
+{ id: 5, texto: "Este texto irá debajo de la imagen que en picsum tiene id 5." },
+{ id: 6, texto: "Este texto irá debajo de la imagen que en picsum tiene id 6." }
 ];
 ```
 
-La variable i la podrías pegar dentro del script de p5.js para el emoji que seguía al mouse, justo antes de `setup(){…}`. 
+Copia y pega la variable `i` dentro del script de p5.js usado para que el emoji siguiera al mouse. Pégala entre `<script>` y `setup(){…}`, esto es pegarla en el espacio de una variable global (lo primero dentro del script, fuera de un contexto específico) 
 
-Y dentro del `setup(){…}`, podríamos agregar lo que sigue:
+Y dentro del `setup(){…}`, pega lo que sigue:
 
 ```
 var donde = select(".row-cols-1");
@@ -115,7 +114,7 @@ i.forEach((datos) =>{
 });
 ```
 
-Para cerrar: Las variables `f` y `g` contienen un objeto. Las variables `h` es un arreglo con tres objetos. Luego, las variables `f`, `g` y `h`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation ([JSON](https://www.json.org/json-es.html)).
+Para cerrar: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation ([JSON](https://www.json.org/json-es.html)).
 
 En lo recién dicho aparecen las iniciales con las que se denomina a un formato ligero de intercambio de datos: 
 
@@ -133,18 +132,19 @@ Y para obtener los datos de un JSON en línea, también podemos contar con la ay
 
 - https://editor.p5js.org/profesorfaco/sketches/7FrCDZKc1
 - https://editor.p5js.org/profesorfaco/sketches/dbC5hqQya
-
-La consulta de los datos contenidos en un JSON dependerá de su estructura, así como dependía la consulta por los nombres de los personajes en las variables `f`, `g` y `h`.
+- https://editor.p5js.org/profesorfaco/sketches/T-PeCUgjt
 
 - - - - - - - - - - -
 
 #### Exploración práctica
 
-Corresponde tener a mano:
+Corresponde tener a mano resferencias para el uso de
 
-- una descripción del método [forEach()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach); y
+- [forEach()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
-- la propiedad [innerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
+- [`if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else)
+
+- [incudes()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
 
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`:
 
@@ -160,34 +160,45 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
     <body>
         <header class="container">
             <div class="row">
-                <div class="col"><h1 class="text-center py-5 display-3">DIGIMON</h1></div>
+                <div class="col">
+                    <h1 class="text-center display-4 mt-5">PATOS EN CHILE</h1>
+                    <h2 class="text-center fs-6 mb-5">Introducción al Desarrollo Front End con HTML, CSS y JavaScript</h2>
+                </div>
             </div>
         </header>
         <main class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 text-center" id="aqui"></div>
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="aqui"></div>
         </main>
         <footer class="container">
             <div class="row">
-                <div class="col"><p class="text-muted py-2 text-center small">Bootstrap v5.1 y datos en JavaScript</p></div>
+                <div class="col"><p class="text-muted mt-5 text-center small">Bootstrap v5.1 y datos en JavaScript</p></div>
             </div>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-            async function tarjetas() {
-                const consulta = await fetch("https://digimon-api.vercel.app/api/digimon");
-                const data = await consulta.json();
-                data.forEach((d) => {
-                    if (d.level == "In Training") {
-                        document.getElementById("aqui").innerHTML += '<div><div class="card shadow-sm"><img class="card-img-top" src="' + d.img + '"><div class="card-body"><p class="card-text">' + d.name + "</p></div></div>";
+            var data, aves;
+
+            function preload() {
+                data = loadJSON("https://aves.ninjas.cl/api/birds");
+            }
+
+            function setup() {
+                noCanvas();
+                console.log(data);
+                aves = Object.values(data);
+                console.log(aves);
+                aves.forEach((a) => {
+                    if (a.name.spanish.includes("Pato")) {
+                        createElement("div", '<div class="card shadow-sm"><img class="card-img-top" src="' + a.images.thumb + '"><div class="card-body"><p class="card-text">' + a.name.spanish + "</p></div>").class("col").parent("aqui");
                     }
                 });
             }
-            tarjetas().catch((error) => console.error(error));
         </script>
     </body>
 </html>
 ```
 
-Partiendo en este código avanzaremos en el uso de Bootstrap, agregando más contenido. Una vez comprendida el funcionamiento agregaremos una segunda página HTML cambiando datos de Digimon por datos de aves chilenas: https://aves.ninjas.cl/api/birds
+Partiendo en este código avanzaremos en el uso de Bootstrap, agregando más contenido. Una vez comprendida el funcionamiento agregaremos una segunda página HTML cambiando datos de aves chilenas por datos de Digimon: https://digimon-api.vercel.app/api/digimon
 
 - - - - - - - 
 
