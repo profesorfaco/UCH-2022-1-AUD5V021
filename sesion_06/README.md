@@ -91,6 +91,30 @@ Vamos por la variable `g`. Si necesitamos escribir la frase `El chupete de Maggi
 
 Llegando a la variable `h`, conviene aprovechar algo preparado en el Editor de p5.js: https://editor.p5js.org/profesorfaco/sketches/8-3OZsD8O
 
+¿Cómo pueden ayudarte las variables como la `f`, `g` y `h`?
+
+Te pueden ayudar, por ejemplo, con la construcción de una página como la de sesión anterior, donde podrías agregar una variable de `i` con información para construir cada tarjeta:
+
+```
+var i = [
+{ id: 334, texto: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." },
+{ id: 39, texto: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." },
+{ id: 529, texto: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." },
+{ id: 532, texto: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." },
+];
+```
+
+La variable i la podrías pegar dentro del script de p5.js para el emoji que seguía al mouse, justo antes de `setup(){…}`. 
+
+Y dentro del `setup(){…}`, podríamos agregar lo que sigue:
+
+```
+var donde = select(".row-cols-1");
+i.forEach((datos) =>{
+    createElement('div','<div class="card shadow-sm"><img src="https://picsum.photos/id/'+datos.id+'/600/400.webp" class="card-img-top"><div class="card-body"><p class="card-text">'+datos.texto+'</p><div class="d-flex justify-content-between align-items-center"><button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#probandoModalUno">El primero</button><small class="text-muted">9 mins</small></div></div></div>').class('col').parent(donde);
+});
+```
+
 Para cerrar: Las variables `f` y `g` contienen un objeto. Las variables `h` es un arreglo con tres objetos. Luego, las variables `f`, `g` y `h`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation ([JSON](https://www.json.org/json-es.html)).
 
 En lo recién dicho aparecen las iniciales con las que se denomina a un formato ligero de intercambio de datos: 
