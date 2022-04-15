@@ -111,7 +111,7 @@ Así como tenemos los datos bien ordenados en dos arreglos, para "llegar y visua
             </div>
         </div>
         <script>
-            var pelota = [
+            const pelota = [
                 { pais: "Qatar", confederacion: "AFC", copas: 0, grupo: "A" },
                 { pais: "Ecuador", confederacion: "Conmebol", copas: 0, grupo: "A" },
                 { pais: "Senegal", confederacion: "CAF", copas: 0, grupo: "A" },
@@ -174,7 +174,6 @@ Así como tenemos los datos bien ordenados en dos arreglos, para "llegar y visua
     </body>
 </html>
 ```
-
 
 En este caso NO estamos yendo a busacar un JSON en línea. Pero si lo hiciéramos, no convendría hacerlo con p5.js. Mejor sería usar un [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación, por lo que podemos usarla sin vincular otra biblioteca.
 
