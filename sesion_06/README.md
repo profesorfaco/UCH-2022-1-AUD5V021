@@ -184,7 +184,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                 aves = Object.values(data);
                 console.log(aves);
                 aves.forEach((a) => {
-                    if (a.name.spanish.includes("Pato")) {
+                    if ((a.name.spanish.includes("Pato"))||(a.name.english.includes("duck"))) {
                         createElement("div", '<div class="card shadow-sm"><img class="card-img-top" src="' + a.images.thumb + '"><div class="card-body"><p class="card-text">' + a.name.spanish + "</p></div>").class("col").parent("aqui");
                     }
                 });
