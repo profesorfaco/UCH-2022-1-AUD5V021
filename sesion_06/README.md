@@ -93,7 +93,7 @@ Llegando a la variable `h`, conviene aprovechar algo preparado en el Editor de p
 
 ¿Qué utilidad tienen variables como la `f`, `g` y `h`?
 
-Ellas pueden ser, por ejemplo, la base de la construcción de una página como la hecha [la sesión recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_05#exploraci%C3%B3n-pr%C3%A1ctica).
+Un ejemplo de utilidad: Ellas pueden usarse en la construcción de una página como la hecha [la sesión recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_05#exploraci%C3%B3n-pr%C3%A1ctica).
 
 ```
 var i = [
@@ -103,7 +103,7 @@ var i = [
 ];
 ```
 
-Copia la variable `i` y pégala en el `index.html` de la sesión anterior, **dentro del script de p5.js que hace que el emoji siga al mouse**; pégala entre `<script>` y `setup(){…}`, esto es pegarla como variable global (lo primero dentro del script, fuera de un contexto específico) 
+Copia la variable `i` y pégala en el `index.html` creado la sesión anterior, **dentro del script de p5.js que hace que el emoji siga al mouse**; pégala entre `<script>` y `setup(){…}`, esto es pegarla como variable global (lo primero dentro del script, fuera de un contexto específico) 
 
 Y dentro del `setup(){…}`, pega lo que sigue:
 
@@ -114,9 +114,9 @@ i.forEach((datos) =>{
 });
 ```
 
-Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Si agregar un objeto al arreglo, sumarás otra tarjeta. Si cambias los valores de `id` y `texto` dentro de cada objeto, se cambiarán los contenidos de la tarjeta. 
+Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Si agregar un objeto al arreglo contenido por la variable `i`, sumarás otra tarjeta. Si cambias los valores de `id` y `texto` dentro de cada objeto, se cambiarán los contenidos de las tarjetas. 
 
-Para recordar: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation.
+**Para recordar y dar el último paso**: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation.
 
 En lo recién dicho aparecen las iniciales con las que se denomina a un formato ligero de intercambio de datos: 
 
