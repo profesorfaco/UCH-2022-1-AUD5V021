@@ -194,7 +194,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Revisando el [JSON de aves de Chile](https://aves.ninjas.cl/api/birds), podemos notar que en cada una se ofrece un vínculo a más detalles: `_links.self`. Aprovechémonos de esto, para crear una segunda página a la que corresponde llamar `single.html`. En esa página corresponde pegar lo siguiente:  
+Revisando el [JSON de aves de Chile](https://aves.ninjas.cl/api/birds), podemos encontrar un vínculo a más detalles para cada ave, dentro de `_links.self`. Aprovechémonos de esto para crear una segunda página a la que corresponde llamar `single.html`. En tal página corresponde pegar lo siguiente:  
 
 ```
 <!DOCTYPE html>
@@ -248,11 +248,11 @@ Revisando el [JSON de aves de Chile](https://aves.ninjas.cl/api/birds), podemos 
 </html>
 ```
 
-Para que funcione la consulta en esta página necesitamos hacer un cambio en la URL, agregar un "detalle".
+Para que funcione la consulta en esta página, necesitamos hacer un cambio en el script del `index.html`, agregar un "detalle".
 
-Una vez funcionen `index.html` y `single.html`, podemos agregar modificaciones con Bootstrap.
+Una vez funcione la relación entre los *scripts* en `index.html` y `single.html`, podemos hacer más cosas con Bootstrap.
 
-Una vez nos conforme el resultado, podemos duplicar el `index.html`, cambiar su nombre por `page.html` y también cambiar los datos consultados: de aves chilenas a Digimon: https://digimon-api.vercel.app/api/digimon
+Una vez nos conforme el resultado, podemos duplicar el `index.html`, cambiar su nombre por `page.html` y también cambiar los datos consultados: de la ornitología a los Digimon: https://digimon-api.vercel.app/api/digimon
 
 - - - - - - - 
 
