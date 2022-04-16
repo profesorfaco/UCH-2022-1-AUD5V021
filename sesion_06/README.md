@@ -103,7 +103,7 @@ var i = [
 ];
 ```
 
-Copia y pega la variable `i` dentro del script de p5.js usado para que el emoji siguiera al mouse. Pégala entre `<script>` y `setup(){…}`, esto es pegarla en el espacio de una variable global (lo primero dentro del script, fuera de un contexto específico) 
+Copia y pega la variable `i` dentro del script de p5.js que hace que el emoji siga al mouse; pégala entre `<script>` y `setup(){…}`, esto es pegarla como variable global (lo primero dentro del script, fuera de un contexto específico) 
 
 Y dentro del `setup(){…}`, pega lo que sigue:
 
@@ -114,15 +114,15 @@ i.forEach((datos) =>{
 });
 ```
 
-Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Eventualmente, si agregar un elemento al arreglo, sumarás 10… y así podrías seguir sumando.
+Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Si agregar un objeto al arreglo, sumarás otra tarjeta. Si cambias los valores de `id` y `texto` dentro de cada objeto, se cambiarán los contenidos de la tarjeta. 
 
-Para cerrar: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation ([JSON](https://www.json.org/json-es.html)).
+Para recordar: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation.
 
 En lo recién dicho aparecen las iniciales con las que se denomina a un formato ligero de intercambio de datos: 
 
-> JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
+> [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
 
-Tres ejemplos de JSON:
+Tres ejemplos de [JSON](https://www.json.org/json-es.html):
 
 - https://hp-api.herokuapp.com/api/characters/staff
 - https://digimon-api.vercel.app/api/digimon
@@ -140,7 +140,7 @@ Y para obtener los datos de un JSON en línea, también podemos contar con la ay
 
 #### Exploración práctica
 
-Corresponde tener a mano resferencias para el uso de [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [`if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else), [`includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
+Corresponde tener a mano referencias para el uso de [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [`if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else), [`includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
 
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`:
 
@@ -194,7 +194,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Partiendo en este código avanzaremos en el uso de Bootstrap, agregando más contenido. Una vez comprendida el funcionamiento agregaremos una segunda página HTML cambiando datos de aves chilenas por datos de Digimon: https://digimon-api.vercel.app/api/digimon
+Partiendo en este código avanzaremos en el uso de Bootstrap, agregando más contenido. Luego duplicaremos la página, le cambiaremos el nombre de `page.html`, y también cambiaremos los datos: de aves chilenas a Digimon: https://digimon-api.vercel.app/api/digimon
 
 - - - - - - - 
 
