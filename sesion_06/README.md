@@ -194,7 +194,65 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Partiendo en este código avanzaremos en el uso de Bootstrap, agregando más contenido. Luego duplicaremos la página, le cambiaremos el nombre de `page.html`, y también cambiaremos los datos: de aves chilenas a Digimon: https://digimon-api.vercel.app/api/digimon
+Revisando el [JSON de aves de Chile](https://aves.ninjas.cl/api/birds), podemos notar que en cada una se ofrece un vínculo a más detalles: `_links.self`. Aprovechémonos de esto, para crear una segunda página a la que corresponde llamar `single.html`. En esa página corresponde pegar lo siguiente:  
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
+    </head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center display-4 mt-5"></h1>
+                    <h2 class="text-center fs-6 mb-5"><a href="index.html">&larr; Volver</a></h2>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <div class="row">
+                <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" id="aqui">
+                </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="row">
+                <div class="col"><p class="text-muted mt-5 text-center small">Bootstrap v5.1 y datos en JavaScript</p></div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var url = new URLSearchParams(window.location.search).get('detalle');
+
+            var data;
+
+            function preload() {
+                data = loadJSON(url);
+            }
+
+            function setup() {
+                noCanvas();
+                console.log(data);
+                var titulo = select("h1")
+                createElement('span', data.name.spanish).parent(titulo);
+                createP(data.didyouknow).class("lead").parent("aqui");
+                createP(data.habitat).parent("aqui");
+            }
+        </script>
+    </body>
+</html>
+```
+
+Para que funcione la consulta en esta página necesitamos hacer un cambio en la URL, agregar un "detalle".
+
+Una vez funcionen `index.html` y `single.html`, podemos agregar modificaciones con Bootstrap.
+
+Una vez nos conforme el resultado, podemos duplicar el `index.html`, cambiar su nombre por `page.html` y también cambiar los datos consultados: de aves chilenas a Digimon: https://digimon-api.vercel.app/api/digimon
 
 - - - - - - - 
 
