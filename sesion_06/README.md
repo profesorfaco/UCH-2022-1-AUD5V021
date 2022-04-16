@@ -93,7 +93,7 @@ Llegando a la variable `h`, conviene aprovechar algo preparado en el Editor de p
 
 ¿Qué utilidad tienen variables como la `f`, `g` y `h`?
 
-Ellas pueden ser, por ejemplo, la base de la construcción de una página como la hecha [la sesión recién pasada](https://github.com/profesorfaco/front-end/sesion_06).
+Ellas pueden ser, por ejemplo, la base de la construcción de una página como la hecha [la sesión recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_05#exploraci%C3%B3n-pr%C3%A1ctica).
 
 ```
 var i = [
@@ -103,7 +103,7 @@ var i = [
 ];
 ```
 
-Copia y pega la variable `i` dentro del script de p5.js que hace que el emoji siga al mouse; pégala entre `<script>` y `setup(){…}`, esto es pegarla como variable global (lo primero dentro del script, fuera de un contexto específico) 
+Copia la variable `i` y pégala en el `index.html` de la sesión anterior, **dentro del script de p5.js que hace que el emoji siga al mouse**; pégala entre `<script>` y `setup(){…}`, esto es pegarla como variable global (lo primero dentro del script, fuera de un contexto específico) 
 
 Y dentro del `setup(){…}`, pega lo que sigue:
 
