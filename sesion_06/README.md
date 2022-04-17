@@ -114,11 +114,11 @@ i.forEach((datos) =>{
 });
 ```
 
-Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Si agregar un objeto al arreglo contenido por la variable `i`, sumarás otra tarjeta. Si cambias los valores de `id` y `texto` dentro de cada objeto, se cambiarán los contenidos de las tarjetas. 
+Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Si agregas un objeto al arreglo contenido por la variable `i`, sumarás otra tarjeta. Si cambias los valores de `id` y `texto` dentro de cada objeto, se cambiarán los contenidos de las tarjetas. 
 
 **Para recordar y dar el último paso**: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation.
 
-En lo recién dicho aparecen las iniciales con las que se denomina a un formato ligero de intercambio de datos: 
+En lo recién dicho aparecen las iniciales con las que se nombra a un formato ligero de intercambio de datos: 
 
 > [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo.
 
@@ -252,7 +252,7 @@ Para que funcione la consulta en esta página, necesitamos hacer un cambio en el
 
 Una vez funcione la relación entre los *scripts* en `index.html` y `single.html`, podemos hacer más cosas con Bootstrap.
 
-Una vez nos conforme el resultado, podemos duplicar el `index.html`, cambiar su nombre por `page.html` y también cambiar los datos consultados: de la ornitología a los Digimon: https://digimon-api.vercel.app/api/digimon
+Una vez nos conforme el resultado, podemos duplicar el `index.html`, cambiar su nombre por `page.html` y también cambiar los datos consultados: de criaturas voladoras a criaturas digitales: https://digimon-api.vercel.app/api/digimon
 
 - - - - - - - 
 
