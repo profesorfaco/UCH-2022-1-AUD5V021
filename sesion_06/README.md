@@ -6,7 +6,7 @@
 
 #### Teoría
 
-Esta clase abrirá un paréntesis, para revisar un aspecto pendiente en JavaScript, que debe clarificarse antes de la siguiente sesión.
+Esta clase abrirá un paréntesis, para revisar un aspecto pendiente en JavaScript. Aspecto que debe clarificarse antes de la siguiente sesión.
 
 Para comenzar, partamos con el número 18261884. 
 
