@@ -114,9 +114,9 @@ i.forEach((datos) =>{
 });
 ```
 
-Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Si agregas un objeto al arreglo contenido por la variable `i`, sumarás otra tarjeta. Si cambias los valores de `id` y `texto` dentro de cada objeto, se cambiarán los contenidos de las tarjetas. 
+Guarda y revisa el resultado en tu navegador: Ahora deberías tener 9 tarjetas, no 6. Si cambias los valores de `id` y `texto` dentro de cada objeto, se cambiarán los contenidos de las tarjetas. Si agregas un objeto al arreglo contenido por la variable `i`, sumarás otra tarjeta (no te olvides de poner una coma al final del tercer objeto antes de sumar ese cuarto). 
 
-**Para recordar y dar el último paso**: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation.
+**Para recordar y avanzar un último paso**: Las variables `f` y `g` contienen un objeto. Las variables `h` e `i` son arreglos que contienen objetos. Luego, las variables `f`, `g`, `h` e `i`, con sus particularidades, aprovechan la Notación de Objetos de JavaScript, lo que en inglés es **J**ava**S**cript **O**bject **N**otation.
 
 En lo recién dicho aparecen las iniciales con las que se nombra a un formato ligero de intercambio de datos: 
 
