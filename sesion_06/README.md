@@ -103,7 +103,7 @@ var i = [
 ];
 ```
 
-Copia la variable `i` y pégala en el `index.html` creado la sesión anterior, **dentro del script de p5.js que hace que el emoji siga al mouse**; pégala entre `<script>` y `setup(){…}`, esto es pegarla como variable global (lo primero dentro del script, fuera de un contexto específico) 
+Copia la variable `i` y pégala en el `index.html` creado la sesión anterior, **dentro del script de p5.js que hace que el emoji siga al mouse**; pégala entre `<script>` y `setup(){…}`, esto es pegarla como variable global (lo primero dentro del script, fuera de un contexto específico).
 
 Y dentro del `setup(){…}`, pega lo que sigue:
 
