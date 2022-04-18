@@ -8,9 +8,9 @@
 
 Esta clase abrirá un paréntesis, para revisar un aspecto pendiente en JavaScript. Aspecto que debe clarificarse antes de la siguiente sesión.
 
-Para comenzar, partamos con el número 18261884. 
+Para comenzar, partamos con un 18261884. 
 
-Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero es distinto de la siguiente manera: 
+Si nos entregan tal secuencia de números, sin contexto alguno, resultaría inútil. Pero es distinto de la siguiente manera: 
 
 | País      |  Población       | Superficie     |
 |:----------|:-----------------|:---------------|
