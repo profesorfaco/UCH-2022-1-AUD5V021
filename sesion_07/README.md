@@ -158,12 +158,11 @@ Así como tenemos los datos bien ordenados en dos arreglos, para "llegar y visua
 </html>
 ```
 
-En este caso estamos yendo a buscar un JSON en línea. Pero no lo hacemos con p5.js. Mejor sería usar un [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación.
+En este caso estamos yendo a buscar un JSON en línea. Pero no lo hacemos con p5.js. Ya estamos usando una biblioteca (charts.js), mejor evitar una segunda (p5.js). En este caso usamos un [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), que es parte del lenguaje de programación.
 
-Para comprender el uso de fetch conviene revisar un par de videos publicados por Daniel Shiffman:
+Para comprender el uso de fetch conviene revisar un par de videos de Daniel Shiffman:
 
 - https://youtu.be/tc8DU14qX6I
-- https://youtu.be/RfMkdvN-23o
 - https://youtu.be/uxf0--uiX0I
 
 
@@ -194,7 +193,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
                         <p>Los Digimon se dividen según diferentes tipos o atributos, actuando o cumpliendo un determinado rol (como un programa informático) que pueden ser principalmente de tipo: datos, vacuna o virus.</p>
                     </div>
                     <div class="col-md-5 d-none d-md-block">
-                        <small class="text-muted">PONGA AQUÍ UN GRÁFICO CON CHART.JS, USE LOS DATOS DE DIGIMON. Y "PÓNGALE MÁS DISEÑO" A LA PÁGINA.</small>
+                        <small class="text-muted">PONGA AQUÍ UN GRÁFICO CON CHART.JS, USE LOS DATOS DE DIGIMON.</small>
                     </div>
                 </div>
             </div>
