@@ -40,7 +40,7 @@ Cada estudiante necesita:
 
 - Jueves 14 de abril → [sesion_05](https://github.com/profesorfaco/front-end/tree/main/sesion_05) → Bootstrap v5.1 y JavaScript ✓
 
-- Jueves 21 de abril → [sesion_06](https://github.com/profesorfaco/front-end/tree/main/sesion_06) →  Bootstrap v5.1 y datos en JavaScript
+- Jueves 21 de abril → [sesion_06](https://github.com/profesorfaco/front-end/tree/main/sesion_06) →  Bootstrap v5.1 y datos en JavaScript ✓
 
 - Jueves 28 de abril → [sesion_07](https://github.com/profesorfaco/front-end/tree/main/sesion_07) → Bootstrap v5.1 y Charts.js
 
