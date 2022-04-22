@@ -99,78 +99,66 @@ Así como tenemos los datos bien ordenados en dos arreglos, para "llegar y visua
             <div class="row">
                 <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto my-1">
                     <canvas id="masBarritas" class="my-4"></canvas>
-                    <p class="text-center small">
-                        Fuente: <a href="https://www.dazn.com/es-ES/news/f%C3%BAtbol/que-equipos-estan-clasificados-para-el-mundial-2022-en-qatar/1jy4f2bbegd4618yaexvwvrgng" target="_blank">Danz News</a>
-                    </p>
                 </div>
             </div>
         </div>
         <script>
-            const pelota = [
-                { pais: "Qatar", confederacion: "AFC", copas: 0, grupo: "A" },
-                { pais: "Ecuador", confederacion: "Conmebol", copas: 0, grupo: "A" },
-                { pais: "Senegal", confederacion: "CAF", copas: 0, grupo: "A" },
-                { pais: "Holanda", confederacion: "UEFA", copas: 0, grupo: "A" },
-                { pais: "Inglaterra", confederacion: "UEFA", copas: 1, grupo: "B" },
-                { pais: "Irán", confederacion: "AFC", copas: 0, grupo: "B" },
-                { pais: "Estados Unidos", confederacion: "Concacaf", copas: 0, grupo: "B" },
-                { pais: "Argentina", confederacion: "Conmebol", copas: 2, grupo: "C" },
-                { pais: "Arabia Saudí", confederacion: "AFC", copas: 0, grupo: "C" },
-                { pais: "México", confederacion: "Concacaf", copas: 0, grupo: "C" },
-                { pais: "Polonia", confederacion: "UEFA", copas: 0, grupo: "C" },
-                { pais: "Dinamarca", confederacion: "UEFA", copas: 0, grupo: "D" },
-                { pais: "Francia", confederacion: "UEFA", copas: 2, grupo: "D" },
-                { pais: "Túnez", confederacion: "CAF", copas: 0, grupo: "D" },
-                { pais: "España", confederacion: "UEFA", copas: 1, grupo: "E" },
-                { pais: "Alemania", confederacion: "UEFA", copas: 4, grupo: "E" },
-                { pais: "Japón", confederacion: "AFC", copas: 0, grupo: "E" },
-                { pais: "Bélgica", confederacion: "UEFA", copas: 0, grupo: "F" },
-                { pais: "Canadá", confederacion: "Concacaf", copas: 0, grupo: "F" },
-                { pais: "Marruecos", confederacion: "CAF", copas: 0, grupo: "F" },
-                { pais: "Croacia", confederacion: "UEFA", copas: 0, grupo: "F" },
-                { pais: "Brasil", confederacion: "Conmebol", copas: 5, grupo: "G" },
-                { pais: "Serbia", confederacion: "UEFA", copas: 0, grupo: "G" },
-                { pais: "Suiza", confederacion: "UEFA", copas: 0, grupo: "G" },
-                { pais: "Camerún", confederacion: "CAF", copas: 0, grupo: "G" },
-                { pais: "Portugal", confederacion: "UEFA", copas: 0, grupo: "H" },
-                { pais: "Corea del Sur", confederacion: "AFC", copas: 0, grupo: "H" },
-                { pais: "Uruguay", confederacion: "Conmebol", copas: 2, grupo: "H" },
-                { pais: "Ghana", confederacion: "CAF", copas: 0, grupo: "H" },
-            ];
-
-            function visualizacion() {
-                //creo un par de arreglos vacíos
-                var pais = [];
-                var copas = [];
-                //agrego lo que corresponde a cada arreglo
-                pelota.forEach((p) => {
-                    if (p.copas != 0) {
-                        pais.push(p.pais);
-                        copas.push(p.copas);
+            async function visualizacion() {
+                var consulta = await fetch("https://digimon-api.vercel.app/api/digimon");
+                var data = await consulta.json();
+                //crear algunas variables
+                var cuantosTraining = 0;
+                var cuantosRookie = 0;
+                var cuantosChampion = 0;
+                var cuantosFresh = 0;
+                var cuantosMega = 0;
+                var cuantosArmor = 0;
+                var cuantosUltimate = 0;
+                //cambiar el 0
+                data.forEach((d) => {
+                    if (d.level == "In Training" || d.level == "Training") {
+                        cuantosTraining = cuantosTraining + 1;
+                    } else if (d.level == "Rookie") {
+                        cuantosRookie = cuantosRookie + 1;
+                    } else if (d.level == "Champion") {
+                        cuantosChampion = cuantosChampion + 1;
+                    } else if (d.level == "Fresh") {
+                        cuantosFresh = cuantosFresh + 1;
+                    } else if (d.level == "Mega") {
+                        cuantosMega = cuantosMega + 1;
+                    } else if (d.level == "Armor") {
+                        cuantosArmor = cuantosArmor + 1;
+                    } else {
+                        cuantosUltimate = cuantosUltimate + 1;
                     }
                 });
-                //armo el gráfico con los arreglos
+                //armar el gráfico
                 new Chart(document.getElementById("masBarritas").getContext("2d"), {
                     type: "bar",
                     data: {
-                        labels: pais,
-                        datasets: [{ data: copas, backgroundColor: "#aaa" }],
+                        labels: ["Fresh", "In training", "Rookie", "Champion", "Armor", "Mega", "Ultimate"],
+                        datasets: [
+                            {
+                                data: [cuantosFresh, cuantosTraining, cuantosRookie, cuantosChampion, cuantosArmor, cuantosMega, cuantosUltimate],
+                                backgroundColor: ["#ccebc5", "#a8ddb5", "#7bccc4", "#4eb3d3", "#2b8cbe", "#0868ac", "#084081"],
+                            },
+                        ],
                     },
                     options: {
                         indexAxis: "y",
-                        plugins:{
+                        plugins: {
                             legend: { display: false },
-                        }
-                    }
+                        },
+                    },
                 });
             }
-            visualizacion();
+            visualizacion().catch((error) => console.error(error));
         </script>
     </body>
 </html>
 ```
 
-En este caso NO estamos yendo a busacar un JSON en línea. Pero si lo hiciéramos, no convendría hacerlo con p5.js. Mejor sería usar un [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación, por lo que podemos usarla sin vincular otra biblioteca.
+En este caso estamos yendo a buscar un JSON en línea. Pero no lo hacemos con p5.js. Mejor sería usar un [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). La API Fetch es parte del lenguaje de programación.
 
 Para comprender el uso de fetch conviene revisar un par de videos publicados por Daniel Shiffman:
 
