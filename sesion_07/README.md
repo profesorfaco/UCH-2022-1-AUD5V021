@@ -300,7 +300,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 
 Usamos `fetch()` para tomar datos sobre los Digimon desde un JSON. Con tales datos rellenamos cada cuerpo en el [Accordion](https://getbootstrap.com/docs/5.1/components/accordion/). 
 
-Con la misma estructura de condiciones, se podrían obtener números de las distintas evoluciones (ej: cuántos hay en cada una). Y con tales números podemos armar un gráfico.
+Con la misma estructura de condiciones, se podrían obtener números de las distintas evoluciones (ej: cuántos hay en cada una). Y con tales números podemos armar un gráfico (apóyese en el `ejemplo-2.html` de más arriba).
 
 - - - - - - - 
 
