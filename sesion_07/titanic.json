@@ -11581,6 +11581,4 @@
 	"Fare": 7.75,
 	"Cabin": null,
 	"Embarked": "Q"
-}, {
-	"PassengerId": null
 }]
