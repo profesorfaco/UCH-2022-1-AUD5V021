@@ -357,7 +357,7 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Una vez hayan guardado el documento como `index.html`, corresponde leer y comprender lo que está preparado, para seguir trabajando.
+Una vez hayan guardado el documento como `index.html`, corresponde leer y comprender lo que está preparado, echarle un vistazo en el navegador y volver al editor de código fuente para seguir trabajando.
 
 
 - - - - - - - 
