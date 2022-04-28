@@ -170,6 +170,35 @@ Para comprender el uso de fetch conviene revisar un par de videos de Daniel Shif
 
 #### Exploración práctica
 
+Haremos fetch() de un [JSON](https://raw.githubusercontent.com/profesorfaco/front-end/main/sesion_07/titanic.json) con algunos datos sobre los pasajeros del Titanic. Originalmente los datos estaban disponibles en un [CSV] que presentado por GitHub se ve tal como una [hoja de cálculo](https://github.com/datasciencedojo/datasets/blob/master/titanic.csv), pero también podemos verlo en su [presentación original](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv)
+
+Los datos son:
+
+- PassengerId: identificador único del pasajero.
+
+- Survived: si el pasajero sobrevivió al naufragio, codificada como 0 (no) y 1 (si). 
+
+- Pclass: clase a la que pertenecía el pasajero: 1, 2 o 3.
+
+- Name: nombre del pasajero.
+
+- Sex: sexo del pasajero.
+
+- Age: edad del pasajero.
+
+- SibSp: número de hermanos, hermanas, hermanastros o hermanastras en el barco.
+
+- Parch: número de padres e hijos en el barco.
+
+- Ticket: identificador del billete.
+
+- Fare: precio pagado por el billete.
+
+- Cabin: identificador del camarote asignado al pasajero.
+
+- Embarked: puerto en el que embarcó el pasajero, puede ser S, C o Q (Southampton, Cherburgo o Queenstown, respectivamente)
+
+
 Partiremos con el siguiente código, que corresponde copiar y pegar en un documento recién creado en su editor de código fuente. Documento que tienen que guardar como `index.html`: 
 
 ```
@@ -180,116 +209,147 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- CSS de Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <style>
+            :root {
+                --bs-body-color: #fff;
+                --bs-body-bg: #212535;
+            }
+        </style>
         <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
     </head>
     <body>
-        <header class="p-5 mb-4 rounded-3">
+        <header>
             <div class="container">
-                <h1 class="display-5 fw-bold">Digimon</h1>
-                <div class="row align-items-center g-5">
-                    <div class="col-md-7">
-                        <p class="lead">Los Digimon son criaturas digitales que digievolucionan para mejorar su nivel de poder y habilidades con respecto a su anterior forma.</p>
-                        <p>Los Digimon se dividen según diferentes tipos o atributos, actuando o cumpliendo un determinado rol (como un programa informático) que pueden ser principalmente de tipo: datos, vacuna o virus.</p>
-                    </div>
-                    <div class="col-md-5 d-none d-md-block">
-                        <small class="text-muted">PONGA AQUÍ UN GRÁFICO CON CHART.JS, USE LOS DATOS DE DIGIMON.</small>
+                <div class="row pt-5">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <h1 class="display-4 text-center py-2">Titanic</h1>
+                        <p class="lead">Dos años fueron necesarios para construir el Titanic, también conocido como el barco insumergible. Y sin embargo, después de navegar durante cuatro días y medio, y, tras chocar con un iceberg, se hundió en apenas dos horas y 40 minutos.</p>
+                        <p>El 10 de abril de 1912 el Titanic zarpó desde Southampton en su viaje inaugural, que tenía por destino final a Nueva York. El barco insumergible cruzó el canal de la Mancha hasta su primera escala, Cherburgo, en Normandía. Posteriormente viajó hasta el puerto de Queenstown (hoy Cork, Irlanda) para recoger a los últimos pasajeros antes de adentrarse en el océano Atlántico.</p>
+                        <p>De los <a href="https://github.com/datasciencedojo/datasets/blob/master/titanic.csv" target="_blank" class="link-light">registros de 891 pasajeros</a>, podemos obtener algunos datos:</p>
                     </div>
                 </div>
             </div>
         </header>
 
         <main class="container">
-            <div class="accordion mb-5" id="accordionExample">
-                <!--Fresh-->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Fresh</button></h2>
+            <div class="accordion mx-md-5 my-5 rounded-0" id="accordionExample">
+                <!--Edades de pasajeros-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header bg-dark" id="headingOne"><button class="accordion-button rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Edades</button></h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="LesFresh"></div>
+                        <div class="accordion-body text-black-50">
+                            <p>La edad promedio de quienes viajaban en el titanic era de <span id="edad_promedio"></span></p>
+                        </div>
                     </div>
                 </div>
-                <!--In Training-->
-                <div class="accordion-item">
+                <!--Pasajeras y pasajeros-->
+                <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">In Training</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Pasajeras y pasajeros</button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="LesInTraining"></div>
+                        <div class="accordion-body text-black-50">
+                            <p>De un total de 891 personas, <span id="total_mujeres"></span> de ellas eran mujeres y <span id="total_hombres"></span> eran hombres.</p>
+                        </div>
                     </div>
                 </div>
-                <!--Rookies-->
-                <div class="accordion-item">
+                <!--Clases-->
+                <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Rookies</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Las tres clases</button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="LesRookie"></div>
+                        <div class="accordion-body text-black-50">
+                            <p>Eran tres clases, en primera clase viajaban ?? personas, en segunda viajaban ?? y en tercera ??.</p>
+                        </div>
                     </div>
                 </div>
-                <!--Champion-->
-                <div class="accordion-item">
+                <!--Otros-->
+                <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Champion</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Otro dato</button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="LesChampion"></div>
+                        <div class="accordion-body text-black-50">
+                            <p>Define otro dato.</p>
+                        </div>
                     </div>
                 </div>
-                <!--Armor-->
-                <div class="accordion-item">
+                <!--Otro más-->
+                <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Armor</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Otro dato más</button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                        <div class="accordion-body row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="LesArmor"></div>
-                    </div>
-                </div>
-                <!--Mega-->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSix">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Mega</button>
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                        <div class="accordion-body row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="LesMega"></div>
-                    </div>
-                </div>
-                <!--Ultimate-->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSeven">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Ultimate</button>
-                    </h2>
-                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                        <div class="accordion-body row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 text-center" id="LesUltimate"></div>
+                        <div class="accordion-body text-black-50">
+                            <p>Define otro dato más.</p>
+                        </div>
                     </div>
                 </div>
                 <!--Fin-->
             </div>
         </main>
 
+        <aside>
+            <div class="container">
+                <div class="row pb-5">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto small text-center">            
+                        <p>Fuentes: <a href="https://historia.nationalgeographic.com.es/a/historia-titanic-tragedia-barco-insumergible_16344">La historia del Titanic, la tragedia del barco insumergible</a>, <a href="https://rpubs.com/paraneda/titanic">RPubs - Titanic</a>, otra y otra más.</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><p class="text-muted mt-5 text-center small">Bootstrap v5.1 y Charts.js</p></div>
+                </div>
+            </div>
+        </footer>
+
         <!-- Biblioteca de Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- Biblioteca Chart.js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        ></script>
         <script>
             async function todo() {
-                const consulta = await fetch("https://digimon-api.vercel.app/api/digimon");
+                //el fetch
+                const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/front-end/main/sesion_07/titanic.json");
                 const data = await consulta.json();
+                //algunas variables para calcular
+                var edades = [];
+                var mujeres = 0;
+                var hombres = 0;
+                //consultando en cada elemento del arreglo
                 data.forEach((d) => {
-                    if (d.level == "In Training" || d.level == "Training") {
-                        document.querySelector("#LesInTraining").innerHTML += '<div class="col"><img src="' + d.img + '" class="w-100"><p>' + d.name + "</p></div>";
-                    } else if (d.level == "Rookie") {
-                        document.querySelector("#LesRookie").innerHTML += '<div class="col"><img src="' + d.img + '" class="w-100"><p>' + d.name + "</p></div>";
-                    } else if (d.level == "Champion") {
-                        document.querySelector("#LesChampion").innerHTML += '<div class="col"><img src="' + d.img + '" class="w-100"><p>' + d.name + "</p></div>";
-                    } else if (d.level == "Fresh") {
-                        document.querySelector("#LesFresh").innerHTML += '<div class="col"><img src="' + d.img + '" class="w-100"><p>' + d.name + "</p></div>";
-                    } else if (d.level == "Mega") {
-                        document.querySelector("#LesMega").innerHTML += '<div class="col"><img src="' + d.img + '" class="w-100"><p>' + d.name + "</p></div>";
-                    } else if (d.level == "Armor") {
-                        document.querySelector("#LesArmor").innerHTML += '<div class="col"><img src="' + d.img + '" class="w-100"><p>' + d.name + "</p></div>";
+                    edades.push(d.Age);
+                    if (d.Sex == "female") {
+                        mujeres = mujeres + 1;
                     } else {
-                        document.querySelector("#LesUltimate").innerHTML += '<div class="col"><img src="' + d.img + '" class="w-100"><p>' + d.name + "</p></div>";
+                        hombres = hombres + 1;
                     }
                 });
+                //veamos las edades en la consola
+                console.log(edades);
+                //saquemos los null de las edades
+                var edadesreales = edades.filter((e) => {
+                    return e != null;
+                });
+                //veamos las edadesreales en la consola
+                console.log(edadesreales);
+                //ahora saquemos un promedio de las edadesreales
+                var promedio = edadesreales.reduce((a, b) => a + b, 0) / edadesreales.length;
+                //y completemos un par de frase
+                document.querySelector("#edad_promedio").innerHTML = Math.round(promedio) + " años.";
+                document.querySelector("#total_mujeres").innerHTML = mujeres;
+                document.querySelector("#total_hombres").innerHTML = hombres;
+                /*
+                    Los demás datos deben ser propustos por ustedes.
+                    Cuando tengan datos suficientes, había que visualizarlos.
+                    Habrá que colocar una visualización dentro de cada división de clase .accordion-body
+                */
             }
             todo().catch((error) => console.error(error));
         </script>
@@ -297,9 +357,8 @@ Partiremos con el siguiente código, que corresponde copiar y pegar en un docume
 </html>
 ```
 
-Usamos `fetch()` para tomar datos sobre los Digimon desde un JSON. Con tales datos rellenamos cada cuerpo en el [Accordion](https://getbootstrap.com/docs/5.1/components/accordion/). 
+Una vez hayan guardado el documento como `index.html`, corresponde leer y comprender lo que está preparado, para seguir trabajando.
 
-Con la misma estructura de condiciones, se podrían obtener números de las distintas evoluciones (ej: cuántos hay en cada una). Y con tales números podemos armar un gráfico (apóyese en el `ejemplo-2.html` de más arriba).
 
 - - - - - - - 
 
