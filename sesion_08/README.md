@@ -28,11 +28,11 @@ Ahora podrían estar preguntándose: **¿¡De dónde saco datos duros!?**
 
 - https://github.com/juanbrujo/listado-apis-publicas-en-chile
 
-- También pueden construir sus propias hojas de cálculo con datos duros, siguiendo el modelo del Titanic: https://github.com/datasciencedojo/datasets/blob/master/titanic.csv
+- También pueden construir sus propias hojas de cálculo con datos duros, siguiendo el modelo del [Titanic](https://github.com/datasciencedojo/datasets/blob/master/titanic.csv): Una primera fila de cabecera, y hacia abajo los datos correspondientes para cada columna.
 
-- Esas hojas de cálculo luego se podrán transformar a JSON, como hice con lo del Titanic: https://raw.githubusercontent.com/profesorfaco/front-end/main/sesion_07/titanic.json
+- Esas hojas de cálculo luego se podrán transformar a JSON, como hice con lo del [Titanic](https://raw.githubusercontent.com/profesorfaco/front-end/main/sesion_07/titanic.json).
 
-- Incluso pueden tomar datos que ya estén en hojas de cálculo, desde https://app.rawgraphs.io/ --> *Try our data samples* o desde [anexos de Wikipedia](https://es.wikipedia.org/wiki/Categor%C3%ADa:Anexos:Chile), y luego podrán comenzar a armar una narrativa desde tales datos; ejemplo: Podrían hacer *algo* desde las *Revenues per Music format*.
+- Incluso pueden tomar datos que ya estén en hojas de cálculo, desde https://app.rawgraphs.io/ –*Try our data samples*– o desde [anexos de Wikipedia](https://es.wikipedia.org/wiki/Categor%C3%ADa:Anexos:Chile), y luego podrán comenzar a armar una narrativa desde tales datos; ejemplo: Podrían hacer *algo* desde las *Revenues per Music format* que ofrece [RawGraph](https://app.rawgraphs.io/).
 
 - - - - - - - - 
 
