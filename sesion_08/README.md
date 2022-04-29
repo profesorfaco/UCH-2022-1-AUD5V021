@@ -12,7 +12,7 @@ Más que teoría, esto es una **tarea**:
 
 Ese *algo* está "inspirado" en https://graphics.reuters.com/TONGA-VOLCANO/LIGHTNING/zgpomjdbypd/index.html
 
-Para "inspirarse", ustedes también podrían revisar las infografías digitales de https://graphics.reuters.com/
+Para "inspirarse", ustedes también podrían revisar las infografías digitales en https://graphics.reuters.com/
 
 Convendría sumar una revisión de infografías digitales en https://www.scmp.com/infographic/, tales como: 
 
