@@ -32,7 +32,7 @@ Ahora podrían estar preguntándose: ¿¡De dónde saco datos duros!?
 
 - Esas hojas de cálculo luego se podrán transformar a JSON, como hice con lo del Titanic: https://raw.githubusercontent.com/profesorfaco/front-end/main/sesion_07/titanic.json
 
-- Incluso pueden tomar datos que ya están en hojas de cálculo, desde https://app.rawgraphs.io/ --> *Try our data samples* --> y comenzar a construir su historia desde tales datos; ejemplo: Una infografía digital sobre las *Revenues per Music format*.
+- Incluso pueden tomar datos que ya estén en hojas de cálculo, desde https://app.rawgraphs.io/ --> *Try our data samples* --> y comenzar a construir su historia desde tales datos; ejemplo: Una infografía digital sobre las *Revenues per Music format*. Y también podrán transformarlas a JSON.
 
 - - - - - - - - 
 
