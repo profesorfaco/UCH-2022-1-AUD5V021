@@ -182,12 +182,11 @@
                 //veamos las edadesreales en la consola
                 console.log(edadesreales);
                 //ahora saquemos un promedio de las edadesreales
-
-                console.log("eran " + cuantosTercera + " en tercera clase");
-
                 var promedio = edadesreales.reduce((a, b) => a + b, 0) / edadesreales.length;
-                //y completemos un par de frase
-                document.querySelector("#edad_promedio").innerHTML = promedio + " años.";
+
+                //y completemos algunas frases previas al gráfico
+
+                document.querySelector("#edad_promedio").innerHTML = promedio.toFixed(1) + " años.";
                 document.querySelector("#total_mujeres").innerHTML = mujeres;
                 document.querySelector("#total_hombres").innerHTML = hombres;
 
@@ -202,12 +201,14 @@
                 var maduros = [];
                 var mayores = [];
 
+                //acá otro forEach que se aprovechará el arreglo de edadesreales
+
                 edadesreales.forEach((e) => {
                     if (e < 18) {
                         menores.push(e);
                     } else if (e > 17 && e < 41) {
                         medianos.push(e);
-                    } else if (e > 40 && e < 60) {
+                    } else if (e > 40 && e < 61) {
                         maduros.push(e);
                     } else {
                         mayores.push(e);
@@ -219,35 +220,43 @@
                 console.log(maduros.length);
                 console.log(mayores.length);
 
-                /*
-                    Los demás datos deben ser propustos por ustedes.
-                    Cuando tengan datos suficientes, había que visualizarlos.
-                    Habrá que colocar una visualización dentro de cada división de clase .accordion-body
-                */
+                // El gráfico de las edades
 
                 new Chart(document.getElementById("edadista").getContext("2d"), {
-                    type: "pie",
+                    type: "doughnut",
                     data: {
                         labels: ["Menores de edad", "Adultos jóvenes", "Adultos", "Adultos mayores"],
-                        datasets: [{ data: [menores.length, medianos.length, maduros.length, mayores.length], label: "Edades en el Titanic", backgroundColor: ["#ff0", "#f00", "#0f0", "#0ff"] }],
-                    },
+                        datasets: [{ data: [menores.length, medianos.length, maduros.length, mayores.length], label: "Edades en el Titanic", backgroundColor: ["#eff3ff", "#bdd7e7", "#6baed6", "#2171b5"] }]
+                    }
                 });
+
+                // El gráfico de las clases
 
                 new Chart(document.getElementById("clasista").getContext("2d"), {
-                    type: "pie",
+                    type: "doughnut",
                     data: {
                         labels: ["Primera clase", "Segunda clase", "Tercera clase"],
-                        datasets: [{ data: [cuantosPrimera, cuantosSegunda, cuantosTercera], label: "Clases en el Titanic", backgroundColor: ["#ff0", "#f00", "#0f0"] }],
-                    },
+                        datasets: [{ data: [cuantosPrimera, cuantosSegunda, cuantosTercera], label: "Clases en el Titanic", backgroundColor: ["#deebf7", "#9ecae1", "#3182bd"] }]
+                    }
                 });
 
+                // El gráfico de los sexos
+
                 new Chart(document.getElementById("sexista").getContext("2d"), {
-                    type: "pie",
+                    type: "doughnut",
                     data: {
                         labels: ["Mujeres", "Hombres"],
-                        datasets: [{ data: [mujeres, hombres], label: "Sexos en el Titanic", backgroundColor: ["#ff0", "#f00"] }],
-                    },
+                        datasets: [{ data: [mujeres, hombres], label: "Sexos en el Titanic", backgroundColor: ["#bdd7e7", "#2171b5"] }]
+                    }
                 });
+
+                // Faltan dos gráficos más, para completarlos puedes copiar, pegar y modificar… siempre leyendo.
+
+
+
+
+
+                //¡No toques lo que sigue!
             }
             todo().catch((error) => console.error(error));
         </script>
