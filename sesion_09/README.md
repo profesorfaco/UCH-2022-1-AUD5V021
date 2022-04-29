@@ -4,8 +4,7 @@
 
 - - - - - - - 
 
-La pauta de evaluación se presentará al inicio de la sesión. 
-
+La pauta de evaluación se presentará al inicio de la sesión. Pero ya se adelantó: Debería ser mejor que https://profesorfaco.github.io/front-end/sesion_08/
 
 - - - - - - - 
 
