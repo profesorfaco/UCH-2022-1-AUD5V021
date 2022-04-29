@@ -20,7 +20,7 @@ Convendría sumar una revisión de infografías digitales en https://www.scmp.co
 - https://multimedia.scmp.com/infographics/sport/article/3028045/rugby-world-cup/
 - https://multimedia.scmp.com/sport/article/world-cup/players-bad-habits/
 
-Como pueden notar, para armar una página web tipo infografía digital necesitan dominar su tema: Sólo así pueden armar una narrativa que se despliegue mientras se hace *scroll*. Esta narrativa debe **apoyarse en datos duros** que corresponde mostrar con gráficos (*charts* de [chart.js](https://www.chartjs.org/)) y fotografías/ilustraciones (como los patos, los digimon, [los animals in China's breeding industry](https://multimedia.scmp.com/infographics/news/china/article/3064927/wildlife-ban/)).
+Como pueden notar, para armar una página web tipo infografía digital necesitan dominar su tema: Sólo así pueden armar una narrativa que se despliegue mientras se hace *scroll*. Esta narrativa debe **apoyarse en datos duros** que corresponde mostrar con gráficos (*charts* de [chart.js](https://www.chartjs.org/)) y fotografías/ilustraciones (como los patos, los digimon, [los *animals in China's breeding industry*](https://multimedia.scmp.com/infographics/news/china/article/3064927/wildlife-ban/)).
 
 Ahora podrían estar preguntándose: **¿¡De dónde saco datos duros!?**
 
