@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
+    </head>
+    <body>
+        <a id="downloadAnchorElem" style="display: none;"></a>
+        <p><strong>Revisa la carpeta de descargas</strong>, basta que se cargue la página para que se descargue un <code>datos.json</code></p>
+        <p>Conviene que abras el JSON descargado en tu editor de código fuente, copies su contenido y lo pegues en <a href="https://jsonlint.com/" target="_blank">JSONLint</a>, así lo validarás y ordenarás al mismo tiempo (algo como lo que hacemos con webformatter).</p>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+        <script>
+            //Cambia la URL del CSV por la que corresponda
+            Papa.parse("https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    var data = respuesta.data;
+                    console.log(data.length);
+                    console.log(data);
+                    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
+                    var dlAnchorElem = document.getElementById("downloadAnchorElem");
+                    dlAnchorElem.setAttribute("href", dataStr);
+                    dlAnchorElem.setAttribute("download", "datos.json");
+                    dlAnchorElem.click();
+                },
+            });
+        </script>
+    </body>
+</html>

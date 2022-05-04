@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
+    </head>
+    <body>
+        <a id="downloadAnchorElem" style="display: none;"></a>
+        <p><strong>Revisa la carpeta de descargas</strong>, basta que se cargue la página para que se descargue un <code>datos.json</code></p>
+        <p>Conviene que abras el JSON descargado en tu editor de código fuente, copies su contenido y lo pegues en <a href="https://jsonlint.com/" target="_blank">JSONLint</a>, así lo validarás y ordenarás al mismo tiempo (algo como lo que hacemos con webformatter).</p>
+        <script>
+            async function visualizacion() {
+                //Cambia la URL del JSON por la que corresponda
+                var consulta = await fetch("https://raw.githubusercontent.com/fant4sma/testeo/main/cumulative-co-emissions.json");
+                var data = await consulta.json();
+                console.log(data.length);
+                var datos = [];
+                data.forEach((d) => {
+                    //define tus propias condiciones
+                    if ((d.Entity == "Chile" || d.Entity == "World" || d.Entity == "China") && d.Year > 1899) {
+                        datos.push(d);
+                    }
+                });
+                console.log(datos);
+                var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(datos));
+                var dlAnchorElem = document.getElementById("downloadAnchorElem");
+                dlAnchorElem.setAttribute("href", dataStr);
+                dlAnchorElem.setAttribute("download", "datos.json");
+                dlAnchorElem.click();
+            }
+            visualizacion().catch((error) => console.error(error));
+        </script>
+    </body>
+</html>
