@@ -4,29 +4,82 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                padding: 3%;
+            }
+            @media (orientation: landscape) {
+                body {
+                    padding-right: 30%;
+                }
+            }
+            span {
+                font-size: 90%;
+                text-decoration: underline;
+            }
+            code {
+                font-size: 110%;
+                color: #222;
+                background: #fef;
+                padding: 0 0.2rem;
+            }
+            input {
+                background: #ff6;
+            }
+            input,
+            button {
+                padding: 0.4rem 0.6rem;
+            }
+        </style>
     </head>
     <body>
+        <p>
+            <strong>Sube tu <span>CSV</span> a un repositorio en <a href="https://github.com/" target="_blank">GitHub</a>.</strong>
+        </p>
+
+        <p>
+            <strong>Copia la <span>URL</span> del <span>CSV</span> en versión <em>raw</em></strong>.
+        </p>
+
+        <p>La <span>URL</span> copiada debería comenzar con <code>https://raw.githubusercontent.com/…</code></p>
+
+        <div>
+            <input type="url" placeholder="Pega aquí la URL copiada…" aria-label="Pega aquí la URL copiada…" id="este" size="40" />
+            <button type="button" onclick="csv_a_json()">CONVERTIR</button>
+            <p id="alerta" style="color: red;"></p>
+        </div>
+
         <a id="downloadAnchorElem" style="display: none;"></a>
-        <p><strong>Revisa la carpeta de descargas</strong>, basta que se cargue la página para que se descargue un <code>datos.json</code></p>
-        <p>Conviene que abras el JSON descargado en tu editor de código fuente, copies su contenido y lo pegues en <a href="https://jsonlint.com/" target="_blank">JSONLint</a>, así lo validarás y ordenarás al mismo tiempo (algo como lo que hacemos con webformatter).</p>
+        <p>Después de presionar el botón, <strong>revisa la carpeta de descargas</strong>; allí deberías encontrar un <code>datos.json</code></p>
+        <p>
+            Conviene que abras el JSON descargado en tu editor de código fuente, luego copia su contenido y pégalo en <a href="https://jsonlint.com/" target="_blank">JSONLint</a>, así lo podrás validar y ordenar al mismo tiempo (tal como
+            hemos hecho con el HTML en webformatter).
+        </p>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
         <script>
-            //Cambia la URL del CSV por la que corresponda
-            Papa.parse("https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv", {
-                download: true,
-                header: true,
-                dynamicTyping: true,
-                complete: function (respuesta) {
-                    var data = respuesta.data;
-                    console.log(data.length);
-                    console.log(data);
-                    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
-                    var dlAnchorElem = document.getElementById("downloadAnchorElem");
-                    dlAnchorElem.setAttribute("href", dataStr);
-                    dlAnchorElem.setAttribute("download", "datos.json");
-                    dlAnchorElem.click();
-                },
-            });
+            function csv_a_json(url) {
+                var url = document.querySelector("#este").value;
+                if (url == "") {
+                    document.querySelector("#alerta").innerHTML = "Pega una <span>URL</span> antes de presionar el botón… ¬_¬";
+                } else {
+                    Papa.parse(url, {
+                        download: true,
+                        header: true,
+                        dynamicTyping: true,
+                        complete: function (respuesta) {
+                            var data = respuesta.data;
+                            console.log(data.length);
+                            console.log(data);
+                            var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
+                            var dlAnchorElem = document.getElementById("downloadAnchorElem");
+                            dlAnchorElem.setAttribute("href", dataStr);
+                            dlAnchorElem.setAttribute("download", "datos.json");
+                            dlAnchorElem.click();
+                        },
+                    });
+                }
+            }
         </script>
     </body>
 </html>
