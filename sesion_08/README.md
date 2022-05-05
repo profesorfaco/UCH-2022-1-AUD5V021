@@ -38,9 +38,9 @@ Ahora podrían estar preguntándose: **¿¡De dónde saco datos duros!?**
 
 #### Exploración práctica
 
-Reutilizando lo del Titanic de [la sesión recién pasada](https://profesorfaco.github.io/front-end/sesion_07/), obtenga números de sus datos para poder crear un mínimo de 5 gráficos.
+**Reutilizando lo del Titanic de [la sesión recién pasada](https://profesorfaco.github.io/front-end/sesion_07/), obtenga números de sus datos para poder crear un mínimo de 5 gráficos**.
 
-¿Por qué reutilizar lo del Titanic? Porque corresponde "sacarle todo el jugo posible" a los dato y concentrarnos en un gráfico a la vez. Así podríamos encontrarnos, de imprevisto, con nuevos patrones o formas de relación.
+¿Por qué reutilizar lo del Titanic? Porque corresponde "sacarle todo el jugo posible" a los dato y concentrarnos en un gráfico a la vez. Así podríamos encontrarnos, de imprevisto, con nuevos patrones o formas de relación entre los números.
 
 El mínimo de 5 gráficos será evaluado al final de la clase, y tal evalución significará un 20% de la [primera evaluación del electivo](https://docs.google.com/spreadsheets/d/1aPuMv2i4kl_dD6iiSifJS4ONtCzvjmsoMEenfJgQjvc/edit?usp=sharing) (no contaré la diagnóstica, a menos que a alguien la convenga que la cuente).
 
