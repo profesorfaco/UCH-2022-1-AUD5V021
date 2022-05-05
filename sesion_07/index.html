@@ -289,14 +289,21 @@
                 var puntos = [];
                 var globosPrimera = [];
                 var globosSegunda = [];
+                var globosTercera = [];
+                var globosCuarta = [];
+
                 data.forEach((d) => {
                     let info = { x: d.presupuesto, y: d.ingreso_mundial, pelicula: d.pelicula };
-                    let otra = { x: d.presupuesto, y: d.ingreso_mundial, r: d.IMDb_recepcion_publico * 2, pelicula: d.pelicula };
+                    let otra = { x: d.presupuesto, y: d.ingreso_mundial, pelicula: d.pelicula };
 
                     if (d.fase == 1) {
                         globosPrimera.push(otra);
                     } else if (d.fase == 2) {
                         globosSegunda.push(otra);
+                    } else if (d.fase == 3) {
+                        globosTercera.push(otra);
+                    } else {
+                        globosCuarta.push(otra)
                     }
                     puntos.push(info);
                 });
@@ -309,10 +316,11 @@
                     data: {
                         datasets: [
                             {
-                                label: "¿Sirve gastar tanto?",
+                                label: "Presupuesto contra ingreso",
                                 data: puntos,
                                 backgroundColor: "rgba(0,100,255,.5)",
-                                pointRadius: 5,
+                                pointRadius: 10,
+                                pointHoverRadius: 12,
                             },
                         ],
                     },
@@ -320,6 +328,15 @@
                         animation: false,
                         scales: {
                             x: {
+                                min:0,
+                                ticks: {
+                                    callback: function (numero) {
+                                        return "US$ " + numero.toLocaleString("es-CL");
+                                    },
+                                },
+                            },
+                            y: {
+                                min:0,
                                 ticks: {
                                     callback: function (numero) {
                                         return "US$ " + numero.toLocaleString("es-CL");
@@ -332,7 +349,7 @@
                                 callbacks: {
                                     label: (context) => {
                                         console.log(context);
-                                        return context.raw.pelicula + " gano " + context.raw.y.toLocaleString("es-CL");
+                                        return "«" + context.raw.pelicula + "» tuvo ingresos mundiales por US$" + context.raw.y.toLocaleString("es-CL");
                                     },
                                 },
                             },
@@ -343,21 +360,37 @@
                 //Para analizar patrones o correlaciones de dos valores, considerando un tercer valor que se presenta en su radio
 
                 new Chart(document.getElementById("septimoChart").getContext("2d"), {
-                    type: "bubble",
+                    type: "scatter",
                     data: {
                         datasets: [
                             {
                                 label: "Fase 1",
                                 data: globosPrimera,
-                                backgroundColor: "rgba(0,100,255,.5)",
-                                pointRadius: 5,
+                                backgroundColor: "rgba(245,191,83,.75)",
+                                pointRadius: 10,
+                                pointHoverRadius: 12,                              
                             },
                             {
                                 label: "Fase 2",
                                 data: globosSegunda,
-                                backgroundColor: "rgba(100,0,255,.5)",
-                                pointRadius: 5,
+                                backgroundColor: "rgba(230,105,101,.75)",
+                                pointRadius: 10,
+                                pointHoverRadius: 12,
                             },
+                            {
+                                label: "Fase 3",
+                                data: globosTercera,
+                                backgroundColor: "rgba(249,98,252,.75)",
+                                pointRadius: 10,
+                                pointHoverRadius: 12,
+                            },
+                            {
+                                label: "Fase 4",
+                                data: globosCuarta,
+                                backgroundColor: "rgba(148,95,245,.75)",
+                                pointRadius: 10,
+                                pointHoverRadius: 12,
+                            }
                         ],
                     },
                     options: {
@@ -376,7 +409,7 @@
                                 callbacks: {
                                     label: (context) => {
                                         console.log(context);
-                                        return context.raw.pelicula + " gano " + context.raw.y.toLocaleString("es-CL");
+                                        return "«" + context.raw.pelicula + "» tuvo ingresos mundiales por US$" + context.raw.y.toLocaleString("es-CL");
                                     },
                                 },
                             },
