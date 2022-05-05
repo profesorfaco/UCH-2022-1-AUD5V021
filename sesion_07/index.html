@@ -6,19 +6,12 @@
         <!-- CSS de Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         <style>
-            @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap");
+            @import url("https://fonts.googleapis.com/css2?family=Trispace:wght@300;400;600&display=swap");
 
             :root {
-                --bs-body-font-family: "Work Sans", sans-serif;
+                --bs-body-font-family: "Trispace", sans-serif;
                 --bs-body-color: #eef;
                 --bs-body-bg: #10121c;
-            }
-
-            body {
-                background-image: url(img/fondo.jpg);
-                background-repeat: no-repeat;
-                background-position: center bottom;
-                background-size: 100% auto;
             }
         </style>
         <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
@@ -29,14 +22,8 @@
                 <div class="row pt-5">
                     <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
                         <h1 class="display-4 text-center py-2">Titanic</h1>
-                        <p class="lead">
-                            Dos años fueron necesarios para construir el Titanic, también conocido como el barco insumergible. Y sin embargo, después de navegar durante cuatro días y medio, y, tras chocar con un iceberg, se hundió en apenas
-                            dos horas y 40 minutos.
-                        </p>
-                        <p>
-                            El 10 de abril de 1912 el Titanic zarpó desde Southampton en su viaje inaugural, que tenía por destino final a Nueva York. El barco insumergible cruzó el canal de la Mancha hasta su primera escala, Cherburgo, en
-                            Normandía. Posteriormente viajó hasta el puerto de Queenstown (hoy Cork, Irlanda) para recoger a los últimos pasajeros antes de adentrarse en el océano Atlántico.
-                        </p>
+                        <p class="lead">Dos años fueron necesarios para construir el Titanic, también conocido como el barco insumergible. Y sin embargo, después de navegar durante cuatro días y medio, y, tras chocar con un iceberg, se hundió en apenas dos horas y 40 minutos.</p>
+                        <p>El 10 de abril de 1912 el Titanic zarpó desde Southampton en su viaje inaugural, que tenía por destino final a Nueva York. El barco insumergible cruzó el canal de la Mancha hasta su primera escala, Cherburgo, en Normandía. Posteriormente viajó hasta el puerto de Queenstown (hoy Cork, Irlanda) para recoger a los últimos pasajeros antes de adentrarse en el océano Atlántico.</p>
                         <p>De los <a href="https://github.com/datasciencedojo/datasets/blob/master/titanic.csv" target="_blank" class="link-light">registros de 891 pasajeros</a>, podemos obtener algunos datos:</p>
                     </div>
                 </div>
@@ -52,8 +39,13 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>La edad promedio de quienes viajaban en el titanic era de <span id="edad_promedio"></span></p>
-                            <canvas id="edadista" width="100" height="100" class="m-5"></canvas>
+                            <p>
+                                La edad promedio de quienes viajaban en el titanic era de <span id="edad_promedio"></span> Minoría eran los adultos mayores que pudieron haber muerto en su camarote haciendo cucharita. La mayoría eran adultos
+                                jóvenes.
+                            </p>
+                            <div class="col-md-6 mx-auto mb-3">
+                                <canvas id="edadista" width="100" height="100"></canvas>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -64,8 +56,10 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>De un total de 891 personas, <span id="total_mujeres"></span> de ellas eran mujeres y <span id="total_hombres"></span> eran hombres.</p>
-                            <canvas id="sexista" width="100" height="100" class="m-5"></canvas>
+                            <p>De un total de 891 personas, <span id="total_mujeres"></span> eran mujeres y <span id="total_hombres"></span> eran hombres. Si insistimos en la ficción de Cameron (1997): Había 1.8 Jacks por cada 1 Rose.</p>
+                            <div class="col-md-6 mx-auto mb-3">
+                                <canvas id="sexista" width="100" height="100"></canvas>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,30 +70,40 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>Eran tres clases, en primera clase viajaban <span id="deprimera"></span> personas, en segunda viajaban <span id="desegunda"></span> y en tercera <span id="detercera"></span>.</p>
-                            <canvas id="clasista" width="100" height="100" class="m-5"></canvas>
+                            <p>
+                                Las 891 personas registradas como pasajeros se dividían en tres clases. En primera clase viajaban <span id="deprimera"></span> pasajeros, en segunda viajaban <span id="desegunda"></span> y en tercera
+                                <span id="detercera"></span>.
+                            </p>
+                            <div class="col-md-6 mx-auto mb-3">
+                                <canvas id="clasista" width="100" height="100"></canvas>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--Otros-->
+                <!--Sobrevivientes por clases-->
                 <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Otro dato</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Sobrevivientes por clase</button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>Define otro dato.</p>
+                            <p>
+                                Sobrevivieron <span id="losquevivieron"></span> y murieron <span id="losquemurieron"></span> personas. No nos sorprenderá el hecho de que la mayoría de los sobrevivientes viajaban en primera clase, mientras
+                                que la mayoría de las muertes se cuentan en tercera clase.
+                            </p>
+                            <canvas id="sobreviven" width="100" height="30"></canvas>
                         </div>
                     </div>
                 </div>
-                <!--Otro más-->
+                <!--Mujeres y niños primero-->
                 <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Otro dato más</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">¡Mujeres y niños primero!</button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>Define otro dato más.</p>
+                            <p>¿Qué tanto caso se le hizo a la clásica indicación? Las cifras indican que pudo ser respetada.</p>
+                            <canvas id="porsexo" width="100" height="30"></canvas>
                         </div>
                     </div>
                 </div>
@@ -136,12 +140,8 @@
         <!-- Biblioteca de Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- Biblioteca Chart.js -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
-            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Un gran script, que contiene una función asincrónica para ir a buscar un JSON con -->        
         <script>
             async function todo() {
                 //el fetch
@@ -151,20 +151,42 @@
                 var edades = [];
                 var mujeres = 0;
                 var hombres = 0;
+                //variables para calcular las clases
                 var cuantosPrimera = 0;
                 var cuantosSegunda = 0;
                 var cuantosTercera = 0;
+                //Sobrevivientes
+                var vivos = 0;
+                var muertos = 0;
+                //Sobrevivientes por sexo
+                var vivosH = 0;
+                var vivosM = 0;
+                var muertosH = 0;
+                var muertosM = 0;
+                var vivosPrimera = 0;
+                var muertosPrimera = 0;
+                var vivosSegunda = 0;
+                var muertosSegunda = 0;
+                var vivosTercera = 0;
+                var muertosTercera = 0;
+                var mujeresSalvadas = 0;
+                var ninesSalvades = 0;
+                var hombresSalvados = 0;
+                var mujeresMuertas = 0;
+                var ninesMuertes = 0;
+                var hombresMuertos = 0;
+
                 //consultando en cada elemento del arreglo
                 data.forEach((d) => {
-                    //esto lo vemos después
+                    //sumo edades
                     edades.push(d.Age);
-                    //esto también
+                    //separo sexos
                     if (d.Sex == "female") {
                         mujeres = mujeres + 1;
                     } else {
                         hombres = hombres + 1;
                     }
-                    //aprovechemos el mismo forEach
+                    //calculo clases
                     if (d.Pclass == 1) {
                         cuantosPrimera = cuantosPrimera + 1;
                     } else if (d.Pclass == 2) {
@@ -172,21 +194,69 @@
                     } else {
                         cuantosTercera = cuantosTercera + 1;
                     }
+                    //calculo sobrevivientes
+                    if (d.Survived == 0) {
+                        muertos = muertos + 1;
+                    } else if (d.Survived == 1) {
+                        vivos = vivos + 1;
+                    }
+                    //Sobrevivientes por sexo
+                    if (d.Survived == 1 && d.Sex == "male") {
+                        vivosH = vivosH + 1;
+                    } else if (d.Survived == 1 && d.Sex == "female") {
+                        vivosM = vivosM + 1;
+                    } else {
+                    }
+
+                    if (d.Survived == 0 && d.Sex == "male") {
+                        muertosH = muertosH + 1;
+                    } else if (d.Survived == 0 && d.Sex == "female") {
+                        muertosM = muertosM + 1;
+                    } else {
+                    }
+
+                    //vivos o muertos por clase
+
+                    if (d.Survived == 1 && d.Pclass == 1) {
+                        vivosPrimera = vivosPrimera + 1;
+                    } else if (d.Survived == 0 && d.Pclass == 1) {
+                        muertosPrimera = muertosPrimera + 1;
+                    } else if (d.Survived == 1 && d.Pclass == 2) {
+                        vivosSegunda = vivosSegunda + 1;
+                    } else if (d.Survived == 0 && d.Pclass == 2) {
+                        muertosSegunda = muertosSegunda + 1;
+                    } else if (d.Survived == 1 && d.Pclass == 3) {
+                        vivosTercera = vivosTercera + 1;
+                    } else {
+                        muertosTercera = muertosTercera + 1;
+                    }
+
+                    //vivos o muertos por edad y sexo
+
+                    if (d.Sex == "female" && d.Age > 16 && d.Survived == 1) {
+                        mujeresSalvadas = mujeresSalvadas + 1;
+                    } else if (d.Sex == "female" && d.Age > 16 && d.Survived == 0) {
+                        mujeresMuertas = mujeresMuertas + 1;
+                    } else if ((d.Sex == "female" || d.Sex == "male") && d.Age <= 16 && d.Survived == 1) {
+                        ninesSalvades = ninesSalvades + 1;
+                    } else if ((d.Sex == "female" || d.Sex == "male") && d.Age <= 16 && d.Survived == 0) {
+                        ninesMuertes = ninesMuertes + 1;
+                    } else if (d.Sex == "male" && d.Age > 16 && d.Survived == 1) {
+                        hombresSalvados = hombresSalvados + 1;
+                    } else if (d.Sex == "male" && d.Age > 16 && d.Survived == 0) {
+                        hombresMuertos = hombresMuertos + 1;
+                    } else {
+                    }
                 });
-                //veamos las edades en la consola
-                console.log(edades);
-                //saquemos los null de las edades
+
                 var edadesreales = edades.filter((e) => {
                     return e != null;
                 });
-                //veamos las edadesreales en la consola
-                console.log(edadesreales);
-                //ahora saquemos un promedio de las edadesreales
+
                 var promedio = edadesreales.reduce((a, b) => a + b, 0) / edadesreales.length;
 
-                //y completemos algunas frases previas al gráfico
-
-                document.querySelector("#edad_promedio").innerHTML = promedio.toFixed(1) + " años.";
+                //y completemos un par de frase
+                document.querySelector("#edad_promedio").innerHTML = Math.round(promedio) + " años.";
                 document.querySelector("#total_mujeres").innerHTML = mujeres;
                 document.querySelector("#total_hombres").innerHTML = hombres;
 
@@ -194,69 +264,109 @@
                 document.querySelector("#desegunda").innerHTML = cuantosSegunda;
                 document.querySelector("#detercera").innerHTML = cuantosTercera;
 
-                //saquemos datos para graficar edades
+                document.querySelector("#losquevivieron").innerHTML = vivos;
+                document.querySelector("#losquemurieron").innerHTML = muertos;
 
+                //gráficar edadesreales
                 var menores = [];
                 var medianos = [];
                 var maduros = [];
                 var mayores = [];
-
-                //acá otro forEach que se aprovechará el arreglo de edadesreales
 
                 edadesreales.forEach((e) => {
                     if (e < 18) {
                         menores.push(e);
                     } else if (e > 17 && e < 41) {
                         medianos.push(e);
-                    } else if (e > 40 && e < 61) {
+                    } else if (e > 40 && e < 60) {
                         maduros.push(e);
                     } else {
                         mayores.push(e);
                     }
                 });
 
-                console.log(menores.length);
-                console.log(medianos.length);
-                console.log(maduros.length);
-                console.log(mayores.length);
-
-                // El gráfico de las edades
-
+                //edades
                 new Chart(document.getElementById("edadista").getContext("2d"), {
                     type: "doughnut",
                     data: {
-                        labels: ["Menores de edad", "Adultos jóvenes", "Adultos", "Adultos mayores"],
-                        datasets: [{ data: [menores.length, medianos.length, maduros.length, mayores.length], label: "Edades en el Titanic", backgroundColor: ["#eff3ff", "#bdd7e7", "#6baed6", "#2171b5"] }]
-                    }
+                        labels: ["Menores de Edad", "Adultos jóvenes", "Adultos", "Adultos mayores"],
+                        datasets: [{ data: [menores.length, medianos.length, maduros.length, mayores.length], label: "Edades", backgroundColor: ["#F06EC4", "#AB72F7", "#7396E0", "#495F8F"] }],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
                 });
 
-                // El gráfico de las clases
-
-                new Chart(document.getElementById("clasista").getContext("2d"), {
-                    type: "doughnut",
-                    data: {
-                        labels: ["Primera clase", "Segunda clase", "Tercera clase"],
-                        datasets: [{ data: [cuantosPrimera, cuantosSegunda, cuantosTercera], label: "Clases en el Titanic", backgroundColor: ["#deebf7", "#9ecae1", "#3182bd"] }]
-                    }
-                });
-
-                // El gráfico de los sexos
-
+                //hombres y mujeres
                 new Chart(document.getElementById("sexista").getContext("2d"), {
                     type: "doughnut",
                     data: {
                         labels: ["Mujeres", "Hombres"],
-                        datasets: [{ data: [mujeres, hombres], label: "Sexos en el Titanic", backgroundColor: ["#bdd7e7", "#2171b5"] }]
-                    }
+                        datasets: [{ data: [mujeres, hombres], label: "Sexo", backgroundColor: ["#8856a7", "#495F8F"] }],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
                 });
 
-                // Faltan dos gráficos más, para completarlos puedes copiar, pegar y modificar… siempre leyendo.
+                // clases
+                new Chart(document.getElementById("clasista").getContext("2d"), {
+                    type: "doughnut",
+                    data: {
+                        labels: ["Primera clase", "Segunda clase", "Tercera clase"],
+                        datasets: [{ data: [cuantosPrimera, cuantosSegunda, cuantosTercera], label: "Clases titanic", backgroundColor: ["#D9B4B2", "#9EBCDA", "#495F8F"] }],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
 
+                //sobrevivientes y muertes por clase
+                new Chart(document.getElementById("sobreviven").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: ["Primera clase", "Segunda Clase", "Tercera Clase"],
+                        datasets: [
+                            { data: [vivosPrimera, vivosSegunda, vivosTercera], label: "Sobreviven", backgroundColor: ["#8CB1E5"] },
+                            { data: [muertosPrimera, muertosSegunda, muertosTercera], label: "Mueren", backgroundColor: ["#334"] },
+                        ],
+                    },
+                    options: {
+                        indexAxis: "y",
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
 
-
-
-
-                //¡No toques lo que sigue!
+                //sobrevivientes y muertes por edad y sexo (mujeres y niños primero)
+                new Chart(document.getElementById("porsexo").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: ["Mujeres", "Niños", "Hombres"],
+                        datasets: [
+                            { data: [mujeresSalvadas, ninesSalvades, hombresSalvados], label: "Sobreviven", backgroundColor: ["#8CB1E5"] },
+                            { data: [mujeresMuertas, ninesMuertes, hombresMuertos], label: "Mueren", backgroundColor: ["#334"] },
+                        ],
+                    },
+                    options: {
+                        indexAxis: "y",
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
             }
             todo().catch((error) => console.error(error));
         </script>
