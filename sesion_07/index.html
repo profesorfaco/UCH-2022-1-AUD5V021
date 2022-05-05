@@ -21,16 +21,13 @@
             <div class="container">
                 <div class="row pt-5">
                     <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
-                        <h1 class="display-4 text-center py-2">Titanic</h1>
+                        <h1 class="display-4 text-center py-2">Breaking Bad</h1>
                         <p class="lead">
-                            Dos años fueron necesarios para construir el Titanic, también conocido como el barco insumergible. Y sin embargo, después de navegar durante cuatro días y medio, y, tras chocar con un iceberg, se hundió en apenas
-                            dos horas y 40 minutos.
+                            Una serie de televisión dramática estadounidense creada y producida por Vince Gilligan. Narra la historia de Walter White, un profesor de química que se transforma en el temido Heisenjaur.
                         </p>
                         <p>
-                            El 10 de abril de 1912 el Titanic zarpó desde Southampton en su viaje inaugural, que tenía por destino final a Nueva York. El barco insumergible cruzó el canal de la Mancha hasta su primera escala, Cherburgo, en
-                            Normandía. Posteriormente viajó hasta el puerto de Queenstown (hoy Cork, Irlanda) para recoger a los últimos pasajeros antes de adentrarse en el océano Atlántico.
+                            lalala lalalal alala la alaaa.
                         </p>
-                        <p>De los <a href="https://github.com/datasciencedojo/datasets/blob/master/titanic.csv" target="_blank" class="link-light">registros de 891 pasajeros</a>, podemos obtener algunos datos:</p>
                     </div>
                 </div>
             </div>
@@ -41,16 +38,13 @@
                 <!--Edades de pasajeros-->
                 <div class="accordion-item rounded-0">
                     <h2 class="accordion-header bg-dark" id="headingOne">
-                        <button class="accordion-button rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Edades</button>
+                        <button class="accordion-button rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Primer Gráfico</button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>
-                                La edad promedio de quienes viajaban en el titanic era de <span id="edad_promedio"></span> Minoría eran los adultos mayores que pudieron haber muerto en su camarote haciendo cucharita. La mayoría eran adultos
-                                jóvenes.
-                            </p>
+                            <p>Primer gráfico: Explique.</p>
                             <div class="col-md-6 mx-auto mb-3">
-                                <canvas id="edadista" width="100" height="100"></canvas>
+                                <canvas id="primerChart" width="100" height="100"></canvas>
                             </div>
                         </div>
                     </div>
@@ -58,13 +52,13 @@
                 <!--Pasajeras y pasajeros-->
                 <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Pasajeras y pasajeros</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Segundo gráfico</button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>De un total de 891 personas, <span id="total_mujeres"></span> eran mujeres y <span id="total_hombres"></span> eran hombres. Si insistimos en la ficción de Cameron (1997): Había 1.8 Jacks por cada 1 Rose.</p>
+                            <p>Segundo gráfico: Explique.</p>
                             <div class="col-md-6 mx-auto mb-3">
-                                <canvas id="sexista" width="100" height="100"></canvas>
+                                <canvas id="segundoChart" width="100" height="100"></canvas>
                             </div>
                         </div>
                     </div>
@@ -72,16 +66,13 @@
                 <!--Clases-->
                 <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Las tres clases</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Tercer gráfico</button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>
-                                Las 891 personas registradas como pasajeros se dividían en tres clases. En primera clase viajaban <span id="deprimera"></span> pasajeros, en segunda viajaban <span id="desegunda"></span> y en tercera
-                                <span id="detercera"></span>.
-                            </p>
+                            <p>Tercer gráfico: Explique.</p>
                             <div class="col-md-6 mx-auto mb-3">
-                                <canvas id="clasista" width="100" height="100"></canvas>
+                                <canvas id="tercerChart" width="100" height="100"></canvas>
                             </div>
                         </div>
                     </div>
@@ -89,50 +80,48 @@
                 <!--Sobrevivientes por clases-->
                 <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Sobrevivientes por clase</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Cuarto gráfico</button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>
-                                Sobrevivieron <span id="losquevivieron"></span> y murieron <span id="losquemurieron"></span> personas. No nos sorprenderá el hecho de que la mayoría de los sobrevivientes viajaban en primera clase, mientras
-                                que la mayoría de las muertes se cuentan en tercera clase.
-                            </p>
-                            <canvas id="sobreviven" width="100" height="30"></canvas>
+                            <p>Cuarto gráfico: Explique.</p>
+                            <canvas id="cuartoChart" width="100" height="60"></canvas>
                         </div>
                     </div>
                 </div>
                 <!--Mujeres y niños primero-->
                 <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">¡Mujeres y niños primero!</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Quinto gráfico</button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>¿Qué tanto caso se le hizo a la clásica indicación? Las cifras indican que pudo ser respetada.</p>
-                            <canvas id="porsexo" width="100" height="30"></canvas>
+                            <p>Quinto gráfico: Explique.</p>
+                            <canvas id="quintoChart" width="100" height="30"></canvas>
                         </div>
                     </div>
                 </div>
                 <!--Extra-->
                 <div class="accordion-item rounded-0">
                     <h2 class="accordion-header" id="headingSix">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFive">✨ Hay más que donas y barras ✨</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFive">Sexto gráfico</button>
                     </h2>
                     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-black-50">
-                            <p>Los gráficos de donas muestran cómo se divide algo, mientras que los gráficos de barra muestran las diferencias o similitudes entre valores que no son, necesariamente, partes de algo dividido.</p>
-                            
-                            <p>Pero esos dos no son los únicos gráficos disponibles en <a href="https://www.chartjs.org/" target="_blank">Chart.js</a>. También tenemos <a href="https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html" target="_blank">gráficos de dispersión</a> y <a href="https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html" target="_blank">gráficos de burbujas</a>, que nos pueden mostrar cómo se agrupan datos a lo largo de un intervalo.</p>
-
-                            <h5 class="mt-4 text-center">Gráfico de dispersión</h5>
-
-                            <canvas id="disperso" width="100" height="50"></canvas>
-
-                            <h5 class="mt-5 text-center">Gráfico de burbujas</h5>
-
-                            <canvas id="burbujeante" width="100" height="50"></canvas>
-
-                            <p class="small mt-5 text-muted">Otros gráficos que pueden resolver con Chart.js son los de <a href="https://www.chartjs.org/docs/latest/charts/line.html" target="_blank">línea</a>, <a href="https://www.chartjs.org/docs/latest/charts/polar.html" target="_blank">área polar</a> y <a href="https://www.chartjs.org/docs/latest/charts/radar.html" target="_blank">radar</a>. Cada gráfico puede ayudarnos a hacer evidente algo determinado. La ayuda que nos presta cada uno es su función y cada función se explica brevemente en la misma documentación de Chart.js; para explicaciones más detalladas conviene revisar <a href="https://datavizcatalogue.com/ES/buscar.html" target="_blank">Datavis Catalogue</a>.</p>
+                            <p>Sexto gráfico: Explique.</p>
+                            <canvas id="sextoChart" width="100" height="50"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!--Mujeres y niños primero-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Séptimo gráfico</button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>Séptimo gráfico: Explique.</p>
+                            <canvas id="septimoChart" width="100" height="50"></canvas>
                         </div>
                     </div>
                 </div>
@@ -179,152 +168,40 @@
         <script>
             async function todo() {
                 //el fetch
-                const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/front-end/main/sesion_07/titanic.json");
+                const consulta = await fetch("https://raw.githubusercontent.com/camilasaezso/datos-05-05/main/datos.json");
                 const data = await consulta.json();
                 //algunas variables para calcular
-                var edades = [];
-                var mujeres = 0;
-                var hombres = 0;
-                //variables para calcular las clases
-                var cuantosPrimera = 0;
-                var cuantosSegunda = 0;
-                var cuantosTercera = 0;
-                //Sobrevivientes
-                var vivos = 0;
-                var muertos = 0;
-                //Sobrevivientes por sexo
-                var vivosH = 0;
-                var vivosM = 0;
-                var muertosH = 0;
-                var muertosM = 0;
-                var vivosPrimera = 0;
-                var muertosPrimera = 0;
-                var vivosSegunda = 0;
-                var muertosSegunda = 0;
-                var vivosTercera = 0;
-                var muertosTercera = 0;
-                var mujeresSalvadas = 0;
-                var ninesSalvades = 0;
-                var hombresSalvados = 0;
-                var mujeresMuertas = 0;
-                var ninesMuertes = 0;
-                var hombresMuertos = 0;
+                console.log(data);
+
+                var generoDrama = 0;
+                var generoComedia = 0;
+                var generoEtc = 0;
+
+                var DramaNombre = [];
+                var DramaRating = [];
 
                 //consultando en cada elemento del arreglo
                 data.forEach((d) => {
-                    //sumo edades
-                    edades.push(d.Age);
-                    //separo sexos
-                    if (d.Sex == "female") {
-                        mujeres = mujeres + 1;
+                    if (d.Genre == "Drama") {
+                        generoDrama = generoDrama + 1;
+                        DramaNombre.push(d.Title);
+                        DramaRating.push(d.IMDB_Rating);
+                    } else if (d.Genre == "Comedy") {
+                        generoComedia = generoComedia + 1;
                     } else {
-                        hombres = hombres + 1;
-                    }
-                    //calculo clases
-                    if (d.Pclass == 1) {
-                        cuantosPrimera = cuantosPrimera + 1;
-                    } else if (d.Pclass == 2) {
-                        cuantosSegunda = cuantosSegunda + 1;
-                    } else {
-                        cuantosTercera = cuantosTercera + 1;
-                    }
-                    //calculo sobrevivientes
-                    if (d.Survived == 0) {
-                        muertos = muertos + 1;
-                    } else if (d.Survived == 1) {
-                        vivos = vivos + 1;
-                    }
-                    //Sobrevivientes por sexo
-                    if (d.Survived == 1 && d.Sex == "male") {
-                        vivosH = vivosH + 1;
-                    } else if (d.Survived == 1 && d.Sex == "female") {
-                        vivosM = vivosM + 1;
-                    } else {
-                    }
-
-                    if (d.Survived == 0 && d.Sex == "male") {
-                        muertosH = muertosH + 1;
-                    } else if (d.Survived == 0 && d.Sex == "female") {
-                        muertosM = muertosM + 1;
-                    } else {
-                    }
-
-                    //vivos o muertos por clase
-
-                    if (d.Survived == 1 && d.Pclass == 1) {
-                        vivosPrimera = vivosPrimera + 1;
-                    } else if (d.Survived == 0 && d.Pclass == 1) {
-                        muertosPrimera = muertosPrimera + 1;
-                    } else if (d.Survived == 1 && d.Pclass == 2) {
-                        vivosSegunda = vivosSegunda + 1;
-                    } else if (d.Survived == 0 && d.Pclass == 2) {
-                        muertosSegunda = muertosSegunda + 1;
-                    } else if (d.Survived == 1 && d.Pclass == 3) {
-                        vivosTercera = vivosTercera + 1;
-                    } else {
-                        muertosTercera = muertosTercera + 1;
-                    }
-
-                    //vivos o muertos por edad y sexo
-
-                    if (d.Sex == "female" && d.Age > 16 && d.Survived == 1) {
-                        mujeresSalvadas = mujeresSalvadas + 1;
-                    } else if (d.Sex == "female" && d.Age > 16 && d.Survived == 0) {
-                        mujeresMuertas = mujeresMuertas + 1;
-                    } else if ((d.Sex == "female" || d.Sex == "male") && d.Age <= 16 && d.Survived == 1) {
-                        ninesSalvades = ninesSalvades + 1;
-                    } else if ((d.Sex == "female" || d.Sex == "male") && d.Age <= 16 && d.Survived == 0) {
-                        ninesMuertes = ninesMuertes + 1;
-                    } else if (d.Sex == "male" && d.Age > 16 && d.Survived == 1) {
-                        hombresSalvados = hombresSalvados + 1;
-                    } else if (d.Sex == "male" && d.Age > 16 && d.Survived == 0) {
-                        hombresMuertos = hombresMuertos + 1;
-                    } else {
+                        generoEtc = generoEtc + 1;
                     }
                 });
 
-                var edadesreales = edades.filter((e) => {
-                    return e != null;
-                });
-
-                var promedio = edadesreales.reduce((a, b) => a + b, 0) / edadesreales.length;
-
-                //y completemos un par de frase
-                document.querySelector("#edad_promedio").innerHTML = Math.round(promedio) + " años.";
-                document.querySelector("#total_mujeres").innerHTML = mujeres;
-                document.querySelector("#total_hombres").innerHTML = hombres;
-
-                document.querySelector("#deprimera").innerHTML = cuantosPrimera;
-                document.querySelector("#desegunda").innerHTML = cuantosSegunda;
-                document.querySelector("#detercera").innerHTML = cuantosTercera;
-
-                document.querySelector("#losquevivieron").innerHTML = vivos;
-                document.querySelector("#losquemurieron").innerHTML = muertos;
-
-                //gráficar edadesreales
-                var menores = [];
-                var medianos = [];
-                var maduros = [];
-                var mayores = [];
-
-                edadesreales.forEach((e) => {
-                    if (e < 18) {
-                        menores.push(e);
-                    } else if (e > 17 && e < 41) {
-                        medianos.push(e);
-                    } else if (e > 40 && e < 60) {
-                        maduros.push(e);
-                    } else {
-                        mayores.push(e);
-                    }
-                });
+                console.log(DramaNombre);
+                console.log(DramaRating);
 
                 //edades
-                new Chart(document.getElementById("edadista").getContext("2d"), {
-                    type: "doughnut",
+                new Chart(document.getElementById("primerChart").getContext("2d"), {
+                    type: "pie",
                     data: {
-                        labels: ["Menores de Edad", "Adultos jóvenes", "Adultos", "Adultos mayores"],
-                        datasets: [{ data: [menores.length, medianos.length, maduros.length, mayores.length], label: "Edades", backgroundColor: ["#F06EC4", "#AB72F7", "#7396E0", "#495F8F"] }],
+                        labels: ["Drama", "Comedia", "Otros géneros"],
+                        datasets: [{ data: [generoDrama, generoComedia, generoEtc], label: "Total", backgroundColor: ["#f00", "#00f", "#0ff"] }],
                     },
                     options: {
                         animation: false,
@@ -335,11 +212,11 @@
                 });
 
                 //hombres y mujeres
-                new Chart(document.getElementById("sexista").getContext("2d"), {
+                new Chart(document.getElementById("segundoChart").getContext("2d"), {
                     type: "doughnut",
                     data: {
                         labels: ["Mujeres", "Hombres"],
-                        datasets: [{ data: [mujeres, hombres], label: "Sexo", backgroundColor: ["#8856a7", "#495F8F"] }],
+                        datasets: [{ data: [30, 20], label: "Sexo", backgroundColor: ["#8856a7", "#495F8F"] }],
                     },
                     options: {
                         animation: false,
@@ -350,11 +227,11 @@
                 });
 
                 // clases
-                new Chart(document.getElementById("clasista").getContext("2d"), {
+                new Chart(document.getElementById("tercerChart").getContext("2d"), {
                     type: "doughnut",
                     data: {
                         labels: ["Primera clase", "Segunda clase", "Tercera clase"],
-                        datasets: [{ data: [cuantosPrimera, cuantosSegunda, cuantosTercera], label: "Clases titanic", backgroundColor: ["#D9B4B2", "#9EBCDA", "#495F8F"] }],
+                        datasets: [{ data: [12, 39, 17], label: "Clases titanic", backgroundColor: ["#D9B4B2", "#9EBCDA", "#495F8F"] }],
                     },
                     options: {
                         animation: false,
@@ -365,14 +242,11 @@
                 });
 
                 //sobrevivientes y muertes por clase
-                new Chart(document.getElementById("sobreviven").getContext("2d"), {
+                new Chart(document.getElementById("cuartoChart").getContext("2d"), {
                     type: "bar",
                     data: {
-                        labels: ["Primera clase", "Segunda Clase", "Tercera Clase"],
-                        datasets: [
-                            { data: [vivosPrimera, vivosSegunda, vivosTercera], label: "Sobreviven", backgroundColor: ["#8CB1E5"] },
-                            { data: [muertosPrimera, muertosSegunda, muertosTercera], label: "Mueren", backgroundColor: ["#334"] },
-                        ],
+                        labels: DramaNombre,
+                        datasets: [{ data: DramaRating, label: "Sobreviven", backgroundColor: ["#8CB1E5"] }],
                     },
                     options: {
                         indexAxis: "y",
@@ -384,13 +258,13 @@
                 });
 
                 //sobrevivientes y muertes por edad y sexo (mujeres y niños primero)
-                new Chart(document.getElementById("porsexo").getContext("2d"), {
+                new Chart(document.getElementById("quintoChart").getContext("2d"), {
                     type: "bar",
                     data: {
                         labels: ["Mujeres", "Niños", "Hombres"],
                         datasets: [
-                            { data: [mujeresSalvadas, ninesSalvades, hombresSalvados], label: "Sobreviven", backgroundColor: ["#8CB1E5"] },
-                            { data: [mujeresMuertas, ninesMuertes, hombresMuertos], label: "Mueren", backgroundColor: ["#334"] },
+                            { data: [30, 43, 40], label: "Sobreviven", backgroundColor: ["#8CB1E5"] },
+                            { data: [52, 23, 123], label: "Mueren", backgroundColor: ["#334"] },
                         ],
                     },
                     options: {
@@ -410,25 +284,32 @@
 
             async function otro() {
                 //el fetch
-                const consulta = await fetch("https://raw.githubusercontent.com/facoasecas/datos_varios/main/paises.json");
+                const consulta = await fetch("https://raw.githubusercontent.com/JM-Benites/datasets/main/datos.json");
                 const data = await consulta.json();
                 var puntos = [];
-                var burbujas = [];
+                var globosPrimera = [];
+                var globosSegunda = [];
                 data.forEach((d) => {
-                    let info = { x: d.pib_per_capita, y: d.idh, pais: d.pais };
-                    let mas = { x: d.pib_per_capita, y: d.idh, r: Math.round(d.poblacion / 50000000), pais: d.pais };
+                    let info = { x: d.presupuesto, y: d.ingreso_mundial, pelicula: d.pelicula };
+                    let otra = { x: d.presupuesto, y: d.ingreso_mundial, r: d.IMDb_recepcion_publico * 2, pelicula: d.pelicula };
+
+                    if (d.fase == 1) {
+                        globosPrimera.push(otra);
+                    } else if (d.fase == 2) {
+                        globosSegunda.push(otra);
+                    }
                     puntos.push(info);
-                    burbujas.push(mas);
                 });
-                console.log(burbujas);
+
+                console.log(puntos);
                 //Gráfico de dispersión
                 //Para evidenciar si existe una relación o correlación entre las dos variables
-                new Chart(document.getElementById("disperso").getContext("2d"), {
+                new Chart(document.getElementById("sextoChart").getContext("2d"), {
                     type: "scatter",
                     data: {
                         datasets: [
                             {
-                                label: "Índice de desarrollo humano y renta per cápita",
+                                label: "¿Sirve gastar tanto?",
                                 data: puntos,
                                 backgroundColor: "rgba(0,100,255,.5)",
                                 pointRadius: 5,
@@ -439,36 +320,42 @@
                         animation: false,
                         scales: {
                             x: {
-                                max:140000,                                
                                 ticks: {
                                     callback: function (numero) {
-                                        return "€ " + numero.toLocaleString("es-CL");
-                                    }
-                                }
-                            }
+                                        return "US$ " + numero.toLocaleString("es-CL");
+                                    },
+                                },
+                            },
                         },
                         plugins: {
                             tooltip: {
                                 callbacks: {
                                     label: (context) => {
                                         console.log(context);
-                                        return context.raw.pais + " tiene un PIB per cápita de € " + context.raw.x.toLocaleString("es-CL");
+                                        return context.raw.pelicula + " gano " + context.raw.y.toLocaleString("es-CL");
                                     },
-                                }
+                                },
                             },
                         },
                     },
                 });
                 //Gráfico de burbujas
                 //Para analizar patrones o correlaciones de dos valores, considerando un tercer valor que se presenta en su radio
-                new Chart(document.getElementById("burbujeante").getContext("2d"), {
+
+                new Chart(document.getElementById("septimoChart").getContext("2d"), {
                     type: "bubble",
                     data: {
                         datasets: [
                             {
-                                label: "Índice de desarrollo humano y renta per cápita, con población",
-                                data: burbujas,
+                                label: "Fase 1",
+                                data: globosPrimera,
                                 backgroundColor: "rgba(0,100,255,.5)",
+                                pointRadius: 5,
+                            },
+                            {
+                                label: "Fase 2",
+                                data: globosSegunda,
+                                backgroundColor: "rgba(100,0,255,.5)",
                                 pointRadius: 5,
                             },
                         ],
@@ -477,20 +364,19 @@
                         animation: false,
                         scales: {
                             x: {
-                                max:140000,                                
                                 ticks: {
                                     callback: function (numero) {
-                                        return "€ " + numero.toLocaleString("es-CL");
-                                    }
-                                }
-                            }
+                                        return "US$ " + numero.toLocaleString("es-CL");
+                                    },
+                                },
+                            },
                         },
                         plugins: {
                             tooltip: {
                                 callbacks: {
                                     label: (context) => {
                                         console.log(context);
-                                        return context.raw.pais + " tiene un PIB per cápita de € " + context.raw.x.toLocaleString("es-CL");
+                                        return context.raw.pelicula + " gano " + context.raw.y.toLocaleString("es-CL");
                                     },
                                 },
                             },
