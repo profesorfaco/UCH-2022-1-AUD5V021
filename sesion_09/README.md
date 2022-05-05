@@ -4,7 +4,7 @@
 
 - - - - - - - 
 
-El sitio que cada estudiante entregue debería ser mejor a la referencia presentada la clase recién pasada: https://profesorfaco.github.io/front-end/sesion_08/
+El sitio que cada estudiante entregue al finalizar esta clase debería ser mejor que una referencia apurada: https://profesorfaco.github.io/front-end/sesion_08/
 
 Para que resulte mejor, deben considerarse 3 dimensiones:
 
