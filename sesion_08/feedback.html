@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- CSS de Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Trispace:wght@300;400;600&display=swap");
+
+            :root {
+                --bs-body-font-family: "Trispace", sans-serif;
+            }
+        </style>
+        <title>Introducción al Desarrollo Front End con HTML, CSS y JavaScript</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <h1 class="display-5 text-center py-2">Algunas ideas</h1>
+                        <p class="lead">Aprovecho sus temas y datos para insistir en que es importante que cuiden la selección de los tipos de gráfico en uso. En cada uno debe ser claro lo que quieran averiguar o comunicar.</p>
+                        <p>Tomemos, por ejemplo, el gráfico de torta. Este gráfico sirve para mostrar cómo se divide algo en partes, pero es malo mostrando muchas partes.</p>
+                        <p>Recuerden que en el <a href="https://datavizcatalogue.com/ES/buscar.html" target="_blank">Catálogo de Visualización de Datos</a> pueden aprender más sobre distintos tipos de gráficos: <a href="https://datavizcatalogue.com/ES/metodos/graficos_de_barras.html" target="_blank">bar</a>, <a href="https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html" target="_blank">bubble</a>, <a href="https://datavizcatalogue.com/ES/metodos/grafico_de_donut.html" target="_blank">doughnut</a>, <a href="https://datavizcatalogue.com/ES/metodos/graficos_de_tarta.html" target="_blank">pie</a>, <a href="https://datavizcatalogue.com/ES/metodos/grafica_de_linea.html" target="_blank">line</a>, <a href="https://datavizcatalogue.com/ES/metodos/grafico_nightingale_rose.html" target="_blank">polarArea</a>, <a href="https://datavizcatalogue.com/ES/metodos/grafico_radial.html" target="_blank">radar</a>, <a href="https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html" target="_blank">scatter</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <div class="accordion mx-md-5 my-5 rounded-0 shadow" id="accordionExample">
+                <!--Edades de pasajeros-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header bg-dark" id="headingOne">
+                        <button class="accordion-button rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Primer Gráfico: camilasaezso</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>Lo más sencillo sería contar los distintos "Genre" de las series en Netflix.</p>
+                            <div class="col-md-6 mx-auto mb-3">
+                                <canvas id="primerChart" width="100" height="100"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Pasajeras y pasajeros-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Segundo gráfico: jota-pe-ge</button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>
+                                Me preguntaba si habría cambio de duración de canciones según el disco. Eso podría dar señales de un afán más "comercial" (con temas de 3 minutitos, como lo exige la radio). Para encontrar respuesta usé un gráfico de dispersión: En 1996 sacó un disco así, el Richard D. James Album (rdj).
+                            </p>
+                            <div class="col-md-6 mx-auto mb-3">
+                                <canvas id="segundoChart" width="100" height="100"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Clases-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Tercer gráfico: Niquito2010</button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>
+                                Los gráficos de torta (pie) y donas (doughnut) tienen algunas desventajas o limitaciones. La primera es que pueden mostrar muy pocos valores diferentes entre sí: No percibimos diferencias de ángulos tan bien como las diferencias de longitud. Otro problema es que tampoco disponemos de tantos colores para diferenciar (recordar el
+                                <a href="https://knowyourmeme.com/photos/1215048-artist-vs-normal-people" target="_blank">meme</a>; no olvidar el
+                                <a href="https://chrome.google.com/webstore/detail/lets-get-color-blind/bkdgdianpkfahpkmphgehigalpighjck" target="_blank">daltonismo</a>). Revisen las otras limitaciones en
+                                <a href="https://datavizcatalogue.com/ES/metodos/graficos_de_tarta.html" target="_blank">datavizcatalogue.com</a>
+                            </p>
+                            <div class="col-md-6 mx-auto mb-3">
+                                <canvas id="tercerChart" width="100" height="100"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Sobrevivientes por clases-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Cuarto gráfico: JM-Benites</button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>Convendría usar el concepto de ganancia neta, que se obtiene de restar los costos totales a los ingresos por venta.</p>
+                            <canvas id="cuartoChart" width="100" height="60"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!--Mujeres y niños primero-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Quinto gráfico: sheridanerices</button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>Armé este gráfico "a mano". Revisé en Wikipedia información de cada vuelo para encontrar modelo de aeronave y su capacidad. Con eso obtuve una confirmación de "a lo gringos les encantan los vuelos nacionales a media capacidad":</p>
+                            <ul>
+                                <li>Vuelo 11 era un Boeing 767-223ER, con capacidad 165. Llevaba 87.</li>
+                                <li>Vuelo 175 era un Boeing 767-222, con capacidad 168. Llevaba 60.</li>
+                                <li>Vuelo 77 era un Boeing 757-223, con capacidad 188. Llevaba 59.</li>
+                                <li>Vuelo 93 era un Boeing 757-222, con capacidad 168. Llevaba 40.</li>
+                            </ul>
+                            <canvas id="quintoChart" width="100" height="30"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin-->
+            </div>
+            <div class="row">
+                <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                    <p>Ahora corresponde comenzar a <a href="https://profesorfaco.github.io/front-end/sesion_08/" target="_blank">trabajar con la historia</a> que contarán con algunos de los gráficos ya desarrollados. En la próxima sesión tendrán que terminar su trabajo. Terminarlo, no comenzarlo.</p>
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto small text-center">
+                        <p>
+                            Fuentes: De Soda.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><p class="text-muted mt-5 text-center small">Bootstrap v5.1 y Charts.js</p></div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Biblioteca de Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Biblioteca Chart.js -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
+            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!-- Un gran script, que contiene una función asincrónica para ir a buscar un JSON con -->
+        <script>
+            async function camilasaezso() {
+                //el fetch
+                const consulta = await fetch("https://raw.githubusercontent.com/camilasaezso/datos-05-05/main/datos.json");
+                const data = await consulta.json();
+                //algunas variables para calcular
+
+                var generoDrama = 0;
+                var generoComedia = 0;
+                var generoEtc = 0;
+
+                var DramaNombre = [];
+                var DramaRating = [];
+
+                //consultando en cada elemento del arreglo
+                data.forEach((a) => {
+                    if (a.Genre == "Drama") {
+                        generoDrama = generoDrama + 1;
+                        DramaNombre.push(a.Title);
+                        DramaRating.push(a.IMDB_Rating);
+                    } else if (a.Genre == "Comedy") {
+                        generoComedia = generoComedia + 1;
+                    } else {
+                        generoEtc = generoEtc + 1;
+                    }
+                });
+                //Géneros
+                new Chart(document.getElementById("primerChart").getContext("2d"), {
+                    type: "pie",
+                    data: {
+                        labels: ["Drama", "Comedia", "Otros géneros"],
+                        datasets: [{ data: [generoDrama, generoComedia, generoEtc], label: "Total", backgroundColor: ["#6a3d9a", "#ff7f00", "#aaa"] }],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+            }
+            camilasaezso().catch((error) => console.error(error));
+        </script>
+
+        <script>
+            async function jota_pe_ge() {
+                //el fetch
+                const consulta = await fetch("https://raw.githubusercontent.com/jota-pe-ge/datos/main/datos.json");
+                const data = await consulta.json();
+                //algunas variables para calcular
+
+                var puntos = [];
+
+                data.forEach((b) => {
+                    let info = { x: b.year, y: b.length / 60, tema: b.title, disco: b.album };
+                    puntos.push(info);
+                });
+
+                console.log(puntos);
+                //Gráfico de dispersión
+                //Para evidenciar si existe una relación o correlación entre las dos variables
+                new Chart(document.getElementById("segundoChart").getContext("2d"), {
+                    type: "scatter",
+                    data: {
+                        datasets: [
+                            {
+                                label: "Extensión y experiencia",
+                                data: puntos,
+                                backgroundColor: "rgba(0,100,255,.5)",
+                                pointRadius: 10,
+                                pointHoverRadius: 12,
+                            },
+                        ],
+                    },
+                    options: {
+                        animation: false,
+                        scales: {
+                            x: {
+                                min: 1990,
+                                max: 2016,
+                                ticks: {
+                                    callback: function (numero) {
+                                        return numero.toLocaleString("es-CL");
+                                    },
+                                },
+                            },
+                            y: {
+                                min: 0,
+                                ticks: {
+                                    callback: function (numero) {
+                                        return numero.toLocaleString("es-CL") + " min.";
+                                    },
+                                },
+                            },
+                        },
+                        plugins: {
+                            tooltip: {
+                                callbacks: {
+                                    label: (context) => {
+                                        return context.raw.tema + " de " + context.raw.disco;
+                                    },
+                                },
+                            },
+                        },
+                    },
+                });
+            }
+            jota_pe_ge().catch((error) => console.error(error));
+        </script>
+
+        <script>
+            async function niquito() {
+                //el fetch
+                const consulta = await fetch("https://raw.githubusercontent.com/Niquito2010/clase7preEntrega/main/Datos.json");
+                const data = await consulta.json();
+                //algunas variables para calcular
+
+                console.log(data);
+
+                var sayayines = 0;
+                var androides = 0;
+                var humanos = 0;
+                var dioses = 0;
+                var otros = 0;
+
+                //consultando en cada elemento del arreglo
+                data.characters.forEach((c) => {
+                    if (c.race == "Saiyan") {
+                        sayayines = sayayines + 1;
+                    } else if (c.race == "Android") {
+                        androides = androides + 1;
+                    } else if (c.race == "Human") {
+                        humanos = humanos + 1;
+                    } else if (c.race == "God") {
+                        dioses = dioses + 1;
+                    } else {
+                        otros = otros + 1;
+                    }
+                });
+
+                //Las razas no existen
+                new Chart(document.getElementById("tercerChart").getContext("2d"), {
+                    type: "doughnut",
+                    data: {
+                        labels: ["Sayayín", "Dios", "Humano", "Androide", "Otro"],
+                        datasets: [{ data: [sayayines, dioses, humanos, androides, otros], label: "Racismo animado", backgroundColor: ["#d73027", "#fc8d59", "#fee090", "#91bfdb", "#ccc"] }],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+            }
+            niquito().catch((error) => console.error(error));
+        </script>
+
+        <script>
+            async function jm_benitez() {
+                //el fetch
+                const consulta = await fetch("https://raw.githubusercontent.com/JM-Benites/datasets/main/datos.json");
+                const data = await consulta.json();
+                //algunas variables para calcular
+
+                console.log(data);
+
+                var nombre = [];
+                var ganancia_neta = [];
+
+                //consultando en cada elemento del arreglo
+                data.forEach((d) => {
+                    nombre.push(d.pelicula);
+                    ganancia_neta.push(d.ingreso_mundial - d.presupuesto);
+                });
+
+                new Chart(document.getElementById("cuartoChart").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: nombre,
+                        datasets: [{ data: ganancia_neta, label: "Ganancia neta", backgroundColor: "#d73027" }],
+                    },
+                    options: {
+                        animation: false,
+                        indexAxis: "y",
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+            }
+            jm_benitez().catch((error) => console.error(error));
+        </script>
+
+        <script>
+            function sheridanerices() {
+                const vuelo = ["Vuelo 11 (Boeing 767-223 ER)", "Vuelo 175 (Boeing 767-222)", "Vuelo 77 (Boeing 757-223)", "Vuelo 93 (Boeing 757-222)"];
+                const capacidad = [165, 168, 188, 168];
+                const personas = [87, 60, 59, 40];
+                var sobra = [];
+
+                for (let e = 0; e < capacidad.length; e++) {
+                    sobra.push(capacidad[e] - personas[e]);
+                }
+
+                console.log(sobra);
+
+                new Chart(document.getElementById("quintoChart").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: vuelo,
+                        datasets: [
+                            {
+                                label: "Capacidad en uso",
+                                data: personas,
+                                backgroundColor: "rgba(255,127,0,.75)",
+                            },
+                            {
+                                label: "Capacidad no usada",
+                                data: sobra,
+                                backgroundColor: "#aaa",
+                            }
+                        ],
+                    },
+                    options: {
+                        animation: false,
+                        indexAxis: "y",
+                        layout: {
+                            padding: 10,
+                        },
+
+                        scales: {
+                            x: {
+                                stacked: true,
+                            },
+                            y: {
+                                stacked: true,
+                            },
+                        },
+                    },
+                });
+            }
+            sheridanerices().catch((error) => console.error(error));
+        </script>
+    </body>
+</html>
