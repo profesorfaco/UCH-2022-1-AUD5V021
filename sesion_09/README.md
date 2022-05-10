@@ -4,7 +4,7 @@
 
 - - - - - - - 
 
-Con el mínimo de 5 gráficos entregados al finalizar [la clase recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_08) se definió el 20% de la primera evaluación del electivo. El 20% corresponde a 5 puntos ya registrados en una [Hoja de Cálculo de Google](https://docs.google.com/spreadsheets/d/1aPuMv2i4kl_dD6iiSifJS4ONtCzvjmsoMEenfJgQjvc/edit?usp=sharing).
+Con el mínimo de 5 gráficos entregados al finalizar [la clase recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_08#readme) se definió el 20% de la primera evaluación del electivo. El 20% corresponde a 5 puntos ya registrados en una [Hoja de Cálculo de Google](https://docs.google.com/spreadsheets/d/1aPuMv2i4kl_dD6iiSifJS4ONtCzvjmsoMEenfJgQjvc/edit?usp=sharing).
 
 El sitio que cada estudiante entregue al finalizar la sesión de hoy debería ser mejor que una referencia apurada: https://profesorfaco.github.io/front-end/sesion_08/
 
