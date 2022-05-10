@@ -26,9 +26,9 @@ La evaluación de la tercera dimensión, de JavaScript, no exigirá originalidad
 
 Habrá 3 evaluaciones en el semestre. Una diagnóstica y las siguientes son sumativas. La evaluación que se resuelve en esta sección es la primera evaluación sumativa.
 
-La nota final del electivo se obtiene del promedio de las dos evaluaciones sumativas; aunque existe la posibilidad de reemplazo de una de ellas por la evaluación diagnóstica, a condición de obtener nota aprobatoria (superior a 4.0) en las tres instancias. Si no se cumple con la condición: No hay cambios en las calificaciones.
+**La nota final del electivo se obtiene del promedio de las dos evaluaciones sumativas**; aunque existe la posibilidad de reemplazo de una de ellas por la evaluación diagnóstica, a condición de obtener nota aprobatoria (superior a 4.0) en las tres instancias. Si no se cumple con la condición: No hay cambios en las calificaciones a promediar.
 
-La próxima calificación comienza a jugarse a partir de la próxima sesión, de vuelta de la semana de receso; en lo que queda de electivo, cada estudiante armará un sitio web, el que podría alojar en un dominio personalizado (podría no es lo mismo que debería):
+La próxima calificación comienza a jugarse a partir de la próxima sesión, de vuelta de la semana de receso; en lo que queda de electivo cada estudiante armará un sitio web, el que podría alojar en un dominio personalizado (podría no es lo mismo que debería):
 
 - [Configurar GitHub Pages para usar dominios.cl](https://ggerena.medium.com/configurar-github-pages-para-usar-dominios-cl-13c1a644699f)
 
