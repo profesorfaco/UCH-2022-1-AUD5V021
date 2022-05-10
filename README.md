@@ -44,7 +44,7 @@ Cada estudiante necesita:
 
 - Jueves 28 de abril → [sesion_07](https://github.com/profesorfaco/front-end/tree/main/sesion_07) → Bootstrap v5.1 y Charts.js ✓
 
-- Jueves 5 de mayo → [sesion_08](https://github.com/profesorfaco/front-end/tree/main/sesion_08) → Pre-evaluación Nº1
+- Jueves 5 de mayo → [sesion_08](https://github.com/profesorfaco/front-end/tree/main/sesion_08) → Pre-evaluación Nº1 ✓
 
 - **Jueves 12 de mayo → [sesion_09](https://github.com/profesorfaco/front-end/tree/main/sesion_09) → Evaluación Nº1**
 
