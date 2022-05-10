@@ -30,7 +30,7 @@ A un nivel visceral, cualquiera puede reaccionar con arcadas frente a algo que h
 
 Noten como en los niveles conductual (*behavioral level*) y contemplativo (*reflective level*) se insiste en la relevancia de lo específico: ¿Qué usa? ¿Cuánto lo usa? ¿Cómo lo usa?
 
-Piensen, por ejemplo, en distintas maneras de escribir un mensaje de texto en sus celulares: ¿Cuántos y qué dedos usan ustedes, sus padres y sus abuelos? ¿Ambos pulgares e índices, ambos pulgares, sólo los índices mientras el celular está sobre una mesa? ¿Y cómo los redactan? ¿Saludan y se despiden? ¿O es como un e-mail infinito, donde el saludo fue agregar el número y la despedida podría ser el bloqueo? 
+Piensen, por ejemplo, en distintas maneras de escribir un mensaje de texto en sus celulares: ¿Cuántos y qué dedos usan ustedes, sus padres y sus abuelos? ¿Ambos pulgares e índices, ambos pulgares, sólo un índice mientras el celular está sobre una mesa? ¿Y cómo los redactan? ¿Saludan y se despiden atentamente? ¿O es como un e-mail infinito, donde el saludo fue agregar el número y la despedida podría ser el bloqueo? 
 
 Si la [sesión recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_10) se resolvió de buena manera el ejercicio, en esta no habría problema para continuar, porque:
 
