@@ -26,7 +26,7 @@ La evaluación de la tercera dimensión, de JavaScript, no exigirá originalidad
 
 Habrá 3 evaluaciones en el semestre. Una diagnóstica y las siguientes son sumativas. La evaluación que se resuelve en esta sesión es la primera evaluación sumativa.
 
-**La nota final del electivo se obtiene del promedio de las dos evaluaciones sumativas**; aunque existe la posibilidad de reemplazo de una de ellas por la evaluación diagnóstica, a condición de obtener nota aprobatoria (superior a 4.0) en las tres instancias. Si no se cumple con la condición: No hay cambios en las calificaciones a promediar.
+**La nota final del electivo se obtiene del promedio de las dos evaluaciones sumativas**; aunque existe la posibilidad de reemplazo de una de ellas por la [evaluación diagnóstica](https://github.com/profesorfaco/front-end/tree/main/sesion_03#resultados), a condición de obtener nota aprobatoria (superior a 4.0) en las tres instancias. Si no se cumple con la condición: No hay cambios en las calificaciones a promediar.
 
 La próxima calificación comienza a jugarse a partir de [la próxima sesión](https://github.com/profesorfaco/front-end/tree/main/sesion_10), de vuelta de la semana de receso; en lo que queda de electivo cada estudiante desarrollará su propio sitio web o prototipo avanzado de aplicación web, el que podría alojar en un dominio personalizado (*podría* no es lo mismo que *debería*):
 
