@@ -6,7 +6,7 @@
 
 #### Teoría
 
-En la redacción del Manifiesto por el Desarrollo Ágil de Software, del año 2001, participaron representantes de Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, Pragmatic Programming y otros simpatizantes de maneras de trabajar donde se había aprendido a valorar:
+En la redacción del [Manifiesto por el Desarrollo Ágil de Software](https://agilemanifesto.org/iso/es/manifesto.html), del año 2001, participaron representantes de Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, Pragmatic Programming y otros simpatizantes de maneras de trabajar donde se había aprendido a valorar:
 
 - **Individuos e interacciones** sobre procesos y herramientas
 
@@ -18,7 +18,7 @@ En la redacción del Manifiesto por el Desarrollo Ágil de Software, del año 20
 
 Tales 4 preferencias resumen los [12 principios](https://agilemanifesto.org/iso/es/principles.html) que han dominado por dos décadas la industria dedicada al desarrollo de productos, servicios y sistemas digitales.
 
-Por tal manifiesto, y la [crisis del software](https://es.wikipedia.org/wiki/Crisis_del_software), es difícil encontrar organizaciones sostenibles que enfrenten el desafío del concebir, producir y lanzar un sitio o aplicación web tal como lo haría alguien entrenado en procesos de diseño con plazos fijos (*deadlines*) para investigar, analizar, idear e implementar, separados por la aprobación del cliente (no confundir con usuarios).
+Por tal manifiesto, que vino mucho después de la [crisis del software](https://es.wikipedia.org/wiki/Crisis_del_software), es difícil encontrar organizaciones sostenibles que enfrenten el desafío del concebir, producir y lanzar un sitio o aplicación web tal como lo haría alguien entrenado en procesos de diseño con plazos fijos (*deadlines*) para investigar, analizar, idear e implementar, separados por la aprobación del cliente (no confundir con usuarios).
 
 **Si ya pudimos proponer tres proto-personas, un moodboard y un benchmark: ¡Tenemos material para hacer funcionar un sitio o aplicación web!** 
 
