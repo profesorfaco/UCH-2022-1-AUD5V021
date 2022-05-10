@@ -28,7 +28,7 @@ Entre tales niveles hay otra diferencia que conviene referir:
 
 A un nivel visceral, cualquiera puede reaccionar con arcadas frente a algo que huele o sabe mal, dar un paso atrás por temor, o cerrar los ojos y cubrirse la cara mientras se encoge cuando nota que algo –sin aviso previo– se acerca directo a la cara. Pero muy distinto es optar por un iPhone o un Huawei, y acostumbrarse a la manipulación de cada aparato y sus respectivas aplicaciones.
 
-En lo recién dicho, en los niveles conductual (*behavioral level*) y contemplativo (*reflective level*), se insiste en la relevancia de lo específico: ¿Qué usa? ¿Cuánto lo usa? ¿Cómo lo usa?
+Noten como en los niveles conductual (*behavioral level*) y contemplativo (*reflective level*) se insiste en la relevancia de lo específico: ¿Qué usa? ¿Cuánto lo usa? ¿Cómo lo usa?
 
 Piensen, por ejemplo, en distintas maneras de escribir un mensaje de texto en sus celulares: ¿Cuántos y qué dedos usan ustedes, sus padres y sus abuelos? ¿Ambos pulgares e índices, ambos pulgares, sólo los índices mientras el celular está sobre una mesa? ¿Y cómo los redactan? ¿Saludan y se despiden? ¿O es como un e-mail infinito, donde el saludo fue agregar el número y la despedida podría ser el bloqueo? 
 
