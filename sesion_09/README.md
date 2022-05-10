@@ -24,7 +24,7 @@ La evaluación de la tercera dimensión, de JavaScript, no exigirá originalidad
 
 #### Friendly reminder
 
-Habrá 3 evaluaciones en el semestre. Una diagnóstica y las siguientes son sumativas. La evaluación que se resuelve en esta sección es la primera evaluación sumativa.
+Habrá 3 evaluaciones en el semestre. Una diagnóstica y las siguientes son sumativas. La evaluación que se resuelve en esta sesión es la primera evaluación sumativa.
 
 **La nota final del electivo se obtiene del promedio de las dos evaluaciones sumativas**; aunque existe la posibilidad de reemplazo de una de ellas por la evaluación diagnóstica, a condición de obtener nota aprobatoria (superior a 4.0) en las tres instancias. Si no se cumple con la condición: No hay cambios en las calificaciones a promediar.
 
