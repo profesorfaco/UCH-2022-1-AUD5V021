@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>¿Algo así?</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-2 pb-4">
+                    <div class="input-group input-group-sm mb-3">
+                        <label class="input-group-text">Gokú v/s</label>
+                        <select id="personaje" class="form-select">
+                            <option value="1">Vegeta</option>
+                            <option value="2">Gohan</option>
+                            <option value="3">Trunks</option>
+                            <option value="4">Frieza</option>
+                            <option value="5">Cell</option>
+                            <option value="6">Buu</option>
+                            <option value="7">Beerus</option>
+                            <option value="8">Piccolo</option>
+                            <option value="9">Gotenks</option>
+                            <option value="10">Hit</option>
+                            <option value="11">Krillin</option>
+                            <option value="12">Jiren</option>
+                            <option value="13">Tien</option>
+                            <option value="14">Android 17</option>
+                            <option value="15">Android 18</option>
+                            <option value="16">Broly</option>
+                            <option value="17">Vegito</option>
+                            <option value="18">Gogeta</option>
+                            <option value="19">Goku Black</option>
+                        </select>
+                    </div>
+                    <canvas id="primerchart" height="200" class="bg-white"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+
+        <script>
+            async function todo() {
+                //el fetch
+                const consulta = await fetch("https://raw.githubusercontent.com/Niquito2010/DatosJson/main/Datos.json");
+                const data = await consulta.json();
+                const datos = data.characters;
+                console.log(datos);
+
+                var miGrafico = new Chart(document.getElementById("primerchart").getContext("2d"), {
+                    type: "radar",
+                    data: {
+                        labels: ["Vida", "Ataque", "Defensa"],
+                        datasets: [
+                            {
+                                label: datos[0].name,
+                                data: [parseInt(datos[0].health) / 10, parseInt(datos[0].attack), parseInt(datos[0].defense)],
+                                fill: true,
+                                backgroundColor: "rgba(255, 99, 132, 0.2)",
+                                borderColor: "rgb(255, 99, 132)",
+                                pointBackgroundColor: "rgb(255, 99, 132)",
+                                pointBorderColor: "#fff",
+                                pointHoverBackgroundColor: "#fff",
+                                pointHoverBorderColor: "rgb(255, 99, 132)",
+                            },
+                            {
+                                label: datos[1].name,
+                                data: [parseInt(datos[1].health) / 10, parseInt(datos[1].attack), parseInt(datos[1].defense)],
+                                fill: true,
+                                backgroundColor: "rgba(54, 162, 235, 0.2)",
+                                borderColor: "rgb(54, 162, 235)",
+                                pointBackgroundColor: "rgb(54, 162, 235)",
+                                pointBorderColor: "#fff",
+                                pointHoverBackgroundColor: "#fff",
+                                pointHoverBorderColor: "rgb(54, 162, 235)",
+                            },
+                        ],
+                    },
+                    options: {
+                        scale: {
+                            ticks: {
+                                beginAtZero: true,
+                                min: 0,
+                            },
+                        },
+                    },
+                });
+                //acá "escucho" el cambio en el select
+                document.querySelector("#personaje").addEventListener("change", function () {
+                    var x = this.value;
+                    miGrafico.data.datasets[1].label = datos[x].name;
+                    miGrafico.data.datasets[1].data = [parseInt(datos[x].health) / 10, parseInt(datos[x].attack), parseInt(datos[x].defense)];
+                    //actualiza mi gráfico
+                    miGrafico.update();
+                });
+            }
+            todo();
+        </script>
+    </body>
+</html>
