@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet" />
+
+        <style>
+            :root {
+                --bs-body-color: #eee;
+                --bs-body-bg: #020202;
+            }
+
+            body {
+                font-weight: 400;
+                font-family: "Roboto", sans-serif;
+            }
+
+            header h1 {
+                font-family: "Oswald", sans-serif;
+                font-weight: 500;
+                font-size: calc(3rem + 1.5vw);
+                margin-bottom: 10px;
+                color: transparent;
+                text-align: center;
+                background-image: url('assets/comic.jpg');
+                background-size: cover;
+                background-clip: text;
+                -webkit-background-clip: text;
+            }
+
+            header h2 {
+                font-weight: 500;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            header h3 {
+                font-weight: 400;
+                font-size: 2rem;
+                font-family: "Roboto", sans-serif;
+                color: #dbcacc;
+            }
+            a {
+                color: rgba(255, 255, 255, 0.75);
+            }
+
+            a:hover {
+                color: rgba(255, 255, 255, 1);
+            }
+
+            header p a {
+                font-weight: 700;
+                text-decoration: none;
+            }
+
+            main p a {
+                text-decoration: underline;
+            }
+
+            p.primero::first-letter {
+                font-family: "Oswald", sans-serif;
+                color: #a01824;
+                float: left;
+                font-size: 3rem;
+                line-height: 1;
+                margin: 0;
+                padding: 0 0.75rem 0 0;
+            }
+
+            div.card {
+                background: #dc4d4d;
+            }
+
+            div.cards {
+                background: #5c6dfa;
+            }
+
+            img.card-img-top {
+                filter: grayscale(1) opacity(0.5);
+                transition: ease filter 0.3s;
+            }
+
+            img.card-img-top:hover {
+                filter: grayscale(0) opacity(1);
+                transition: ease filter 0.3s;
+            }
+        </style>
+        <title>UCM, Orden Cronológico Marvel</title>
+    </head>
+
+    <body>
+        <header class="titular">
+            <video playsinline loop autoplay muted class="w-100">
+                <source src="assets/intro-marvel.mp4" type="video/mp4">
+                <source src="assets/intro-marvel.webm" type="video/webm"> 
+            </video>
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-md-12 pt-4 text-center">
+                        <h2 class="fs-5">MARVEL ESTUDIOS</h2>
+                        <h1>UNIVERSO CINEMATOGRÁFICO DE MARVEL</h1>
+                        <h3 class="fs-5 mb-5">
+                            ¿Cómo ver correctamente las películas del UCM?<br />
+                            ¿Desde las fechas de estreno? ¿Hay algún orden oficial? ¿Qué pasa con las series?
+                        </h3>
+                        <p class="small">
+                            Por <a href="https://github.com/JM-Benites">Joselyn Benites</a>
+                            <span id="date">12 de Mayo del 2022</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <!--Parráfo Introductorio-->
+                        <p class="lead">El Universo Cinematográfico de Marvel (MCU; en inglés, Marvel Cinematic Universe) está compuesto por más de veinticinco películas y quince series (y aumentando)</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula tellus, consectetur id dapibus sed, tempus at enim. Nunc id congue risus. Integer eget finibus dui. Phasellus luctus feugiat massa, in porttitor nulla cursus vitae. Vestibulum tempor dolor ac erat cursus, nec cursus nibh vulputate. Mauris nulla massa, fringilla ut rhoncus ac, fringilla et lectus. Praesent eu ligula nisl. Integer laoreet risus sit amet ante lobortis, id tempus mauris lacinia. Sed tincidunt vehicula nunc, eu viverra sem hendrerit eget. Sed eget lectus quis metus pellentesque dignissim id ac ipsum. Praesent vel odio aliquam, pulvinar est sed, ultrices eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque commodo sem turpis, sed vehicula lorem condimentum eget. Phasellus ornare ultrices consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+                        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
