@@ -20,6 +20,23 @@ La evaluación de la segunda dimensión, de CSS, se basará en la adecuación de
 
 La evaluación de la tercera dimensión, de JavaScript, no exigirá originalidad sino claridad: Usted puede copiar soluciones ajenas, a condición de haber leído y comprendido íntegramente aquello que copia (porque de otro modo no se aprede a programar ni se protege de códigos maliciosos).
 
+
+- - - - - - -
+
+#### Algunas ayudas
+
+Páginas generadas desde avances y consultas hechas durante la semana entre sesiones 8 y 9:
+
+- https://profesorfaco.github.io/front-end/sesion_09/pagina-bonita.html
+
+- https://profesorfaco.github.io/front-end/sesion_09/no-es-molestia.html
+
+- https://profesorfaco.github.io/front-end/sesion_09/linea-de-tiempo.html
+
+- https://profesorfaco.github.io/front-end/sesion_09/index-con-video.html
+
+- https://profesorfaco.github.io/front-end/sesion_09/index-con-otro-video.html
+
 - - - - - - - 
 
 #### Friendly reminder
