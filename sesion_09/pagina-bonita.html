@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- CSS de Bootstrap-->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+       <!-- Vamos a buscar la biblioteca Chart.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap");
+            :root {
+                --bs-body-font-family: "Josefin sans", sans-serif;
+                --bs-body-color: #f7f7e6;
+                --bs-body-bg: #030114;
+            }
+            /* Una propuesta más relacionado con "cultura de diseño" https://es.wikipedia.org/wiki/I_Love_New_York  */
+            h1{
+                font-size: calc(7.5rem + 7.5vw);
+                font-family: monospace;
+                line-height: 0.8;
+                letter-spacing: 0.2rem;
+            }
+            h1 span{
+                font-size: 70%;
+            }
+            /* Te lo dejo comentado. No aporta mucho allí abajo.
+            body {
+                background-image: url(https://picsum.photos/id/238/2560/1440/?blur=6);
+                background-repeat: no-repeat;
+                background-position: center bottom;
+                background-size: auto;
+            }
+            */
+            </style>
+        <title>Esto es un ejemplo</title>
+    </head>
+    <body>
+        <header class="titular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center align-self-end">
+                        <h1 class="my-5">I<span>💔</span><br>NY</h1>
+                        <h3 class="fs-5 mb-3">Hate crimes in New York City, based in data from 2020.</h3>
+                        <p>By <a href="#">Catalina Pacheco</a></p>
+                        <p class="small">PUBLICADO EL 12 DE MAYO, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+
+                        <p class="lead">Hate crimes are a prejudice-motivated crime which occurs when a perpetrator targets a victim because of their membership (or perceived membership) of a certain social group or racial demographic.</p>
+
+                        <p>New york is a very diverse city, people from diferent ethnicities, sexual orientation, genre, and religious beliefs coexits in this space, but that coexistence is not always peaceful.</p>
+
+                        <p>In the theme of sexual diversity, of the total population of NYC a total of 570,000 self-identify as gay or bisexual.</p>
+
+                        <p>Tambien hay una comunidad de personas transgenero muy numerosa y activa, aqui es donde la protesta de stonewall tomo lugar</p>
+
+                        <p>Las comunidades de distintas etnias y paises extranjeros tambien tienen un lugar importante aqui, mas abajo se representa la composicion de la poblacion por etnia</p>
+
+                        <p>La ciudad de Nueva York o NYC es por lo tanto un foco importante cuando pensamos en la lucha por terminar con la discriminaciòn y los crimenes de Odio, el respeto de los derechos humanos.</p>
+
+                        <!--mejor contener la torta en un espacio más angosto, para que se lea completa-->
+                        <canvas id="Grafico1" width="400" height="200" class="mb-5"></canvas>
+
+                        <p>Respecto a los grupos a los que se orientan estos ataques, los informes de la policia entregan la siguiente informacion</p>
+                    </div>
+                    
+                    <div class="col-md-10 mx-auto my-5">
+                        <!--este si puede ser más ancho-->
+                        <canvas id="Grafico2" width="400" height="200" class="mb-5"></canvas>
+                    </div>
+                    
+                    <div class="col-md-6 mx-auto">
+                        <p>Si caracterizamos a las personas responsables de estos crimenes, podemos saber su edad</p>
+                    </div>
+                    
+                    <div class="col-md-10 mx-auto">
+                        <canvas id="Grafico3" width="400" height="200" class="mb-5"></canvas>
+                    </div>
+                    
+                    <div class="col-md-6 mx-auto">
+                        <p>Sus caracteristicas raciales</p>
+                        
+                        <canvas id="Grafico4" width="400" height="200" class="mb-5"></canvas>
+
+                        <p>Y, por ultimo, su genero </p>
+                        <canvas id="Grafico5" width="400" height="200" class="mb-5"></canvas>
+                    </div>
+                    
+                    <div class="col-md-10 mx-auto my-5">
+
+                        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-3 text-center" id="aqui"></div>
+
+                    </div>
+                    <div class="col-md-6 mx-auto">
+
+                        <p><em>Este último párrafo debe ser el cierre de lo presentado</em>. Mauris ultrices, ligula nec vulputate bibendum, nisi neque ultricies sem, eget volutpat magna nulla quis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nec est ex. Nulla nunc elit, mattis vel justo ac, iaculis interdum tellus. Praesent id orci leo. Phasellus eleifend tellus cursus enim imperdiet, ullamcorper ullamcorper augue volutpat. Sed at mi in magna imperdiet accumsan. Aenean cursus velit urna, lacinia hendrerit turpis congue vitae. Cras non tortor vestibulum, efficitur est vitae, posuere justo.</p>
+                        
+                        <p class="small my-5">Este párrafo más pequeño debería entregar información adicional: Que se trata de un trabajo para el electivo de <a href="https://github.com/profesorfaco/front-end">Introducción al Desarrollo Front End con HTML, CSS y JavaScript</a>; que el trabajo está "inspirado" en <a href="https://graphics.reuters.com/TONGA-VOLCANO/LIGHTNING/zgpomjdbypd/">Analysing the volcanic lightning from the Tonga eruption</a>, que originalmente fue desarrollado para <a href="https://graphics.reuters.com/">Reuters Graphics</a> por Manas Sharma y Simon Scarr; que el trabajo se resuelve con <a href="https://getbootstrap.com/">Bootstrap</a> y <a href="https://www.chartjs.org/">Charts.js</a>, además de consultas a un <a href="https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv">CSV</a> y un <a href="https://digimon-api.vercel.app/api/digimon">JSON</a>; etc.</p>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-cierre">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col text-center"><small>Nombre Apellido | 12 de mayo, 2022</small></div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Un gran script, que contiene una función asincrónica para ir a buscar un JSON con -->
+        <script>
+            async function visualizacion() {
+                //el fetch
+                const consulta = await fetch("https://raw.githubusercontent.com/catalina1699/json_clase8/main/datos.json");
+                const data = await consulta.json();
+                //algunas variables para calcular
+
+                var lasMujeres = 0;
+                var losHombres = 0;
+                //Grupos atacados
+                var lesLGBT = 0;
+                var lesJudios = 0;
+                var lesAfroamericanos = 0;
+                var lesAapi = 0;
+                var lesMusulmanes = 0;
+                var lesMujeres = 0;
+                var lesBlancos = 0;
+                var lesOtres = 0;
+                //grupos etarios
+                var menorDeEdad = 0;
+                var veinteAnos = 0;
+                var treintaAnos = 0;
+                var cuarentaAnos = 0;
+                var cincuentaAnos = 0;
+                var sesentaAnos = 0;
+                var setentaAnos = 0;
+                //etnias atacadores
+                var blancx = 0;
+                var negrx = 0;
+                var latinx = 0;
+                var asiaticx = 0;
+
+                //consultando en cada elemento del arreglo
+                data.forEach((d) => {
+                    //genero
+                    if (d.Gender == "MALE") {
+                        losHombres = losHombres + 1;
+                    } else {
+                        lasMujeres = lasMujeres + 1;
+                    }
+                    //grupos atacados
+                    if (d.BiasMotivation == "ANTIASIAN") {
+                        lesAapi = lesAapi + 1;
+                    } else if (d.BiasMotivation == "ANTIBLACK") {
+                        lesAfroamericanos = lesAfroamericanos + 1;
+                    } else if (d.BiasMotivation == "ANTIFEMALE") {
+                        lesMujeres = lesMujeres + 1;
+                    } else if (d.BiasMotivation == "ANTIISLAMIC") {
+                        lesMusulmanes = lesMusulmanes + 1;
+                    } else if (d.BiasMotivation == "ANTIJEWISH") {
+                        lesJudios = lesJudios + 1;
+                    } else if (d.BiasMotivation == "ANTIMALE_HOMOSEXUAL") {
+                        lesLGBT = lesLGBT + 1;
+                    } else if (d.BiasMotivation == "ANTI_LGBT") {
+                        lesLGBT = lesLGBT + 1;
+                    } else if (d.BiasMotivation == "ANTITRANSGENDER") {
+                        lesLGBT = lesLGBT + 1;
+                    } else if (d.BiasMotivation == "ANTIWHITE") {
+                        lesBlancos = lesBlancos + 1;
+                    } else {
+                        lesOtres = lesOtres + 1;
+                    }
+                    //grupos atacadores edad
+                    if (d.AgeGroup == "10_20") {
+                        menorDeEdad = menorDeEdad + 1;
+                    } else if (d.AgeGroup == "20_30") {
+                        veinteAnos = veinteAnos + 1;
+                    } else if (d.AgeGroup == "30_30") {
+                        treintaAnos = treintaAnos + 1;
+                    } else if (d.AgeGroup == "30_40") {
+                        treintaAnos = treintaAnos + 1;
+                    } else if (d.AgeGroup == "40_40") {
+                        cuarentaAnos = cuarentaAnos + 1;
+                    } else if (d.AgeGroup == "40_50") {
+                        cuarentaAnos = cuarentaAnos + 1;
+                    } else if (d.AgeGroup == "50_50") {
+                        cincuentaAnos = cincuentaAnos + 1;
+                    } else if (d.AgeGroup == "50_60") {
+                        cincuentaAnos = cincuentaAnos + 1;
+                    } else if (d.AgeGroup == "60_60") {
+                        sesentaAnos = sesentaAnos + 1;
+                    } else if (d.AgeGroup == "60_70") {
+                        sesentaAnos = sesentaAnos + 1;
+                    } else {
+                        setentaAnos = setentaAnos + 1;
+                    }
+                    //atacadores etnia
+                    if (d.Race == "WHITE") {
+                        blancx = blancx + 1;
+                    } else if (d.Race == "BLACK") {
+                        negrx = negrx + 1;
+                    } else if (d.Race == "WHITE_HISPANIC") {
+                        latinx = latinx + 1;
+                    } else if (d.Race == "BLACK_HISPANIC") {
+                        latinx = latinx + 1;
+                    } else if (d.Race == "ASIAN_PACIFIC_ISLANDER") {
+                        asiaticx = asiaticx + 1;
+                    }
+                });
+                //gráficar
+                //poblacion nueva york
+                new Chart(document.getElementById("Grafico1").getContext("2d"), {
+                    type: "pie",
+                    data: {
+                        labels: ["blanco", "latino", "afroamericano", "asiatico", "nativo americano", "dos o mas grupos"],
+                        datasets: [{ data: [31, 29, 20, 16, 1, 3], label: "porcentaje de la población", backgroundColor: ["#F06EC4", "#AB72F7", "#7396E0", "#495F8F", "#8856a7", "#34147f"] }],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+                //victimas
+                new Chart(document.getElementById("Grafico2").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: ["personas asiaticas", "personas negras", "mujeres", "personas musulmanas", "personas judias", "personas lgbt", "personas blancas", "Otros"],
+                        datasets: [
+                            {
+                                data: [lesAapi, lesAfroamericanos, lesMujeres, lesMusulmanes, lesJudios, lesLGBT, lesBlancos, lesOtres],
+                                label: "personas atacadas de este grupo",
+                                backgroundColor: ["#728FCE", "#4863A0", "#2B547E", "#36454F", "#29465B", "#2B3856", "#123456", "#151B54"],
+                            },
+                        ],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+                //edad victimarios
+                   new Chart(document.getElementById("Grafico3").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: ["adolescentes", "veinteañeros", "treintañeros", "cuarentañeros", "cincuentañeros", "sexagenarios", "septagenario"],
+                        datasets: [
+                            {
+                                data: [menorDeEdad, veinteAnos, treintaAnos, cuarentaAnos, cincuentaAnos, sesentaAnos, setentaAnos],
+                                label: "Atacantes de esta edad",
+                                backgroundColor: ["#728FCE", "#4863A0", "#2B547E", "#36454F", "#29465B", "#2B3856", "#123456"],
+                            },
+                        ],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+                      //etnia victimarios
+                   new Chart(document.getElementById("Grafico4").getContext("2d"), {
+                    type: "pie",
+                    data: {
+                        labels: ["blancos", "negros", "latinos", "asiaticos"],
+                        datasets: [
+                            {
+                                data: [blancx, negrx, latinx, asiaticx],
+                                label: "atacantes con esta caracteristica",
+                                backgroundColor: ["#728FCE", "#4863A0", "#2B547E", "#36454F"],
+                            },
+                        ],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+                      //genero victimarios
+                   new Chart(document.getElementById("Grafico5").getContext("2d"), {
+                    type: "pie",
+                    data: {
+                        labels: ["masculino", "femenino"],
+                        datasets: [
+                            {
+                                data: [losHombres, lasMujeres],
+                                label: "Atacantes de este genero",
+                                backgroundColor: ["#728FCE", "#4863A0"],
+                            },
+                        ],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+            }
+            
+            visualizacion().catch((error) => console.error(error));
+        </script>
+
+    </body>
+
+           </html> 
