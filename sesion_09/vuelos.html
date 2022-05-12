@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;500&family=Work+Sans:wght@900&display=swap" rel="stylesheet" />
+
+        <style>
+            :root {
+                --bs-body-color: #212121;
+                --bs-body-bg: #ffffff;
+            }
+
+            body {
+                font-weight: 200;
+                font-family: "Karla", sans-serif;
+                background: linear-gradient(rgba(252, 252, 252, 0.4) 50%, rgba(252, 252, 252, 1) 80%), url("https://raw.githubusercontent.com/SheridanErices/Evaluacion-1/main/img/fondo.png");
+                background-attachment: fixed;
+            }
+
+            header h1 {
+                font-family: "Work Sans", sans-serif;
+                font-weight: 900;
+                color: #4596d1;
+                font-size: calc(1.5rem + 1.5vw);
+            }
+            header h2 {
+                font-weight: 500;
+                color: #212121;
+            }
+            header h3 {
+                font-weight: 300;
+            }
+            a {
+                color: #212121;
+            }
+
+            a:hover {
+                color: #4596d1;
+            }
+
+            header p a {
+                font-weight: 500;
+                text-decoration: none;
+            }
+
+            main p a {
+                text-decoration: underline;
+            }
+
+            p.primero::first-letter {
+                font-family: "Work Sans", sans-serif;
+                font-weight: 900;
+                color: #4596d1;
+                float: left;
+                font-size: 4rem;
+                line-height: 1;
+                margin: 0;
+                padding: 0 0.5rem 0 0;
+            }
+
+            div.card {
+                background: #d3d3d3;
+            }
+
+            img.card-img-top {
+                filter: grayscale(1) opacity(0.5);
+                transition: ease filter 0.5s;
+            }
+
+            img.card-img-top:hover {
+                filter: grayscale(0) opacity(1);
+                transition: ease filter 0.5s;
+            }
+        </style>
+        <title>Atentados del 11S</title>
+    </head>
+    <body>
+        <header class="titular">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-6 mx-auto text-center align-self-end">
+                        <img src="https://www.arabnews.com/sites/all/themes/narabnews/assets/img/9-11/animation_911.gif?v=3" class="w-100" alt="9/11" style="margin-top: -20vh;" />
+                        <h1 class="mt-4">LOS VUELOS SECUESTRADOS</h1>
+                        <h3 class="fs-5 mb-5">Los datos reflejan las decisiones tomadas por los terroristas y las consecuencias en la muerte de las víctimas</h3>
+                        <p class="m-0">Por <a href="#">Sheridan Erices</a></p>
+                        <p class="small">PUBLICADO EL 12 DE MAYO, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <p class="primero">El 11 de septiembre de 2001, diecinueve terroristas miembros de al-Qaeda, un grupo islámico extremo, secuestraron cuatro aviones comerciales.</p>
+
+                        <p>
+                            En un ataque coordinado, los secuestradores intencionalmente volaron dos de los aviones a las Torres Gemelas en el World Trade Center, y un tercero en el Pentágono. La tripulación y los pasajeros a bordo en el
+                            cuarto avión, después de enterarse de los secuestros deliberados, trataron de retomar el control de la nave, provocando que el vuelo se desviara y estrellara en un campo en Pensilvania.
+                        </p>
+
+                        <p>Cerca de 3.000 personas fallecieron aquel día, la pérdida de vida más grande resultante de un ataque extranjero en tierra estadounidense, incluyendo a las 246 personas en los cuatro aviones estrellados.</p>
+
+                        <canvas id="todos_vuelos" width="400" height="200" class="m-6"></canvas>
+                    </div>
+
+                    <div class="col-md-10 mx-auto my-5"></div>
+                    <div class="col-md-6 mx-auto">
+                        <ul>
+                            <li>Vuelo 11 de American Airlines: de Boston a Los Angeles. Llevaba 87 personas.</li>
+                            <li>Vuelo 175 de United Airlines: de Boston a Los Angeles. Llevaba 59 personas.</li>
+                            <li>Vuelo 77 de American Airlines: de Washington a Los Angeles. Llevaba 60 personas.</li>
+                            <li>Vuelo 93 de United Airlines: de Nueva Jersey a San Francisco. Llevaba 40 personas.</li>
+                        </ul>
+
+                        <img src="https://cdn.britannica.com/50/70150-050-F587E822/routes-planes-terrorist-attacks-September-11-2001.jpg?q=60" class="d-block w-100" alt="…" />
+                        <br />
+                        <br />
+                    </div>
+
+                    <canvas id="VuelosPorSexo" width="400" height="200" class="m-5"></canvas>
+                </div>
+                <div class="col-md-6 mx-auto">
+                    <p>
+                        Aquel día, los vuelos fueron escogidos por los terroristas tanto por su tramo como por la capacidad de pasajeros, donde aquellos con destino a Los Angeles destacaban dado que era altamente cotizado por empresarios
+                        que viajaban por negocios. Lo que se compara con el vuelo a San Francisco, donde prevalecían los viajes vacacionales.
+                    </p>
+                    <p>A su vez, explica la diferencia de fallecidos entre hombres y mujeres, ya que los empresarios a principios del siglo XXI correspondían en su mayoría a hombres.</p>
+                </div>
+
+                <div class="col-md-10 mx-auto my-5">
+                    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-3 text-center" id="aqui"></div>
+                </div>
+                <div class="col-md-6 mx-auto">
+                    <div class="album py-5">
+                        <div class="container">
+                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4">
+                                <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img src="https://i.inews.co.uk/content/uploads/2021/09/PRI_196061649.jpg" class="card-img-top" />
+
+                                        <div class="card-body">
+                                            <p class="card-text">Explosión del vuelo 11 en torre Norte del World Trade Center.</p>
+                                            <div class="d-flex justify-content-between align-items-center"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img
+                                            src="https://ca-times.brightspotcdn.com/dims4/default/079074e/2147483647/strip/true/crop/1800x1200+0+23/resize/2000x1333!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F1d%2F1c%2F49ffd0c240f1b4eec5ad6884207f%2Fla-photos-wap-ap716367926225.jpg"
+                                            class="card-img-top"
+                                        />
+
+                                        <div class="card-body">
+                                            <p class="card-text">Explosión del vuelo 175 en torre Sur del World Trade Center.</p>
+                                            <div class="d-flex justify-content-between align-items-center"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Aerial_view_of_the_Pentagon_during_rescue_operations_post-September_11_attack.JPEG/1599px-Aerial_view_of_the_Pentagon_during_rescue_operations_post-September_11_attack.JPEG"
+                                            class="card-img-top"
+                                        />
+
+                                        <div class="card-body">
+                                            <p class="card-text">Pentágono luego de que el vuelo 77 se estrellara.</p>
+                                            <div class="d-flex justify-content-between align-items-center"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img src="https://assets.sutori.com/user-uploads/image/e5d6af8e-785c-4c2e-8d88-f042f2f355e2/cc725f26982e670905e70858f049dcc5.jpeg" class="card-img-top" />
+
+                                        <div class="card-body">
+                                            <p class="card-text">Campo en Pensilvania tras el colapso del vuelo 93.</p>
+                                            <div class="d-flex justify-content-between align-items-center"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>
+                        <em>
+                            Hasta el día de hoy todos recuerdan el fatídico día del 11 de septiembre. Muchos memoriales se han alzado en honor a las víctimas que perecieron aquel día, incluyendo el museo que gracias a la caja negra de los
+                            aviones, se dieron a conocer los últimos minutos de los pasajeros.
+                        </em>
+                    </p>
+
+                    <p class="small my-5">
+                        Trabajo para el electivo de <a href="https://github.com/profesorfaco/front-end">Introducción al Desarrollo Front End con HTML, CSS y JavaScript</a>; inspirado en
+                        <a href="https://www.911memorial.org">911 Memorial & Museum</a>, desarrollado para el museo en honor a las víctimas; el trabajo se resuelve con <a href="https://getbootstrap.com/">Bootstrap</a> y
+                        <a href="https://www.chartjs.org/">Charts.js</a>, además de consultas a <a href="https://github.com/SheridanErices/Clase-05-05/blob/main/Datos.csv">CSV</a>
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-white">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col text-center"><small>Sheridan Erices | 12 de mayo, 2022</small></div>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
+            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <script>
+            async function unaVisualizacion() {
+                const consulta = await fetch("https://raw.githubusercontent.com/SheridanErices/Clase-05-05/main/datos.json");
+                const data = await consulta.json();
+
+                //variables
+                var vueloUnoH = 0;
+                var vueloUnoM = 0;
+                var vueloDosH = 0;
+                var vueloDosM = 0;
+                var vueloTresH = 0;
+                var vueloTresM = 0;
+                var vueloCuatroH = 0;
+                var vueloCuatroM = 0;
+
+                var vueloUno = 0;
+                var vueloDos = 0;
+                var vueloTres = 0;
+                var vueloCuatro = 0;
+
+                data.forEach((d) => {
+                    if (d.Flight == 11 && d.Sex == "Male") {
+                        vueloUnoH = vueloUnoH + 1;
+                    } else if (d.Flight == 11 && d.Sex == "Female") {
+                        vueloUnoM = vueloUnoH + 1;
+                    }
+                    if (d.Flight == 175 && d.Sex == "Male") {
+                        vueloDosH = vueloDosH + 1;
+                    } else if (d.Flight == 175 && d.Sex == "Female") {
+                        vueloDosM = vueloDosM + 1;
+                    }
+
+                    if (d.Flight == 77 && d.Sex == "Male") {
+                        vueloTresH = vueloTresH + 1;
+                    } else if (d.Flight == 77 && d.Sex == "Female") {
+                        vueloTresM = vueloTresM + 1;
+                    }
+
+                    if (d.Flight == 93 && d.Sex == "Male") {
+                        vueloCuatroH = vueloCuatroH + 1;
+                    } else if (d.Flight == 93 && d.Sex == "Female") {
+                        vueloCuatroM = vueloCuatroM + 1;
+                    }
+
+                    if (d.Flight == 11) {
+                        vueloUno = vueloUno + 1;
+                    } else if (d.Flight == 175) {
+                        vueloDos = vueloDos + 1;
+                    } else if (d.Flight == 77) {
+                        vueloTres = vueloTres + 1;
+                    } else {
+                        vueloCuatro = vueloCuatro + 1;
+                    }
+                });
+
+                new Chart(document.getElementById("VuelosPorSexo").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: ["Vuelo 11", "Vuelo 175", "Vuelo 77", "Vuelo 93"],
+                        datasets: [
+                            { data: [vueloUnoH, vueloDosH, vueloTresH, vueloCuatroH], label: "Hombres", backgroundColor: ["#4596D1"] },
+                            { data: [vueloUnoM, vueloDosM, vueloTresM, vueloCuatroM], label: "Mujeres", backgroundColor: ["#D3D3D3"] },
+                        ],
+                    },
+                    options: {
+                        indexAxis: "y",
+                    },
+                });
+
+                new Chart(document.getElementById("todos_vuelos").getContext("2d"), {
+                    type: "pie",
+                    data: {
+                        labels: ["Vuelo 11", "Vuelo 175", "Vuelo 77", "Vuelo 93"],
+                        datasets: [{ data: [vueloUno, vueloDos, vueloTres, vueloCuatro], label: "Vuelos", backgroundColor: ["#4596D1", "#D3D3D3", "#b0c4b1", "#f2d0a9"] }],
+                    },
+                });
+            }
+            unaVisualizacion();
+
+            a;
+        </script>
+        <script>
+            //Para cambiar todos los links de una
+            document.querySelectorAll("a").forEach((a) => a.classList.add("link-blue"));
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
