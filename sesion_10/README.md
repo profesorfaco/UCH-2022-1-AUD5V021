@@ -28,12 +28,13 @@ Para poder especificar, así poder diseñar para individuos con capacidades y ob
 
 #### Exploración práctica
 
-En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de aplicación web. 
+En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de aplicación web, donde aplicarán [lo aprendido en las primeras sesiones de la asignatura](https://profesorfaco.github.io/front-end/sesion_09/dispersion.html).
 
-El primer paso será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos: 
+El primer paso para este desarrollo será será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos, mediante: 
 
-- Una página web de diseño adaptativo (*responsive*) en el que presenten 3 proto-personas. 
-- Cada proto-persona de presentarse mediante texto, ilustraciones y gráficos (ej: Cómo divide su día en un [gráfico de torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), cómo gasta su sueldo en un [gráfico de barras](https://www.chartjs.org/docs/latest/charts/bar.html), cuáles son sus aptitutes en un [gráfico de radar](https://www.chartjs.org/docs/latest/charts/radar.html), etc.).
+- Una página web de diseño adaptativo (*responsive*) en el que se presenten 3 proto-personas. 
+
+- Cada proto-persona debe presentarse mediante texto, ilustraciones y gráficos (ej: Cómo divide su día en un [gráfico de torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), cómo gasta su sueldo en un [gráfico de barras](https://www.chartjs.org/docs/latest/charts/bar.html), cuáles son sus aptitutes en un [gráfico de radar](https://www.chartjs.org/docs/latest/charts/radar.html), etc.).
 
 - - - - - - - 
 
