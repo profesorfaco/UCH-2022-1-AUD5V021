@@ -32,7 +32,7 @@ En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de
 
 El primer paso será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos: 
 
-- Una página web de diseño adaptativo (*responsive*) con 3 proto-personas.
+- Una página web de diseño adaptativo (*responsive*) en el que presenten 3 proto-personas. Cada una puede ir acompañada de ilustraciones y gráficos resueltos con chart.js (ej: Cómo divide su día en un gráfico de torta, cómo gasta su sueldo en un gráfico de barras, cuáles son sus "poderes" en un gráfico de radar, etc.).
 
 - - - - - - - 
 
