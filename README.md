@@ -46,7 +46,7 @@ Cada estudiante necesita:
 
 - Jueves 5 de mayo → [sesion_08](https://github.com/profesorfaco/front-end/tree/main/sesion_08) → Pre-evaluación Nº1 ✓
 
-- **Jueves 12 de mayo → [sesion_09](https://github.com/profesorfaco/front-end/tree/main/sesion_09) → Evaluación Nº1**
+- **Jueves 12 de mayo → [sesion_09](https://github.com/profesorfaco/front-end/tree/main/sesion_09) → Evaluación Nº1 ✓**
 
 - Jueves 19 de mayo → Semana de receso para todos los cursos de la carrera
 
