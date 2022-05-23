@@ -8,15 +8,17 @@
 
 Podemos partir con una definición estándar de usabilidad: 
 
-> Usabilidad es el grado en que un sistema, producto o servicio puede ser utilizado por usuarios específicos para alcanzar objetivos específicos con eficacia, eficiencia y satisfacción en un contexto de uso específico ([ISO 9241-11:2018](https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en))
+> Usabilidad es el grado en que un sistema, producto o servicio puede ser utilizado por **usuarios específicos** para alcanzar **objetivos específicos** con eficacia, eficiencia y satisfacción en **un contexto de uso específico** ([ISO 9241-11:2018](https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en))
 
-En tal definición confluyen usuarios, objetivos y contextos en la necesidad de ser especificados. Y esta confluencia debería desplazar lejos la idea de "esto le tendría que servir a cualquiera". Es que tal idea implica a cualquiera en cualquier parte con cualquier objetivo: son tres niveles de displicencia donde el diseño tiene dos opciones: 
+Son tres especificidades que deberían desplazar lejos la idea de "esto le tendría que servir a cualquiera". Una idea que deja a quien diseña con dos opciones: 
 
-- maquillar según el gusto del cliente que sabe nada de diseño (porque nadie que sepa algo de diseño es displicente en tres niveles). 
+- maquillar la interfaz según el gusto del cliente que sabe poco de diseño (quien sepa de diseño no será displicente en tantos niveles). 
 
-- reducir al mínimo a la interfaz por diseñar, como pasa en el control remoto universal (que sólo sirve para encender/apagar, pasar canales y ajustar volúmen).
+- reducir al mínimo a la interfaz por diseñar, como en un [Tek Pal Universal Remote Control](https://the-gadgeteer.com/2014/07/22/a-minimal-tv-remote-control-for-the-tech-phobic/)
 
-Para poder especificar, así poder diseñar para individuos con capacidades y objetivos que son, a la vez, determinados y situados, conviene revisar: 
+Para evitarnos los extremos de maquillar o reducir al mínimo, tendremos que definir **para quién** hacemos lo que hacemos, así poder tomara decisiones de diseño por y para personas con objetivos situados, limitados y justificados.
+
+conviene revisar: 
 
 - ¿Qué son las Proto Personas?: https://blog.ida.cl/experiencia-de-usuario/que-son-las-proto-personas/
 
@@ -30,7 +32,7 @@ Para poder especificar, así poder diseñar para individuos con capacidades y ob
 
 En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de aplicación web, donde aplicarán [lo aprendido en las primeras sesiones de la asignatura](https://profesorfaco.github.io/front-end/sesion_09/dispersion.html).
 
-El primer paso para este desarrollo será será definir y publicar sus correspondientes usuarios, objetivos y contextos de uso específicos, mediante: 
+El primer paso para este desarrollo será definir sus correspondientes usuarias y usuarios, cada uno junto a objetivos y contextos de uso específicos, mediante: 
 
 - Una página web de diseño adaptativo (*responsive*) en el que se presenten 3 proto-personas. 
 
