@@ -16,13 +16,18 @@ La primera es maquillar la interfaz según el gusto del cliente que sabe poco de
 
 La segunda opción es reducir la interfaz al mínimo, lo que impide resolver operaciones complejas, como en un Tek Pal Universal Remote Control 
 
-![tek-pal](https://user-images.githubusercontent.com/7999767/170147515-5a16f5e2-a6bd-4bc8-8f34-d7bcfc20e529.jpg) |
+![tek-pal](https://user-images.githubusercontent.com/7999767/170147515-5a16f5e2-a6bd-4bc8-8f34-d7bcfc20e529.jpg)
 
-Para evitarnos los extremos de maquillar o reducir al mínimo, tendremos que definir **para quién** hacemos lo que hacemos, así poder tomara decisiones de diseño por y para personas con determinados objetivos situados, que pueden ser: 
+Para evitarnos los extremos de maquillar o reducir al mínimo, tendremos que definir **para quién** hacemos lo que hacemos, así poder tomar decisiones de diseño por y para personas con determinados objetivos situados, que pueden ser: 
 
 - objetivos de experiencia: 
 - objetivos de meta:
 - objetivos de vida:
+
+Además de objetivos están las habilidades, que desde una perspectiva física pueden verse limitadas de manera permanente, temporal o circunstancial:
+
+
+- - - - - - - 
 
 conviene revisar: 
 
