@@ -16,7 +16,11 @@ Son tres especificidades que deberían desplazar lejos la idea de "esto le tendr
 
 - reducir al mínimo a la interfaz por diseñar, como en un [Tek Pal Universal Remote Control](https://the-gadgeteer.com/2014/07/22/a-minimal-tv-remote-control-for-the-tech-phobic/)
 
-Para evitarnos los extremos de maquillar o reducir al mínimo, tendremos que definir **para quién** hacemos lo que hacemos, así poder tomara decisiones de diseño por y para personas con objetivos situados, limitados y justificados.
+Para evitarnos los extremos de maquillar o reducir al mínimo, tendremos que definir **para quién** hacemos lo que hacemos, así poder tomara decisiones de diseño por y para personas con determinados objetivos situados, que pueden ser: 
+
+- objetivos de experiencia: 
+- objetivos de meta:
+- objetivos de vida:
 
 conviene revisar: 
 
