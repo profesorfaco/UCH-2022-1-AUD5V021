@@ -6,15 +6,17 @@
 
 #### Teoría
 
-Podemos partir con una definición estándar de usabilidad: 
+Podemos partir con una definición estándar de usabilidad: **Usabilidad es el grado en que un sistema, producto o servicio puede ser utilizado por *usuarios específicos* para alcanzar *objetivos específicos* con eficacia, eficiencia y satisfacción en *un contexto de uso específico*** ([ISO 9241-11:2018](https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en))
 
-> Usabilidad es el grado en que un sistema, producto o servicio puede ser utilizado por **usuarios específicos** para alcanzar **objetivos específicos** con eficacia, eficiencia y satisfacción en **un contexto de uso específico** ([ISO 9241-11:2018](https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en))
+Son tres especificidades que deberían desplazar lejos la idea de "esto le tendría que servir a cualquiera". Una idea que deja a quien diseña con dos opciones. 
 
-Son tres especificidades que deberían desplazar lejos la idea de "esto le tendría que servir a cualquiera". Una idea que deja a quien diseña con dos opciones: 
+La primera es maquillar la interfaz según el gusto del cliente que sabe poco de diseño (quien sepa de diseño no será displicente en tantos niveles). 
 
-- maquillar la interfaz según el gusto del cliente que sabe poco de diseño (quien sepa de diseño no será displicente en tantos niveles). 
+![cliente](https://user-images.githubusercontent.com/7999767/170147539-fbecfc9a-1fca-494e-9713-addbb62c5bf3.png) 
 
-- reducir al mínimo a la interfaz por diseñar, como en un [Tek Pal Universal Remote Control](https://the-gadgeteer.com/2014/07/22/a-minimal-tv-remote-control-for-the-tech-phobic/)
+La segunda opción es reducir la interfaz al mínimo, lo que impide resolver operaciones complejas, como en un Tek Pal Universal Remote Control 
+
+![tek-pal](https://user-images.githubusercontent.com/7999767/170147515-5a16f5e2-a6bd-4bc8-8f34-d7bcfc20e529.jpg) |
 
 Para evitarnos los extremos de maquillar o reducir al mínimo, tendremos que definir **para quién** hacemos lo que hacemos, así poder tomara decisiones de diseño por y para personas con determinados objetivos situados, que pueden ser: 
 
