@@ -35,19 +35,21 @@ Además de los objetivos situados están las **habilidades de cada persona**, **
 - *Escuchar* → sordera, infección al oído o exceso de ruido. 
 - *Hablar* → falta de cuerdas vocales, laringitis o acento con falta de práctica. 
 
-Para más detalles sobre lo recién presentado, conviene revisar los *resources* de [Incluse Design](https://www.microsoft.com/design/inclusive/) de Microsoft.
+Para más detalles sobre lo recién presentado, conviene revisar los *resources* de [Incluse Design de Microsoft](https://www.microsoft.com/design/inclusive/).
 
 También hay habilidades cognitivas que pueden verse limitadas tal como las físicas, lo que implican diferentes posibilidades de comprensión, aprendizaje y motivación. E incluso hay asuntos técnicos que pueden limitarnos, como ya pudieron experimentarlo por dos años de clases remotas, donde se dependía de *cómo f-ncio--ba la c-nex--n c-d- -ía*, y se vuelve a experimentar en la presencialidad cuando, por ejemplo, el *datashow* cambia los colores como si fuera [daltónico](https://chrome.google.com/webstore/detail/colorblind-dalton-for-goo/afcafnelafcgjinkaeohkalmfececool) (como lo es [1 de cada 12 hombres](https://www.instagram.com/p/CdyxdJws4uu/); en mujeres lo es 1 de cada 200).
 
 - - - - - - - 
 
-Conviene revisar: 
+Con todo lo presentado, podría hacer sentido el tener que decidir por lo específico varias veces. La pregunta ahora podría ser: ¿Cómo mostrar mi decisión? La respuesta ene se caso podría reducirse a una palabra compuesta: *proto persona*
 
 - ¿Qué son las Proto Personas?: https://blog.ida.cl/experiencia-de-usuario/que-son-las-proto-personas/
 
-- Extremes and Mainstreams: https://www.designkit.org/methods/extremes-and-mainstreams
+- ¿Qué es una proto persona?: https://www.questionpro.com/blog/es/que-es-una-proto-persona/
 
-- The Persona Spectrum en "Inclusive 101": https://www.microsoft.com/design/inclusive/
+- ¿Cómo crear una Proto-Persona?: https://carlosguardiola.com/2017/10/14/como-crear-una-proto-persona/
+
+Ideal sería que su decisión no sea única, sino triple: **Considere tres proto personas**, donde una sea el promedio y la otras dos se ubiqune a los dos extremos de lo abarcable: https://www.designkit.org/methods/extremes-and-mainstreams
 
 - - - - - - - 
 
