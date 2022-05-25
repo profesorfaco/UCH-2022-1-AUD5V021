@@ -41,7 +41,9 @@ También hay habilidades cognitivas que pueden verse limitadas tal como las fís
 
 - - - - - - - 
 
-Con todo lo presentado, podría hacer sentido el tener que decidir por lo específico varias veces. La pregunta ahora podría ser: ¿Cómo mostrar mi decisión? La respuesta ene se caso podría reducirse a una palabra compuesta: *proto persona*
+Con todo lo presentado, podría hacer sentido el tener que decidir por lo específico varias veces. 
+
+La pregunta ahora podría ser: ¿Cómo mostrar mi decisión? La respuesta en este caso podría reducirse a un concepto común en diseño de experiencia de usuario (UX): *proto persona*.
 
 - ¿Qué son las Proto Personas?: https://blog.ida.cl/experiencia-de-usuario/que-son-las-proto-personas/
 
@@ -49,7 +51,11 @@ Con todo lo presentado, podría hacer sentido el tener que decidir por lo espec�
 
 - ¿Cómo crear una Proto-Persona?: https://carlosguardiola.com/2017/10/14/como-crear-una-proto-persona/
 
-Ideal sería que su decisión no sea única, sino triple: **Considere tres proto personas**, donde una sea el promedio y la otras dos se ubiqune a los dos extremos de lo abarcable: https://www.designkit.org/methods/extremes-and-mainstreams
+- 3 Persona Types: Lightweight, Qualitative, and Statistical: https://www.nngroup.com/articles/persona-types/
+
+- Personas vs. Archetypes: https://www.nngroup.com/articles/personas-archetypes/
+
+Ahora bien, lo más conveniente es que su decisión, aunque sea específica, reconozca un rango de posibilidades a los dos extremos de lo más típico: https://www.designkit.org/methods/extremes-and-mainstreams
 
 - - - - - - - 
 
@@ -59,9 +65,11 @@ En esta clase comenzaremos a desarrollar un sitio web o un prototipo avanzado de
 
 El primer paso para este desarrollo será definir sus correspondientes usuarias y usuarios, cada uno junto a objetivos y contextos de uso específicos, mediante: 
 
-- Una página web de diseño adaptativo (*responsive*) en el que se presenten 3 proto-personas. 
+- Una página web de diseño adaptativo (*responsive*) en el que se **presenten 3 proto-personas**. 
 
 - Cada proto-persona debe presentarse mediante texto, ilustraciones y gráficos (ej: Cómo divide su día en un [gráfico de torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), cómo gasta su sueldo en un [gráfico de barras](https://www.chartjs.org/docs/latest/charts/bar.html), cuáles son sus aptitutes en un [gráfico de radar](https://www.chartjs.org/docs/latest/charts/radar.html), etc.).
+
+Para los datos a presentar en cada gráfico, puede usar alguna de las secciones en el PDF que se incluye en esta carpeta. 
 
 - - - - - - - 
 
