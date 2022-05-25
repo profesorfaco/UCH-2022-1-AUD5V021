@@ -24,7 +24,7 @@ Para evitarnos los extremos de maquillar o reducir al mínimo, tendremos que def
 - *objetivos de meta* → Más prácticas → ¿Qué quiere hacer la persona?
 - *objetivos de vida* → Más re-flexivas → ¿Quién quiere ser la persona?
 
-Se dice objetivos situados porque, probablemente, lo que una persona quiere sentir en una viaje familiar, de vacaciones al Sur, es distinto de lo que quiere sentir en una montaña rusa. Lo que quiere hacer cuando rinde su fuerza laboral es distinto de lo que quiere hacer en tiempo de ocio. Y lo que quiere ser en público, con extraños, puede ser distinto de lo que quiere ser en privado con sus más cercanos.
+Se dice objetivos situados porque, probablemente, lo que una persona quiere sentir en una viaje familiar, de vacaciones al Sur, es distinto de lo que quiere sentir en una montaña rusa. Lo que quiere hacer cuando rinde su fuerza laboral es distinto de lo que quiere hacer en tiempo de ocio. Y lo que quiere ser en público, con extraños, puede ser distinto de lo que quiere ser en casa con sus más cercanos.
 
 Para más detalles sobre los objetivos, conviene revisar el libro *About Face 4*, de Cooper et al (2014), entre páginas 73 y 78.
 
