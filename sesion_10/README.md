@@ -69,7 +69,11 @@ El primer paso para este desarrollo será definir sus correspondientes usuarias 
 
 - Cada proto-persona debe presentarse mediante texto, ilustraciones y gráficos (ej: Cómo divide su día en un [gráfico de torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), cómo gasta su sueldo en un [gráfico de barras](https://www.chartjs.org/docs/latest/charts/bar.html), cuáles son sus aptitutes en un [gráfico de radar](https://www.chartjs.org/docs/latest/charts/radar.html), etc.).
 
-Para los datos a presentar en cada gráfico, puede usar alguna de las secciones en el PDF que se incluye en esta carpeta. 
+Para los datos a presentar en cada gráfico, puede usar alguna de las secciones en el [PDF que se incluye en esta carpeta](https://github.com/profesorfaco/front-end/blob/main/sesion_10/fragmento-sazerac-book.pdf). 
+
+Por ejemplo, usted puede caracterizar a una proto-persona como 8 en cálida, 4 en seria, 5 en innovadora, 1 en ordenada y 10 en popular, y con eso armar un [radar chart](https://www.chartjs.org/docs/latest/charts/radar.html). Las otras dos proto-personas podrían tener otros números para las mismas dimensiones. ¿Y de dónde saqué esas dimensiones? De la primera página del PDF, a la izquierda. 
+
+Otro ejemplo: Un [line chart](https://www.chartjs.org/docs/latest/charts/line.html) que muestre los usos de la conexión a Internet un día normal de la persona, con una línea para Google, otra para Gmail, otra Drive, otra para Instagram, otra para Instagram, etc. En algunas horas del día (entre 0 y 23), las líneas de algunas pueden estar más arriba que otras ¿Y de dónde saqué esto de las horas? De la segunda página del mismo PDF?
 
 - - - - - - - 
 
