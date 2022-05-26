@@ -6,11 +6,11 @@
 
 #### Teoría
 
-El músico que no escucha más que a su banda favorita, termina ofreciendo sólo *covers* y armando una banda tributo… con agenda y precios muchísimo más accesibles que el original.
+La persona que se dedica a la música sin escuchar más que a su banda favorita, termina ofreciendo sólo *covers* y armando una banda tributo… con agenda y precios muchísimo más accesibles que el original.
 
-El músico que no escucha más que un estilo de música, termina haciendo lo mismo una y otra vez: Se ajusta a las posibilidades del único estilo conocido… Lo que dura hasta que la gente se canse de escucharlo.
+La persona que no escucha más que un estilo de música, termina haciendo lo mismo una y otra vez: Se ajusta a las posibilidades del único estilo conocido… Lo que dura hasta que la gente se canse de escucharlo.
 
-**El músico que tiene una amplia cultura musical puede reinventarse las veces que estime conveniente, ofreciendo, permanentemente, nuevos motivos para ser escuchado.** 
+**Pero la persona que tiene un conjunto de conocimientos amplio y diverso sobre la música, puede reinventarse las veces que estime conveniente, ofreciendo, permanentemente, nuevos motivos para ser escuchada.** 
 
 **En el diseño pasa lo mismo. Quienes tienen una amplio repertorio de recuerdos de "cosas diseñadas", tienen ventaja cada vez que deben**
 
