@@ -55,7 +55,7 @@ La pregunta ahora podría ser: ¿Cómo mostrar mi decisión? La respuesta en est
 
 - Personas vs. Archetypes: https://www.nngroup.com/articles/personas-archetypes/
 
-Ahora bien, lo más conveniente es que su decisión, aunque sea específica, reconozca un rango de posibilidades a los dos extremos de lo más típico: https://www.designkit.org/methods/extremes-and-mainstreams
+Lo más conveniente es que su decisión, aunque sea específica, reconozca un rango de posibilidades a los dos extremos de lo más típico: https://www.designkit.org/methods/extremes-and-mainstreams
 
 - - - - - - - 
 
