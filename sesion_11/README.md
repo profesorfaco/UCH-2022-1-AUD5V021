@@ -14,9 +14,15 @@ El músico que no escucha más que un estilo de música, termina haciendo lo mis
 
 **En el diseño pasa lo mismo**. 
 
-**Quienes diseñan desde una amplia cultura visual y medial, pronto sacan ventaja de quienes no lo hacen**.
+**Quienes tienen una amplia cultura visual y medial, tienen ventaja cada vez que deben**
 
-**Para hacerse de esta cultura conviene reconocer lo que se ha hecho antes en el mismo ámbito con un mismo objetivo (antecendentes) y aquello que, viniendo de otro lugar con distinto objetivo, pueda resultar atractivo, práctico y razonable a usuarios específicos (referentes).**
+> crear propuestas morfológicas innovadoras, estados de significación y valor, para formas, códigos, lenguajes y fenómenos comunicacionales y relacionales, entre las ciudadanías y el entorno artificial, las comunidades, las personas y sus contextos (descripción de uno entre cuatro ámbitos de desempeño de [nuestra carrera](http://www.fau.uchile.cl/carreras/4929/diseno).
+
+**Para ampliar esta cultura, conviene insistir en el ejercicio de buscar antecedentes y referentes para cada proyecto**:
+
+- **Antecedente**: lo que se ha hecho antes, en el mismo ámbito, para los mismos usuarios específicos.
+
+- **Referente**: lo que, hecho de otro lugar con distinto objetivo, pueda resultar atractivo, práctico y razonable a usuarios específicos.
 
 Escribí "atractivo, práctico y razonable", para aludir, respectivamente, a los niveles de procesamiento visceral, conductual y contemplativo que presenta Donald A. Norman en su libro Emotional Design (2004): 
 
@@ -25,12 +31,6 @@ Escribí "atractivo, práctico y razonable", para aludir, respectivamente, a los
 Entre tales niveles hay otra diferencia que conviene referir: 
 
 > At the visceral level, people are pretty much the same all over the world. […] The behavioral and reflective levels, however, are very sensitive to experiences, training, and education. Cultural views have huge impact here: what one culture finds appealing, another may not. Indeed, teenage culture seems to dislike things solely because aldult culture likes them (p.33)
-
-A un nivel visceral, cualquiera puede reaccionar con arcadas frente a algo que huele o sabe mal, dar un paso atrás por temor, o cerrar los ojos y cubrirse la cara mientras se encoge cuando nota que algo –sin aviso previo– se acerca directo a la cara. Pero muy distinto es optar por un iPhone o un Huawei, y acostumbrarse a la manipulación de cada aparato y sus respectivas aplicaciones.
-
-Noten como en los niveles conductual (*behavioral level*) y contemplativo (*reflective level*) se insiste en la relevancia de lo específico: ¿Qué usa? ¿Cuánto lo usa? ¿Cómo lo usa?
-
-Piensen, por ejemplo, en distintas maneras de escribir un mensaje de texto en sus celulares: ¿Cuántos y qué dedos usan ustedes, sus padres y sus abuelos? ¿Ambos pulgares e índices, ambos pulgares, sólo un índice mientras el celular está sobre una mesa? ¿Y cómo los redactan? ¿Saludan y se despiden atentamente? ¿O es como un e-mail infinito, donde el saludo fue agregar el número y la despedida podría ser el bloqueo? 
 
 Si la [sesión recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_10) se resolvió de buena manera el ejercicio, en esta no habría problema para continuar, porque:
 
