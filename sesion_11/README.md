@@ -12,13 +12,11 @@ El músico que no escucha más que un estilo de música, termina haciendo lo mis
 
 **El músico que tiene una amplia cultura musical puede reinventarse las veces que estime conveniente, ofreciendo, permanentemente, nuevos motivos para ser escuchado.** 
 
-**En el diseño pasa lo mismo**. 
-
-**Quienes tienen una amplia cultura visual y medial, tienen ventaja cada vez que deben**
+**En el diseño pasa lo mismo. Quienes tienen una amplio repertorio de recuerdos de "cosas diseñadas", tienen ventaja cada vez que deben**
 
 > crear propuestas morfológicas innovadoras, estados de significación y valor, para formas, códigos, lenguajes y fenómenos comunicacionales y relacionales, entre las ciudadanías y el entorno artificial, las comunidades, las personas y sus contextos (descripción de uno entre cuatro ámbitos de desempeño de [nuestra carrera](http://www.fau.uchile.cl/carreras/4929/diseno)).
 
-**Para ampliar esta cultura, conviene insistir en el ejercicio de buscar antecedentes y referentes para cada proyecto**:
+**Para ampliar tal repertorio, conviene insistir en el ejercicio de buscar antecedentes y referentes para cada proyecto**:
 
 - **Antecedente**: lo que se ha hecho antes, en el mismo ámbito, para los mismos usuarios específicos.
 
