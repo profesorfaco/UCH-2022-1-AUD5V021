@@ -48,7 +48,7 @@ Cada estudiante necesita:
 
 - **Jueves 12 de mayo → [sesion_09](https://github.com/profesorfaco/front-end/tree/main/sesion_09) → Evaluación Nº1 ✓**
 
-- Jueves 19 de mayo → Semana de receso para todos los cursos de la carrera
+- Jueves 19 de mayo → Semana de receso para todos los cursos de la carrera ✓
 
 - Jueves 26 de mayo → [sesion_10](https://github.com/profesorfaco/front-end/tree/main/sesion_10) → Usuarios, objetivos y contextos de uso específicos
 
