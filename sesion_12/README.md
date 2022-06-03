@@ -20,9 +20,9 @@ Tales 4 preferencias resumen los [12 principios](https://agilemanifesto.org/iso/
 
 Por tal manifiesto, que vino mucho después de la [crisis del software](https://es.wikipedia.org/wiki/Crisis_del_software), es difícil encontrar organizaciones sostenibles que enfrenten el desafío del concebir, producir y lanzar un sitio o aplicación web tal como lo haría alguien entrenado en procesos de diseño con plazos fijos (*deadlines*) para investigar, analizar, idear e implementar, separados por la aprobación del cliente (no confundir con usuarios).
 
-**Si ya pudimos proponer tres proto-personas, un moodboard y un benchmark: ¡Tenemos material para hacer funcionar un sitio o aplicación web!** 
+**Si ya pudimos proponer tres proto-personas, un moodboard y un benchmark: ¡Tenemos material para diseñar un sitio o aplicación web! Si tenemos conocientos de HTML, CSS y JavaScript, podemos diseñarlo *ágilmente*!** 
 
-Es que equivocarse en el código fuente publicado no es como equivocarse en miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir, aprender y corregir rápidamente. 
+Ya habrán notado que equivocarse en el código fuente publicado no es como equivocarse en miles de copias de una publicación impresa en cuatricromía en el papel más caro, ya enviadas a otro país; con lo digital se puede construir, aprender y corregir rápidamente. 
 
 **Y basta un poco de código fuente para tener algo que se pueda medir en su eficacia, eficiencia y satisfacción con usuarios finales en sus contextos habituales, con sus correspondientes objetivos, aun cuando se encuentren a la distancia de otros husos horarios:** 
 
