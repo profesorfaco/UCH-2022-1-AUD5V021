@@ -30,11 +30,11 @@ Entre tales niveles hay otra diferencia que conviene referir:
 
 > At the visceral level, people are pretty much the same all over the world. […] The behavioral and reflective levels, however, are very sensitive to experiences, training, and education. Cultural views have huge impact here: what one culture finds appealing, another may not. Indeed, teenage culture seems to dislike things solely because aldult culture likes them (p.33)
 
-Si la [sesión recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_10) se resolvió de buena manera el ejercicio, en esta no habría problema para continuar, porque:
+Si la [sesión recién pasada](https://github.com/profesorfaco/front-end/tree/main/sesion_10) se resolvió de buena manera el ejercicio de las tres proto-personas (sin confundirlas con tres [arquetipos](https://www.instagram.com/p/CeOUHp3uaoM/)), en esta no habría problema para continuar, porque:
 
-- Los antecedentes útiles son aquellos que antes pudieron usar sus proto-personas; en este caso no es necesario considerar un sitio web o aplicación completa, basta con rescatar un [*flow*](https://uxarchive.com/) o un [*pattern*](http://ui-patterns.com/patterns). 
+- Los antecedentes útiles son aquellos que antes pudieron usar sus proto-personas; en este caso no es necesario considerar un sitio web o aplicación completa, basta con rescatar un [*flow*](https://uxarchive.com/) o un [*pattern*](http://ui-patterns.com/patterns). Para ejemplificar, un par de preguntas: ¿Qué pasaría si a una persona con muchos años de práctica de manejo de automoviles con el volante a la izquierda le pide manejar uno con volante a la derecha? ¿Qué pasaría si a la misma persona le pide pilotear un helicóptero? 
 
-- Los referentes útiles son aquellos que podrían resultar atractivos, prácticos y razonables a sus proto-personas, aunque no tengan relación directa con sitios y aplicaciones web.
+- Los referentes útiles son aquellos que podrían resultar atractivos, prácticos y razonables a sus proto-personas, aunque no tengan relación directa con sitios y aplicaciones web. Seguramente los materiales y las obras atractivas, prácticas y razonables para un Vito Contreras –abogado de los narcos– no coincidan con las que resulta ser así para un Ernesto Lizana –personaje de La Fiera; el que preguntaba ¿no será mucho derroche?–.
 
 Para reforzar la diferencia entre antecedentes y referentes, podemos compilarlos de manera diferenciada:
 
