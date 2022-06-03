@@ -24,14 +24,14 @@ Para evitarnos los extremos de maquillar o reducir al mínimo, tendremos que def
 - *objetivos de meta* → Más prácticas → ¿Qué quiere hacer la persona?
 - *objetivos de vida* → Más re-flexivas → ¿Quién quiere ser la persona?
 
-Se dice objetivos situados porque, probablemente, lo que una persona quiere sentir en una viaje familiar, de vacaciones al Sur, es distinto de lo que quiere sentir en una montaña rusa. Lo que quiere hacer cuando rinde su fuerza laboral es distinto de lo que quiere hacer en tiempo de ocio. Y lo que quiere ser en público, con extraños, puede ser distinto de lo que quiere ser en casa con sus más cercanos.
+Se dice objetivos situados porque, probablemente, lo que una persona quiere sentir en un viaje familiar, de vacaciones al Sur, es distinto de lo que quiere sentir en una montaña rusa. Lo que quiere hacer cuando rinde su fuerza laboral es distinto de lo que quiere hacer en tiempo de ocio. Y lo que quiere ser en público, con extraños, puede ser distinto de lo que quiere ser en casa con sus más cercanos.
 
 Para más detalles sobre los objetivos, conviene revisar el libro [*About Face 4*, de Cooper et al (2014)](https://drive.google.com/file/d/1rZLMrB794yyGO5hCle34zIKJFrCjbbGd/view?usp=sharing), entre páginas 73 y 78.
 
 Además de los objetivos situados están las **habilidades de cada persona**, **que** desde una perspectiva física **pueden verse limitadas** en distintos contextos de manera permanente, temporal o circunstancial, según se les exija: 
 
 - *Tocar* → mano amputada, mano quemada o mano ocupada. 
-- *Ver* → cieguera, cataratas o distracción.
+- *Ver* → ceguera, cataratas o distracción.
 - *Escuchar* → sordera, infección al oído o exceso de ruido. 
 - *Hablar* → falta de cuerdas vocales, laringitis o acento con falta de práctica. 
 
