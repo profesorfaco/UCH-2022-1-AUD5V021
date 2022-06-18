@@ -8,7 +8,7 @@ Cuando correspondía volver de la semana de receso, comenzó el paro. Lo primero
 
 > desarrollar un sitio web o un prototipo avanzado de aplicación web, donde aplicarán lo aprendido en las primeras sesiones de la asignatura.
 
-La idea era ajustar las ambiciones de cada sitio web o prototipo avanzado de aplicación web mientras fuéramos avanzando, considerando en las primeras sesiones lo deseable (lo que convenía diseñar según usuarias/os, contextos y objetivos) y luego lo factible (lo que pudieran resolver con su dominio técnico). 
+La idea era ajustar las ambiciones de cada sitio web o prototipo avanzado de aplicación web mientras fuéramos trabajando, considerando en las primeras sesiones lo deseable (lo que convenía diseñar según usuarias/os, contextos y objetivos) y luego lo factible (lo que pudieran resolver con su dominio técnico). 
 
 Como perdimos 4 clase, habrá que confiar en el poder de una analogía para acomodar ambiciones. Esta analogía se basa en [el silabario hispanoamericano](http://www.memoriachilena.gob.cl/archivos2/pdfs/MC0002274.pdf): 
 
