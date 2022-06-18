@@ -65,6 +65,6 @@ También podría sumar una revisión de:
 
 - https://blog.ida.cl/wp-content/uploads/sites/5/2016/03/ida-archivo-ixd.pdf
 
-Y en cada página de antecedentes, debe presentar un pantallazo de portada completa y los resultados de las distintas dimensiones de análisis de Google LightHouse mediante una un gráfico de radar resuelto con Chart.js
+Y en cada página de antecedentes, debe presentar un pantallazo de portada completa y los resultados de las distintas dimensiones de análisis de [Google LightHouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) mediante una un gráfico de radar resuelto con [Chart.js](https://www.chartjs.org/)
 
 Demás detalles están explicados en la plantilla contenida en esta carpeta de sesion_14, la que pueden ver en línea por acá.
