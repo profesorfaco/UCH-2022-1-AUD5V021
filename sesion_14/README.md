@@ -1,6 +1,6 @@
 #### Hagamos un poco de memoria… 
 
-Al final del README de la novena sesión pudieron leer: 
+Al final del README de la [novena sesión](https://github.com/profesorfaco/front-end/tree/main/sesion_09#friendly-reminder) pudieron leer: 
 
 > La próxima calificación comienza a jugarse a partir de la próxima sesión, de vuelta de la semana de receso; en lo que queda de electivo cada estudiante desarrollará su propio sitio web o prototipo avanzado de aplicación web, el que podría alojar en un dominio personalizado (podría no es lo mismo que debería):
 
