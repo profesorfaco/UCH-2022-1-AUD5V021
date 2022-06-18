@@ -30,7 +30,7 @@ Refrescar la memoria respecto de las 12 columnas de Boostrap con:
 
 - un video: https://www.youtube.com/watch?v=k8ovx51cEBg
 
-**Y revisar los `README.md` de sesiones [10](https://github.com/profesorfaco/front-end/tree/main/sesion_10#readme), [11](https://github.com/profesorfaco/front-end/tree/main/sesion_11#readme), [12](https://github.com/profesorfaco/front-end/tree/main/sesion_12#readme) y [13](https://github.com/profesorfaco/front-end/tree/main/sesion_13#readme). ¡Pero omitan la Exploración práctica en cada uno! Lo importante es la "teoría"**. 
+**Y revisar los `README.md` de sesiones [10](https://github.com/profesorfaco/front-end/tree/main/sesion_10#readme), [11](https://github.com/profesorfaco/front-end/tree/main/sesion_11#readme), [12](https://github.com/profesorfaco/front-end/tree/main/sesion_12#readme) y [13](https://github.com/profesorfaco/front-end/tree/main/sesion_13#readme). ¡Pero omitan la "exploración práctica" en cada uno! Lo importante es la "teoría"**. 
 
 - - - - - - - - - - - - - - - - - - 
 
