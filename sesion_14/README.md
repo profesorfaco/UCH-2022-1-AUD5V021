@@ -10,7 +10,7 @@ Cuando correspondía volver de la semana de receso, comenzó el paro. Lo primero
 
 La idea era ajustar las ambiciones de cada sitio web o prototipo avanzado de aplicación web mientras fuéramos trabajando, considerando en las primeras sesiones lo deseable (lo que convenía diseñar según usuarias/os, contextos y objetivos) y luego lo factible (lo que pudieran resolver con su dominio técnico). 
 
-Como perdimos 4 clase, habrá que confiar en el poder de una analogía para acomodar ambiciones. Esta analogía se basa en [el silabario hispanoamericano](http://www.memoriachilena.gob.cl/archivos2/pdfs/MC0002274.pdf): 
+Como perdimos 4 sesiones, habrá que confiar en el poder de una analogía para acomodar ambiciones. Esta analogía se basa en [el silabario hispanoamericano](http://www.memoriachilena.gob.cl/archivos2/pdfs/MC0002274.pdf): 
 
 > Si estás en un electivo que se llama *Introducción…*, tu ambición podría apuntar a escribir una breve historia: "mi papá y mi mamá se ríen de mi gato que se cayó al agua y se mojó" (p.39). Pero no corresponde proponerse escribir una carta a una amiga (pp.68-72). 
 
