@@ -58,7 +58,9 @@ Cada estudiante necesita:
 
 - Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Evaluación de accesibilidad, rendimiento y SEO 
 
-- Jueves 23 de junio → sesion_14 → Sin clases sincrónicas (trabajo autónomo)
+- ~~Jueves 23 de junio → sesion_14 → Sin clases sincrónicas (trabajo autónomo)~~
+
+- Jueves 23 de junio → [sesion_14](https://github.com/profesorfaco/front-end/tree/main/sesion_14) → Recuperación
 
 - **Jueves 30 de junio → [sesion_15](https://github.com/profesorfaco/front-end/tree/main/sesion_15) → Evaluación Nº2**  
 
