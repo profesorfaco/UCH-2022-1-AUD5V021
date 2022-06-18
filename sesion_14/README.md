@@ -24,13 +24,13 @@ Su ambición debe tener a la vista tal analogía, además de todo lo preparado y
 
 Refrescar la memoria respecto de las 12 columnas de Boostrap con:
 
-Una frase: ".col" va dentro de ".row" que va dentro de ".container"
+- una frase: ".col" va dentro de ".row" que va dentro de ".container"
 
-Un ejemplo: https://getbootstrap.com/docs/5.2/examples/grid/
+- un ejemplo: https://getbootstrap.com/docs/5.2/examples/grid/
 
-Un video: https://www.youtube.com/watch?v=k8ovx51cEBg
+- un video: https://www.youtube.com/watch?v=k8ovx51cEBg
 
-Revisar los README.md de sesiones [10](https://github.com/profesorfaco/front-end/tree/main/sesion_10#readme), [11](https://github.com/profesorfaco/front-end/tree/main/sesion_11#readme), [12](https://github.com/profesorfaco/front-end/tree/main/sesion_12#readme) y [13](https://github.com/profesorfaco/front-end/tree/main/sesion_13#readme). ¡Omitan la Exploración práctica en cada uno! Lo importante es la "teoría". 
+Revisar los `README.md` de sesiones [10](https://github.com/profesorfaco/front-end/tree/main/sesion_10#readme), [11](https://github.com/profesorfaco/front-end/tree/main/sesion_11#readme), [12](https://github.com/profesorfaco/front-end/tree/main/sesion_12#readme) y [13](https://github.com/profesorfaco/front-end/tree/main/sesion_13#readme). ¡Omitan la Exploración práctica en cada uno! Lo importante es la "teoría". 
 
 - - - - - - - - - - - - - - - - - - 
 
