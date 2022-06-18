@@ -31,7 +31,7 @@
                     <h3 class="text-center mt-5 mb-4 text-decoration-underline">Proto-personas</h3>
 
                     <!--PROTO-PERSONA 1-->
-                    <div class="row align-items-center bg-white mb-3 g-0 shadow-sm">
+                    <div class="row align-items-center bg-white mb-4 g-0 shadow-sm">
                         <div class="col-sm-4">
                             <img src="img/proto-persona-1.png" class="w-100" />
                         </div>
@@ -43,7 +43,7 @@
                     </div>
 
                     <!--PROTO-PERSONA 2-->
-                    <div class="row align-items-center bg-white mb-3 g-0 shadow-sm">
+                    <div class="row align-items-center bg-white mb-4 g-0 shadow-sm">
                         <div class="col-sm-4 order-sm-2">
                             <img src="img/proto-persona-2.png" class="w-100" />
                         </div>
@@ -82,7 +82,8 @@
                         <h3 class="text-center mt-5 mb-4 text-decoration-underline">Colores</h3>
 
                         <!--LA PALETA CROMÁTICA-->
-                        <!--Esto se define más abajo, en línea 212-->
+                        
+                        <!--Esto se programa más abajo, en línea 212-->
 
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" class="shadow-sm mb-3">
                             <g id="colores"></g>
@@ -97,12 +98,9 @@
 
                         <h3 class="text-center mt-5 mb-4 text-decoration-underline">Tipografías</h3>
 
-                        <!--LAS FUENTES TIPOGRÁFICAS-->
-
                         <div class="row mt-2 mb-5">
                             <!-- PRIMERA FUENTE DEBE ESTAR DISPONIBLE EN GOOGLE FONTS-->
-                            <!--https://fonts.google.com/ -->
-                            <div class="col-md-6">
+                            <div class="col-md-6 mb-3">
                                 <div class="card shadow-sm">
                                     <img src="img/tipo-1.jpg" class="card-img-top" alt="Nombre de la tipo" />
                                     <div class="card-body">
@@ -113,8 +111,7 @@
                             </div>
 
                             <!-- SEGUNDA FUENTE TAMBIÉN DEBE ESTAR DISPONIBLE EN GOOGLE FONTS-->
-                            <!--https://fonts.google.com/ -->
-                            <div class="col-md-6">
+                            <div class="col-md-6 mb-3">
                                 <div class="card shadow-sm">
                                     <img src="img/tipo-2.jpg" class="card-img-top" alt="Nombre de la tipo" />
                                     <div class="card-body">
@@ -125,6 +122,7 @@
                             </div>
 
                             <div class="clearfix"></div>
+                            
                         </div>
                     </div>
                 </div>
@@ -218,7 +216,6 @@
             for (var x = 0; x < n; x++) {
                 document.getElementById("colores").innerHTML += '<rect width="' + w + '" height="20" x="' + x * w + '" y="0" fill="' + colores[x] + '" stroke="' + colores[x] + '"/>';
             }
-
             document.querySelectorAll("a").forEach((a) => a.classList.add("link-dark"));
         </script>
     </body>
