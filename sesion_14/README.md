@@ -49,7 +49,22 @@ En el `index.html` de este sitio web tendrán que presentar:
 - Paleta cromática derivada del *moodboard*
 - [*Font pairing*](https://heyreliable.com/ultimate-google-font-pairings/) relacionado con *moodboard* y paleta cromática derivada
 - vínculo a 4 páginas con análisis de antecedentes (`antecedente-0.html`, `antecedente-1.html`, `antecedente-2.html`, `antecedente-3.html`) 
-- wireframe de página portada de su proyecto
-- wireframe de página interior de su proyecto
+- un wireframe de página portada y otro wireframe de una página interior.
 
-En cada página de antecedentes, debe presentar un pantallazo de portada completa y los resultados de las distintas dimensiones de análisis de Google LightHouse mediante una un gráfico de radar resuelto con Chart.js
+¡PERO NO DESARROLLE NINGÚN WIREFRAME SIN ANTES REVISAR LO SIGUIENTE!
+
+- https://blog.ida.cl/diseno/buenas-practicas-diseno-wireframes/
+
+- https://uxplanet.org/getting-started-with-wireframing-8bf5eedd2d30
+
+En caso no haya visto el video del segundo recurso recién apuntado, acá está el vínculo directo: https://youtu.be/vozIqevBUNk
+
+También podría sumar una revisión de: 
+
+- https://blog.ida.cl/diseno/repositorio-recursos-wireframes/
+
+- https://blog.ida.cl/wp-content/uploads/sites/5/2016/03/ida-archivo-ixd.pdf
+
+Y en cada página de antecedentes, debe presentar un pantallazo de portada completa y los resultados de las distintas dimensiones de análisis de Google LightHouse mediante una un gráfico de radar resuelto con Chart.js
+
+Demás detalles están explicados en la plantilla contenida en esta carpeta de sesion_14, la que pueden ver en línea por acá.
