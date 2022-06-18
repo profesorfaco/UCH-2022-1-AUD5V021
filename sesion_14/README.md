@@ -4,7 +4,7 @@ Al final del README de la [novena sesión](https://github.com/profesorfaco/front
 
 > La próxima calificación comienza a jugarse a partir de la próxima sesión, de vuelta de la semana de receso; en lo que queda de electivo cada estudiante desarrollará su propio sitio web o prototipo avanzado de aplicación web, el que podría alojar en un dominio personalizado (podría no es lo mismo que debería):
 
-Cuando correspondía volver de la semana de receso, comenzó el paro. Lo primero que perdimos fue la sesión 10, donde habríamos comenzado a 
+Cuando correspondía volver de la semana de receso, comenzó el paro. Lo primero que perdimos fue la [sesión 10](https://github.com/profesorfaco/front-end/tree/main/sesion_10#readme), donde habríamos comenzado a 
 
 > desarrollar un sitio web o un prototipo avanzado de aplicación web, donde aplicarán lo aprendido en las primeras sesiones de la asignatura.
 
