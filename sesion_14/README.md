@@ -48,14 +48,15 @@ Recordarán que cuando hablamos de un sitio web nos referimos a una carpeta con 
 
 En el `index.html` de este sitio web tendrán que presentar: 
 
-- Nombre de su proyecto (se recomienda proponer un dominio.cl)
-- Descripción de su proyecto (qué objetivo tiene)
-- Descripción abreviada de 3 proto-personas
-- *Moodboard* de referentes
-- Paleta cromática derivada del *moodboard*
-- [*Font pairing*](https://heyreliable.com/ultimate-google-font-pairings/) relacionado con *moodboard* y paleta cromática derivada
-- vínculo a 4 páginas con análisis de antecedentes (`antecedente-0.html`, `antecedente-1.html`, `antecedente-2.html`, `antecedente-3.html`) 
-- un wireframe de página portada y otro wireframe de una página interior.
+- Nombre de su proyecto (se recomienda proponer un dominio.cl);
+- Descripción de su proyecto (qué objetivo tiene);
+- Descripción abreviada de 3 proto-personas;
+- *Moodboard* de referentes;
+- Paleta cromática derivada del *moodboard*;
+- [*Font pairing*](https://heyreliable.com/ultimate-google-font-pairings/) pertinente a *moodboard* y paleta cromática derivada;
+- vínculo a 4 páginas con análisis de antecedentes (`antecedente-0.html`, `antecedente-1.html`, `antecedente-2.html`, `antecedente-3.html`); 
+- un *wireframe* de página portada; y
+- otro *wireframe* de una página interior.
 
 ¡PERO NO DESARROLLE NINGÚN WIREFRAME SIN ANTES REVISAR LO SIGUIENTE!
 
