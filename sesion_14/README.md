@@ -44,7 +44,7 @@ Refrescar la memoria respecto de las 12 columnas de Boostrap con:
 
 Para sintetizar 4 clases en 1, vamos a preparar un sitio que podríamos llamar `anteproyecto` o `brief`. 
 
-Recordarán que cuando hablamos de un sitio web nos referimos a una carpeta con páginas web, implementadas con HTML, CSS y JavaScript, donde vinculamos adjuntos de imagen (JPG, PNG, GIF, WEBP) o video (MP4, OGG). 
+Recordarán que cuando hablamos de un sitio web nos referimos a una carpeta con páginas web, implementadas con HTML, CSS y JavaScript, donde vinculamos imágenes (JPG, PNG, GIF, WEBP) y/o video (MP4, OGG). 
 
 En el `index.html` de este sitio web tendrán que presentar: 
 
