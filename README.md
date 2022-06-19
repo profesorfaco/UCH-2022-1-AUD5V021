@@ -50,13 +50,13 @@ Cada estudiante necesita:
 
 - Jueves 19 de mayo → Semana de receso para todos los cursos de la carrera ✓
 
-- Jueves 26 de mayo → [sesion_10](https://github.com/profesorfaco/front-end/tree/main/sesion_10) → Usuarios, objetivos y contextos de uso específicos
+- Jueves 26 de mayo → [sesion_10](https://github.com/profesorfaco/front-end/tree/main/sesion_10) → Usuarios, objetivos y contextos de uso específicos ✕
 
-- Jueves 2 de junio → [sesion_11](https://github.com/profesorfaco/front-end/tree/main/sesion_11) → Antecedentes para el benchmarking y referentes para el moodboard
+- Jueves 2 de junio → [sesion_11](https://github.com/profesorfaco/front-end/tree/main/sesion_11) → Antecedentes para el benchmarking y referentes para el moodboard ✕
 
-- Jueves 9 de junio → [sesion_12](https://github.com/profesorfaco/front-end/tree/main/sesion_12) → Software funcionando sobre documentación extensiva
+- Jueves 9 de junio → [sesion_12](https://github.com/profesorfaco/front-end/tree/main/sesion_12) → Software funcionando sobre documentación extensiva ✕
 
-- Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Evaluación de accesibilidad, rendimiento y SEO 
+- Jueves 16 de junio → [sesion_13](https://github.com/profesorfaco/front-end/tree/main/sesion_13) → Evaluación de accesibilidad, rendimiento y SEO ✕ 
 
 - ~~Jueves 23 de junio → sesion_14 → Sin clases sincrónicas (trabajo autónomo)~~
 
