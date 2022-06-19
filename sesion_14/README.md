@@ -75,3 +75,7 @@ También podría sumar una revisión de:
 **Y en cada página de análisis de antecedente**: debe presentar un [pantallazo](https://www.site-shot.com/) y los resultados de las distintas dimensiones de análisis de [Google LightHouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) mediante un gráfico de radar resuelto con [Chart.js](https://www.chartjs.org/)
 
 **Podrán encontrar más guías en los archivos preparados en esta carpeta de sesion_14, [que pueden ver en línea por acá](https://profesorfaco.github.io/front-end/sesion_14/)**.
+
+- - - - - - - 
+
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_13) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_15)
