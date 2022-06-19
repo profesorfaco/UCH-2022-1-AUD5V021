@@ -4,7 +4,7 @@
 
 - - - - - - - -
 
-#### Hagamos un poco de memoria… 
+#### Hagamos un poco de memoria
 
 Al final del README de la [novena sesión](https://github.com/profesorfaco/front-end/tree/main/sesion_09#friendly-reminder) pudieron leer: 
 
