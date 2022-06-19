@@ -49,4 +49,4 @@ El cuarto paso consiste en poner a prueba lo avanzado, con las técnicas recién
 
 - - - - - - - 
 
-###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_12) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_15)
+###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_12) — [SIGUIENTE SESIÓN →](https://github.com/profesorfaco/front-end/tree/main/sesion_14)
