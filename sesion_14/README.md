@@ -20,7 +20,7 @@ Como perdimos 4 sesiones, habrá que confiar en el poder de una analogía para a
 
 > Si estás en un electivo que se llama *Introducción…*, tu ambición podría apuntar a escribir una breve historia: "mi papá y mi mamá se ríen de mi gato que se cayó al agua y se mojó" (p.39). Pero no corresponde proponerse escribir una carta a una amiga (pp.68-72). 
 
-La analogía con los primeros acercamientos a la lectoescritura en educación básica es útil cuando trabajar con código fuente es escribir instrucciones con atención a ortografía, gramática, sintaxis, puntuación y redacción de cada lenguaje (HTML, CSS o JavaScript), atención que se gana en la práctica, con tiempo.
+La analogía con los primeros acercamientos a la lectoescritura en educación básica es útil cuando trabajar con código fuente es escribir instrucciones con atención a ortografía, gramática, sintaxis, puntuación y redacción de cada lenguaje (HTML, CSS o JavaScript), atención que mejora en la práctica, con tiempo.
 
 Su ambición debe tener a la vista tal analogía, además de todo lo preparado y vinculado por el profesor, y lo generado por usted y compañerxs en sesiones [01](https://github.com/profesorfaco/front-end/tree/main/sesion_01), [02](https://github.com/profesorfaco/front-end/tree/main/sesion_02), [03](https://github.com/profesorfaco/front-end/tree/main/sesion_03), [04](https://github.com/profesorfaco/front-end/tree/main/sesion_04), [05](https://github.com/profesorfaco/front-end/tree/main/sesion_05), [06](https://github.com/profesorfaco/front-end/tree/main/sesion_06), [07](https://github.com/profesorfaco/front-end/tree/main/sesion_07), [08](https://github.com/profesorfaco/front-end/tree/main/sesion_08) y [09](https://github.com/profesorfaco/front-end/tree/main/sesion_09).
 
