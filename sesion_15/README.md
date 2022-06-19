@@ -16,4 +16,12 @@ Considerando paro, toma e indicaciones de jefatura, el criterio para el cálculo
 
 - - - - - - - 
 
+#### Friendly reminder
+
+Habrá 3 evaluaciones en el semestre. Una diagnóstica y las siguientes son sumativas. La evaluación que se resuelve en con los criterios recién presentados es la segunda evaluación sumativa.
+
+**La nota final del electivo se obtiene del promedio de las dos evaluaciones sumativas**; aunque existe la posibilidad de reemplazo de una de ellas por la [evaluación diagnóstica](https://github.com/profesorfaco/front-end/tree/main/sesion_03#resultados), a condición de obtener nota aprobatoria (superior a 4.0) en las tres instancias. Si no se cumple con la condición: No hay cambios en las calificaciones a promediar.
+
+- - - - - - - 
+
 ###### [← SESIÓN ANTERIOR](https://github.com/profesorfaco/front-end/tree/main/sesion_14)
