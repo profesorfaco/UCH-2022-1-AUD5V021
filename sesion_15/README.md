@@ -12,7 +12,7 @@ Considerando paro, toma e indicaciones de jefatura, el criterio para el cálculo
 
 La segunda evaluación se hará con 7 puntos, que se sumarán mediante:
 
-- **Punto base** por avanzar en la actividad de [sesión 14](https://github.com/profesorfaco/front-end/tree/main/sesion_14) (de *anteproyecto* o *brief*)
+- **Punto base** ~~por avanzar en la actividad de [sesión 14](https://github.com/profesorfaco/front-end/tree/main/sesion_14) (de *anteproyecto* o *brief*)~~
 - **Hasta 2 puntos** por calidad de *anteproyecto* o *brief* a entregar al inicio de la sesión 15 (jueves 30 de junio). Los puntos serán asignados de manera comparativa, según pueda agruparse con otros trabajos completamente logrados (2.0), logrados (1.5), medianamente logrados (1.0), no logrados (0.5) o no entregados en el plazo (0).
 - **Hasta 4 puntos** por avance de implementación de la portada del sitio web, a revisar en las semana del martes 28 de junio al lunes 04 de julio. Los 4 puntos se dividen en: 
   - **2 puntos** por reporte de [LightHouse](https://developers.google.com/web/tools/lighthouse/), considerando 4 dimeniones para *Desktop*: Performance, Accesibility, Best Practices, SEO (por cada resultado en verde se obtiene 0.5 punto, en amarillo 0.25 y en rojo 0).
