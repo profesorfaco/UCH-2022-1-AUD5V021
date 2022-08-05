@@ -15,13 +15,13 @@
 
 Para evaluar resultado, consideraré:
 
-El emoji = 1 pto.
-El par de tipografías = 2 pts.
-El sentido del par de textos = 2 pts.
-El par de gráficos = 2 pts. c/u (4 pts.)
-Los 3 arquetipos = 1 pto. c/u (3 pts.)
+- El emoji = 1 pto.
+- El par de tipografías = 2 pts.
+- El sentido del par de textos = 2 pts.
+- El par de gráficos = 2 pts. c/u (4 pts.)
+- Los 3 arquetipos = 1 pto. c/u (3 pts.)
 
-12 pts. en total divididos en 2 es 6 
+Son 12 pts. en total, que se dividirán por 2. Al resultado de la división se le sumará un punto base. El resultado ideal sería:
 
 6 + 1 pto. base = NOTA 7
 
