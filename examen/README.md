@@ -11,7 +11,7 @@
 - datos para resolver un par de gráficos, que estén conectados con los textos donde se aplica el par de tipografías (charts.js)
 - datos para caracterizar a 3 arquetipos a los que pueda hacer sentido todo lo anterior (ese emoji, esos textos y ese par de gráficos).
 
-[La base la encuentran acá](https://profesorfaco.github.io/front-end/examen), y pueden copiarla desde acá https://github.com/profesorfaco/front-end/blob/main/examen/index.html con el botón *copy raw content* (que está arriba y a la derecha del bloque que contiene el código fuente)
+[La base la encuentran acá](https://profesorfaco.github.io/front-end/examen), y pueden copiarla desde acá https://github.com/profesorfaco/front-end/blob/main/examen/index.html con el botón de *copy raw contents* (que está arriba y a la derecha del bloque que contiene el código fuente).
 
 Para evaluar resultado, consideraré:
 
