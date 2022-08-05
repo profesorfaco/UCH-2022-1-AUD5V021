@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+        <style>
+            body, html {width: 100%; height: 100%;}
+            @media (min-width:767.98px) { 
+                .container { max-width: 720px; }
+            }
+            body {font-family: Verdana, sans-serif;}
+            h1, h2, h3, h4, h5, h6 {font-family: Georgia, serif;}
+            header {position: relative; display: table; width: 100%; min-height: 90vh;}
+            hr {width: 10vw; margin: 5rem auto 3rem auto; border: 3px solid gray;}
+        </style>
+    </head>
+    <body>
+        <header class="d-flex align-items-end">   
+            <div class="container">
+                <h1>Títulos con su fuente tipográfica</h1>
+                <p class="lead mt-3 mb-5">Texto con la misma fuente tipográfica que se usa en todo el cuerpo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada dignissim dolor ut fringilla. In congue eget ligula at tempus. Nunc faucibus nunc id faucibus iaculis. Nullam nec fermentum eros. Nunc malesuada urna eu ultricies volutpat. Cras non urna lobortis, tristique dui varius, luctus arcu. Phasellus nec tempus libero. Sed id ultricies enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </div>
+        </header>
+
+        <main class="container">      
+            <hr />         
+            <h2 class="my-2 text-center">Unos datos al respecto</h2>
+            <p>Introduzca al primer gráfico estableciendo su relación con lo anterior. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada dignissim dolor ut fringilla. In congue eget ligula at tempus. Nunc faucibus nunc id faucibus iaculis. Nullam nec fermentum eros. Nunc malesuada urna eu ultricies volutpat.</p>
+            <figure class="bg-white mt-2 mb-5 g-0 shadow-sm">
+                <canvas id="primero" width="300" height="100"></canvas>
+                <figcaption class="px-5 py-3 small text-center text-muted">Indicar fuente de los datos</figcaption>
+            </figure>
+            <hr />           
+            <h2 class="my-2 text-center">Otros datos al respecto</h2>
+            <p>Introduzca al segundo gráfico estableciendo su relación con lo anterior. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada dignissim dolor ut fringilla. In congue eget ligula at tempus. Nunc faucibus nunc id faucibus iaculis. Nullam nec fermentum eros. Nunc malesuada urna eu ultricies volutpat.</p>
+            <figure class="bg-white mt-2 mb-5 g-0 shadow-sm">
+                <canvas id="segundo" width="300" height="100"></canvas>
+                <figcaption class="px-5 py-3 small text-center text-muted">Indicar fuente de los datos</figcaption>
+            </figure>
+        </main>
+
+        <aside class="container">         
+            <hr />         
+            <h2 class="my-3 text-center">¿A quiénes les podría interesar?</h2>           
+            <!--PROTO-PERSONA 1-->
+            <div class="row align-items-center bg-white mb-4 g-0 shadow-sm">
+                <div class="col-sm-4">
+                    <img src="img/proto-persona-1.png" class="w-100" />
+                </div>
+                <div class="col-sm-8 p-4">
+                    <h3 class="fs-5">Nombre Extremo por falta (edad)</h3>
+                    <p>Reemplace lo de "Extremo por falta" con un nombre y edad entre paréntesis. Indique escolaridad, dónde y con quién vive. Lo que siempre hace y lo que nunca hace.</p>
+                    <p>Breve descripción de lo que busca en Internet y distintos servicios de autocomunicación de masas, cuándo lo busca y qué tecnología usa en su búsqueda.</p>
+                </div>
+            </div>
+            <!--PROTO-PERSONA 2-->
+            <div class="row align-items-center bg-white mb-4 g-0 shadow-sm">
+                <div class="col-sm-4 order-sm-2">
+                    <img src="img/proto-persona-2.png" class="w-100" />
+                </div>
+                <div class="col-sm-8 order-sm-1 p-4">
+                    <h3 class="fs-5">Nombre Promedio (edad)</h3>
+                    <p>Reemplace lo de "Promedio" por un nombre y edad entre paréntesis. Indique escolaridad, dónde y con quién vive. Lo que siempre hace y lo que nunca hace.</p>
+                    <p>Breve descripción de lo que busca en Internet y distintos servicios de autocomunicación de masas, cuándo lo busca y qué tecnología usa en su búsqueda.</p>
+                </div>
+            </div>
+            <!--PROTO-PERSONA 3-->
+            <div class="row align-items-center bg-white mb-5 g-0 shadow-sm">
+                <div class="col-sm-4">
+                    <img src="img/proto-persona-3.png" class="w-100" />
+                </div>
+                <div class="col-sm-8 p-4">
+                    <h3 class="fs-5">Nombre Extremo por exceso (edad)</h3>
+                    <p>Reemplace lo de "Extremo por exceso" con un nombre y edad entre paréntesis. Indique escolaridad, dónde y con quién vive. Lo que siempre hace y lo que nunca hace.</p>
+                    <p>Breve descripción de lo que busca en Internet y distintos servicios de autocomunicación de masas, cuándo lo busca y qué tecnología usa en su búsqueda.</p>
+                </div>
+            </div>
+        </aside>
+
+        <footer>
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                            <a href="https://github.com/profesorfaco/front-end" class="link-secondary">Introducción al Desarrollo Front End con HTML, CSS y JavaScript</a>
+                            <!--reemplaza el # que sigue con vínculo a tu propio GitHub-->
+                            <a href="#" class="d-none d-lg-inline link-secondary">Nombre Apellido © 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--La biblioteca de p5.js-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"
+            integrity="sha512-rCZdHNB0AePry6kAnKAVFMRfWPmUXSo+/vlGtrOUvhsxD0Punm/xWbEh+8vppPIOzKB9xnk42yCRZ5MD/jvvjQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--El script de p5.js-->
+        <script>
+            var canvas;
+            function setup() {
+                canvas = createCanvas(windowWidth, windowHeight);
+                canvas.position(0, 0);
+                canvas.style("z-index", "-1").style("position", "fixed");
+                noCursor();
+            }
+            function draw() {
+                background(250);
+                textSize(50);
+                textAlign(CENTER, CENTER);
+                text("?", mouseX, mouseY);
+            }
+            function windowResize() {
+                resizeCanvas(windowWidth, windowHeight);
+            }
+        </script>
+        <!--La biblioteca de Chart.js-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"
+            integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--El script del primer gráfico-->
+        <script>
+            new Chart(document.getElementById("primero").getContext("2d"), {
+                type: "bar",
+                data: {
+                    labels: ["uno", "dos", "tres", "cuatro", "cinco", "seis"],
+                    datasets: [
+                        {
+                            data: [12, 43, 59, 123, 78, 12],
+                            label: "Descriptor de este dataset",
+                        },
+                    ],
+                },
+                options: {
+                    animation: false,
+                    indexAxis: "y",
+                    layout: {
+                        padding: 20,
+                    },
+                },
+            });
+        </script>
+        <!--El script del segundo gráfico-->
+        <script>
+            new Chart(document.getElementById("segundo").getContext("2d"), {
+                type: "bar",
+                data: {
+                    labels: ["uno", "dos", "tres", "cuatro", "cinco", "seis"],
+                    datasets: [
+                        {
+                            data: [12, 123, 59, 43, 78, 1],
+                            label: "Descriptor de este dataset",
+                        },
+                    ],
+                },
+                options: {
+                    animation: false,
+                    indexAxis: "y",
+                    layout: {
+                        padding: 20,
+                    },
+                },
+            });
+        </script>
+    </body>
+</html>
