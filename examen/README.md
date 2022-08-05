@@ -6,10 +6,10 @@
 
 #### Este viernes 5 de 15:00 a 18:00 hrs, en la sala C13 tendrán que revolver una página web que tenga:
 
-- un emoji que siga la posición del mouse (p5.js; como en la prueba de diagnóstico)
-- algunos textos donde se aplique un buen par de fuentes tipográficas de Google: heyreliable.com/ ... oogle-font-pairings/
-- datos para resolver un par de gráficos, que estén conectados con los textos donde se aplica el par de tipografías (charts.js)
-- datos para caracterizar a 3 arquetipos a los que pueda hacer sentido todo lo anterior (ese emoji, esos textos y ese par de gráficos).
+- un emoji que siga la posición del mouse ([p5.js](https://p5js.org/es/); como en la prueba de diagnóstico)
+- algunos textos donde se aplique un buen par de fuentes tipográficas de Google: https://heyreliable.com/ultimate-google-font-pairings/
+- datos para resolver un par de gráficos, que estén conectados con los textos donde se aplica el par de tipografías ([charts.js](https://www.chartjs.org/))
+- datos para caracterizar a 3 arquetipos (proto-personas) a los que pueda hacer sentido todo lo anterior (ese emoji, esos textos y ese par de gráficos).
 
 [La base la encuentran acá](https://profesorfaco.github.io/front-end/examen), y pueden copiarla desde acá https://github.com/profesorfaco/front-end/blob/main/examen/index.html con el botón de *copy raw contents* (que está arriba y a la derecha del bloque que contiene el código fuente).
 
