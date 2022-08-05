@@ -4,7 +4,7 @@
 
 - - - - - - - -
 
-#### Este viernes 5 de 15:00 a 18:00 hrs, en la sala C13 tendrán que revolver una página larga que tenga:
+#### Este viernes 5 de 15:00 a 18:00 hrs, en la sala C13 tendrán que revolver una página web que tenga:
 
 - un emoji que siga la posición del mouse (p5.js; como en la prueba de diagnóstico)
 - algunos textos donde se aplique un buen par de fuentes tipográficas de Google: heyreliable.com/ ... oogle-font-pairings/
