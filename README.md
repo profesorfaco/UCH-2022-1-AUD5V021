@@ -60,9 +60,9 @@ Cada estudiante necesita:
 
 - ~~Jueves 23 de junio → sesion_14 → Sin clases sincrónicas (trabajo autónomo)~~
 
-- Jueves 23 de junio → [sesion_14](https://github.com/profesorfaco/front-end/tree/main/sesion_14) → Recuperación
+- Jueves 23 de junio → [sesion_14](https://github.com/profesorfaco/front-end/tree/main/sesion_14) → Recuperación ✕
 
-- **Jueves 30 de junio → [sesion_15](https://github.com/profesorfaco/front-end/tree/main/sesion_15) → Evaluación Nº2**  
+- **Jueves 30 de junio → [sesion_15](https://github.com/profesorfaco/front-end/tree/main/sesion_15) → Evaluación Nº2 ✕**  
 
 
 **Para cada sesión, la organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad, adaptándose a la diversidad de aprendizajes.** Esta organización es más efectiva cuando cada estudiante:
